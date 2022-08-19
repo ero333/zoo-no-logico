@@ -3,10 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class ChangeScene : MonoBehaviour {
 
-	public void MoveToScene(int sceneID)
+    void Start()
     {
+        Debug.Log("LoadSceneA");
+    }
+
+
+    public void MoveToScene(int sceneID)
+    {
+        Debug.Log("Cambio de escena");
         SceneManager.LoadScene(sceneID);
     }
+
+    
 }
