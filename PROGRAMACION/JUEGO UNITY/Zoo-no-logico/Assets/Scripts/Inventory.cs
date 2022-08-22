@@ -10,7 +10,7 @@ public class Inventory {
     {
         itemList = new List<Item>();
 
-        Debug.Log("inventory");
+        Debug.Log("Inventory");
 
         AddItem(new Item { itemType = Item.ItemType.Animal, amount = 1 });
         AddItem(new Item { itemType = Item.ItemType.Food, amount = 1 });
