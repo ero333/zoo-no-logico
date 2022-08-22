@@ -9,7 +9,7 @@ public class Item
     {
         Animal,
         Cage,
-        Food
+        Food,
     }
 
     public ItemType itemType;

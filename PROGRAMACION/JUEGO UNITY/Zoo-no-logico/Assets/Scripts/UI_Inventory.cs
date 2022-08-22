@@ -8,7 +8,7 @@ public class UI_Inventory : MonoBehaviour {
     private Transform itemSlotContainer;
     private Transform itemSlotTemplate;
 
-    public void Awake()
+    private void Awake()
     {
         itemSlotContainer = transform.Find("itemSlotContainer");
         itemSlotTemplate = itemSlotContainer.Find("itemSlotTemplate");
@@ -20,13 +20,13 @@ public class UI_Inventory : MonoBehaviour {
         RefreshInventoryItems();
     }
 
-    public void RefreshInventoryItems()
+    private void RefreshInventoryItems()
     {
+        int x = 0;
+        int y = 0;
+        float itemSlotCellSize = 30f;
         foreach (Item item in inventory.GetItemList())
         {
-            int x = 0;
-            int y = 0;
-            float itemSlotCellSize = 30f;
             RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
             itemSlotRectTransform.gameObject.SetActive(true);
             itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
