@@ -11,7 +11,6 @@ public class AnimalCombination : MonoBehaviour {
     private void Awake()
     {
         inventory = new Inventory();
-
         uiInventory.SetInventory(inventory);
     }
 
