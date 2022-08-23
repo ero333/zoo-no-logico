@@ -10,14 +10,14 @@ public class AnimalCombination : MonoBehaviour {
 
     private void Awake()
     {
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
+        
     }
 
     // Use this for initialization
     void Start () {
-		
-	}
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+    }
 	
 	// Update is called once per frame
 	void Update () {
