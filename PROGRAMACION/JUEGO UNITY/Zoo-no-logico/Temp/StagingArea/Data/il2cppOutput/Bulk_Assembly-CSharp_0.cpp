@@ -77,7 +77,7 @@ extern const RuntimeMethod* List_1_GetEnumerator_m2480522249_RuntimeMethod_var;
 extern const RuntimeMethod* List_1__ctor_m1712275079_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Count_m3397684528_RuntimeMethod_var;
 extern const RuntimeMethod* Object_Instantiate_TisTransform_t3600365921_m3225670752_RuntimeMethod_var;
-extern const uint32_t AnimalCombination_Awake_m2668901350_MetadataUsageId;
+extern const uint32_t AnimalCombination_Start_m3301626214_MetadataUsageId;
 extern const uint32_t ChangeScene_MoveToScene_m1759362718_MetadataUsageId;
 extern const uint32_t ChangeScene_Start_m3097412992_MetadataUsageId;
 extern const uint32_t Inventory_AddItem_m28232587_MetadataUsageId;
@@ -1353,10 +1353,17 @@ extern "C" IL2CPP_METHOD_ATTR void AnimalCombination__ctor_m2660982502 (AnimalCo
 // System.Void AnimalCombination::Awake()
 extern "C" IL2CPP_METHOD_ATTR void AnimalCombination_Awake_m2668901350 (AnimalCombination_t1548985709 * __this, const RuntimeMethod* method)
 {
+	{
+		return;
+	}
+}
+// System.Void AnimalCombination::Start()
+extern "C" IL2CPP_METHOD_ATTR void AnimalCombination_Start_m3301626214 (AnimalCombination_t1548985709 * __this, const RuntimeMethod* method)
+{
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (AnimalCombination_Awake_m2668901350_MetadataUsageId);
+		il2cpp_codegen_initialize_method (AnimalCombination_Start_m3301626214_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -1366,13 +1373,6 @@ extern "C" IL2CPP_METHOD_ATTR void AnimalCombination_Awake_m2668901350 (AnimalCo
 		UI_Inventory_t1695485313 * L_1 = __this->get_uiInventory_4();
 		Inventory_t1050226016 * L_2 = __this->get_inventory_5();
 		UI_Inventory_SetInventory_m3771866947(L_1, L_2, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void AnimalCombination::Start()
-extern "C" IL2CPP_METHOD_ATTR void AnimalCombination_Start_m3301626214 (AnimalCombination_t1548985709 * __this, const RuntimeMethod* method)
-{
-	{
 		return;
 	}
 }

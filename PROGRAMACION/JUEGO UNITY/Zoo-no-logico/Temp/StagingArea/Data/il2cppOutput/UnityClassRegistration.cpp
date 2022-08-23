@@ -380,23 +380,23 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UnityAnalyticsManager>("UnityAnalytics");
 	//49. UnityConnectSettings
 	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
-	//50. LevelGameManager
-	RegisterUnityClass<LevelGameManager>("Core");
-	//51. UI::Canvas
-	RegisterUnityClass<UI::Canvas>("UI");
-	//52. RenderSettings
-	RegisterUnityClass<RenderSettings>("Core");
-	//53. LightmapSettings
-	RegisterUnityClass<LightmapSettings>("Core");
-	//54. AudioListener
-	RegisterUnityClass<AudioListener>("Audio");
-	//55. AudioBehaviour
-	RegisterUnityClass<AudioBehaviour>("Audio");
-	//56. UI::CanvasRenderer
-	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//57. TextRendering::Font
-	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//58. SpriteRenderer
+	//50. SpriteRenderer
 	RegisterUnityClass<SpriteRenderer>("Core");
+	//51. LevelGameManager
+	RegisterUnityClass<LevelGameManager>("Core");
+	//52. UI::Canvas
+	RegisterUnityClass<UI::Canvas>("UI");
+	//53. RenderSettings
+	RegisterUnityClass<RenderSettings>("Core");
+	//54. LightmapSettings
+	RegisterUnityClass<LightmapSettings>("Core");
+	//55. AudioListener
+	RegisterUnityClass<AudioListener>("Audio");
+	//56. AudioBehaviour
+	RegisterUnityClass<AudioBehaviour>("Audio");
+	//57. UI::CanvasRenderer
+	RegisterUnityClass<UI::CanvasRenderer>("UI");
+	//58. TextRendering::Font
+	RegisterUnityClass<TextRendering::Font>("TextRendering");
 
 }
