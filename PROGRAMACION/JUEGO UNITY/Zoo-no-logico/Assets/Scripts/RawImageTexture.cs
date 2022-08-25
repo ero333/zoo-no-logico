@@ -14,7 +14,6 @@ public class RawImageTexture : MonoBehaviour
 
     public void NewImage()
     {
-        Debug.Log('a');
         original.sprite = newSprite;
     }
 }
