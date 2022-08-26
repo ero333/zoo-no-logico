@@ -114,6 +114,7 @@ extern const RuntimeMethod* Vector4_set_Item_m1183742235_RuntimeMethod_var;
 extern const uint32_t MathfInternal__cctor_m2622893686_MetadataUsageId;
 extern const uint32_t TypeInferenceRuleAttribute__ctor_m3137488504_MetadataUsageId;
 extern const uint32_t Vector2_Equals_m832062989_MetadataUsageId;
+extern const uint32_t Vector2_Lerp_m854472224_MetadataUsageId;
 extern const uint32_t Vector2_ToString_m1205609053_MetadataUsageId;
 extern const uint32_t Vector2__cctor_m2108982652_MetadataUsageId;
 extern const uint32_t Vector2_get_Item_m3559215723_MetadataUsageId;
@@ -2166,6 +2167,8 @@ extern "C" IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_m3408750441 (I
 extern "C" IL2CPP_METHOD_ATTR float Vector2_get_Item_m3559215723 (Vector2_t2156229523 * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector2::set_Item(System.Int32,System.Single)
 extern "C" IL2CPP_METHOD_ATTR void Vector2_set_Item_m3557490725 (Vector2_t2156229523 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method);
+// System.Single UnityEngine.Mathf::Clamp01(System.Single)
+extern "C" IL2CPP_METHOD_ATTR float Mathf_Clamp01_m56433566 (RuntimeObject * __this /* static, unused */, float ___value0, const RuntimeMethod* method);
 // System.String UnityEngine.UnityString::Format(System.String,System.Object[])
 extern "C" IL2CPP_METHOD_ATTR String_t* UnityString_Format_m261690510 (RuntimeObject * __this /* static, unused */, String_t* p0, ObjectU5BU5D_t2843939325* p1, const RuntimeMethod* method);
 // System.String UnityEngine.Vector2::ToString()
@@ -2190,8 +2193,6 @@ extern "C" IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m2303255133 (RuntimeObjec
 extern "C" IL2CPP_METHOD_ATTR void Vector3__ctor_m3353183577 (Vector3_t3722313464 * __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single)
 extern "C" IL2CPP_METHOD_ATTR void Vector3__ctor_m1719387948 (Vector3_t3722313464 * __this, float ___x0, float ___y1, const RuntimeMethod* method);
-// System.Single UnityEngine.Mathf::Clamp01(System.Single)
-extern "C" IL2CPP_METHOD_ATTR float Mathf_Clamp01_m56433566 (RuntimeObject * __this /* static, unused */, float ___value0, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::get_Item(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR float Vector3_get_Item_m668685504 (Vector3_t3722313464 * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector3::set_Item(System.Int32,System.Single)
@@ -2482,6 +2483,43 @@ extern "C"  void Vector2_set_Item_m3557490725_AdjustorThunk (RuntimeObject * __t
 {
 	Vector2_t2156229523 * _thisAdjusted = reinterpret_cast<Vector2_t2156229523 *>(__this + 1);
 	Vector2_set_Item_m3557490725(_thisAdjusted, ___index0, ___value1, method);
+}
+// UnityEngine.Vector2 UnityEngine.Vector2::Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+extern "C" IL2CPP_METHOD_ATTR Vector2_t2156229523  Vector2_Lerp_m854472224 (RuntimeObject * __this /* static, unused */, Vector2_t2156229523  ___a0, Vector2_t2156229523  ___b1, float ___t2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Vector2_Lerp_m854472224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2156229523  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		float L_0 = ___t2;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t3464937446_il2cpp_TypeInfo_var);
+		float L_1 = Mathf_Clamp01_m56433566(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		___t2 = L_1;
+		float L_2 = (&___a0)->get_x_0();
+		float L_3 = (&___b1)->get_x_0();
+		float L_4 = (&___a0)->get_x_0();
+		float L_5 = ___t2;
+		float L_6 = (&___a0)->get_y_1();
+		float L_7 = (&___b1)->get_y_1();
+		float L_8 = (&___a0)->get_y_1();
+		float L_9 = ___t2;
+		Vector2_t2156229523  L_10;
+		memset(&L_10, 0, sizeof(L_10));
+		Vector2__ctor_m3970636864((&L_10), ((float)il2cpp_codegen_add((float)L_2, (float)((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_subtract((float)L_3, (float)L_4)), (float)L_5)))), ((float)il2cpp_codegen_add((float)L_6, (float)((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_subtract((float)L_7, (float)L_8)), (float)L_9)))), /*hidden argument*/NULL);
+		V_0 = L_10;
+		goto IL_0046;
+	}
+
+IL_0046:
+	{
+		Vector2_t2156229523  L_11 = V_0;
+		return L_11;
+	}
 }
 // UnityEngine.Vector2 UnityEngine.Vector2::Scale(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C" IL2CPP_METHOD_ATTR Vector2_t2156229523  Vector2_Scale_m165605769 (RuntimeObject * __this /* static, unused */, Vector2_t2156229523  ___a0, Vector2_t2156229523  ___b1, const RuntimeMethod* method)

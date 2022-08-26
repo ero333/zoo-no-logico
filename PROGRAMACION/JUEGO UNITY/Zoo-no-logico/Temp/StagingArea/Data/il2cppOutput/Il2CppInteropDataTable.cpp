@@ -339,8 +339,6 @@ extern "C" void CertificateHandler_t2739891000_marshal_pinvoke(void* managedStru
 extern "C" void CertificateHandler_t2739891000_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void CertificateHandler_t2739891000_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType CertificateHandler_t2739891000_0_0_0;
-extern "C" void DelegatePInvokeWrapper_OnTrigger_t4184125570();
-extern const RuntimeType OnTrigger_t4184125570_0_0_0;
 extern "C" void RaycastResult_t3360306849_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void RaycastResult_t3360306849_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void RaycastResult_t3360306849_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -379,6 +377,8 @@ extern "C" void SpriteState_t1362986479_marshal_pinvoke(void* managedStructure, 
 extern "C" void SpriteState_t1362986479_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void SpriteState_t1362986479_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType SpriteState_t1362986479_0_0_0;
+extern "C" void DelegatePInvokeWrapper_OnTrigger_t4184125570();
+extern const RuntimeType OnTrigger_t4184125570_0_0_0;
 extern Il2CppInteropData g_Il2CppInteropData[109] = 
 {
 	{ NULL, Context_t1744531130_marshal_pinvoke, Context_t1744531130_marshal_pinvoke_back, Context_t1744531130_marshal_pinvoke_cleanup, NULL, NULL, &Context_t1744531130_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
@@ -475,7 +475,6 @@ extern Il2CppInteropData g_Il2CppInteropData[109] =
 	{ NULL, RemoteConfigSettings_t1247263429_marshal_pinvoke, RemoteConfigSettings_t1247263429_marshal_pinvoke_back, RemoteConfigSettings_t1247263429_marshal_pinvoke_cleanup, NULL, NULL, &RemoteConfigSettings_t1247263429_0_0_0 } /* UnityEngine.RemoteConfigSettings */,
 	{ DelegatePInvokeWrapper_UpdatedEventHandler_t1027848393, NULL, NULL, NULL, NULL, NULL, &UpdatedEventHandler_t1027848393_0_0_0 } /* UnityEngine.RemoteSettings/UpdatedEventHandler */,
 	{ NULL, CertificateHandler_t2739891000_marshal_pinvoke, CertificateHandler_t2739891000_marshal_pinvoke_back, CertificateHandler_t2739891000_marshal_pinvoke_cleanup, NULL, NULL, &CertificateHandler_t2739891000_0_0_0 } /* UnityEngine.Networking.CertificateHandler */,
-	{ DelegatePInvokeWrapper_OnTrigger_t4184125570, NULL, NULL, NULL, NULL, NULL, &OnTrigger_t4184125570_0_0_0 } /* UnityEngine.Analytics.EventTrigger/OnTrigger */,
 	{ NULL, RaycastResult_t3360306849_marshal_pinvoke, RaycastResult_t3360306849_marshal_pinvoke_back, RaycastResult_t3360306849_marshal_pinvoke_cleanup, NULL, NULL, &RaycastResult_t3360306849_0_0_0 } /* UnityEngine.EventSystems.RaycastResult */,
 	{ NULL, ColorTween_t809614380_marshal_pinvoke, ColorTween_t809614380_marshal_pinvoke_back, ColorTween_t809614380_marshal_pinvoke_cleanup, NULL, NULL, &ColorTween_t809614380_0_0_0 } /* UnityEngine.UI.CoroutineTween.ColorTween */,
 	{ NULL, FloatTween_t1274330004_marshal_pinvoke, FloatTween_t1274330004_marshal_pinvoke_back, FloatTween_t1274330004_marshal_pinvoke_cleanup, NULL, NULL, &FloatTween_t1274330004_0_0_0 } /* UnityEngine.UI.CoroutineTween.FloatTween */,
@@ -489,5 +488,6 @@ extern Il2CppInteropData g_Il2CppInteropData[109] =
 	{ DelegatePInvokeWrapper_Raycast3DCallback_t701940803, NULL, NULL, NULL, NULL, NULL, &Raycast3DCallback_t701940803_0_0_0 } /* UnityEngine.UI.ReflectionMethodsCache/Raycast3DCallback */,
 	{ DelegatePInvokeWrapper_RaycastAllCallback_t1884415901, NULL, NULL, NULL, NULL, NULL, &RaycastAllCallback_t1884415901_0_0_0 } /* UnityEngine.UI.ReflectionMethodsCache/RaycastAllCallback */,
 	{ NULL, SpriteState_t1362986479_marshal_pinvoke, SpriteState_t1362986479_marshal_pinvoke_back, SpriteState_t1362986479_marshal_pinvoke_cleanup, NULL, NULL, &SpriteState_t1362986479_0_0_0 } /* UnityEngine.UI.SpriteState */,
+	{ DelegatePInvokeWrapper_OnTrigger_t4184125570, NULL, NULL, NULL, NULL, NULL, &OnTrigger_t4184125570_0_0_0 } /* UnityEngine.Analytics.EventTrigger/OnTrigger */,
 	NULL,
 };
