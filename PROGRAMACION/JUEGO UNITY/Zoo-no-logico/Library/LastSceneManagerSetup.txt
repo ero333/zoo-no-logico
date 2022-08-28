@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/inventario.unity
+- path: Assets/Scenes/tienda.unity
   isLoaded: 1
   isActive: 1
