@@ -15,7 +15,8 @@ public class swipe_inventory : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () { 
+        //esto es para el cambio
         pos = new float[transform.childCount];
         float distance = 1f / (pos.Length - 1f);
         for (int i = 0; i< pos.Length; i++)
