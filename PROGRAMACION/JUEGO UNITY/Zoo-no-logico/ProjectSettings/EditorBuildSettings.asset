@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/animal-nuevo.unity
     guid: 243a564e177a10845ab97f3463595cbd
+  - enabled: 1
+    path: Assets/Scenes/inicio1.unity
+    guid: 054e892704be8f848b49d9ddf77314fb
+  - enabled: 1
+    path: Assets/Scenes/inicio2.unity
+    guid: d26fbd5a0c971c6449c3840c3eeca699
   m_configObjects: {}
