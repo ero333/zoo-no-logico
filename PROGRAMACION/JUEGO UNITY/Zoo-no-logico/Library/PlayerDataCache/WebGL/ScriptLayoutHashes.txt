@@ -1,14 +1,14 @@
 WebGL
 PlayerPath?
-C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD
+C:/Users/Alumno/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD
 SceneListBegin?
+Assets/Scenes/inicio1.unity
+Assets/Scenes/inicio2.unity
 Assets/Scenes/menu-principal.unity
 Assets/Scenes/inventario.unity
 Assets/Scenes/menu-cruza.unity
 Assets/Scenes/tienda.unity
 Assets/Scenes/animal-nuevo.unity
-Assets/Scenes/inicio1.unity
-Assets/Scenes/inicio2.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
