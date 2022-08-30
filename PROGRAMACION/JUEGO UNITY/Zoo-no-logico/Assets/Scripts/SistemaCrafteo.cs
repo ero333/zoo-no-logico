@@ -10,7 +10,7 @@ using UnityEngine;
 
 
 
-[PreferBinarySerialization] //Si no ponemos esto supuestamente no se va a mostrar en el editor (?
+/*[PreferBinarySerialization]*/ //Si no ponemos esto supuestamente no se va a mostrar en el editor (?
 public struct ItemAmount   // esto es cuanto de porcentaje toma del item para el crafteo
 {
     public Item Item;
