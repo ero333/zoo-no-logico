@@ -1,27 +1,32 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: E:/Workshop/Unity para TallerIV/Editor/Data
 Cmd: initializeCompiler
 Cmd: preprocess
-  insize=3466 outsize=1210 ok=1
+  insize=3608 outsize=1262 ok=1
 Cmd: preprocess
-  insize=3508 outsize=1607 ok=1
+  insize=3652 outsize=1674 ok=1
 Cmd: preprocess
-  insize=3464 outsize=1257 ok=1
+  insize=3606 outsize=1310 ok=1
 Cmd: preprocess
-  insize=10047 outsize=3838 ok=1
+  insize=10352 outsize=3956 ok=1
 Cmd: preprocess
-  insize=3433 outsize=2546 ok=1
+  insize=3569 outsize=2622 ok=1
 Cmd: preprocess
-  insize=7090 outsize=2362 ok=1
+  insize=7319 outsize=2448 ok=1
 Cmd: preprocess
-  insize=7715 outsize=2629 ok=1
+  insize=7960 outsize=2720 ok=1
 Cmd: preprocess
-  insize=2307 outsize=1077 ok=1
+  insize=2420 outsize=1129 ok=1
 Cmd: preprocess
-  insize=10039 outsize=3828 ok=1
+  insize=10343 outsize=3945 ok=1
 Cmd: preprocess
-  insize=4252 outsize=3548 ok=1
+  insize=4407 outsize=3641 ok=1
 Cmd: preprocess
-  insize=7098 outsize=2372 ok=1
+  insize=7327 outsize=2458 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
