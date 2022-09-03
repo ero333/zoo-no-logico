@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 404
     height: 271
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 11
+  controlID: 24
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 112
+  controlID: 83
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 33
+  controlID: 84
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,20 +297,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 56
   m_LastProjectPath: D:\zoo-no-logico\PROGRAMACION\JUEGO UNITY\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da2b0000
-    m_LastClickedID: 11226
-    m_ExpandedIDs: 00000000da2b0000822e0000cc2f000000ca9a3b
+    m_SelectedIDs: be090000
+    m_LastClickedID: 2494
+    m_ExpandedIDs: 000000007e0900002a0c0000202e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -338,7 +338,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da2b0000822e0000cc2f0000
+    m_ExpandedIDs: 000000007e0900002a0c0000202e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f2330000360a000000000000400c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -454,28 +454,28 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 54f9ffff00000000
+    m_SelectedIDs: b6550000
+    m_LastClickedID: 21942
+    m_ExpandedIDs: eaf0fcff42f5fcff0812fdffe214fdff0e17fdff2a2bfdffbe52fdfff253fdffe654fdffdc55fdffce56fdffc057fdffb258fdffe659fdff365bfdff2e5cfdff685dfdffca5efdff0c67fdffaa6efdff826ffdff1a76fdff3c97fdff3a98fdff5699fdff549afdff74f1fdff3c3cfeff323efeff283ffeff2640feff4041feff7842feff02a1feff02f9feffea09ffff32beffffd6e0ffffe8e9ffffdaeaffffd6ebffffececffffe8edffffe2eeffffe0efffffeaf0ffff24f2ffff16f3ffffe6fbffff000000006c3700007e370000a2370000ba37000032410000d2410000c24400004a4500003c4a0000844e00000e4f000072520000fc52000018550000a2550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Main Camera
+      m_OriginalName: Main Camera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 20714
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
   m_ExpandedScenes:
-  - animal-nuevo
+  - menu-cruza
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4998825, y: 0.076365486, z: 37.115276}
+    m_Target: {x: -1.719918, y: -0.37658912, z: 45.578907}
     speed: 2
-    m_Value: {x: -1.4998825, y: 0.076365486, z: 37.115276}
+    m_Value: {x: -1.719918, y: -0.37658912, z: 45.578907}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -545,9 +545,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.136749
+    m_Target: 12.441121
     speed: 2
-    m_Value: 12.136749
+    m_Value: 12.441121
   m_Ortho:
     m_Target: 1
     speed: 2

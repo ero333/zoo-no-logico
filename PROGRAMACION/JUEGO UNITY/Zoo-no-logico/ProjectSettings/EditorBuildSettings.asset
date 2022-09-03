@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/animal-nuevo-selecci\xF3n-jaula.unity"
     guid: e0409b26200de0442b7ae5b696cbf7dd
+  - enabled: 1
+    path: Assets/Scenes/menu-cruza-fallida.unity
+    guid: 5f6b492d647b9d943bff0a128c4215a8
   m_configObjects: {}
