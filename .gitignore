@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+PROGRAMACION/PRUEBAS/Prueba crafteo/Temp/UnityLockfile
+*.db
+*.log
