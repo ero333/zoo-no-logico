@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Inventory : MonoBehaviour
+public class Inventory : MonoBehaviour, InterfazCombinacion
 {
     [FormerlySerializedAs("items")] //ESTO ES PARA QUE UNITY NO BORRE LA LISTA ORIGINAL LLAMADA "ITEMS", PORQUE AL CAMBIARLE DE NOMBRE A "STARINGITEMS" VA A PENSAR QUE ES UNA DISTINTA
     [SerializeField] List<Item> startingItems;
@@ -111,8 +111,30 @@ public class Inventory : MonoBehaviour
         return true;
     }
 
-}
+    public bool ContainsItem(Item item)
+    {
+        {
+            for (int i = 0; i < itemSlots.Length; i++)
+            {
+                if (itemSlots[i].Item == item)
+                {                  
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
 
-internal class formerlySerializedAsAttribute : Attribute
-{
+    public int ItemCount(Item item)
+    {
+        int number = 0;
+            for (int i = 0; i < itemSlots.Length; i++)
+            {
+                if (itemSlots[i].Item == item)
+                {
+                number++;
+                }
+            }
+        return number;
+    }
 }
