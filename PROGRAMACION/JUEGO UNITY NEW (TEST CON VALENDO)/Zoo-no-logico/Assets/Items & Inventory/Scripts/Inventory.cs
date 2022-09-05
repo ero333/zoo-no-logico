@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] List<Item> startingItems;
     [SerializeField] Transform itemsParent;
     [SerializeField] ItemSlot[] itemSlots;
+    [SerializeField] Inventory inventory;
 
     public event Action<ItemSlot> OnRightClickEvent;
     public event Action<ItemSlot> OnBeginDragEvent;
@@ -29,9 +30,6 @@ public class Inventory : MonoBehaviour
         }
         SetStartingItems();
     }
-
-
-
 
     private void OnValidate()
     {
@@ -70,6 +68,24 @@ public class Inventory : MonoBehaviour
         }
         return false;
     }
+
+    public void NewItem()
+    {
+        Item carpincho = ScriptableObject.CreateInstance<Item>();
+
+        carpincho.ItemName = "Carpincho puto";
+
+        carpincho.Icon = Resources.Load<Sprite>("carpincho");
+
+        Debug.Log(carpincho);
+
+        Debug.Log(carpincho.ItemName);
+
+        Debug.Log(carpincho.Icon);
+
+        inventory.AddItem(carpincho);
+    }
+
     public bool RemoveItem(Item item) //Si eliminamos un item de la lista, refresca la interfaz digamos para que ya no aparezca mas, sino borramos nada no pasa nada lol.
     {
         for (int i = 0; i < itemSlots.Length; i++)

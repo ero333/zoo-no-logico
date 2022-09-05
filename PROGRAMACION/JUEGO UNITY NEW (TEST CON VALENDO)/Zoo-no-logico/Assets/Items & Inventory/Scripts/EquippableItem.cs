@@ -25,8 +25,6 @@ public class EquippableItem : Item //ESTO SIRVE PARA DECLARAR CUALES SON LOS ITE
     [Space]
     public EquipmentType EquipmentType;
 
-
-
     public void Unequip(Character c)
     {
         Debug.Log("PIJA");
