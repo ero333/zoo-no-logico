@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4825a7ff9605b5345a90edb3d34695e6, type: 3}
+  m_Name: New Recetas Cruza
+  m_EditorClassIdentifier: 
+  Materiales:
+  - Item: {fileID: 11400000, guid: 04113939c5cbe9c4eb48fcb4eafb9a04, type: 2}
+    Amount: 1
+  - Item: {fileID: 11400000, guid: b93699986b360964fa1499cc9096deef, type: 2}
+    Amount: 1
+  - Item: {fileID: 11400000, guid: fb0368caeb6157a41a57ca204c802f4d, type: 2}
+    Amount: 1
+  Resultados:
+  - Item: {fileID: 0}
+    Amount: 1
