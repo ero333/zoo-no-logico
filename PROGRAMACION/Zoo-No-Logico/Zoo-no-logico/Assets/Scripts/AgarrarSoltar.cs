@@ -8,17 +8,17 @@ public class AgarrarSoltar : MonoBehaviour
 
     public bool Agarre;         // Bool que detecta si nuestro Mouse tiene agarrado un Objeto
 
-    public bool Seleccionado;   // Bool que detecta si un Sprite está sobre un slot
+    public bool Seleccionado;   // Bool que detecta si un Sprite estï¿½ sobre un slot
 
-    public Vector3 vacio;       // Vector3 que obtiene la posición inicial de los objetos
+    public Vector3 vacio;       // Vector3 que obtiene la posiciï¿½n inicial de los objetos
 
-    public int Contador;        // Int que detecta si el objeto está o no en un collider (bien al final está todo esto)
+    public int Contador;        // Int que detecta si el objeto estï¿½ o no en un collider (bien al final estï¿½ todo esto)
 
 
 
-    void Awake()        // Método especial de Unity. Carga antes que el primer frame (esto cargaria antes que el Start()
+    void Awake()        // Mï¿½todo especial de Unity. Carga antes que el primer frame (esto cargaria antes que el Start()
     {
-        vacio = transform.position; // Le da la posición actual a nuestro vector 3
+        vacio = transform.position; // Le da la posiciï¿½n actual a nuestro vector 3
     }
     void Start()
     {
@@ -29,49 +29,49 @@ public class AgarrarSoltar : MonoBehaviour
 
     void Update()
     {
-        if(Contador == 0 && !Agarre)    // Si suelto el objeto y no está sobre un slot
+        if(Contador == 0 && !Agarre)    // Si suelto el objeto y no estï¿½ sobre un slot
         {
             transform.position = vacio;
         }
     }
-    private Vector3 PosicionMouse() // Método de tipo Vector 3
+    private Vector3 PosicionMouse() // Mï¿½todo de tipo Vector 3
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
 
         /*  Busca el objeto "Main Camera" y obtiene el componente "Camera"
-            Despues toma la posición del mouse en PANTALLA y la transforma en la posición dentro del World Space
+            Despues toma la posiciï¿½n del mouse en PANTALLA y la transforma en la posiciï¿½n dentro del World Space
             
-            World Space basicamente sería la posición del objeto dentro de la escena, lo que veríamos en el componente Transform
+            World Space basicamente serï¿½a la posiciï¿½n del objeto dentro de la escena, lo que verï¿½amos en el componente Transform
         */
     }
 
-    private void OnMouseDown()      // Método especial de Unity. Se activa cuando hacemos click sobre un objeto con colliders.
+    private void OnMouseDown()      // Mï¿½todo especial de Unity. Se activa cuando hacemos click sobre un objeto con colliders.
     {
-        MousePos = gameObject.transform.position - PosicionMouse(); // Creamos un vector 3 según donde hacemos click en el objeto.
+        MousePos = gameObject.transform.position - PosicionMouse(); // Creamos un vector 3 segï¿½n donde hacemos click en el objeto.
     }
 
-    private void OnMouseDrag()                              // Método especial de Unity. Se activa cuando clickeamos y mantenemos dicho click sobre un objeto. Funciona como un Update()
+    private void OnMouseDrag()                              // Mï¿½todo especial de Unity. Se activa cuando clickeamos y mantenemos dicho click sobre un objeto. Funciona como un Update()
     {
-        transform.position = PosicionMouse() + MousePos;    // Cambia la posición del objeto según la posición del mouse
+        transform.position = PosicionMouse() + MousePos;    // Cambia la posiciï¿½n del objeto segï¿½n la posiciï¿½n del mouse
         Agarre = true;                                      // Si mantenemos agarrado, este bool es activo
     }
 
-    private void OnMouseUp()        // Método especial de Unity. Se activa cuando soltamos el botón del mouse
+    private void OnMouseUp()        // Mï¿½todo especial de Unity. Se activa cuando soltamos el botï¿½n del mouse
     {
         Agarre = false;             // desactivo bool
 
     }
 
-    public void OnTriggerStay2D(Collider2D collision)               // Detecta si un objeto está detectando otro Collider (Es parecido a OnTriggerEnter/OnTriggerExit)
+    public void OnTriggerStay2D(Collider2D collision)               // Detecta si un objeto estï¿½ detectando otro Collider (Es parecido a OnTriggerEnter/OnTriggerExit)
     {
-        if((collision.gameObject.tag == "Slot1") && !Agarre)        // Si el collider es del slot 1 y solté el mouse
+        if((collision.gameObject.tag == "Slot1") && !Agarre)        // Si el collider es del slot 1 y soltï¿½ el mouse
         {
             transform.position = collision.transform.position;      // Mi objeto queda centrado en el slot 1
 
             collision.gameObject.tag =  "Slot1u";                   // Cambia nombre del tag para que otro no lo pueda agarrar
 
-            Seleccionado = true;                                    // Nueva Condición
+            Seleccionado = true;                                    // Nueva Condiciï¿½n
         }
         else if ((collision.gameObject.tag == "Slot2") && !Agarre)
         {
@@ -93,7 +93,7 @@ public class AgarrarSoltar : MonoBehaviour
 
 
         //---------------------------------------------------------------
-        //Separación
+        //Separaciï¿½n
         //Esto va mas que nada para no confundir. Sigue estando en OnTriggerStay
 
 
@@ -116,7 +116,7 @@ public class AgarrarSoltar : MonoBehaviour
 
 
         //---------------------------------------------------------------
-        //Separación
+        //Separaciï¿½n
         //Esto va mas que nada para no confundir. Sigue estando en OnTriggerStay
 
         if ((collision.gameObject.tag == "Slot1u") && !Seleccionado) // Para evitar errores
@@ -168,7 +168,7 @@ public class AgarrarSoltar : MonoBehaviour
 
 
         //---------------------------------------------------------------
-        //Separación
+        //Separaciï¿½n
         //Esto va mas que nada para no confundir. Sigue estando en OnTriggerExit
 
 

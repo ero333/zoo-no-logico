@@ -10,19 +10,24 @@ using UnityEngine;
 
 //         public bool fused;
 //         private Rigidbody2D rigidBody;
-//         private GameObject fusion;
+//         private GameObject fusion; //noexisteenelunity
 //         private GameObject failedfusion;
+//          private GameObject AnimalSlot1;
+//          private GameObject AnimalSlot2;
+//          private GameObject AnimalSlot3;
 
 
 //          private void Start()
 //     {
 //         rigidBody = GetComponent<Rigidbody2D>();
-//         fusion = gameObject.GetComponent<TERMINADOS>();
-//         failedfusion = gameObject.GetComponent<TERMINADOS>();
+//         fusion = gameObject.GetComponent<Items>();
+//         failedfusion = gameObject.GetComponent<Items>();
+//         AnimalSlot = gameObject.GetComponent<InterfazCruza>();
+
 //     }
-//         public InventarioUsuario(BaseAnimals s1, BaseAnimals s2, BaseAnimals s3)
+//         public Inventory(EquippableItem s1, EquippableItem s2, EquippableItem s3)
 //         {
-//             if((s1 == database.Carpincho)||(s2 == database.Cocodrilo)||(s3 == database.Murcielago))
+//             if((s1 == Items.Carpincho)||(s2 == Items.Cocodrilo)||(s3 == Items.Murcielago))
 //             {
 //                 fused = true;
 //                 fusion;//= imagen de resultado//
@@ -59,7 +64,7 @@ using UnityEngine;
 //             }
 //         }
 
-//         // public InventarioUsuario(BaseAnimals new) : this(fusion)
+//         // public Inventary(BaseAnimals new) : this(fusion)
 //         // {
 
 //         // }
