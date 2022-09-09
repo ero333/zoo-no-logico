@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/inventario.unity
+- path: "Assets/Scenes/animal-nuevo-selecci\xF3n-jaula.unity"
   isLoaded: 1
   isActive: 1
