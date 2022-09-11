@@ -56,5 +56,13 @@ public class MonedasTotales : MonoBehaviour {
     {
         Destroy(Button);
     }
-
+    //cuando el valor de monedas es menor a 100 se desactiva el boton de compra
+    public void InhabilitarButton(){
+        if(Monedas>= 100){
+            Button.SetActive(true);
+        }
+        else{
+            Button.SetActive(false);
+        }
+    }
 }
