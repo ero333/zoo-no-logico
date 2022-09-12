@@ -9,7 +9,7 @@ public class JsonReader : MonoBehaviour {
     [System.Serializable]
     public class Cruza
     {
-        public int id;
+        public string id;
         public string nombre;
         public string descripcion;
         public int porcentaje;
