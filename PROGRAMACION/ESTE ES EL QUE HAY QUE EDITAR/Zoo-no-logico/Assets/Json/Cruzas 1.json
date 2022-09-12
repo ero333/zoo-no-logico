@@ -15,6 +15,14 @@
       "porcentaje": 15,
       "popularidad": 20,
       "dinero": 25
+    },
+	{
+      "id":"125",
+      "nombre": "cocodrilo carpincho murcielago",
+      "descripcion": "julian es cringue",
+      "porcentaje": 30,
+      "popularidad": 5,
+      "dinero": 25
     }
   ]
 }
