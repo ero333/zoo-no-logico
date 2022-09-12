@@ -18,6 +18,7 @@ TagManager:
   - Slot1
   - Slot3
   - TextoMonedas
+  - BotonMonedas
   layers:
   - Default
   - TransparentFX
