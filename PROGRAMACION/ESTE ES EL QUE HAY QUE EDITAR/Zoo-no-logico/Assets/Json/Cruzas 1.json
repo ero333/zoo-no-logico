@@ -1,0 +1,18 @@
+{
+  "cruza": [
+    {
+      "nombre": "carpincho zorro araña",
+      "descripcion": "es muy cariñoso pero si huele que tenes olor a otro zorro te mata",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "nombre": "carpincho zorro murcielago",
+      "descripcion": "No se baña pero es copado",
+      "porcentaje": 15,
+      "popularidad": 20,
+      "dinero": 25
+    }
+  ]
+}
