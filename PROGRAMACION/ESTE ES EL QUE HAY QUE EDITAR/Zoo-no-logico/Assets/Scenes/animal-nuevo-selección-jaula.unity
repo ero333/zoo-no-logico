@@ -1848,6 +1848,7 @@ GameObject:
   - component: {fileID: 1576139900}
   - component: {fileID: 1576139899}
   - component: {fileID: 1576139903}
+  - component: {fileID: 1576139904}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1955,6 +1956,20 @@ MonoBehaviour:
   textoMonedas: {fileID: 335673956}
   Monedas: 0
   Button: {fileID: 0}
+--- !u!114 &1576139904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576139898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015594311cc981444bd32e0207d8b67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1653896708
 GameObject:
   m_ObjectHideFlags: 0
