@@ -25,9 +25,11 @@ public class JsonReader : MonoBehaviour {
 
     public CruzaList myCruzaList = new CruzaList();
 
+
 	// Use this for initialization
 	void Start () {
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+        print(myCruzaList.cruza[0].descripcion);
 	}
 	
 	// Update is called once per frame
