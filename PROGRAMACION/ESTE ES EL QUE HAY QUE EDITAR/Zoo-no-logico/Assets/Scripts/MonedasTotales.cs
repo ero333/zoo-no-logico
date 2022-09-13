@@ -9,8 +9,9 @@ public class MonedasTotales : MonoBehaviour {
 
     public Text textoMonedas;   // Variable con objeto Texto
     public int Monedas;         // Monedas agarradas
-
+    public GameObject testMonedas;
     public GameObject Button;
+    public GameObject testMonedas2;
 
 
 
@@ -37,8 +38,17 @@ public class MonedasTotales : MonoBehaviour {
 
     public void Comprar(int gastarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
     {   
-        Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
+        if(Monedas > gastarPlata){
+            testMonedas.SetActive(true);
+       /* Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
         PlayerPrefs.SetInt("Moneditas", Monedas);
+        print("a");*/
+
+        }
+        else{
+            testMonedas2.SetActive(true);
+        }
+
     }
 
     public void Agregar(int agregarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
