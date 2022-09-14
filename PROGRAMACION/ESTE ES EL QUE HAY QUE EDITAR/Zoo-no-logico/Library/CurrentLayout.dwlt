@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 432
     height: 280
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 659
     width: 1529
     height: 280
-  m_MinSize: {x: 304, y: 200}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 306, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 83
+  controlID: 65
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,10 +91,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
-  m_MinSize: {x: 581, y: 421}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 583, y: 442}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 68
+  controlID: 9
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,8 +230,8 @@ MonoBehaviour:
     y: 0
     width: 1529
     height: 939
-  m_MinSize: {x: 304, y: 421}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 306, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
   controlID: 10
 --- !u!114 &11
@@ -308,10 +308,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 14300000
-    m_LastClickedID: 12308
-    m_ExpandedIDs: 00000000ec2c0000143000008c32000000ca9a3b
+    scrollPos: {x: 0, y: 34}
+    m_SelectedIDs: da0c0000
+    m_LastClickedID: 3290
+    m_ExpandedIDs: 000000008e090000da0c0000e60c00002a30000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec2c000014300000203000008c320000
+    m_ExpandedIDs: 000000008e090000da0c00002a300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,8 +364,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 22070000
-    m_LastClickedInstanceID: 1826
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f2330000360a000000000000400c0000022f00009c3400004c2c0000
     m_RenameOverlay:
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 60d1fbffca06fdff729cfdffc2bfffff6ef8ffff000000008c3100009e310000fc3100000a3200003032000044320000
+    m_ExpandedIDs: 8482fafffe8bfaffc08dfaff9c06fbff223bfbff943cfbffc43dfbff2a4ffbff3621fcffa07afcff8a91fcffd892fcffe293fcff3695fcff4896fcff5897fcff6c98fcff049afcff0e9bfcff749cfcff829dfcff909efcff9e9ffcfff6a0fcff24a2fcff0ea4fcff64a5fcff3aadfcff5cc7fcffc2cafcffdc63fdff2c97ffffeebeffff72f4ffff70f6ffffe6fbffff00000000923000002231000032350000c2350000fa3e0000824f0000debb000064bf0000f60d010062ca010068ca010080ca0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
   m_ExpandedScenes:
-  - "animal-nuevo-selecci\xF3n-jaula"
+  - menu-cruza
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.103645, y: -0.13758707, z: 56.567085}
+    m_Target: {x: -0.06384358, y: -0.059130184, z: 98.158936}
     speed: 2
-    m_Value: {x: -2.103645, y: -0.13758707, z: 56.567085}
+    m_Value: {x: -0.06384358, y: -0.059130184, z: 98.158936}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -546,15 +546,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.262549
+    m_Target: 12.513306
     speed: 2
-    m_Value: 12.262549
+    m_Value: 12.513306
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.16194071, y: -0.21769941, z: 0.036654823, w: 0.9617893}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
