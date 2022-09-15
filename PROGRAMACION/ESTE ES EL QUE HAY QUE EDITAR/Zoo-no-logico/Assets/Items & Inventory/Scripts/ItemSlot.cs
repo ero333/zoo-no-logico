@@ -21,32 +21,60 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     // estamos declarando variables de color asi podemos modificar el item slot para que se "muestre" y para que "desaparezca" usando la transparencia
    
 
-  //[SerializeField] Image image;
-  public Item _item 
-   // public T ChangeAlpha<T>(this T _item, float newAlpha)
-   //      where T : Graphic
-   //  {
-   //      var color = _item.color;
-   //      color.a = newAlpha;
-   //      _item.color = color;
-   //      return _item;
-//
-   //         if (_item == null)
-   //         {
-   //             Image.ChangeAlpha(0.5f);
-   //             
-   //         } else
+
+
+  [SerializeField] Image image;
+
+    private Color normalColor = Color.white;
+    private Color disabledColor = new Color(1, 1, 1, 0); // el que nos importa es el 0 al final que maneja la transparencia
+
+    private Item _item;
+    public Item Item
+    {
+        get { return _item; }
+        set
+        {
+            _item = value;
+
+            if (_item == null)
+            {
+                image.color = disabledColor;
+            }
+            else
+            {
+                image.sprite = _item.Icon;
+                image.color = normalColor;
+            }
+        }
+    }
+
+
+
+    // public Item _item 
+    // public T ChangeAlpha<T>(this T _item, float newAlpha)
+    //      where T : Graphic
+    //  {
+    //      var color = _item.color;
+    //      color.a = newAlpha;
+    //      _item.color = color;
+    //      return _item;
+    //
+    //         if (_item == null)
+    //         {
+    //             Image.ChangeAlpha(0.5f);
+    //             
+    //         } else
     //        {
     //            Image.ChangeAlpha(1f);
-                
+
     //        }
-        
-         
-  //   }
- 
-     
-        
-     
+
+
+    //   }
+
+
+
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
