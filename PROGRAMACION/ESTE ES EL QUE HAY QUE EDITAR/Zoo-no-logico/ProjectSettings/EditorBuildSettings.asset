@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Estasis.unity
     guid: bdf106c03f0272140932fb68e60e854c
+  - enabled: 1
+    path: Assets/Scenes/mapa-cupos.unity
+    guid: 0833eaecea4445d4e93fb9294e8b7271
   m_configObjects: {}

@@ -1,27 +1,99 @@
 {
   "cruza": [
     {
-      "id": "123",
-      "nombre": "carpincho zorro araña",
+      "id": "0",
+      "nombre": "araña cocodrilo carpincho",
       "descripcion": "es muy cariñoso pero si huele que tenes olor a otro zorro te mata",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"124",
-      "nombre": "carpincho zorro murcielago",
+      "id":"1",
+      "nombre": "araña murcielago carpincho",
       "descripcion": "No se baña pero es copado",
       "porcentaje": 15,
       "popularidad": 20,
       "dinero": 25
     },
 	{
-      "id":"125",
-      "nombre": "cocodrilo carpincho murcielago",
-      "descripcion": "julian es cringue",
+      "id":"2",
+      "nombre": "araña cocodrilo carpincho",
+      "descripcion": "es muy mentiroso en el truco",
       "porcentaje": 30,
       "popularidad": 5,
+      "dinero": 25
+    },
+    {
+      "id": "3",
+      "nombre": "araña zorro murcielago",
+      "descripcion": "nunca voló más de 10 metros porque le teme a las alturas",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id":"4",
+      "nombre": "ave cocodrilo murcielago",
+      "descripcion": "Se cree que es el animal más feo visto por el hombre",
+      "porcentaje": 15,
+      "popularidad": 20,
+      "dinero": 25
+    },
+    {
+      "id": "5",
+      "nombre": "ave secretaria cocodrilo araña",
+      "descripcion": "alta milipili",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id":"6",
+      "nombre": "ave carpincho araña",
+      "descripcion": "alto tincho",
+      "porcentaje": 15,
+      "popularidad": 20,
+      "dinero": 25
+    },
+    {
+      "id": "7",
+      "nombre": "carpincho murcielago ave",
+      "descripcion": "el verdadero carpincho volador",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id":"8",
+      "nombre": "carpincho zorro murcielago",
+      "descripcion": "no sabemos nada de este animal",
+      "porcentaje": 15,
+      "popularidad": 20,
+      "dinero": 25
+    },
+    {
+      "id": "9",
+      "nombre": "carpincho cocodrilo ave",
+      "descripcion": "fanatico de michael jackson. Baila aún mejor que él",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id":"10",
+      "nombre": "carpincho zorro araña",
+      "descripcion": "fanatico de la nutella",
+      "porcentaje": 15,
+      "popularidad": 20,
+      "dinero": 25
+    },
+    {
+      "id":"11",
+      "nombre": "cocodrilo carpincho murcielago",
+      "descripcion": "amante de las proteinas y hablar de su rutina",
+      "porcentaje": 15,
+      "popularidad": 20,
       "dinero": 25
     }
   ]

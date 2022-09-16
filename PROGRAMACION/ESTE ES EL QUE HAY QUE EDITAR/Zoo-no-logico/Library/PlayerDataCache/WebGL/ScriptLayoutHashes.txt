@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILDS(esto se sube a itch.io)/BUILD SPRINT 3
+C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD SPRINT 4
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -14,6 +14,7 @@ Assets/Scenes/animal-nuevo-selección-jaula.unity
 Assets/Scenes/menu-cruza-fallida.unity
 Assets/Scenes/libro-de-visitas.unity
 Assets/Scenes/Estasis.unity
+Assets/Scenes/mapa-cupos.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -30,6 +31,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+febc14c327d038a48a2668e24ac5f34e Assembly-CSharp.dll:.JsonReader
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -127,7 +129,7 @@ da21fc3f8056b1f91c3dd09c7bf4f90a UnityEngine.Networking.dll:UnityEngine.Networki
 529a95e9e8e7686c4816e08fbb37183f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-c0adaa52fe3943f7ed07c42952ad8045 Assembly-CSharp.dll:.MonedasTotales
+b5b5ee560766360ce3c68215133f1e94 Assembly-CSharp.dll:.MonedasTotales
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 c5b3de0b7d79ddce1ecb0b7f3005f9c2 Assembly-CSharp.dll:.RandomPercent
 382b8ef512fa8d6108723a01b57af65b UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -139,6 +141,8 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+19e8a6b495c54966acec87e17dbcc814 Assembly-CSharp.dll:.CuposJaulas
+aad5c300e5d4fd7d906845df403b5b67 Assembly-CSharp.dll:.Jaula
 d10f1dbef758b66c20d512794efb6178 Assembly-CSharp.dll:.EquippableItem
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 2008de1a77e394bcdd6ebb4b8f655b62 Assembly-CSharp.dll:.ItemSlot

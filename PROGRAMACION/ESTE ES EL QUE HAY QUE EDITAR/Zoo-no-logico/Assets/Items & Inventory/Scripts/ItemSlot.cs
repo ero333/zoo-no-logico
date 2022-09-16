@@ -1,12 +1,14 @@
 ﻿using System;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI; // ESTE COMANDO ES PARA QUE ESTE CODIGO PUEDA ACCEDER A LAS IMAGENES DEL PROYECTO
 using UnityEngine.EventSystems; //CON ESTO VAMOS A PODER EMPEZAR A HACER CLICK Y SELECCIONAR EL ITEM
 
 public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
   
-    [SerializeField] Image image;
+    
     
 
     public event Action<ItemSlot> OnRightClickEvent; //ESTO VA A TRIGGEAR EL ITEMSLOT SEA PRESIONADO CON CLICK DERECHO, O SEA EN EL VOID ONPIONTERCLICK
@@ -17,11 +19,16 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
 
 
     // estamos declarando variables de color asi podemos modificar el item slot para que se "muestre" y para que "desaparezca" usando la transparencia
-    private Color normalColor = Color.white; 
-    private Color disabledColor = new Color (1, 1, 1, 0); // el que nos importa es el 0 al final que maneja la transparencia
+   
 
 
-    private Item _item; 
+
+  [SerializeField] Image image;
+
+    private Color normalColor = Color.white;
+    private Color disabledColor = new Color(1, 1, 1, 0); // el que nos importa es el 0 al final que maneja la transparencia
+
+    private Item _item;
     public Item Item
     {
         get { return _item; }
@@ -32,13 +39,42 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
             if (_item == null)
             {
                 image.color = disabledColor;
-            } else
+            }
+            else
             {
                 image.sprite = _item.Icon;
                 image.color = normalColor;
             }
         }
     }
+
+
+
+    // public Item _item 
+    // public T ChangeAlpha<T>(this T _item, float newAlpha)
+    //      where T : Graphic
+    //  {
+    //      var color = _item.color;
+    //      color.a = newAlpha;
+    //      _item.color = color;
+    //      return _item;
+    //
+    //         if (_item == null)
+    //         {
+    //             Image.ChangeAlpha(0.5f);
+    //             
+    //         } else
+    //        {
+    //            Image.ChangeAlpha(1f);
+
+    //        }
+
+
+    //   }
+
+
+
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -65,6 +101,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     {
         if (OnBeginDragEvent != null)
             OnBeginDragEvent(this);
+           
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -83,6 +120,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     {
         if (OnDropEvent != null)
             OnDropEvent(this);
+           
     }
 }
 

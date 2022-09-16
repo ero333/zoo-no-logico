@@ -20,7 +20,7 @@ public class MonedasTotales : MonoBehaviour {
     {
         textoMonedas = GameObject.FindGameObjectWithTag("TextoMonedas").GetComponent<Text>(); // Busca el objeto por su tag y le da el componente Text
         Monedas = PlayerPrefs.GetInt("Moneditas");
-       // Monedas = PlayerPref.GetInt("Monedas", ValorDefaultPorSiNoExiste);
+       
     }
 
 
@@ -28,21 +28,16 @@ public class MonedasTotales : MonoBehaviour {
     void Update()
     {
 
-        textoMonedas.text = Monedas.ToString();     // Convierte los Ints en Strings para el texto, nos dice las monedas agarradas
-                                                    //PlayerPrefs.DeleteAll();
-                                                    //If(PlayerPrefs.HasKey("Moneditas"))
-                                                    //{
-                                                    //print("tenemos monedas");
-                                                    //}
+        textoMonedas.text = Monedas.ToString();     
     }
 
-    public void Comprar(int gastarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
+    public void ComprarJaulas(int gastarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
     {   
         if(Monedas > gastarPlata){
             testMonedas.SetActive(true);
-       /* Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
+        Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
         PlayerPrefs.SetInt("Moneditas", Monedas);
-        print("a");*/
+        print("a");
 
         }
         else{
@@ -51,9 +46,19 @@ public class MonedasTotales : MonoBehaviour {
 
     }
 
+        public void Comprar(int gastarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
+    {   
+        if(Monedas > gastarPlata){
+        Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
+        PlayerPrefs.SetInt("Moneditas", Monedas);
+
+        }
+
+    }
+
     public void Agregar(int agregarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar
     {
-        Monedas += agregarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
+        Monedas += agregarPlata; // Al int con mis monedas le voy a agregar el dato que recibe desde el botón
         PlayerPrefs.SetInt("Moneditas", Monedas);
     }
 
@@ -67,12 +72,12 @@ public class MonedasTotales : MonoBehaviour {
         Destroy(Button);
     }
     //cuando el valor de monedas es menor a 100 se desactiva el boton de compra
-    public void InhabilitarButton(){
-        if(Monedas>= 100){
-            Button.SetActive(true);
-        }
-        else{
-            Button.SetActive(false);
-        }
-    }
+    // public void InhabilitarButton(){
+    //     if(Monedas>= 100){
+    //         Button.SetActive(true);
+    //     }
+    //     else{
+    //         Button.SetActive(false);
+    //     }
+    // }
 }
