@@ -1,10 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JsonReader : MonoBehaviour {
 
     public TextAsset Cruzas;
+    public Text descripcion;
+    public Text nombre;
+    public int index;
+    public Image foto;
+
+    public Sprite foto0;
+    public Sprite foto1;
+    public Sprite foto2;
+    public Sprite foto3;
+    public Sprite foto4;
+    public Sprite foto5;
+    public Sprite foto6;
+    public Sprite foto7;
+    public Sprite foto8;
+    public Sprite foto9;
+    public Sprite foto10;
+    public Sprite foto11;
 
     [System.Serializable]
     public class Cruza
@@ -28,9 +46,56 @@ public class JsonReader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        index = Random.Range(0, 11);
+
+        switch (index)
+        {
+            case 0:
+                foto.sprite = foto0;
+                break;
+            case 1:
+                foto.sprite = foto1;
+                break;
+            case 2:
+                foto.sprite = foto2;
+                break;
+            case 3:
+                foto.sprite = foto3;
+                break;
+            case 4:
+                foto.sprite = foto4;
+                break;
+            case 5:
+                foto.sprite = foto5;
+                break;
+            case 6:
+                foto.sprite = foto6;
+                break;
+            case 7:
+                foto.sprite = foto7;
+                break;
+            case 8:
+                foto.sprite = foto8;
+                break;
+            case 9:
+                foto.sprite = foto9;
+                break;
+            case 10:
+                foto.sprite = foto10;
+                break;
+            case 11:
+                foto.sprite = foto11;
+                break;
+            default:
+                foto.sprite = foto0;
+                break;
+        }
+
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
-        print(myCruzaList.cruza[0].descripcion);
-	}
+        descripcion.text = myCruzaList.cruza[index].descripcion;
+        nombre.text = myCruzaList.cruza[index].nombre;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
