@@ -2,11 +2,12 @@
 {
 
     public EquipmentType EquipmentType;
+    public SlotNumber SlotNumber;
 
     protected override void OnValidate()
     {
         base.OnValidate();
-        gameObject.name = EquipmentType.ToString() + "Slot";
+        gameObject.name = SlotNumber.ToString();
     }
 
     public override bool CanReceiveItem(Item item)
@@ -15,6 +16,8 @@
             return true;
 
         EquippableItem equippableItem = item as EquippableItem;
+        //PlayerPref
         return equippableItem != null && equippableItem.EquipmentType == EquipmentType;
+        
     }
 }

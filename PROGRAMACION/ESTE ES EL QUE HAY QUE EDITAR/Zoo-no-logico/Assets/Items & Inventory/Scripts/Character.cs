@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 
 // ESTE SCRIP ES LO QUE UNE A LOS DOS PANELES, EL DE ITEMS NORMALES Y EL DE ITEMS QUE SE PUEDEN "EQUIPAR" QUE EN NUESTRO JUEGO SERÍA EL MENÚ DE CRUZA
@@ -38,7 +41,7 @@ public class Character : MonoBehaviour
 
     private void Equip(ItemSlot itemSlot)
     {
-        Debug.Log("equip");
+
         EquippableItem equippableItem = itemSlot.Item as EquippableItem;
         if (equippableItem != null)
         {
@@ -61,7 +64,7 @@ public class Character : MonoBehaviour
 
         if (itemSlot.Item != null)
         {
-            Debug.Log("begindrag");
+
             draggedSlot = itemSlot;
             draggableItem.sprite = itemSlot.Item.Icon;
             draggableItem.transform.position = Input.mousePosition;
@@ -80,7 +83,7 @@ public class Character : MonoBehaviour
         
         if (!draggableItem.enabled)
         {
-            Debug.Log("drag");
+
             draggableItem.transform.position = Input.mousePosition;
         }
         
@@ -95,12 +98,16 @@ public class Character : MonoBehaviour
 
             if(draggedSlot is SlotDeCruza)
             {
+                print("Caso A");
                 if (dragItem != null) dragItem.Unequip(this);
                 if (dropItem != null) dropItem.Equip(this);
             }
 
             if (dropitemSlot is SlotDeCruza)
             {
+                print(dropitemSlot.tag.ToString());
+                print(draggedSlot.Item.name);
+                PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
                 if (dragItem != null) dragItem.Equip(this);
                 if (dropItem != null) dropItem.Unequip(this);
             }

@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI; // ESTE COMANDO ES PARA QUE ESTE CODIGO PUEDA ACCEDER A LAS IMAGENES DEL PROYECTO
 
 public enum EquipmentType
 {
@@ -6,6 +10,14 @@ public enum EquipmentType
    Comida,
    Jaula,
 }
+
+public enum SlotNumber
+{
+    Slot1,
+    Slot2,
+    Slot3,
+}
+
 
 [CreateAssetMenu]
 public class EquippableItem : Item //ESTO SIRVE PARA DECLARAR CUALES SON LOS ITEMS QUE PUEDEN SER LLEVADOS AL MENU DEL JUGADOR Y QUE PUEDEN SER EQUIPABLES
@@ -29,11 +41,12 @@ public class EquippableItem : Item //ESTO SIRVE PARA DECLARAR CUALES SON LOS ITE
 
     public void Unequip(Character c)
     {
-        Debug.Log("PIJA");
+
     }
 
     public void Equip(Character c)
     {
-        Debug.Log("culo");
+
+        //Debug.Log(EquipmentType.Animal);
     }
 }

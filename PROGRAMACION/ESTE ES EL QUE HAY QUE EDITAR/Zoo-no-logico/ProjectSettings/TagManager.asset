@@ -20,6 +20,9 @@ TagManager:
   - TextoMonedas
   - BotonMonedas
   - TextoJaulas
+  - Carpincho
+  - "Ara\xF1a"
+  - Cocodrilo
   layers:
   - Default
   - TransparentFX

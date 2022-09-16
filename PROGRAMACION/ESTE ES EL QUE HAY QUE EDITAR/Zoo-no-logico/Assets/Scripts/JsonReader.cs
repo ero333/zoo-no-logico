@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
+using System;
 
 public class JsonReader : MonoBehaviour {
 
@@ -23,6 +25,12 @@ public class JsonReader : MonoBehaviour {
     public Sprite foto9;
     public Sprite foto10;
     public Sprite foto11;
+
+    private string animal1;
+    private string animal2;
+    private string animal3; 
+    private string animales;
+    private string[] animalesArray;
 
     [System.Serializable]
     public class Cruza
@@ -46,7 +54,36 @@ public class JsonReader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        index = Random.Range(0, 11);
+        animal1 = PlayerPrefs.GetString("Slot1");
+        animal2 = PlayerPrefs.GetString("Slot2");
+        animal3 = PlayerPrefs.GetString("Slot3");
+
+        animalesArray = new string[] { animal1, animal2, animal3};
+        print(animalesArray[2]);
+    
+        Array.Sort(animalesArray);
+        print(animalesArray[2]);
+
+
+        for(int i = 0; i<animalesArray.Length; i++)
+        {
+            animales += animalesArray[i];
+        }
+        print(animales);
+
+        switch (animales)
+        {
+            case "ArañaCarpinchoCocodrilo":
+                index = 11;
+                break;
+            default:
+                print("La mama de tomi esta tremendisima");
+                break;
+        }
+
+
+
+        //index = Random.Range(0, 11);
 
         switch (index)
         {
@@ -94,6 +131,13 @@ public class JsonReader : MonoBehaviour {
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
         descripcion.text = myCruzaList.cruza[index].descripcion;
         nombre.text = myCruzaList.cruza[index].nombre;
+
+
+        if (animal1 == "Carpincho")
+        {
+            print("Pezzi lta");
+        }
+
 
     }
 	
