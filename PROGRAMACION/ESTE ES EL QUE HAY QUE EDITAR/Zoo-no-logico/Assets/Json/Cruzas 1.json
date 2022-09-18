@@ -2,99 +2,291 @@
   "cruza": [
     {
       "id": "0",
-      "nombre": "araña cocodrilo carpincho",
-      "descripcion": "es muy cariñoso pero si huele que tenes olor a otro zorro te mata",
+      "nombre": "ZORRO COCODRILO MURCIELAGO",
+      "descripcion": "desc",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"1",
-      "nombre": "araña murcielago carpincho",
-      "descripcion": "No se baña pero es copado",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
-    },
-	{
-      "id":"2",
-      "nombre": "araña cocodrilo carpincho",
-      "descripcion": "es muy mentiroso en el truco",
-      "porcentaje": 30,
+      "id": "1",
+      "nombre": "ZORRO COCODRILO CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
       "popularidad": 5,
-      "dinero": 25
+      "dinero": 10
+    },
+    {
+      "id": "2",
+      "nombre": "ZORRO MURCIELAGO CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     },
     {
       "id": "3",
-      "nombre": "araña zorro murcielago",
-      "descripcion": "nunca voló más de 10 metros porque le teme a las alturas",
+      "nombre": "COCODRILO MURCIELAGO CARPINCHO",
+      "descripcion": "desc",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"4",
-      "nombre": "ave cocodrilo murcielago",
-      "descripcion": "Se cree que es el animal más feo visto por el hombre",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
+      "id": "4",
+      "nombre": "COCODRILO CARPINCHO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     },
     {
       "id": "5",
-      "nombre": "ave secretaria cocodrilo araña",
-      "descripcion": "alta milipili",
+      "nombre": "COCODRILO AVE SECRETARIA MURCIELAGO",
+      "descripcion": "desc",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"6",
-      "nombre": "ave carpincho araña",
-      "descripcion": "alto tincho",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
+      "id": "6",
+      "nombre": "AVE SECRETARIA CARPINCHO ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     },
     {
       "id": "7",
-      "nombre": "carpincho murcielago ave",
-      "descripcion": "el verdadero carpincho volador",
+      "nombre": "AVE SECRETARIA COCODRILO ARAÑA",
+      "descripcion": "desc",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"8",
-      "nombre": "carpincho zorro murcielago",
-      "descripcion": "no sabemos nada de este animal",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
+      "id": "8",
+      "nombre": "ARAÑA CARPINCHO COCODRILO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     },
     {
       "id": "9",
-      "nombre": "carpincho cocodrilo ave",
-      "descripcion": "fanatico de michael jackson. Baila aún mejor que él",
+      "nombre": "ZORRO CARPINCHO ARAÑA",
+      "descripcion": "desc",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10
     },
     {
-      "id":"10",
-      "nombre": "carpincho zorro araña",
-      "descripcion": "fanatico de la nutella",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
+      "id": "10",
+      "nombre": "ARAÑA MURCIELAGO COCODRILO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     },
     {
-      "id":"11",
-      "nombre": "cocodrilo carpincho murcielago",
-      "descripcion": "amante de las proteinas y hablar de su rutina",
-      "porcentaje": 15,
-      "popularidad": 20,
-      "dinero": 25
+      "id": "11",
+      "nombre": "ARAÑA ZORRO MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "12",
+      "nombre": "ARAÑA CARPINCHO MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "13",
+      "nombre": "ZORRO AVE SECRETARIA CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "14",
+      "nombre": "AVE SECRETARIA CARPINCHO MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "15",
+      "nombre": "COCODRILO ARAÑA MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "16",
+      "nombre": "ZORRO AVE SECRETARIA ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "17",
+      "nombre": "AVE SECRETARIA ARAÑA MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "18",
+      "nombre": "ZORRO MURCIELAGO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "19",
+      "nombre": "ZORRO COCODRILO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "20",
+      "nombre": "ZORRO COCODRILO ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "21",
+      "nombre": "ZORRO SERPIENTE MURCIELAGO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "22",
+      "nombre": "ZORRO SERPIENTE COCODRILO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "23",
+      "nombre": "ZORRO SERPIENTE CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "24",
+      "nombre": "ZORRO SERPIENTE AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "25",
+      "nombre": "ZORRO SERPIENTE ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "26",
+      "nombre": "SERPIENTE MURCIELAGO COCODRILO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "27",
+      "nombre": "SERPIENTE MURCIELAGO CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "28",
+      "nombre": "SERPIENTE MURCIELAGO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "28",
+      "nombre": "SERPIENTE MURCIELAGO ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "29",
+      "nombre": "SERPIENTE COCODRILO CARPINCHO",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "30",
+      "nombre": "SERPIENTE COCODRILO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "31",
+      "nombre": "SERPIENTE COCODRILO ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "32",
+      "nombre": "SERPIENTE CARPINCHO AVE SECRETARIA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "33",
+      "nombre": "SERPIENTE CARPINCHO ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
+    },
+    {
+      "id": "34",
+      "nombre": "SERPIENTE AVE SECRETARIA ARAÑA",
+      "descripcion": "desc",
+      "porcentaje": 85,
+      "popularidad": 5,
+      "dinero": 10
     }
   ]
 }
