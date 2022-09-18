@@ -50,27 +50,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
 
 
 
-    // public Item _item 
-    // public T ChangeAlpha<T>(this T _item, float newAlpha)
-    //      where T : Graphic
-    //  {
-    //      var color = _item.color;
-    //      color.a = newAlpha;
-    //      _item.color = color;
-    //      return _item;
-    //
-    //         if (_item == null)
-    //         {
-    //             Image.ChangeAlpha(0.5f);
-    //             
-    //         } else
-    //        {
-    //            Image.ChangeAlpha(1f);
-
-    //        }
-
-
-    //   }
+   
 
 
     public void OnPointerClick(PointerEventData eventData)
