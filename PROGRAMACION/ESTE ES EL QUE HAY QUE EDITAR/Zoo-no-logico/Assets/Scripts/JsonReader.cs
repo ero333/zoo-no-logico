@@ -71,10 +71,7 @@ public class JsonReader : MonoBehaviour {
         }
         print(animales);
 
-        for (int i = 0; i < myCruzaList.cruza.Length; i++)
-        {
-            print(myCruzaList.cruza[i].nombre);
-        }
+
 
         switch (animales)
         {
@@ -132,16 +129,28 @@ public class JsonReader : MonoBehaviour {
                 foto.sprite = foto0;
                 break;
         }
-        print(Cruzas.text);
+
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+
+        int forCounter = 0;
+        for (int i = 0; i < myCruzaList.cruza.Length; i++)
+        {
+
+            //int idx = Array.IndexOf(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""), animales.ToUpper());
+            if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
+            {
+                index = forCounter;
+            }
+            forCounter = forCounter + 1;
+            //print(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""));
+        }
+
+
+
         descripcion.text = myCruzaList.cruza[index].descripcion;
         nombre.text = myCruzaList.cruza[index].nombre;
         print(nombre.text);
 
-        if (animal1 == "Carpincho")
-        {
-            print("Pezzi lta");
-        }
 
 
     }
