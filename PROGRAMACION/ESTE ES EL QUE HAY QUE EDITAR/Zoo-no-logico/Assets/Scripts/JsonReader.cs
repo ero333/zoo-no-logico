@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using System;
+using UnityEngine.SceneManagement;
 
 public class JsonReader : MonoBehaviour {
 
@@ -71,20 +72,6 @@ public class JsonReader : MonoBehaviour {
         }
         print(animales);
 
-
-
-        switch (animales)
-        {
-            case "ArañaCarpinchoCocodrilo":
-                index = 11;
-                break;
-            default:
-                print("La mama de tomi esta tremendisima");
-                break;
-        }
-
-
-
         //index = Random.Range(0, 11);
 
         switch (index)
@@ -145,6 +132,11 @@ public class JsonReader : MonoBehaviour {
             //print(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""));
         }
 
+        //CHEQUEAR QUE ESTO ESTE BIEN, SI TE TIRA A CRUZA FALLIDA SIEMPRE COMENTAR LAS 4 LINEAS DE ABAJO
+        if(forCounter == 0)
+        {
+            SceneManager.LoadScene("menu-cruza-fallida");
+        }
 
 
         descripcion.text = myCruzaList.cruza[index].descripcion;
