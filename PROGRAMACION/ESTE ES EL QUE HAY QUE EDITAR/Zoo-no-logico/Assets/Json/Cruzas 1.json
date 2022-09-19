@@ -3,65 +3,65 @@
     {
       "id": "0",
       "nombre": "COCODRILO MURCIELAGO ZORRO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "descripcion": "Aunque solo puede planear, compensa con ser extremadamente ágil.",
+      "porcentaje": 99,
+      "popularidad": 2,
+      "dinero": 5000,
+      "peligrosidad": 1
     },
     {
       "id": "1",
       "nombre": "CARPINCHO COCODRILO ZORRO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "descripcion": "No se enfada fácil, pero cuando pierde la paciencia es letal.",
+      "porcentaje": 40,
+      "popularidad": 6,
+      "dinero": 8000,
+      "peligrosidad": 3
     },
     {
       "id": "2",
       "nombre": "CARPINCHO MURCIELAGO ZORRO",
-      "descripcion": "desc",
-      "porcentaje": 85,
+      "descripcion": "Su temperamento amigable lo hace un candidato perfecto para interactuar con niños.",
+      "porcentaje": 95,
       "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "dinero": 6000,
+      "peligrosidad": 1
     },
     {
       "id": "3",
       "nombre": "CARPINCHO COCODRILO MURCIELAGO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "descripcion": "Es tan fuerte como manso, capaz de cargar varios niños o un adulto en su lomo.",
+      "porcentaje": 45,
+      "popularidad": 2,
+      "dinero": 7000,
+      "peligrosidad": 2
     },
     {
       "id": "4",
       "nombre": "AVE SECRETARIA CARPINCHO COCODRILO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "descripcion": "Un volador rapaz, disfruta de caerle encima a su presa, aplastando su cabeza con los pies.",
+      "porcentaje": 50,
+      "popularidad": 3,
+      "dinero": 5000,
+      "peligrosidad": 2
     },
     {
       "id": "5",
       "nombre": "AVE SECRETARIA COCODRILO MURCIELAGO",
-      "descripcion": "desc",
-      "porcentaje": 85,
+      "descripcion": "Incapaz de volar, planear, o trepar, su único talento es respirar extremadamente fuerte.",
+      "porcentaje": 69,
       "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "dinero": 5000,
+      "peligrosidad": 1
     },
     {
       "id": "6",
       "nombre": "ARAÑA AVE SECRETARIA CARPINCHO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5,
+      "descripcion": "Piensa que su reflejo es otro de su especie, e intenta comunicarse bailando con sus alas.",
+      "porcentaje": 50,
+      "popularidad": 3,
+      "dinero": 7000,
+      "peligrosidad": 1
     },
     {
       "id": "7",
@@ -70,7 +70,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "8",
@@ -79,7 +79,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "9",
@@ -88,7 +88,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "10",
@@ -97,7 +97,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "11",
@@ -106,7 +106,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "12",
@@ -115,7 +115,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "13",
@@ -124,7 +124,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "14",
@@ -133,7 +133,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "15",
@@ -142,7 +142,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "16",
@@ -151,7 +151,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "17",
@@ -160,7 +160,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "18",
@@ -169,7 +169,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "19",
@@ -178,7 +178,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "20",
@@ -187,7 +187,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "21",
@@ -196,7 +196,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "22",
@@ -205,7 +205,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "23",
@@ -214,7 +214,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "24",
@@ -223,7 +223,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "25",
@@ -232,7 +232,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "26",
@@ -241,7 +241,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "27",
@@ -250,7 +250,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "28",
@@ -259,7 +259,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "28",
@@ -268,7 +268,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "29",
@@ -277,7 +277,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "30",
@@ -286,7 +286,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "31",
@@ -295,7 +295,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "32",
@@ -304,7 +304,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "33",
@@ -313,7 +313,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     },
     {
       "id": "34",
@@ -322,7 +322,7 @@
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
-      "peligrosidad": 5,
+      "peligrosidad": 5
     }
   ]
 }
