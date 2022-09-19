@@ -139,16 +139,16 @@ RectTransform:
   m_GameObject: {fileID: 10279184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.93, y: 0.59, z: 1}
   m_Children: []
   m_Father: {fileID: 429650914}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 42, y: -72.5}
+  m_AnchoredPosition: {x: 49.7, y: -87.5}
   m_SizeDelta: {x: 70, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.61, y: 0.3}
 --- !u!114 &10279186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127, y: -72.49999}
+  m_AnchoredPosition: {x: 127, y: -72.5}
   m_SizeDelta: {x: 70, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280324473
@@ -1357,7 +1357,7 @@ RectTransform:
   m_GameObject: {fileID: 1148864453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 0.99995434}
+  m_LocalScale: {x: 0.87, y: 0.63, z: 0.99995434}
   m_Children: []
   m_Father: {fileID: 429650914}
   m_RootOrder: 2
@@ -2418,7 +2418,7 @@ GameObject:
   - component: {fileID: 2042365016}
   m_Layer: 5
   m_Name: SlotInventario4
-  m_TagString: Untagged
+  m_TagString: Zorro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2430,17 +2430,17 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2042365014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99995434, y: 0.99995434, z: 0.99995434}
+  m_LocalPosition: {x: 0, y: 0, z: -9.999962}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.99995434}
   m_Children: []
   m_Father: {fileID: 429650914}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127, y: -151.5}
+  m_AnchoredPosition: {x: 122.8, y: -159}
   m_SizeDelta: {x: 70, y: 75}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.44, y: 0.4}
 --- !u!114 &2042365016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2465,7 +2465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2547,6 +2547,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b93699986b360964fa1499cc9096deef, type: 2}
   - {fileID: 11400000, guid: 04113939c5cbe9c4eb48fcb4eafb9a04, type: 2}
   - {fileID: 11400000, guid: fb0368caeb6157a41a57ca204c802f4d, type: 2}
+  - {fileID: 11400000, guid: b55ae777c51f27d48ba59b6455103e2e, type: 2}
   itemsParent: {fileID: 429650914}
   itemSlots:
   - {fileID: 10279186}
