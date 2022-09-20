@@ -52,24 +52,26 @@ public class JsonCalculatePercent : MonoBehaviour {
     void Update()
     {
         
-            animal1 = PlayerPrefs.GetString("Slot1");
-            animal2 = PlayerPrefs.GetString("Slot2");
-            animal3 = PlayerPrefs.GetString("Slot3");
+            animal1 = PlayerPrefs.GetString("Slot1").Replace(" ", "");
+            animal2 = PlayerPrefs.GetString("Slot2").Replace(" ", ""); 
+            animal3 = PlayerPrefs.GetString("Slot3").Replace(" ", ""); 
         if (animal1.Length > 1 && animal2.Length > 1 && animal3.Length > 1 )
         {
             animalesArray = new string[] { animal1, animal2, animal3 };
             Array.Sort(animalesArray);
 
-
             for (int i = 0; i < animalesArray.Length; i++)
             {
                 animales += animalesArray[i];
             }
+            print(animales);
+            animales.Replace(" ", "");
 
             myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
             int forCounter = 0;
             bool matched = false;
+            print(animales.ToUpper());
             for (int i = 0; i < myCruzaList.cruza.Length; i++)
             {
 

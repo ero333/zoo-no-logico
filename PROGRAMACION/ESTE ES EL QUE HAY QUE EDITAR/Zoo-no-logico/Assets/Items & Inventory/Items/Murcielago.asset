@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 847ab066c0ffd654d9d3e3fcce54c049, type: 3}
   m_Name: Murcielago
   m_EditorClassIdentifier: 
-  ItemName: 
-  Icon: {fileID: 0}
+  ItemName: Murcielago
+  Icon: {fileID: 21300000, guid: 262711383941fc749931ae73a0bc0ef5, type: 3}
   Peligrosidad: 0
   Popularidad: 0
   Dinero: 0

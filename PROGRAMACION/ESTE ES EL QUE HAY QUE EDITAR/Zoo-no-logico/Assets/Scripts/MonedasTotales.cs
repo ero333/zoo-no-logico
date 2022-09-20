@@ -28,7 +28,7 @@ public class MonedasTotales : MonoBehaviour {
     void Update()
     {
 
-        textoMonedas.text = Monedas.ToString();     
+        textoMonedas.text = PlayerPrefs.GetInt("Moneditas").ToString();     
     }
 
     public void ComprarJaulas(int gastarPlata) // este método está recibiendo un int. Si nosotros llamamos este objeto con el botón, en el inspector deberia de aparecer un campo para rellenar

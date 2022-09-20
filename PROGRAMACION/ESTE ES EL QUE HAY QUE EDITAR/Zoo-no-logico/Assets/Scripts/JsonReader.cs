@@ -55,14 +55,16 @@ public class JsonReader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        animal1 = PlayerPrefs.GetString("Slot1");
-        animal2 = PlayerPrefs.GetString("Slot2");
-        animal3 = PlayerPrefs.GetString("Slot3");
+        animal1 = PlayerPrefs.GetString("Slot1").Replace(" ", "");
+        animal2 = PlayerPrefs.GetString("Slot2").Replace(" ", "");
+        animal3 = PlayerPrefs.GetString("Slot3").Replace(" ", "");
 
         animalesArray = new string[] { animal1, animal2, animal3};
         print(animalesArray[2]);
     
         Array.Sort(animalesArray);
+        print(animalesArray[0]);
+        print(animalesArray[1]);
         print(animalesArray[2]);
 
 
