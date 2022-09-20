@@ -24,6 +24,7 @@ TagManager:
   - "Ara\xF1a"
   - Cocodrilo
   - Zorro
+  - ImagenMonedas
   layers:
   - Default
   - TransparentFX

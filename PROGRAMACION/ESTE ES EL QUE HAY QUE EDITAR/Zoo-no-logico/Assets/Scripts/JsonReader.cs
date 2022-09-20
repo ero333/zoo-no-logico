@@ -120,6 +120,7 @@ public class JsonReader : MonoBehaviour {
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
         int forCounter = 0;
+        bool matched = false;
         for (int i = 0; i < myCruzaList.cruza.Length; i++)
         {
 
@@ -127,13 +128,13 @@ public class JsonReader : MonoBehaviour {
             if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
             {
                 index = forCounter;
+                matched = true;
             }
             forCounter = forCounter + 1;
             //print(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""));
         }
-
         //CHEQUEAR QUE ESTO ESTE BIEN, SI TE TIRA A CRUZA FALLIDA SIEMPRE COMENTAR LAS 4 LINEAS DE ABAJO
-        if(forCounter == 0)
+        if(!matched)
         {
             SceneManager.LoadScene("menu-cruza-fallida");
         }

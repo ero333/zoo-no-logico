@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class CombinateByPercent : MonoBehaviour {
 
+    public Text porcentajeText;
+
 	// Use this for initialization
 	void Start () {
-		
-	}
+        print(porcentajeText.text);
+        print(PlayerPrefs.GetFloat("Porcentaje"));
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -18,7 +21,7 @@ public class CombinateByPercent : MonoBehaviour {
 
     public void MoveToCombinationScene()
     {
-        if (PlayerPrefs.GetFloat("Porcentaje")>49)
+        if (PlayerPrefs.GetFloat("Porcentaje")<= int.Parse(porcentajeText.text))
         {
             SceneManager.LoadScene(6);
         }
