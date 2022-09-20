@@ -26,6 +26,30 @@ public class JsonReader : MonoBehaviour {
     public Sprite foto9;
     public Sprite foto10;
     public Sprite foto11;
+    public Sprite foto12;
+    public Sprite foto13;
+    public Sprite foto14;
+    public Sprite foto15;
+    public Sprite foto16;
+    public Sprite foto17;
+    public Sprite foto18;
+    public Sprite foto19;
+    public Sprite foto20;
+    public Sprite foto21;
+    public Sprite foto22;
+    public Sprite foto23;
+    public Sprite foto24;
+    public Sprite foto25;
+    public Sprite foto26;
+    public Sprite foto27;
+    public Sprite foto28;
+    public Sprite foto29;
+    public Sprite foto30;
+    public Sprite foto31;
+    public Sprite foto32;
+    public Sprite foto33;
+    public Sprite foto34;
+
 
     private string animal1;
     private string animal2;
