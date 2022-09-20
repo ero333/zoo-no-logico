@@ -66,7 +66,7 @@
     {
       "id": "7",
       "nombre": "ARAÑA AVE SECRETARIA COCODRILO",
-      "descripcion": "desc",
+      "descripcion": "Cuando extiende sus alas, sus rayas pueden atraer a cualquier presa o amigo posible.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -75,7 +75,7 @@
     {
       "id": "8",
       "nombre": "ARAÑA CARPINCHO COCODRILO",
-      "descripcion": "desc",
+      "descripcion": "Es difícil encontrárselo, ya que vive en madrigueras, escondido, porque es muy tímido.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -84,7 +84,7 @@
     {
       "id": "9",
       "nombre": "ARAÑA CARPINCHO ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Cuando se siente amenazado, sus colmillos, orejas y cola vibran y emiten un ruido discordante.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -93,7 +93,7 @@
     {
       "id": "10",
       "nombre": "ARAÑA COCODRILO MURCIELAGO",
-      "descripcion": "desc",
+      "descripcion": "Este animal nunca toca el suelo. Cuando tiene sueño, enrieda su cola en las ramas más altas de los árboles.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -102,7 +102,7 @@
     {
       "id": "11",
       "nombre": "ARAÑA MURCIELAGO ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Necesita alimentarse y llenarse a toda hora del día para mantenerse saludable.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -111,7 +111,7 @@
     {
       "id": "12",
       "nombre": "ARAÑA CARPINCHO MURCIELAGO",
-      "descripcion": "desc",
+      "descripcion": "Se alimenta de la sangre de todo ser vivo que es del grupo de sangre A.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -120,7 +120,7 @@
     {
       "id": "13",
       "nombre": "AVE SECRETARIA CARPINCHO ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Elegante y ágil, su mayor deseo es ser mimado constantemente.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -129,7 +129,7 @@
     {
       "id": "14",
       "nombre": "AVE SECRETARIA CARPINCHO MURCIELAGO",
-      "descripcion": "desc",
+      "descripcion": "Este animal tiene un autoestima delicada, sufre si no vive en una comunidad que él lidera.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -137,8 +137,8 @@
     },
     {
       "id": "15",
-      "nombre": "ARAÑA COCODRILO MURCIELAGO",
-      "descripcion": "desc",
+      "nombre": "ARAÑA AVE SECRETARIA ZORRO",
+      "descripcion": "Inteligente y sádico, siempre sabe cómo aterrorizar a sus víctimas.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -146,8 +146,8 @@
     },
     {
       "id": "16",
-      "nombre": "ARAÑA AVE SECRETARIA ZORRO",
-      "descripcion": "desc",
+      "nombre": "ARAÑA AVE SECRETARIA MURCIELAGO",
+      "descripcion": "Es extremadamente observador, aprende a utilizar sus patas copiando a los humanos.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -155,8 +155,8 @@
     },
     {
       "id": "17",
-      "nombre": "ARAÑA AVE SECRETARIA MURCIELAGO",
-      "descripcion": "desc",
+      "nombre": "AVE SECRETARIA MURCIELAGO ZORRO",
+      "descripcion": "Cuando el sol se esconde, cacarea hasta el amanecer. Requiere cambios de guardia constante para no enloquecerlos.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -164,15 +164,6 @@
     },
     {
       "id": "18",
-      "nombre": "AVE SECRETARIA MURCIELAGO ZORRO",
-      "descripcion": "desc",
-      "porcentaje": 85,
-      "popularidad": 5,
-      "dinero": 10,
-      "peligrosidad": 5
-    },
-    {
-      "id": "19",
       "nombre": "AVE SECRETARIA COCODRILO ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -181,7 +172,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "20",
+      "id": "19",
       "nombre": "ARAÑA COCODRILO ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -190,7 +181,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "21",
+      "id": "20",
       "nombre": "MURCIELAGO SERPIENTE ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -199,7 +190,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "22",
+      "id": "21",
       "nombre": "COCODRILO SERPIENTE ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -208,7 +199,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "23",
+      "id": "22",
       "nombre": "CARPINCHO SERPIENTE ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -217,7 +208,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "24",
+      "id": "23",
       "nombre": "AVE SECRETARIA SERPIENTE ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -226,7 +217,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "25",
+      "id": "24",
       "nombre": "ARAÑA SERPIENTE ZORRO",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -235,7 +226,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "26",
+      "id": "25",
       "nombre": "COCODRILO MURCIELAGO SERPIENTE",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -244,7 +235,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "27",
+      "id": "26",
       "nombre": "CARPINCHO MURCIELAGO SERPIENTE",
       "descripcion": "desc",
       "porcentaje": 85,
@@ -253,7 +244,7 @@
       "peligrosidad": 5
     },
     {
-      "id": "28",
+      "id": "27",
       "nombre": "AVE SECRETARIA MURCIELAGO SERPIENTE",
       "descripcion": "desc",
       "porcentaje": 85,
