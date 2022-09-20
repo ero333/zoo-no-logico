@@ -25,6 +25,7 @@ TagManager:
   - Cocodrilo
   - Zorro
   - ImagenMonedas
+  - TextoDias
   layers:
   - Default
   - TransparentFX
