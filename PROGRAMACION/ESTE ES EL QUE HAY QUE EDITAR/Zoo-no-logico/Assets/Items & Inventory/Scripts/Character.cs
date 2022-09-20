@@ -15,12 +15,14 @@ public class Character : MonoBehaviour
     private ItemSlot draggedSlot;
 
 
-    public Image grabArrow;
+    public Texture2D grabArrow;
+    public Texture2D arrow;
 
 
 
     private void Awake() // AGREAMOS LISTENER EN EL EVENTO DE INVENTORY, O SEA, EL CLICK. Y VA A LLAMAR AL EVENTO DE EQUIPAR
     {
+        Cursor.SetCursor(arrow, Vector2.zero, CursorMode.ForceSoftware);
 
         // setup events 
         //click derecho
@@ -63,19 +65,22 @@ public class Character : MonoBehaviour
 
     private void BeginDrag (ItemSlot itemSlot)
     {
-        grabArrow = draggableItem;
+        //grabArrow = draggableItem;
 
         if (itemSlot.Item != null)
         {
-
+            //Esto funciona
             draggedSlot = itemSlot;
             draggableItem.sprite = itemSlot.Item.Icon;
-            //grabArrow = itemSlot.Item.Icon;
             //itemSlot.Item.Icon = Input.mousePosition;
             draggableItem.transform.position = Input.mousePosition;
             draggableItem.enabled = true;
-            //Cursor.SetCursor(grabArrow, Vector2.zero, CursorMode.ForceSoftware);
             Debug.Log("EMPIEZA EL DRAGEO");
+
+            //Pruebas
+            //Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+            //transform.Translate(mousePosition);
+            Cursor.SetCursor(grabArrow, Vector2.zero, CursorMode.ForceSoftware);
         }
     }
 
@@ -83,6 +88,7 @@ public class Character : MonoBehaviour
     {
         draggedSlot = null;
         draggableItem.enabled = false;
+        Cursor.SetCursor(arrow, Vector2.zero, CursorMode.ForceSoftware);
     }
 
     private void Drag(ItemSlot itemSlot)
