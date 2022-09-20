@@ -15,6 +15,9 @@ public class Character : MonoBehaviour
     private ItemSlot draggedSlot;
 
 
+    public Image grabArrow;
+
+
 
     private void Awake() // AGREAMOS LISTENER EN EL EVENTO DE INVENTORY, O SEA, EL CLICK. Y VA A LLAMAR AL EVENTO DE EQUIPAR
     {
@@ -60,15 +63,19 @@ public class Character : MonoBehaviour
 
     private void BeginDrag (ItemSlot itemSlot)
     {
-        
+        grabArrow = draggableItem;
 
         if (itemSlot.Item != null)
         {
 
             draggedSlot = itemSlot;
             draggableItem.sprite = itemSlot.Item.Icon;
+            //grabArrow = itemSlot.Item.Icon;
+            //itemSlot.Item.Icon = Input.mousePosition;
             draggableItem.transform.position = Input.mousePosition;
             draggableItem.enabled = true;
+            //Cursor.SetCursor(grabArrow, Vector2.zero, CursorMode.ForceSoftware);
+            Debug.Log("EMPIEZA EL DRAGEO");
         }
     }
 
@@ -80,11 +87,17 @@ public class Character : MonoBehaviour
 
     private void Drag(ItemSlot itemSlot)
     {
-        
+
+       
+
         if (!draggableItem.enabled)
         {
 
             draggableItem.transform.position = Input.mousePosition;
+       
+         
+             
+
         }
         
     }
