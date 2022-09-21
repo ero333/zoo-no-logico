@@ -84,21 +84,36 @@ public class JsonReader : MonoBehaviour {
         animal3 = PlayerPrefs.GetString("Slot3").Replace(" ", "");
 
         animalesArray = new string[] { animal1, animal2, animal3};
-        print(animalesArray[2]);
+ 
     
         Array.Sort(animalesArray);
-        print(animalesArray[0]);
-        print(animalesArray[1]);
-        print(animalesArray[2]);
+
 
 
         for(int i = 0; i<animalesArray.Length; i++)
         {
             animales += animalesArray[i];
         }
-        print(animales);
+
 
         //index = Random.Range(0, 11);
+
+        
+        myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+
+        int forCounter = 0;
+        bool matched = false;
+        for (int i = 0; i < myCruzaList.cruza.Length; i++)
+        {
+
+            //int idx = Array.IndexOf(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""), animales.ToUpper());
+            if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
+            {
+                index = forCounter;
+                matched = true;
+            }
+            forCounter = forCounter + 1;
+        }
 
         switch (index)
         {
@@ -138,29 +153,90 @@ public class JsonReader : MonoBehaviour {
             case 11:
                 foto.sprite = foto11;
                 break;
+            case 12:
+                foto.sprite = foto12;
+                break;
+            case 13:
+                foto.sprite = foto13;
+                break;
+            case 14:
+                foto.sprite = foto14;
+                break;
+            case 15:
+                foto.sprite = foto15;
+                break;
+            case 16:
+                foto.sprite = foto16;
+                break;
+            case 17:
+                foto.sprite = foto17;
+                break;
+            case 18:
+                foto.sprite = foto18;
+                break;
+            case 19:
+                foto.sprite = foto19;
+                break;
+            case 20:
+                foto.sprite = foto20;
+                break;
+            case 21:
+                foto.sprite = foto21;
+                break;
+            case 22:
+                foto.sprite = foto22;
+                break;
+            case 23:
+                foto.sprite = foto23;
+                break;
+            case 24:
+                foto.sprite = foto24;
+                break;
+            case 25:
+                foto.sprite = foto25;
+                break;
+            case 26:
+                foto.sprite = foto26;
+                break;
+            case 27:
+                foto.sprite = foto27;
+                break;
+            case 28:
+                foto.sprite = foto28;
+                break;
+            case 29:
+                foto.sprite = foto29;
+                break;
+            case 30:
+                foto.sprite = foto30;
+                break;
+            case 31:
+                foto.sprite = foto31;
+                break;
+            case 32:
+                foto.sprite = foto32;
+                break;
+            case 33:
+                foto.sprite = foto33;
+                break;
+            case 34:
+                foto.sprite = foto34;
+                break;
             default:
-                foto.sprite = foto0;
+                SceneManager.LoadScene("menu-cruza-fallida");
                 break;
         }
-
-        myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
-
-        int forCounter = 0;
-        bool matched = false;
-        for (int i = 0; i < myCruzaList.cruza.Length; i++)
+        print(index);
+        print(foto.sprite);
+        if (!foto.sprite)
         {
-
-            //int idx = Array.IndexOf(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""), animales.ToUpper());
-            if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
-            {
-                index = forCounter;
-                matched = true;
-            }
-            forCounter = forCounter + 1;
-            //print(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""));
+            SceneManager.LoadScene("menu-cruza-fallida");
         }
+
+
+
         //CHEQUEAR QUE ESTO ESTE BIEN, SI TE TIRA A CRUZA FALLIDA SIEMPRE COMENTAR LAS 4 LINEAS DE ABAJO
-        if(!matched)
+        if (!matched)
         {
             SceneManager.LoadScene("menu-cruza-fallida");
         }
@@ -168,7 +244,6 @@ public class JsonReader : MonoBehaviour {
 
         descripcion.text = myCruzaList.cruza[index].descripcion;
         nombre.text = myCruzaList.cruza[index].nombre;
-        print(nombre.text);
 
 
 
