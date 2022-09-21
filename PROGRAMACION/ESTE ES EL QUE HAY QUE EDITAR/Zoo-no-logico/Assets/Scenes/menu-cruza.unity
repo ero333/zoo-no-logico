@@ -630,6 +630,7 @@ RectTransform:
   - {fileID: 2042365015}
   - {fileID: 437196937}
   - {fileID: 1618272353}
+  - {fileID: 987008775}
   m_Father: {fileID: 2045310780}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -674,7 +675,7 @@ GameObject:
   - component: {fileID: 437196938}
   m_Layer: 5
   m_Name: SlotInventario5
-  m_TagString: Untagged
+  m_TagString: Murcielago
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +688,7 @@ RectTransform:
   m_GameObject: {fileID: 437196936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999883, y: 0.9999883, z: 0.9999883}
+  m_LocalScale: {x: 1, y: 0.7, z: 0.9999883}
   m_Children: []
   m_Father: {fileID: 429650914}
   m_RootOrder: 4
@@ -721,14 +722,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 175dadea2e4ef4947aef4bbe74b0ef5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 262711383941fc749931ae73a0bc0ef5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1216,6 +1217,88 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224603925215389656, guid: ab14ac5e388da1b4f965bb525272286e,
     type: 2}
   m_PrefabInternal: {fileID: 1312430236}
+--- !u!1 &987008774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987008775}
+  - component: {fileID: 987008778}
+  - component: {fileID: 987008777}
+  - component: {fileID: 987008776}
+  m_Layer: 5
+  m_Name: SlotInventario7
+  m_TagString: Ave
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &987008775
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987008774}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.000033, y: 0.70011306, z: 1.000033}
+  m_Children: []
+  m_Father: {fileID: 429650914}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 42, y: -309.5}
+  m_SizeDelta: {x: 70, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &987008776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987008774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 987008777}
+--- !u!114 &987008777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987008774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 5ca973756a34c814489f1dc40ecf156a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &987008778
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987008774}
+  m_CullTransparentMesh: 0
 --- !u!1 &1102056910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,7 +2150,7 @@ GameObject:
   - component: {fileID: 1618272354}
   m_Layer: 5
   m_Name: SlotInventario6
-  m_TagString: Untagged
+  m_TagString: Serpiente
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2080,7 +2163,7 @@ RectTransform:
   m_GameObject: {fileID: 1618272352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999883, y: 0.9999883, z: 0.9999883}
+  m_LocalScale: {x: 1, y: 0.7, z: 0.9999883}
   m_Children: []
   m_Father: {fileID: 429650914}
   m_RootOrder: 5
@@ -2114,14 +2197,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 175dadea2e4ef4947aef4bbe74b0ef5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06f0ee39cfc86304eaddca8b631948bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2228,6 +2311,7 @@ GameObject:
   - component: {fileID: 1715862721}
   - component: {fileID: 1715862720}
   - component: {fileID: 1715862724}
+  - component: {fileID: 1715862725}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2288,7 +2372,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2364,6 +2448,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animal: {fileID: 1137708153}
+--- !u!114 &1715862725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1715862718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dee853bf00d4f7499fc5e28e79183fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combinationButton: {fileID: 1715862721}
 --- !u!1 &1858799034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,6 +2809,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 04113939c5cbe9c4eb48fcb4eafb9a04, type: 2}
   - {fileID: 11400000, guid: fb0368caeb6157a41a57ca204c802f4d, type: 2}
   - {fileID: 11400000, guid: b55ae777c51f27d48ba59b6455103e2e, type: 2}
+  - {fileID: 11400000, guid: 4937ecd189301c344ae7d5ee0bfb7a8c, type: 2}
+  - {fileID: 11400000, guid: 90f37f21974a62944ad44b26c0bc5415, type: 2}
+  - {fileID: 11400000, guid: fffa0e2dc952bf042bc0efa4658df241, type: 2}
   itemsParent: {fileID: 429650914}
   itemSlots:
   - {fileID: 10279186}
@@ -2721,6 +2820,7 @@ MonoBehaviour:
   - {fileID: 2042365016}
   - {fileID: 437196938}
   - {fileID: 1618272354}
+  - {fileID: 987008776}
 --- !u!222 &2045310782
 CanvasRenderer:
   m_ObjectHideFlags: 0

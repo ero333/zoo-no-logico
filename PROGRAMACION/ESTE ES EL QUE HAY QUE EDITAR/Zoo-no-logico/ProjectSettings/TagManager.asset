@@ -26,6 +26,10 @@ TagManager:
   - Zorro
   - ImagenMonedas
   - TextoDias
+  - NewTextoMonedas
+  - Murcielago
+  - Ave
+  - Serpiente
   layers:
   - Default
   - TransparentFX

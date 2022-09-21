@@ -443,7 +443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 551.5, y: 294.40002}
+  m_AnchoredPosition: {x: 97.48, y: 65}
   m_SizeDelta: {x: 97.48, y: 51.97}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &400782166
@@ -1102,6 +1102,29 @@ MonoBehaviour:
   foto9: {fileID: 21300000, guid: 0d52202125e3bfb4591b35847d03a9ef, type: 3}
   foto10: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
   foto11: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
+  foto12: {fileID: 0}
+  foto13: {fileID: 0}
+  foto14: {fileID: 0}
+  foto15: {fileID: 0}
+  foto16: {fileID: 0}
+  foto17: {fileID: 0}
+  foto18: {fileID: 0}
+  foto19: {fileID: 0}
+  foto20: {fileID: 0}
+  foto21: {fileID: 0}
+  foto22: {fileID: 0}
+  foto23: {fileID: 0}
+  foto24: {fileID: 0}
+  foto25: {fileID: 0}
+  foto26: {fileID: 0}
+  foto27: {fileID: 0}
+  foto28: {fileID: 0}
+  foto29: {fileID: 0}
+  foto30: {fileID: 0}
+  foto31: {fileID: 0}
+  foto32: {fileID: 0}
+  foto33: {fileID: 0}
+  foto34: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!1 &1361319122

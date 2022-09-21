@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 10243779}
   - component: {fileID: 10243783}
   - component: {fileID: 10243782}
+  - component: {fileID: 10243785}
   - component: {fileID: 10243781}
   - component: {fileID: 10243780}
   - component: {fileID: 10243784}
@@ -265,6 +266,19 @@ MonoBehaviour:
   testMonedas: {fileID: 437786439}
   Button: {fileID: 0}
   testMonedas2: {fileID: 942967496}
+--- !u!114 &10243785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10243778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b364a679c5c8a4196bd2db267977a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jaulasTotales: 20
+  boton: {fileID: 10243781}
 --- !u!1 &107397001
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +661,7 @@ GameObject:
   - component: {fileID: 201525070}
   - component: {fileID: 201525069}
   - component: {fileID: 201525068}
+  - component: {fileID: 201525066}
   - component: {fileID: 201525067}
   - component: {fileID: 201525071}
   m_Layer: 5
@@ -656,6 +671,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &201525066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201525065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b364a679c5c8a4196bd2db267977a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jaulasTotales: 20
+  boton: {fileID: 201525067}
 --- !u!114 &201525067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2068,6 +2096,7 @@ GameObject:
   - component: {fileID: 1238624818}
   - component: {fileID: 1238624817}
   - component: {fileID: 1238624816}
+  - component: {fileID: 1238624820}
   - component: {fileID: 1238624815}
   - component: {fileID: 1238624814}
   - component: {fileID: 1238624819}
@@ -2210,6 +2239,19 @@ MonoBehaviour:
   testMonedas: {fileID: 437786439}
   Button: {fileID: 0}
   testMonedas2: {fileID: 942967496}
+--- !u!114 &1238624820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238624813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b364a679c5c8a4196bd2db267977a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jaulasTotales: 20
+  boton: {fileID: 1238624815}
 --- !u!1 &1291227120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2584,7 +2626,6 @@ GameObject:
   - component: {fileID: 1576139900}
   - component: {fileID: 1576139899}
   - component: {fileID: 1576139903}
-  - component: {fileID: 1576139904}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2704,36 +2745,6 @@ MonoBehaviour:
   testMonedas: {fileID: 0}
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
---- !u!114 &1576139904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1576139898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 015594311cc981444bd32e0207d8b67c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
-  descripcion: {fileID: 0}
-  nombre: {fileID: 0}
-  index: 0
-  foto: {fileID: 0}
-  foto0: {fileID: 0}
-  foto1: {fileID: 0}
-  foto2: {fileID: 0}
-  foto3: {fileID: 0}
-  foto4: {fileID: 0}
-  foto5: {fileID: 0}
-  foto6: {fileID: 0}
-  foto7: {fileID: 0}
-  foto8: {fileID: 0}
-  foto9: {fileID: 0}
-  foto10: {fileID: 0}
-  foto11: {fileID: 0}
-  myCruzaList:
-    cruza: []
 --- !u!1 &1653896708
 GameObject:
   m_ObjectHideFlags: 0

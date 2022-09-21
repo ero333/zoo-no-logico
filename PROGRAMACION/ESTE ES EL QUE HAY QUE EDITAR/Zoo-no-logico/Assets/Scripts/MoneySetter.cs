@@ -18,11 +18,13 @@ public class MoneySetter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        moneyQty = GameObject.FindGameObjectWithTag("TextoMonedas").GetComponent<Text>();
+        //moneyQty = GameObject.FindGameObjectsWithTag("TextoMonedas").GetComponent<Text>();
+        for (int i = 0; i < GameObject.FindGameObjectsWithTag("TextoMonedas").Length; i++)
+        {
+            GameObject.FindGameObjectsWithTag("TextoMonedas")[i].GetComponent<Text>().text = Monedas.ToString();
+        }
         Monedas = PlayerPrefs.GetInt("Moneditas");
-        moneyQty.text = Monedas.ToString();
-
-        monedaImg = GameObject.FindGameObjectWithTag("ImagenMonedas").GetComponent<Sprite>();
-        monedaImg = Moneda;
+        //monedaImg = GameObject.FindGameObjectWithTag("ImagenMonedas").GetComponent<Sprite>();
+        //monedaImg = Moneda;
     }
 }
