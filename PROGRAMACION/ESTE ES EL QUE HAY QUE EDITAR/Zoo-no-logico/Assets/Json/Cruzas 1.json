@@ -165,7 +165,7 @@
     {
       "id": "18",
       "nombre": "AVE SECRETARIA COCODRILO ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Baila para comunicarse, para enfrentarse a otros, y para pasar el tiempo; puede aprender bailes nuevos a lo largo de toda su vida.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -174,7 +174,7 @@
     {
       "id": "19",
       "nombre": "ARAÑA COCODRILO ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Se ve peligroso, y ES peligroso.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -183,7 +183,7 @@
     {
       "id": "20",
       "nombre": "MURCIELAGO SERPIENTE ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Aunque parece peligroso, es una criatura tímida y sumisa, y requiere un animal de compañía.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
