@@ -26,7 +26,7 @@ public class Character : MonoBehaviour
 
         // setup events 
         //click derecho
-        inventory.OnRightClickEvent += Equip;
+        //inventory.OnRightClickEvent += Equip;
         equipmentPanel.OnRightClickEvent += Unequip;
         //empieza drageo
         inventory.OnBeginDragEvent += BeginDrag;
@@ -56,11 +56,11 @@ public class Character : MonoBehaviour
 
     private void Unequip(ItemSlot itemSlot)
     {
-       EquippableItem equippableItem = itemSlot.Item as EquippableItem;
+        EquippableItem equippableItem = itemSlot.Item as EquippableItem;
         if (equippableItem != null)
-       {
+        {
             Unequip(equippableItem);
-       }
+        }
     }
 
     private void BeginDrag (ItemSlot itemSlot)
@@ -118,8 +118,8 @@ public class Character : MonoBehaviour
             if(draggedSlot is SlotDeCruza)
             {
                 print("Caso A");
-                if (dragItem != null) dragItem.Unequip(this);
-                if (dropItem != null) dropItem.Equip(this);
+                if (dragItem != null) dragItem.unequip(this);
+                if (dropItem != null) dropItem.equip(this);
             }
 
             if (dropitemSlot is SlotDeCruza)
@@ -127,8 +127,8 @@ public class Character : MonoBehaviour
                 print(dropitemSlot.tag.ToString());
                 print(draggedSlot.Item.name);
                 PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
-                if (dragItem != null) dragItem.Equip(this);
-                if (dropItem != null) dropItem.Unequip(this);
+                if (dragItem != null) dragItem.equip(this);
+                if (dropItem != null) dropItem.unequip(this);
             }
 
             Item draggedItem = draggedSlot.Item;
@@ -142,30 +142,30 @@ public class Character : MonoBehaviour
     //ACA VAMOS A CONTROLAR QUE PASA CUANDO EQUIPAMOS Y DESEQUIPAMOS ALGO DEL "MENU DE CRUZA"
 
     public void Equip(EquippableItem item) //CUANDO EQUIPAMOS NECESITAMOS REMOVER EL ITEM DEL INVENTARIO Y LLEVARLO AL MENU DE CRUZA
+    {
+        if (inventory.RemoveItem(item))
         {
-            if (inventory.RemoveItem(item))
+            EquippableItem previousItem;
+            if (equipmentPanel.AddItem(item, out previousItem))
             {
-                EquippableItem previousItem;
-                if (equipmentPanel.AddItem(item, out previousItem))
+                if (previousItem != null) //SI HAY ALGO EN EL SLOT DEL MENU DE CRUZA, LO DEVUELVE AL INVENTARIO
                 {
-                    if (previousItem != null) //SI HAY ALGO EN EL SLOT DEL MENU DE CRUZA, LO DEVUELVE AL INVENTARIO
-                    {
-                        inventory.AddItem(previousItem);
-                    }
-                }
-                else // SI POR ALGUNA RAZON NO PODEMOS EQUIPAR EL ITEM EN EL MENU DE CRUZA, LO VA A DEVOLVER AL INVENTORY
-                {
-                    inventory.AddItem(item);
+                    inventory.AddItem(previousItem);
                 }
             }
-        }
-
-        public void Unequip(EquippableItem item) //CUANDO DESEQUIPAMOS UN ITEM TENEMOS QUE ASEGURARNOS DE QUE EL INVENTARIO NO ESTÉ LLENO PRIMERO
-        {
-            if (!inventory.IsFull() && equipmentPanel.RemoveItem(item)) //DESPUES QUITAMOS EL ITEM DEL MENU DE CRUZA Y LO MANDAMOS AL INVENTARIO
+            else // SI POR ALGUNA RAZON NO PODEMOS EQUIPAR EL ITEM EN EL MENU DE CRUZA, LO VA A DEVOLVER AL INVENTORY
             {
                 inventory.AddItem(item);
             }
         }
+    }
+
+    public void Unequip(EquippableItem item) //CUANDO DESEQUIPAMOS UN ITEM TENEMOS QUE ASEGURARNOS DE QUE EL INVENTARIO NO ESTÉ LLENO PRIMERO
+    {
+        if (!inventory.IsFull() && equipmentPanel.RemoveItem(item)) //DESPUES QUITAMOS EL ITEM DEL MENU DE CRUZA Y LO MANDAMOS AL INVENTARIO
+        {
+            inventory.AddItem(item);
+        }
+    }
 
 }

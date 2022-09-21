@@ -34,14 +34,14 @@ public class EquippableItem : Item //ESTO SIRVE PARA DECLARAR CUALES SON LOS ITE
 
 
 
-    public void Unequip(Character c)
+    public void unequip(Character c)
     {
 
     }
 
-    public void Equip(Character c)
+    public void equip(Character c)
     {
 
-        //Debug.Log(EquipmentType.Animal);
+        //debug.log(equipmenttype.animal);
     }
 }

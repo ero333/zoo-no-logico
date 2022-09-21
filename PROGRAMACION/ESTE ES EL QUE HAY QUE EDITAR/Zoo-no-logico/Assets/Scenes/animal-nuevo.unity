@@ -443,7 +443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 97.48, y: 65}
+  m_AnchoredPosition: {x: 97.47998, y: 65}
   m_SizeDelta: {x: 97.48, y: 51.97}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &400782166
@@ -1090,41 +1090,41 @@ MonoBehaviour:
   nombre: {fileID: 2075926703}
   index: 0
   foto: {fileID: 1509007540}
-  foto0: {fileID: 21300000, guid: 628f0959bdcf772459788450c9091b9a, type: 3}
-  foto1: {fileID: 21300000, guid: f1105f82d7f6b984d883a8717d5beb22, type: 3}
-  foto2: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
-  foto3: {fileID: 21300000, guid: 83735ed2e6ef03b4e921956da30f2d9a, type: 3}
-  foto4: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
-  foto5: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
+  foto0: {fileID: 21300000, guid: dc9cece1eef1ba04eb8f8140f0f5b5cd, type: 3}
+  foto1: {fileID: 21300000, guid: 92e335cf4c4fc7543b3693236ce9c293, type: 3}
+  foto2: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
+  foto3: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
+  foto4: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
+  foto5: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
   foto6: {fileID: 21300000, guid: 06018fa678ecba947a10943b371bca36, type: 3}
-  foto7: {fileID: 21300000, guid: 859a7dbe8bac3774db1867bb280206d0, type: 3}
-  foto8: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
+  foto7: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
+  foto8: {fileID: 21300000, guid: 628f0959bdcf772459788450c9091b9a, type: 3}
   foto9: {fileID: 21300000, guid: 0d52202125e3bfb4591b35847d03a9ef, type: 3}
-  foto10: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
-  foto11: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
-  foto12: {fileID: 0}
-  foto13: {fileID: 0}
-  foto14: {fileID: 0}
-  foto15: {fileID: 0}
-  foto16: {fileID: 0}
-  foto17: {fileID: 0}
-  foto18: {fileID: 0}
-  foto19: {fileID: 0}
-  foto20: {fileID: 0}
+  foto10: {fileID: 21300000, guid: b6869b4c117e210488e471b505606a69, type: 3}
+  foto11: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
+  foto12: {fileID: 21300000, guid: 83735ed2e6ef03b4e921956da30f2d9a, type: 3}
+  foto13: {fileID: 21300000, guid: b46849a7a6f731242a48a14ec7d87655, type: 3}
+  foto14: {fileID: 21300000, guid: 859a7dbe8bac3774db1867bb280206d0, type: 3}
+  foto15: {fileID: 21300000, guid: 79de84392b2bafe4facff5dda596c5e7, type: 3}
+  foto16: {fileID: 21300000, guid: 48324a52d74c20e4f838332c887c0750, type: 3}
+  foto17: {fileID: 21300000, guid: 004e3a3d1d48cb541b525d1169e1160f, type: 3}
+  foto18: {fileID: 21300000, guid: 03836098cf4f79f4daa17d3edd818628, type: 3}
+  foto19: {fileID: 21300000, guid: 3192b353b04d1bf408eb778001fdf95c, type: 3}
+  foto20: {fileID: 21300000, guid: 5daea7bc402d2384294bfcbe098417fa, type: 3}
   foto21: {fileID: 0}
-  foto22: {fileID: 0}
-  foto23: {fileID: 0}
-  foto24: {fileID: 0}
+  foto22: {fileID: 21300000, guid: 08c747ae1a80ea143a70e1e7c614f227, type: 3}
+  foto23: {fileID: 21300000, guid: a9d587245e7d3c94f8b2eea1d832e1a7, type: 3}
+  foto24: {fileID: 21300000, guid: e688acb27c28e0b46a11aa2eabcdd197, type: 3}
   foto25: {fileID: 0}
-  foto26: {fileID: 0}
-  foto27: {fileID: 0}
-  foto28: {fileID: 0}
-  foto29: {fileID: 0}
+  foto26: {fileID: 21300000, guid: d9fe214d2c0c9a8488995285cd84561c, type: 3}
+  foto27: {fileID: 21300000, guid: dc34e7cd375598d4a8fec7f125fcd21a, type: 3}
+  foto28: {fileID: 21300000, guid: 706a827a84fc53746aaf9c6eaf5eea06, type: 3}
+  foto29: {fileID: 21300000, guid: 301bb1470cc191a498350443cbf0f8b5, type: 3}
   foto30: {fileID: 0}
-  foto31: {fileID: 0}
-  foto32: {fileID: 0}
-  foto33: {fileID: 0}
-  foto34: {fileID: 0}
+  foto31: {fileID: 21300000, guid: cd8fe4744d3ace547b5e500655f9be55, type: 3}
+  foto32: {fileID: 21300000, guid: ae7ad0d20539a934c8d75b87b7aeb995, type: 3}
+  foto33: {fileID: 21300000, guid: 6511f9c213c1d644bad9cfa6d4fb872e, type: 3}
+  foto34: {fileID: 21300000, guid: 5d608b029b7f12b418fd916fab8a2a55, type: 3}
   myCruzaList:
     cruza: []
 --- !u!1 &1361319122

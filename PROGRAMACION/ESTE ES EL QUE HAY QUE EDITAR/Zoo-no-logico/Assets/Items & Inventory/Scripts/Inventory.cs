@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] Transform itemsParent;
     [SerializeField] ItemSlot[] itemSlots;
 
-    public event Action<ItemSlot> OnRightClickEvent;
+    //public event Action<ItemSlot> OnRightClickEvent;
     public event Action<ItemSlot> OnBeginDragEvent;
     public event Action<ItemSlot> OnEndDragEvent;
     public event Action<ItemSlot> OnDragEvent;
@@ -20,7 +20,7 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
-            itemSlots[i].OnRightClickEvent += OnRightClickEvent;
+           // itemSlots[i].OnRightClickEvent += OnRightClickEvent;
             itemSlots[i].OnBeginDragEvent += OnBeginDragEvent;
             itemSlots[i].OnEndDragEvent += OnEndDragEvent;
             itemSlots[i].OnDragEvent += OnDragEvent;
