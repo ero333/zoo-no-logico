@@ -25,6 +25,14 @@ public class CuposJaulas : MonoBehaviour
         textoJaulas.text = numJaulasOcupadas.ToString();
 
         numJaulasOcupadas = PlayerPrefs.GetInt("Jaulitas");
+
+
+
+        if (Input.GetKeyDown("space"))
+        {
+            numJaulasOcupadas++;
+            PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
+        }
     }
 
     public void OcuparJaulas()
@@ -53,5 +61,7 @@ public class CuposJaulas : MonoBehaviour
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
     }
+
+
 
 }

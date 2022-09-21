@@ -47,6 +47,8 @@ public class Jaula : MonoBehaviour {
         Jaulas = PlayerPrefs.GetInt("Jaulitas");
 
 
+
+
         switch (Jaulas)
         {
 
