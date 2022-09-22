@@ -192,7 +192,7 @@
     {
       "id": "21",
       "nombre": "COCODRILO SERPIENTE ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Roba objetos brillantes usando su lengua como la de una rana, muchas veces de los visitantes si no se le supervisa.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -201,7 +201,7 @@
     {
       "id": "22",
       "nombre": "CARPINCHO SERPIENTE ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Chilla como una rana de lluvia del desierto cuando se enoja, se asusta, o quiere comunicarse.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -210,7 +210,7 @@
     {
       "id": "23",
       "nombre": "AVE SECRETARIA SERPIENTE ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Suele enroscarse alrededor de su propio cuerpo para no sentir frío.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -219,7 +219,7 @@
     {
       "id": "24",
       "nombre": "ARAÑA SERPIENTE ZORRO",
-      "descripcion": "desc",
+      "descripcion": "Teniendo una cabeza grande y patas cortitas y pequeñas, este animal sufre diariamente.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -228,7 +228,7 @@
     {
       "id": "25",
       "nombre": "COCODRILO MURCIELAGO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Sus brazos y alas se encuentran interconectados, haciendo que deba aletear son los primeros para poder volar.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -237,7 +237,7 @@
     {
       "id": "26",
       "nombre": "CARPINCHO MURCIELAGO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Sería un buen candidato para interactuar con niños si no intentara pastorearlos a un rincón para quedárselos como sus crías.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -246,7 +246,7 @@
     {
       "id": "27",
       "nombre": "AVE SECRETARIA MURCIELAGO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Si ve gente con ropa colorida, tratara de lanzarse contra ellos - se golpea mucho con el vidrio de su jaula.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -255,7 +255,7 @@
     {
       "id": "28",
       "nombre": "ARAÑA MURCIELAGO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Cada 29 de Febrero, la flor que se encuentra en la punta de su cola florece.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -264,7 +264,7 @@
     {
       "id": "29",
       "nombre": "CARPINCHO COCODRILO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Esencialmente, sus colas son manos: con ellas alcanza su almuerzo a su boca.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
@@ -273,7 +273,7 @@
     {
       "id": "30",
       "nombre": "AVE SECRETARIA COCODRILO SERPIENTE",
-      "descripcion": "desc",
+      "descripcion": "Le gusta romper cocos y caparazones de escarabajos grandes con el pico.",
       "porcentaje": 85,
       "popularidad": 5,
       "dinero": 10,
