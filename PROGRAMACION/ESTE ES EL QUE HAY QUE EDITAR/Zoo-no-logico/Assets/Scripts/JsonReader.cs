@@ -11,8 +11,10 @@ public class JsonReader : MonoBehaviour {
     public TextAsset Cruzas;
     public Text descripcion;
     public Text nombre;
+    private int peligrosidad;
     public int index;
     public Image foto;
+    public string nombreAnimal = "miNombre";
 
     public Sprite foto0;
     public Sprite foto1;
@@ -50,6 +52,10 @@ public class JsonReader : MonoBehaviour {
     public Sprite foto33;
     public Sprite foto34;
 
+    public Image estrella1;
+    public Image estrella2;
+    public Image estrella3;
+
 
     private string animal1;
     private string animal2;
@@ -65,6 +71,7 @@ public class JsonReader : MonoBehaviour {
         public string descripcion;
         public int porcentaje;
         public int popularidad;
+        public int peligrosidad;
         public int dinero;
     }
 
@@ -114,6 +121,10 @@ public class JsonReader : MonoBehaviour {
             }
             forCounter = forCounter + 1;
         }
+
+        PlayerPrefs.SetInt("indexCurrentCruza", index);
+        PlayerPrefs.SetString("nombreCurrentCruza", nombreAnimal);
+        PlayerPrefs.SetString("descripcionCurrentCruza", myCruzaList.cruza[index].descripcion);
 
         switch (index)
         {
@@ -245,6 +256,24 @@ public class JsonReader : MonoBehaviour {
         descripcion.text = myCruzaList.cruza[index].descripcion;
         nombre.text = myCruzaList.cruza[index].nombre;
 
+        if (myCruzaList.cruza[index].peligrosidad == 1)
+        {
+            estrella1.color = Color.white;
+            estrella2.color = Color.grey;
+            estrella3.color = Color.grey;
+        }
+        if (myCruzaList.cruza[index].peligrosidad == 2)
+        {
+            estrella1.color = Color.white;
+            estrella2.color = Color.white;
+            estrella3.color = Color.grey;
+        }
+        if (myCruzaList.cruza[index].peligrosidad == 3)
+        {
+            estrella1.color = Color.white;
+            estrella2.color = Color.white;
+            estrella3.color = Color.white;
+        }
 
 
     }

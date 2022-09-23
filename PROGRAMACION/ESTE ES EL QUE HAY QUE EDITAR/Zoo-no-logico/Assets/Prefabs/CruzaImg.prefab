@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1250251737020354}
+  m_IsPrefabAsset: 1
+--- !u!1 &1250251737020354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224634674530137706}
+  - component: {fileID: 222426807753107734}
+  - component: {fileID: 114982360407430134}
+  - component: {fileID: 114878636890130418}
+  m_Layer: 5
+  m_Name: CruzaImg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114878636890130418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250251737020354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600dc3340558fa942bcf86bedb0b4afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreAnimal: {fileID: 0}
+  foto: {fileID: 114982360407430134}
+  foto0: {fileID: 21300000, guid: dc9cece1eef1ba04eb8f8140f0f5b5cd, type: 3}
+  foto1: {fileID: 21300000, guid: 92e335cf4c4fc7543b3693236ce9c293, type: 3}
+  foto2: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
+  foto3: {fileID: 21300000, guid: 83735ed2e6ef03b4e921956da30f2d9a, type: 3}
+  foto4: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
+  foto5: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
+  foto6: {fileID: 21300000, guid: 06018fa678ecba947a10943b371bca36, type: 3}
+  foto7: {fileID: 21300000, guid: 859a7dbe8bac3774db1867bb280206d0, type: 3}
+  foto8: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
+  foto9: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
+  foto10: {fileID: 21300000, guid: b6869b4c117e210488e471b505606a69, type: 3}
+  foto11: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
+  foto12: {fileID: 21300000, guid: cd63aa64594ad0c4eb6c1d6ec0902ad5, type: 3}
+  foto13: {fileID: 21300000, guid: b46849a7a6f731242a48a14ec7d87655, type: 3}
+  foto14: {fileID: 21300000, guid: 9fb4671d55d05a94d95208f9be879277, type: 3}
+  foto15: {fileID: 21300000, guid: 79de84392b2bafe4facff5dda596c5e7, type: 3}
+  foto16: {fileID: 21300000, guid: 48324a52d74c20e4f838332c887c0750, type: 3}
+  foto17: {fileID: 21300000, guid: 004e3a3d1d48cb541b525d1169e1160f, type: 3}
+  foto18: {fileID: 21300000, guid: 03836098cf4f79f4daa17d3edd818628, type: 3}
+  foto19: {fileID: 21300000, guid: 3192b353b04d1bf408eb778001fdf95c, type: 3}
+  foto20: {fileID: 21300000, guid: 5daea7bc402d2384294bfcbe098417fa, type: 3}
+  foto21: {fileID: 21300000, guid: 12eae8b5ff63ca44dbfb0a05103d3d1e, type: 3}
+  foto22: {fileID: 21300000, guid: 08c747ae1a80ea143a70e1e7c614f227, type: 3}
+  foto23: {fileID: 21300000, guid: a9d587245e7d3c94f8b2eea1d832e1a7, type: 3}
+  foto24: {fileID: 21300000, guid: e688acb27c28e0b46a11aa2eabcdd197, type: 3}
+  foto25: {fileID: 21300000, guid: f8c9dbd707410654dae254f394c7147c, type: 3}
+  foto26: {fileID: 21300000, guid: d9fe214d2c0c9a8488995285cd84561c, type: 3}
+  foto27: {fileID: 21300000, guid: dc34e7cd375598d4a8fec7f125fcd21a, type: 3}
+  foto28: {fileID: 21300000, guid: 706a827a84fc53746aaf9c6eaf5eea06, type: 3}
+  foto29: {fileID: 21300000, guid: 301bb1470cc191a498350443cbf0f8b5, type: 3}
+  foto30: {fileID: 21300000, guid: 4bed7d44e26a5724989795392daefb67, type: 3}
+  foto31: {fileID: 21300000, guid: cd8fe4744d3ace547b5e500655f9be55, type: 3}
+  foto32: {fileID: 21300000, guid: ae7ad0d20539a934c8d75b87b7aeb995, type: 3}
+  foto33: {fileID: 21300000, guid: 6511f9c213c1d644bad9cfa6d4fb872e, type: 3}
+  foto34: {fileID: 21300000, guid: 5d608b029b7f12b418fd916fab8a2a55, type: 3}
+--- !u!114 &114982360407430134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250251737020354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 83735ed2e6ef03b4e921956da30f2d9a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222426807753107734
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250251737020354}
+  m_CullTransparentMesh: 0
+--- !u!224 &224634674530137706
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250251737020354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -192.41, y: 4.7}
+  m_SizeDelta: {x: 179.21, y: 179.18}
+  m_Pivot: {x: 0.5, y: 0.5}
