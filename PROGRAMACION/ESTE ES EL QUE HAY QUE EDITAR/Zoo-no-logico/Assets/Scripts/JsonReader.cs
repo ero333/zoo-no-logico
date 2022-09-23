@@ -228,10 +228,10 @@ public class JsonReader : MonoBehaviour {
         }
         print(index);
         print(foto.sprite);
-        if (!foto.sprite)
-        {
-            SceneManager.LoadScene("menu-cruza-fallida");
-        }
+        // if (!foto.sprite)
+        // {
+        //     SceneManager.LoadScene("menu-cruza-fallida");
+        // }
 
 
 
