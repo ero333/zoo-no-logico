@@ -162,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 0
   image: {fileID: 10279187}
 --- !u!114 &10279187
 MonoBehaviour:
@@ -632,6 +634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 1
   image: {fileID: 280324474}
 --- !u!114 &280324474
 MonoBehaviour:
@@ -778,6 +782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 4
   image: {fileID: 437196939}
 --- !u!114 &437196939
 MonoBehaviour:
@@ -1333,6 +1339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 6
   image: {fileID: 987008777}
 --- !u!114 &987008777
 MonoBehaviour:
@@ -1508,6 +1516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492323ed5580eb24b8e1df623bf9bf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 0
   image: {fileID: 1137708153}
   EquipmentType: 0
   SlotNumber: 1
@@ -1592,6 +1602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 2
   image: {fileID: 1148864456}
 --- !u!114 &1148864456
 MonoBehaviour:
@@ -1674,6 +1686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492323ed5580eb24b8e1df623bf9bf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 0
   image: {fileID: 1175144436}
   EquipmentType: 0
   SlotNumber: 2
@@ -1826,6 +1840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492323ed5580eb24b8e1df623bf9bf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 0
   image: {fileID: 1294546660}
   EquipmentType: 0
   SlotNumber: 0
@@ -2400,6 +2416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 5
   image: {fileID: 1618272355}
 --- !u!114 &1618272355
 MonoBehaviour:
@@ -2929,6 +2947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7083c698f0ef4488a9613e0a91df69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EquipmentTypeInventario: 0
+  SlotNumberInventario: 3
   image: {fileID: 2042365017}
 --- !u!114 &2042365017
 MonoBehaviour:

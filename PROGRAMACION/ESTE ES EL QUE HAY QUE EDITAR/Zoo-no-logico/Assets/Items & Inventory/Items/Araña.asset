@@ -13,12 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: "Ara\xF1a"
   Icon: {fileID: 21300000, guid: 8f78b39c67595fc40aa51a52951ee983, type: 3}
-  StrengthBonus: 0
   Peligrosidad: 0
-  Hambre: 0
-  Vitalidad: 0
-  StrengthPercentBonus: 0
-  PeligrosidadPercent: 0
-  HambrePercent: 0
-  VitalidadPercent: 0
+  Popularidad: 0
+  Dinero: 0
   EquipmentType: 0
+  SlotNumberInv: 1
