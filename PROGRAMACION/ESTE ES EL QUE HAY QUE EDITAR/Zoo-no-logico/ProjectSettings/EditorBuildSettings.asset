@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/menu-cruza-fallida.unity
     guid: 5f6b492d647b9d943bff0a128c4215a8
   - enabled: 0
-    path: Assets/Scenes/libro-de-visitas.unity
+    path: 
     guid: 96b74702e4d1fea4ea554a47ff5db904
   - enabled: 1
     path: Assets/Scenes/Estasis.unity
@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mapa-cupos.unity
     guid: 0833eaecea4445d4e93fb9294e8b7271
+  - enabled: 1
+    path: Assets/Scenes/cartas.unity
+    guid: ab9dec69c9d5cc04baadd124240d0f69
   m_configObjects: {}

@@ -237,8 +237,6 @@ public class JsonReader : MonoBehaviour {
                 SceneManager.LoadScene("menu-cruza-fallida");
                 break;
         }
-        print(index);
-        print(foto.sprite);
         // if (!foto.sprite)
         // {
         //     SceneManager.LoadScene("menu-cruza-fallida");

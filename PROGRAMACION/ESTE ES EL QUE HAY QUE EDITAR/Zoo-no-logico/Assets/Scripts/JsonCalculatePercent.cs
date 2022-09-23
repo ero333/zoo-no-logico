@@ -10,6 +10,7 @@ public class JsonCalculatePercent : MonoBehaviour {
 
     public TextAsset Cruzas;
     public Text porcentaje;
+    public Text costo;
     public int index;
 
 
@@ -25,6 +26,7 @@ public class JsonCalculatePercent : MonoBehaviour {
         public string id;
         public string nombre;
         public int porcentaje;
+        public int dinero;
     }
 
     [System.Serializable]
@@ -64,14 +66,12 @@ public class JsonCalculatePercent : MonoBehaviour {
             {
                 animales += animalesArray[i];
             }
-            print(animales);
             animales.Replace(" ", "");
 
             myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
             int forCounter = 0;
             bool matched = false;
-            print(animales.ToUpper());
             for (int i = 0; i < myCruzaList.cruza.Length; i++)
             {
 
@@ -86,6 +86,8 @@ public class JsonCalculatePercent : MonoBehaviour {
 
             }
             porcentaje.text = myCruzaList.cruza[index].porcentaje.ToString();
+            PlayerPrefs.SetInt("costoCruza", myCruzaList.cruza[index].dinero);
+            costo.text = "- " + myCruzaList.cruza[index].dinero.ToString();
         }
     }
 }
