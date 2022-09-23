@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 271}
   m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 68
+  controlID: 11
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 22
+  controlID: 94
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 23
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,21 +297,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 56
-  m_LastProjectPath: C:\Users\usuario\Documents\GitHub\zoo-no-logico\PROGRAMACION\ESTE
-    ES EL QUE HAY QUE EDITAR\Zoo-no-logico
+  m_LastProjectPath: D:\USAL\2022\Gamer\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE
+    HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fc090000
-    m_LastClickedID: 2556
-    m_ExpandedIDs: 00000000a6090000d00b0000a60d00006e30000000ca9a3b
+    m_SelectedIDs: 7e2d0000
+    m_LastClickedID: 11646
+    m_ExpandedIDs: 000000007e2d00009e2f00007a3100004833000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6090000d00b0000a60d0000b20d0000fa0d00006e300000
+    m_ExpandedIDs: 000000007e2d00009e2f00007a31000048330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -455,9 +455,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 7a010000
     m_LastClickedID: 0
-    m_ExpandedIDs: 50d8f7ff40b1faff42b1faff4ab4faff6cb8faff66bffaff42f4faff84f5faffb8f6faffb816fbff8a19fbffcc1afbff32e3fbffc8d7fdffe6d9fdff7eddfdff3ae0fdff7ce4fdfff6e5fdffdae7fdfff6e8fdffacebfdff68edfdff2eeffdffb0f0fdff22f2fdfff4f3fdffe6f5fdff22f7fdffdcfafdff3002feff4c03feff7405feffd407feff0609feff700afeff8c0bfeffca0ffeffe6fbffff000000005e0f00006a0f0000700f0000960f0000ac0f00005e4500008a450000144600007c7b0000287d0000c07d0000a6830000c6830000d0830000bc840000e28500005288000084880000fc880000
+    m_ExpandedIDs: e4f0ffffa4f1ffffe0f2ffffe4f2ffff00f3ffff26f3ffff2af3ffff30f3ffff4af3ffff80f3ffff92f3ffffbcf3ffffc2f3ffffc6f3ffff96f8ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
