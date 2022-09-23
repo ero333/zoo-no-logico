@@ -637,7 +637,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1098,8 +1098,8 @@ MonoBehaviour:
   foto5: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
   foto6: {fileID: 21300000, guid: 06018fa678ecba947a10943b371bca36, type: 3}
   foto7: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
-  foto8: {fileID: 21300000, guid: 628f0959bdcf772459788450c9091b9a, type: 3}
-  foto9: {fileID: 21300000, guid: 0d52202125e3bfb4591b35847d03a9ef, type: 3}
+  foto8: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
+  foto9: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
   foto10: {fileID: 21300000, guid: b6869b4c117e210488e471b505606a69, type: 3}
   foto11: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
   foto12: {fileID: 21300000, guid: cd63aa64594ad0c4eb6c1d6ec0902ad5, type: 3}
