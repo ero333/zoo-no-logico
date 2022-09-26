@@ -30,6 +30,13 @@ TagManager:
   - Murcielago
   - Ave
   - Serpiente
+  - CantidadCarpincho
+  - CantidadArana
+  - CantidadCocodrilo
+  - CantidadZorro
+  - CantidadMurcielago
+  - CantidadSerpiente
+  - CantidadAve
   layers:
   - Default
   - TransparentFX

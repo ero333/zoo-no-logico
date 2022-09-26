@@ -18,7 +18,7 @@ public class Character : MonoBehaviour
     public Texture2D grabArrow;
     public Texture2D arrow;
 
-
+    public GameObject Cosoprueba;
 
     private void Awake() // AGREAMOS LISTENER EN EL EVENTO DE INVENTORY, O SEA, EL CLICK. Y VA A LLAMAR AL EVENTO DE EQUIPAR
     {
@@ -117,9 +117,47 @@ public class Character : MonoBehaviour
 
             if(draggedSlot is SlotDeCruza)
             {
+
+                if (draggedSlot.Item.name == "Carpincho")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadCarpincho");
+                }
+
+                if (draggedSlot.Item.name == "Araña")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadArana");
+                }
+
+                if (draggedSlot.Item.name == "Cocodrilo")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadCocodrilo");
+                }
+
+                if (draggedSlot.Item.name == "Zorro")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadZorro");
+                }
+
+                if (draggedSlot.Item.name == "Murcielago")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadMurcielago");
+                }
+
+                if (draggedSlot.Item.name == "Serpiente")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadSerpiente");
+                }
+
+                if (draggedSlot.Item.name == "Ave Secretaria")
+                {
+                    Cosoprueba.SendMessage("SumarCantidadAve");
+                }
+
                 print("Caso A");
                 if (dragItem != null) dragItem.unequip(this);
                 if (dropItem != null) dropItem.equip(this);
+
+
             }
 
             if (dropitemSlot is SlotDeCruza)
@@ -129,6 +167,42 @@ public class Character : MonoBehaviour
                 PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
                 if (dragItem != null) dragItem.equip(this);
                 if (dropItem != null) dropItem.unequip(this);
+
+                if (draggedSlot.Item.name == "Carpincho")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadCarpincho");
+                }
+
+                if (draggedSlot.Item.name == "Araña")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadArana");
+                }
+
+                if (draggedSlot.Item.name == "Cocodrilo")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadCocodrilo");
+                }
+
+                if (draggedSlot.Item.name == "Zorro")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadZorro");
+                }
+
+                if (draggedSlot.Item.name == "Murcielago")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadMurcielago");
+                }
+
+                if (draggedSlot.Item.name == "Serpiente")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadSerpiente");
+                }
+
+                if (draggedSlot.Item.name == "Ave Secretaria")
+                {
+                    Cosoprueba.SendMessage("RestarCantidadAve");
+                }
+
             }
 
             Item draggedItem = draggedSlot.Item;
@@ -165,6 +239,41 @@ public class Character : MonoBehaviour
         if (!inventory.IsFull() && equipmentPanel.RemoveItem(item)) //DESPUES QUITAMOS EL ITEM DEL MENU DE CRUZA Y LO MANDAMOS AL INVENTARIO
         {
             inventory.AddItem(item);
+
+            if (item.name == "Carpincho")
+            {
+                Cosoprueba.SendMessage("SumarCantidadCarpincho");
+            }
+
+            if (item.name == "Araña")
+            {
+                Cosoprueba.SendMessage("SumarCantidadArana");
+            }
+
+            if (item.name == "Cocodrilo")
+            {
+                Cosoprueba.SendMessage("SumarCantidadCocodrilo");
+            }
+
+            if (item.name == "Zorro")
+            {
+                Cosoprueba.SendMessage("SumarCantidadZorro");
+            }
+
+            if (item.name == "Murcielago")
+            {
+                Cosoprueba.SendMessage("SumarCantidadMurcielago");
+            }
+
+            if (item.name == "Serpiente")
+            {
+                Cosoprueba.SendMessage("SumarCantidadSerpiente");
+            }
+
+            if (item.name == "Ave Secretaria")
+            {
+                Cosoprueba.SendMessage("SumarCantidadAve");
+            }
         }
     }
 
