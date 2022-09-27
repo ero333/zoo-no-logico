@@ -2876,6 +2876,7 @@ MonoBehaviour:
   testMonedas: {fileID: 0}
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
+  Cosoprueba: {fileID: 0}
 --- !u!114 &1368914046
 MonoBehaviour:
   m_ObjectHideFlags: 0
