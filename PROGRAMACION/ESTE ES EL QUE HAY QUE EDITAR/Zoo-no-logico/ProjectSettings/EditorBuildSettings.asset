@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cartas.unity
     guid: ab9dec69c9d5cc04baadd124240d0f69
+  - enabled: 1
+    path: Assets/Scenes/DiaFinalizado.unity
+    guid: f8fd7b46d70d0924086bd91fcc6c5ac1
   m_configObjects: {}
