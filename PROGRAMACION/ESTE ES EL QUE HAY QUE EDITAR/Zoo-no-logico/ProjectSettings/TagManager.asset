@@ -37,6 +37,7 @@ TagManager:
   - CantidadMurcielago
   - CantidadSerpiente
   - CantidadAve
+  - BarraPopularidad
   layers:
   - Default
   - TransparentFX
