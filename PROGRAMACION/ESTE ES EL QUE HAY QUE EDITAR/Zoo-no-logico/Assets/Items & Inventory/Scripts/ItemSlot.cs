@@ -48,7 +48,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
             }
         }
     }
-
+    
 
 
 
