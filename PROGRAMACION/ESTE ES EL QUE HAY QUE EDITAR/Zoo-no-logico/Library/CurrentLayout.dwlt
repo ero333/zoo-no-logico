@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 644
     width: 1436
     height: 343
-  m_MinSize: {x: 306, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 436, y: 271}
+  m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 47
+  controlID: 95
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,8 +91,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 583, y: 442}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 26
 --- !u!114 &5
@@ -138,14 +138,14 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 343
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1436
     height: 987
-  m_MinSize: {x: 306, y: 442}
-  m_MaxSize: {x: 8006, y: 8042}
+  m_MinSize: {x: 436, y: 492}
+  m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,7 +286,7 @@ MonoBehaviour:
     height: 322
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: canti
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -297,11 +297,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Items & Inventory/Scripts
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Items & Inventory/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: 56
   m_LastProjectPath: D:\Onedrive\Documentos\GitHub\zoo-no-logico\PROGRAMACION\ESTE
     ES EL QUE HAY QUE EDITAR\Zoo-no-logico
@@ -309,9 +309,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a60e0000
-    m_LastClickedID: 3750
-    m_ExpandedIDs: 00000000b2090000040c00000a0e00005e32000000ca9a3b
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000b4090000080c00000e0e00009632000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b20900000a0e00005e320000
+    m_ExpandedIDs: 00000000b4090000080c00000e0e000096320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,8 +364,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0ea6feff
-    m_LastClickedInstanceID: -88562
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f2330000360a0000400c0000022f00009c3400004c2c0000640e00008a300000fe2c0000c20900002c76fcff220a0000a40b0000c60a0000740a000000000000862e00008a3100006a2d00003c330000
     m_RenameOverlay:
@@ -454,10 +454,10 @@ MonoBehaviour:
     height: 322
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 143}
-    m_SelectedIDs: 18350000
-    m_LastClickedID: 13592
-    m_ExpandedIDs: 422cffff62bbffff6cbbffffd8c3ffffdcfbffffe6fbffff000000003811000004360000
+    scrollPos: {x: 0, y: 159}
+    m_SelectedIDs: 5a100000
+    m_LastClickedID: 4186
+    m_ExpandedIDs: 4867ffffe6fbffff00000000f60f00002411000070110000803d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.23675078, y: 0.44023183, z: 86.13086}
+    m_Target: {x: -1.0533277, y: 0.3138635, z: 77.94145}
     speed: 2
-    m_Value: {x: -0.23675078, y: 0.44023183, z: 86.13086}
+    m_Value: {x: -1.0533277, y: 0.3138635, z: 77.94145}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -546,9 +546,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.446463
+    m_Target: 10.796808
     speed: 2
-    m_Value: 12.446463
+    m_Value: 10.796808
   m_Ortho:
     m_Target: 1
     speed: 2
