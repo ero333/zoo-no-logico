@@ -16,7 +16,7 @@
             return true;
 
         EquippableItem equippableItem = item as EquippableItem;
-        //PlayerPref
+     
         return equippableItem != null && equippableItem.EquipmentType == EquipmentType;
         
     }

@@ -13,9 +13,21 @@ public enum EquipmentType
 
 public enum SlotNumber
 {
+    //SLOTS DE CRUZA
     Slot1,
     Slot2,
     Slot3,
+}
+
+public enum SlotNumberInv
+{
+   Slot1Inv,
+    Slot2Inv,
+    Slot3Inv,
+    Slot4Inv,
+    Slot5Inv,
+    Slo6Inv,
+    Slot7Inv,
 }
 
 
@@ -31,17 +43,18 @@ public class EquippableItem : Item //ESTO SIRVE PARA DECLARAR CUALES SON LOS ITE
     public int Dinero;
     [Space]
     public EquipmentType EquipmentType;
+    public SlotNumberInv SlotNumberInv;
 
 
 
-    public void Unequip(Character c)
+    public void unequip(Character c)
     {
 
     }
 
-    public void Equip(Character c)
+    public void equip(Character c)
     {
 
-        //Debug.Log(EquipmentType.Animal);
+       
     }
 }

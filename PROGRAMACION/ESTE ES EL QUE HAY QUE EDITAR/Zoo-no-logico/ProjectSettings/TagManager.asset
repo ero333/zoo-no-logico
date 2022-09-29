@@ -25,6 +25,19 @@ TagManager:
   - Cocodrilo
   - Zorro
   - ImagenMonedas
+  - TextoDias
+  - NewTextoMonedas
+  - Murcielago
+  - Ave
+  - Serpiente
+  - CantidadCarpincho
+  - CantidadArana
+  - CantidadCocodrilo
+  - CantidadZorro
+  - CantidadMurcielago
+  - CantidadSerpiente
+  - CantidadAve
+  - BarraPopularidad
   layers:
   - Default
   - TransparentFX

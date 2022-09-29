@@ -25,16 +25,44 @@ public class CuposJaulas : MonoBehaviour
         textoJaulas.text = numJaulasOcupadas.ToString();
 
         numJaulasOcupadas = PlayerPrefs.GetInt("Jaulitas");
+
+
+
+        if (Input.GetKeyDown("space"))
+        {
+            numJaulasOcupadas++;
+            PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
+        }
     }
 
     public void OcuparJaulas()
     {
         numJaulasOcupadas++;
         PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
-
-        if (numJaulasOcupadas > 20)
+        int cruza = PlayerPrefs.GetInt("indexCurrentCruza");
+        print(cruza);
+        switch (numJaulasOcupadas)
         {
-            numJaulasOcupadas = 20;
+            case 1:
+                PlayerPrefs.SetInt("Jaula1", cruza);
+                break;
+            case 2:
+                PlayerPrefs.SetInt("Jaula2", cruza);
+                break;
+            case 3:
+                PlayerPrefs.SetInt("Jaula3", cruza);
+                break;
+            case 4:
+                PlayerPrefs.SetInt("Jaula4", cruza);
+                break;
+            case 5:
+                PlayerPrefs.SetInt("Jaula5", cruza);
+                break;
+        }
+
+        if (numJaulasOcupadas > 5)
+        {
+            numJaulasOcupadas = 5;
             textoJaulas.text = numJaulasOcupadas.ToString();
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
@@ -53,5 +81,7 @@ public class CuposJaulas : MonoBehaviour
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
     }
+
+
 
 }
