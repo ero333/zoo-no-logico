@@ -16,6 +16,7 @@ public class CuposJaulas : MonoBehaviour
     {
         textoJaulas = GameObject.FindGameObjectWithTag("TextoJaulas").GetComponent<Text>();
         numJaulasOcupadas = PlayerPrefs.GetInt("Jaulitas");
+        myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
     }
 
@@ -34,6 +35,25 @@ public class CuposJaulas : MonoBehaviour
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
     }
+
+    public TextAsset Cruzas;
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public string nombre;
+        public int dinero;
+        public int popularidad;
+    }
+
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
 
     public void OcuparJaulas()
     {
@@ -66,6 +86,10 @@ public class CuposJaulas : MonoBehaviour
             textoJaulas.text = numJaulasOcupadas.ToString();
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
+
+        int popularidad = myCruzaList.cruza[cruza].popularidad;
+        int popularidadOld = PlayerPrefs.GetInt("Popularidad");
+        PlayerPrefs.SetInt("Popularidad", popularidad + popularidadOld);
 
     }
 
