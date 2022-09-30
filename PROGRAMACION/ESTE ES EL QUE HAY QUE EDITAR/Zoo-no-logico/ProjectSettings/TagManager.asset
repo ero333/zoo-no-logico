@@ -38,6 +38,7 @@ TagManager:
   - CantidadSerpiente
   - CantidadAve
   - BarraPopularidad
+  - ComentarioTexto
   layers:
   - Default
   - TransparentFX
