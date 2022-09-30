@@ -440,7 +440,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 47f8f89c22b9633438ae4f51a93f7901, type: 3}
-    m_FontSize: 20
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -474,8 +474,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.26, y: 73.6}
-  m_SizeDelta: {x: 342.6, y: 60.9}
+  m_AnchoredPosition: {x: 107.26, y: 54.7}
+  m_SizeDelta: {x: 342.6, y: 94.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &400782164
 GameObject:
@@ -1240,16 +1240,16 @@ MonoBehaviour:
   nombreAnimal: miNombre
   foto0: {fileID: 21300000, guid: dc9cece1eef1ba04eb8f8140f0f5b5cd, type: 3}
   foto1: {fileID: 21300000, guid: 92e335cf4c4fc7543b3693236ce9c293, type: 3}
-  foto2: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
-  foto3: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
-  foto4: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
-  foto5: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
+  foto2: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
+  foto3: {fileID: 21300000, guid: 83735ed2e6ef03b4e921956da30f2d9a, type: 3}
+  foto4: {fileID: 21300000, guid: af371d433383fe8488ec2081ab4ae6fe, type: 3}
+  foto5: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
   foto6: {fileID: 21300000, guid: 06018fa678ecba947a10943b371bca36, type: 3}
-  foto7: {fileID: 21300000, guid: ab9c3f02fdf13f147abe6267e3c584f2, type: 3}
+  foto7: {fileID: 21300000, guid: 859a7dbe8bac3774db1867bb280206d0, type: 3}
   foto8: {fileID: 21300000, guid: 6bb2ab11e85851847a04f6b0a003d056, type: 3}
   foto9: {fileID: 21300000, guid: c8cf473e121072043beec571d801653c, type: 3}
   foto10: {fileID: 21300000, guid: b6869b4c117e210488e471b505606a69, type: 3}
-  foto11: {fileID: 21300000, guid: 1b72d524fab1dd74eb1bf99c878ec70b, type: 3}
+  foto11: {fileID: 21300000, guid: baa089a2f1efa9d4d9b74aa2e84bfb44, type: 3}
   foto12: {fileID: 21300000, guid: cd63aa64594ad0c4eb6c1d6ec0902ad5, type: 3}
   foto13: {fileID: 21300000, guid: b46849a7a6f731242a48a14ec7d87655, type: 3}
   foto14: {fileID: 21300000, guid: 9fb4671d55d05a94d95208f9be879277, type: 3}
@@ -2020,8 +2020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107.26, y: 147.9}
-  m_SizeDelta: {x: 342.56, y: 27.53}
+  m_AnchoredPosition: {x: 107.26, y: 136.1}
+  m_SizeDelta: {x: 342.6, y: 52.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075926703
 MonoBehaviour:
@@ -2046,14 +2046,14 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 5299682af1b23ba459bdf98603d0f96f, type: 3}
     m_FontSize: 21
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 88
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Nombre
 --- !u!222 &2075926704
