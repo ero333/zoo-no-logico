@@ -438,7 +438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4cdfa5a00cec9419dd46e7027a5084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numJaulasOcupadas: 0
   textoJaulas: {fileID: 0}
   Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   myCruzaList:
@@ -1102,7 +1101,7 @@ RectTransform:
   - {fileID: 107397002}
   - {fileID: 614142437}
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 16
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.98}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1169,7 +1168,7 @@ Transform:
   m_LocalScale: {x: 1.6120529, y: 1.6120529, z: 1.6120529}
   m_Children: []
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &452646122
 SpriteRenderer:
@@ -1470,7 +1469,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2039,7 +2038,7 @@ RectTransform:
   - {fileID: 1569329268}
   - {fileID: 1074501398}
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 17
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.98}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2715,13 +2714,13 @@ RectTransform:
   - {fileID: 803451085}
   - {fileID: 314846146}
   - {fileID: 1905745812}
-  - {fileID: 437786440}
-  - {fileID: 942967497}
-  - {fileID: 1653896710}
-  - {fileID: 452646121}
   - {fileID: 1912452977}
+  - {fileID: 1653896710}
   - {fileID: 564704260}
   - {fileID: 1784651961}
+  - {fileID: 437786440}
+  - {fileID: 942967497}
+  - {fileID: 452646121}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2820,7 +2819,7 @@ Transform:
   m_LocalScale: {x: 41.93423, y: 41.93423, z: 41.93423}
   m_Children: []
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672600506
 GameObject:
@@ -3293,7 +3292,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3502,9 +3501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4cdfa5a00cec9419dd46e7027a5084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numJaulasOcupadas: 0
   textoJaulas: {fileID: 1905745813}
-  Cruzas: {fileID: 0}
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   myCruzaList:
     cruza: []
 --- !u!224 &1912452977 stripped
@@ -3771,7 +3769,7 @@ Prefab:
     - target: {fileID: 224634674530137706, guid: 40c99e3272af02243a05f735e635cb9c,
         type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 224634674530137706, guid: 40c99e3272af02243a05f735e635cb9c,
         type: 2}

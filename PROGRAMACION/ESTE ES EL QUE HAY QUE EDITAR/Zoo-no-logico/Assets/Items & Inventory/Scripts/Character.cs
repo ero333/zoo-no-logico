@@ -110,104 +110,107 @@ public class Character : MonoBehaviour
 
     private void Drop(ItemSlot dropitemSlot)
     {
-        if (dropitemSlot.CanReceiveItem(draggedSlot.Item) && draggedSlot.CanReceiveItem(dropitemSlot.Item))
+        if (dropitemSlot && draggedSlot)
         {
-            EquippableItem dragItem = draggedSlot.Item as EquippableItem;
-            EquippableItem dropItem = dropitemSlot.Item as EquippableItem;
-
-            if(draggedSlot is SlotDeCruza)
+            if (dropitemSlot.CanReceiveItem(draggedSlot.Item) && draggedSlot.CanReceiveItem(dropitemSlot.Item))
             {
+                EquippableItem dragItem = draggedSlot.Item as EquippableItem;
+                EquippableItem dropItem = dropitemSlot.Item as EquippableItem;
 
-                if (draggedSlot.Item.name == "Carpincho")
+                if (draggedSlot is SlotDeCruza)
                 {
-                    Cosoprueba.SendMessage("SumarCantidadCarpincho");
+
+                    if (draggedSlot.Item.name == "Carpincho")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadCarpincho");
+                    }
+
+                    if (draggedSlot.Item.name == "Araña")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadArana");
+                    }
+
+                    if (draggedSlot.Item.name == "Cocodrilo")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadCocodrilo");
+                    }
+
+                    if (draggedSlot.Item.name == "Zorro")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadZorro");
+                    }
+
+                    if (draggedSlot.Item.name == "Murcielago")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadMurcielago");
+                    }
+
+                    if (draggedSlot.Item.name == "Serpiente")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadSerpiente");
+                    }
+
+                    if (draggedSlot.Item.name == "Ave Secretaria")
+                    {
+                        Cosoprueba.SendMessage("SumarCantidadAve");
+                    }
+
+                    print("Caso A");
+                    if (dragItem != null) dragItem.unequip(this);
+                    if (dropItem != null) dropItem.equip(this);
+
+
                 }
 
-                if (draggedSlot.Item.name == "Araña")
+                if (dropitemSlot is SlotDeCruza)
                 {
-                    Cosoprueba.SendMessage("SumarCantidadArana");
+                    print(dropitemSlot.tag.ToString());
+                    print(draggedSlot.Item.name);
+                    PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
+                    if (dragItem != null) dragItem.equip(this);
+                    if (dropItem != null) dropItem.unequip(this);
+
+                    if (draggedSlot.Item.name == "Carpincho")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadCarpincho");
+                    }
+
+                    if (draggedSlot.Item.name == "Araña")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadArana");
+                    }
+
+                    if (draggedSlot.Item.name == "Cocodrilo")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadCocodrilo");
+                    }
+
+                    if (draggedSlot.Item.name == "Zorro")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadZorro");
+                    }
+
+                    if (draggedSlot.Item.name == "Murcielago")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadMurcielago");
+                    }
+
+                    if (draggedSlot.Item.name == "Serpiente")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadSerpiente");
+                    }
+
+                    if (draggedSlot.Item.name == "Ave Secretaria")
+                    {
+                        Cosoprueba.SendMessage("RestarCantidadAve");
+                    }
+
                 }
 
-                if (draggedSlot.Item.name == "Cocodrilo")
-                {
-                    Cosoprueba.SendMessage("SumarCantidadCocodrilo");
-                }
-
-                if (draggedSlot.Item.name == "Zorro")
-                {
-                    Cosoprueba.SendMessage("SumarCantidadZorro");
-                }
-
-                if (draggedSlot.Item.name == "Murcielago")
-                {
-                    Cosoprueba.SendMessage("SumarCantidadMurcielago");
-                }
-
-                if (draggedSlot.Item.name == "Serpiente")
-                {
-                    Cosoprueba.SendMessage("SumarCantidadSerpiente");
-                }
-
-                if (draggedSlot.Item.name == "Ave Secretaria")
-                {
-                    Cosoprueba.SendMessage("SumarCantidadAve");
-                }
-
-                print("Caso A");
-                if (dragItem != null) dragItem.unequip(this);
-                if (dropItem != null) dropItem.equip(this);
-
-
+                Item draggedItem = draggedSlot.Item;
+                draggedSlot.Item = dropitemSlot.Item;
+                dropitemSlot.Item = draggedItem;
             }
-
-            if (dropitemSlot is SlotDeCruza)
-            {
-                print(dropitemSlot.tag.ToString());
-                print(draggedSlot.Item.name);
-                PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
-                if (dragItem != null) dragItem.equip(this);
-                if (dropItem != null) dropItem.unequip(this);
-
-                if (draggedSlot.Item.name == "Carpincho")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadCarpincho");
-                }
-
-                if (draggedSlot.Item.name == "Araña")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadArana");
-                }
-
-                if (draggedSlot.Item.name == "Cocodrilo")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadCocodrilo");
-                }
-
-                if (draggedSlot.Item.name == "Zorro")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadZorro");
-                }
-
-                if (draggedSlot.Item.name == "Murcielago")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadMurcielago");
-                }
-
-                if (draggedSlot.Item.name == "Serpiente")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadSerpiente");
-                }
-
-                if (draggedSlot.Item.name == "Ave Secretaria")
-                {
-                    Cosoprueba.SendMessage("RestarCantidadAve");
-                }
-
-            }
-
-            Item draggedItem = draggedSlot.Item;
-            draggedSlot.Item = dropitemSlot.Item;
-            dropitemSlot.Item = draggedItem;
         }
     }
 

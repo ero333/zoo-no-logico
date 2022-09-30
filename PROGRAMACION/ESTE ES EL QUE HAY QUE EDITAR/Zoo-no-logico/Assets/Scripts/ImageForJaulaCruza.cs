@@ -10,6 +10,7 @@ public class ImageForJaulaCruza : MonoBehaviour {
 
     public Text nombreAnimal;
     public Text descripcionAnimal;
+    public Text plata;
     public Image foto;
     public Sprite foto0;
     public Sprite foto1;
@@ -59,6 +60,10 @@ public class ImageForJaulaCruza : MonoBehaviour {
         if (descripcionAnimal)
         {
             descripcionAnimal.text = PlayerPrefs.GetString("descripcionCurrentCruza");
+        }
+        if (plata)
+        {
+            plata.text = PlayerPrefs.GetInt("plataCurrentCruza").ToString();
         }
 
         switch (index)

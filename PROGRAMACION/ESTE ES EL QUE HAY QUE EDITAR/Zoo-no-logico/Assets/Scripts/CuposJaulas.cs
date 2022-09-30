@@ -8,8 +8,27 @@ public class CuposJaulas : MonoBehaviour
 
 
     //GameObject Jaula1;
-    public int numJaulasOcupadas;
+    private int numJaulasOcupadas;
     public Text textoJaulas;
+    public TextAsset Cruzas;
+
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public string nombre;
+        public int dinero;
+        public int popularidad;
+    }
+
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
 
     // Use this for initialization
     void Start()
@@ -36,24 +55,7 @@ public class CuposJaulas : MonoBehaviour
         }
     }
 
-    public TextAsset Cruzas;
-
-    [System.Serializable]
-    public class Cruza
-    {
-        public string id;
-        public string nombre;
-        public int dinero;
-        public int popularidad;
-    }
-
-    [System.Serializable]
-    public class CruzaList
-    {
-        public Cruza[] cruza;
-    }
-
-    public CruzaList myCruzaList = new CruzaList();
+    
 
     public void OcuparJaulas()
     {
