@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class popularityTest : MonoBehaviour {
 
@@ -37,5 +38,10 @@ public class popularityTest : MonoBehaviour {
 	public void reducir(){
 		popularidad -= 10;
 		PlayerPrefs.SetInt("Popularidad", popularidad);
+	}
+
+	public void restartMain(){
+		SceneManager.LoadScene(1);
+
 	}
 }
