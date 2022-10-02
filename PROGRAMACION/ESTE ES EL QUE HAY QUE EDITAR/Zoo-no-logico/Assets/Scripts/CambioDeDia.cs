@@ -10,8 +10,11 @@ public class CambioDeDia : MonoBehaviour {
     public int numTurno;
     public GameObject Pantalla;
 
-	// Use this for initialization
-	void Start () {
+    public GameObject PantallaGanar;
+    public int Popularidad;
+
+    // Use this for initialization
+    void Start () {
         textoTurno = GameObject.FindGameObjectWithTag("TextoDias").GetComponent<Text>();
         numTurno = PlayerPrefs.GetInt("Dias");
     }
@@ -19,8 +22,8 @@ public class CambioDeDia : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		textoTurno.text = numTurno.ToString();
-
-	}
+        Popularidad = PlayerPrefs.GetInt("Popularidad");
+    }
 
 
     public void Pasar()
@@ -33,7 +36,15 @@ public class CambioDeDia : MonoBehaviour {
 
     public void AbrirPantalla()
     {
-        Pantalla.SetActive(true);
+        if (Popularidad >= 100)
+        {
+            PantallaGanar.SetActive(true);
+        }
+        else
+        {
+            Pantalla.SetActive(true);
+        }
+
     }
 }
 
