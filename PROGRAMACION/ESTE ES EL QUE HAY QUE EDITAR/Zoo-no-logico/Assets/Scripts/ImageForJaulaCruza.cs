@@ -7,6 +7,9 @@ using System;
 using UnityEngine.SceneManagement;
 
 public class ImageForJaulaCruza : MonoBehaviour {
+    public TextAsset Cruzas;
+    public int index;
+  
 
     public Text nombreAnimal;
     public Text descripcionAnimal;
@@ -48,10 +51,31 @@ public class ImageForJaulaCruza : MonoBehaviour {
     public Sprite foto33;
     public Sprite foto34;
 
+    private string animales;
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public string nombre;
+        public string descripcion;
+        public int porcentaje;
+        public int popularidad;
+        public int peligrosidad;
+        public int dinero;
+    }
+
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
+
     // Use this for initialization
     void Start () {
-
-        int index = PlayerPrefs.GetInt("indexCurrentCruza");
+           
 
         if (nombreAnimal)
         {
@@ -177,6 +201,7 @@ public class ImageForJaulaCruza : MonoBehaviour {
                 SceneManager.LoadScene("menu-cruza-fallida");
                 break;
         }
+
 
     }
 	
