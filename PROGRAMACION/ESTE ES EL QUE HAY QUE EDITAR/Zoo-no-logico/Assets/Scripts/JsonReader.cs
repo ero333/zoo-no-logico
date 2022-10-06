@@ -10,6 +10,9 @@ public class JsonReader : MonoBehaviour {
 
     public TextAsset Cruzas;
     public Text descripcion;
+    public Text dato1;
+    public Text dato2;
+    public Text dato3;
     public Text nombre;
     private int peligrosidad;
     public int index;
@@ -69,6 +72,9 @@ public class JsonReader : MonoBehaviour {
         public string id;
         public string nombre;
         public string descripcion;
+        public string dato1;
+        public string dato2;
+        public string dato3;
         public int porcentaje;
         public int popularidad;
         public int peligrosidad;
@@ -125,6 +131,9 @@ public class JsonReader : MonoBehaviour {
         PlayerPrefs.SetInt("indexCurrentCruza", index);
         PlayerPrefs.SetString("nombreCurrentCruza", nombreAnimal);
         PlayerPrefs.SetString("descripcionCurrentCruza", myCruzaList.cruza[index].descripcion);
+        PlayerPrefs.SetString("dato1CurrectCruza", myCruzaList.cruza[index].dato1);
+        PlayerPrefs.SetString("dato2CurrectCruza", myCruzaList.cruza[index].dato2);
+        PlayerPrefs.SetString("dato3CurrectCruza", myCruzaList.cruza[index].dato3);
         PlayerPrefs.SetInt("plataCurrentCruza", myCruzaList.cruza[index].dinero);
 
         switch (index)
@@ -254,6 +263,9 @@ public class JsonReader : MonoBehaviour {
 
         descripcion.text = myCruzaList.cruza[index].descripcion;
         nombre.text = myCruzaList.cruza[index].nombre;
+        dato1.text = myCruzaList.cruza[index].dato1;
+        dato2.text = myCruzaList.cruza[index].dato2;
+        dato3.text = myCruzaList.cruza[index].dato3;
 
         if (myCruzaList.cruza[index].peligrosidad == 1)
         {

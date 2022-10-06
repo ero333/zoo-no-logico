@@ -8,9 +8,9 @@
       "popularidad": 2,
       "dinero": 5000,
       "peligrosidad": 1,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un perro mastín.",
-	  "dato3": "Domesticable con el adiestramiento adecuado."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un perro mastín.",
+	    "dato3": "Domesticable con el adiestramiento adecuado."
     },
     {
       "id": "1",
@@ -20,9 +20,9 @@
       "popularidad": 6,
       "dinero": 8000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un cerdo común.",
-	  "dato3": "Le estimula más la caza que la comida servida."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un cerdo común.",
+	    "dato3": "Le estimula más la caza que la comida servida."
     },
     {
       "id": "2",
@@ -32,9 +32,9 @@
       "popularidad": 5,
       "dinero": 6000,
       "peligrosidad": 1,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de una cabra pequeña.",
-	  "dato3": "Se asocia bien con otros animales."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de una cabra pequeña.",
+	    "dato3": "Se asocia bien con otros animales."
     },
     {
       "id": "3",
@@ -44,9 +44,9 @@
       "popularidad": 2,
       "dinero": 7000,
       "peligrosidad": 2,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de un caballo percherón",
-	  "dato3": "Muy buen animal de tiro o de carga."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de un caballo percherón",
+	    "dato3": "Muy buen animal de tiro o de carga."
     },
     {
       "id": "4",
@@ -56,9 +56,9 @@
       "popularidad": 3,
       "dinero": 5000,
       "peligrosidad": 2,
-	  "dato1": "Es insectívoro.",
-	  "dato2": "Tiene el tamaño de un flamenco.",
-	  "dato3": "Robará e incubará cualquier huevo que vea."
+	    "dato1": "Es insectívoro.",
+	    "dato2": "Tiene el tamaño de un flamenco.",
+	    "dato3": "Robará e incubará cualquier huevo que vea."
     },
     {
       "id": "5",
@@ -68,9 +68,9 @@
       "popularidad": 5,
       "dinero": 5000,
       "peligrosidad": 1,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de un mapache.",
-	  "dato3": "Tiene un sorprendente sentido de la orientación."
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de un mapache.",
+	    "dato3": "Tiene un sorprendente sentido de la orientación."
     },
     {
       "id": "6",
@@ -80,9 +80,9 @@
       "popularidad": 3,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de un emú.",
-	  "dato3": "Usa sus patitas en la cabeza para acicalarse."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de un emú.",
+	    "dato3": "Usa sus patitas en la cabeza para acicalarse."
     },
     {
       "id": "7",
@@ -92,9 +92,9 @@
       "popularidad": 7,
       "dinero": 6000,
       "peligrosidad": 2,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un ciervo.",
-	  "dato3": "Trepa muy bien, pero es torpe corriendo."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un ciervo.",
+	    "dato3": "Trepa muy bien, pero es torpe corriendo."
     },
     {
       "id": "8",
@@ -104,9 +104,9 @@
       "popularidad": 3,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de un tapir.",
-	  "dato3": "Hay tres corazones en su cuerpo, en caso de que uno falle."
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de un tapir.",
+	    "dato3": "Hay tres corazones en su cuerpo, en caso de que uno falle."
     },
     {
       "id": "9",
@@ -116,9 +116,9 @@
       "popularidad": 10,
       "dinero": 10000,
       "peligrosidad": 2,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de un chihuahua.",
-	  "dato3": "A pesar de ser muy bello, es molestamente agresivo."
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de un chihuahua.",
+	    "dato3": "A pesar de ser muy bello, es molestamente agresivo."
     },
     {
       "id": "10",
@@ -128,9 +128,9 @@
       "popularidad": 4,
       "dinero": 5000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un águila arpía.",
-	  "dato3": "Se pelea con todo lo que ve con sus pequeñas e inservibles extremidades."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un águila arpía.",
+	    "dato3": "Se pelea con todo lo que ve con sus pequeñas e inservibles extremidades."
     },
     {
       "id": "11",
@@ -140,9 +140,9 @@
       "popularidad": 8,
       "dinero": 8000,
       "peligrosidad": 1,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de una pili.",
-	  "dato3": "Se infla y flota como un pez globo cuando está feliz."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de una pili.",
+	    "dato3": "Se infla y flota como un pez globo cuando está feliz."
     },
     {
       "id": "12",
@@ -152,9 +152,9 @@
       "popularidad": 2,
       "dinero": 5000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un murciélago abejorro.",
-	  "dato3": "Es un método muy ecológico para combatir mosquitos y garrapatas."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un murciélago abejorro.",
+	    "dato3": "Es un método muy ecológico para combatir mosquitos y garrapatas."
     },
     {
       "id": "13",
@@ -164,9 +164,9 @@
       "popularidad": 9,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de un chacal.",
-	  "dato3": "Para comunicar su felicidad, secreta un aceite con olor a zorrillo."
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de un chacal.",
+	    "dato3": "Para comunicar su felicidad, secreta un aceite con olor a zorrillo."
     },
     {
       "id": "14",
@@ -176,9 +176,9 @@
       "popularidad": 6,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de un avestruz.",
-	  "dato3": "Se hace el muerto cuando siente que no le prestan suficiente atención."
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de un avestruz.",
+	    "dato3": "Se hace el muerto cuando siente que no le prestan suficiente atención."
     },
     {
       "id": "15",
@@ -188,9 +188,9 @@
       "popularidad": 9,
       "dinero": 9000,
       "peligrosidad": 2,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un lobo mackenzie.",
-	  "dato3": "Cuando caza, imita perfectamente el ruido o voz de su presa."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un lobo mackenzie.",
+	    "dato3": "Cuando caza, imita perfectamente el ruido o voz de su presa."
     },
     {
       "id": "16",
@@ -200,9 +200,9 @@
       "popularidad": 4,
       "dinero": 5000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de una cebra.",
-	  "dato3": "La mayoría de los fondos al cuidado de este animal son invertidos en cubos rubik."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de una cebra.",
+	    "dato3": "La mayoría de los fondos al cuidado de este animal son invertidos en cubos rubik."
     },
     {
       "id": "17",
@@ -212,9 +212,9 @@
       "popularidad": 4,
       "dinero": 5000,
       "peligrosidad": 1,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de una gallina.",
-	  "dato3": "Sus bigotes le permiten percibir el sabor de una comida sin tener que comerla."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de una gallina.",
+	    "dato3": "Sus bigotes le permiten percibir el sabor de una comida sin tener que comerla."
     },
     {
       "id": "18",
@@ -224,9 +224,9 @@
       "popularidad": 9,
       "dinero": 9000,
       "peligrosidad": 1,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un humano promedio.",
-	  "dato3": "Si por alguna razón no puede bailar, dejará de comer hasta morir."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un humano promedio.",
+	    "dato3": "Si por alguna razón no puede bailar, dejará de comer hasta morir."
     },
     {
       "id": "19",
@@ -236,9 +236,9 @@
       "popularidad": 1,
       "dinero": 1,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un humano no promedio.",
-	  "dato3": "Puede abrirse de piernas."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un humano no promedio.",
+	    "dato3": "Puede abrirse de piernas."
     },
     {
       "id": "20",
@@ -248,9 +248,9 @@
       "popularidad": 5,
       "dinero": 5000,
       "peligrosidad": 1,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de un jaguar.",
-	  "dato3": "Es capaz de llorar si se estresa."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de un jaguar.",
+	    "dato3": "Es capaz de llorar si se estresa."
     },
     {
       "id": "21",
@@ -260,9 +260,9 @@
       "popularidad": 5,
       "dinero": 5000,
       "peligrosidad": 3,
-	  "dato1": "Es osteofago.",
-	  "dato2": "Tiene el tamaño de un dragón de komodo.",
-	  "dato3": "Su baba es altamente alucinógena."
+	    "dato1": "Es osteofago.",
+	    "dato2": "Tiene el tamaño de un dragón de komodo.",
+	    "dato3": "Su baba es altamente alucinógena."
     },
     {
       "id": "22",
@@ -272,9 +272,9 @@
       "popularidad": 6,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es frugívoro.",
-	  "dato2": "Tiene el tamaño de una oveja.",
-	  "dato3": "Es capaz de tragarse un melón entero, pero se vuelve algo redondo hasta digerirlo."
+	    "dato1": "Es frugívoro.",
+	    "dato2": "Tiene el tamaño de una oveja.",
+	    "dato3": "Es capaz de tragarse un melón entero, pero se vuelve algo redondo hasta digerirlo."
     },
     {
       "id": "23",
@@ -284,9 +284,9 @@
       "popularidad": 8,
       "dinero": 8000,
       "peligrosidad": 1,
-	  "dato1": "Es frugívoro.",
-	  "dato2": "Tiene el tamaño de una jirafa.",
-	  "dato3": "Se eriza cuando se siente amenazado."
+	    "dato1": "Es frugívoro.",
+	    "dato2": "Tiene el tamaño de una jirafa.",
+	    "dato3": "Se eriza cuando se siente amenazado."
     },
     {
       "id": "24",
@@ -296,9 +296,9 @@
       "popularidad": 4,
       "dinero": 6000,
       "peligrosidad": 1,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de un perro salchicha.",
-	  "dato3": "Se divierte persiguiendo su cola, pero puede atarse a sí mismo en un nudo si no se detiene."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de un perro salchicha.",
+	    "dato3": "Se divierte persiguiendo su cola, pero puede atarse a sí mismo en un nudo si no se detiene."
     },
     {
       "id": "25",
@@ -308,9 +308,9 @@
       "popularidad": 5,
       "dinero": 7000,
       "peligrosidad": 1,
-	  "dato1": "Es herbívoro.",
-	  "dato2": "Tiene el tamaño de una salamandra.",
-	  "dato3": "Su nariz es como la nariz de un payaso: si la apretás, hace ¡honk honk!"
+	    "dato1": "Es herbívoro.",
+	    "dato2": "Tiene el tamaño de una salamandra.",
+	    "dato3": "Su nariz es como la nariz de un payaso: si la apretás, hace ¡honk honk!"
     },
     {
       "id": "26",
@@ -320,9 +320,9 @@
       "popularidad": 3,
       "dinero": 6000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un buitre.",
-	  "dato3": "No puede mover sus patas de manera independiente: salta como lo haría un pajarito."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un buitre.",
+	    "dato3": "No puede mover sus patas de manera independiente: salta como lo haría un pajarito."
     },
     {
       "id": "27",
@@ -332,9 +332,9 @@
       "popularidad": 8,
       "dinero": 8000,
       "peligrosidad": 1,
-	  "dato1": "Es frugívoro.",
-	  "dato2": "Tiene el tamaño de un gorila.",
-	  "dato3": "Cuando hace calor, usa las plumas en su cola de abanico."
+	    "dato1": "Es frugívoro.",
+	    "dato2": "Tiene el tamaño de un gorila.",
+	    "dato3": "Cuando hace calor, usa las plumas en su cola de abanico."
     },
     {
       "id": "28",
@@ -344,9 +344,9 @@
       "popularidad": 10,
       "dinero": 10000,
       "peligrosidad": 1,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un gato.",
-	  "dato3": "Aterriza de su vuelo dejándose estampar contra el suelo."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un gato.",
+	    "dato3": "Aterriza de su vuelo dejándose estampar contra el suelo."
     },
     {
       "id": "29",
@@ -356,9 +356,9 @@
       "popularidad": 8,
       "dinero": 9000,
       "peligrosidad": 1,
-	  "dato1": "Es insectívoro.",
-	  "dato2": "Tiene el tamaño de un elefante.",
-	  "dato3": "Disfruta de dormir cerca de humanos."
+	    "dato1": "Es insectívoro.",
+	    "dato2": "Tiene el tamaño de un elefante.",
+	    "dato3": "Disfruta de dormir cerca de humanos."
     },
     {
       "id": "30",
@@ -368,9 +368,9 @@
       "popularidad": 7,
       "dinero": 7000,
       "peligrosidad": 2,
-	  "dato1": "Es insectívoro.",
-	  "dato2": "Tiene el tamaño de un pavo.",
-	  "dato3": "Su canción matutina suena idéntica a la risotada de un viejo."
+	    "dato1": "Es insectívoro.",
+	    "dato2": "Tiene el tamaño de un pavo.",
+	    "dato3": "Su canción matutina suena idéntica a la risotada de un viejo."
     },
     {
       "id": "31",
@@ -380,9 +380,9 @@
       "popularidad": 6,
       "dinero": 6000,
       "peligrosidad": 2,
-	  "dato1": "Es omnívoro.",
-	  "dato2": "Tiene el tamaño de un guanaco.",
-	  "dato3": "Su dentadura es sospechosamente humana."
+	    "dato1": "Es omnívoro.",
+	    "dato2": "Tiene el tamaño de un guanaco.",
+	    "dato3": "Su dentadura es sospechosamente humana."
     },
     {
       "id": "32",
@@ -392,9 +392,9 @@
       "popularidad": 7,
       "dinero": 8000,
       "peligrosidad": 1,
-	  "dato1": "Es insectívoro.",
-	  "dato2": "Tiene el tamaño de un tucán.",
-	  "dato3": "Le gusta escuchar openings de anime."
+	    "dato1": "Es insectívoro.",
+	    "dato2": "Tiene el tamaño de un tucán.",
+	    "dato3": "Le gusta escuchar openings de anime."
     },
     {
       "id": "33",
@@ -404,9 +404,9 @@
       "popularidad": 9,
       "dinero": 9000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un rinoceronte.",
-	  "dato3": "Si se asusta le dan gases."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un rinoceronte.",
+	    "dato3": "Si se asusta le dan gases."
     },
     {
       "id": "34",
@@ -416,9 +416,9 @@
       "popularidad": 9,
       "dinero": 11000,
       "peligrosidad": 3,
-	  "dato1": "Es carnívoro.",
-	  "dato2": "Tiene el tamaño de un alce irlandés.",
-	  "dato3": "Sus pies están tan bien acolchados que es imposible oírlo moverse."
+	    "dato1": "Es carnívoro.",
+	    "dato2": "Tiene el tamaño de un alce irlandés.",
+	    "dato3": "Sus pies están tan bien acolchados que es imposible oírlo moverse."
     }
   ]
 }
