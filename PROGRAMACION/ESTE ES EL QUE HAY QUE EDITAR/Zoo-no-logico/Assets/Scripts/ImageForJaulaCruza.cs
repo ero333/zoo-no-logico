@@ -51,6 +51,7 @@ public class ImageForJaulaCruza : MonoBehaviour {
     public Sprite foto33;
     public Sprite foto34;
 
+
     private string animales;
 
     [System.Serializable]
@@ -196,6 +197,9 @@ public class ImageForJaulaCruza : MonoBehaviour {
                 break;
             case 34:
                 foto.sprite = foto34;
+                break;
+            case 35:
+                foto.sprite = null;
                 break;
             default:
                 SceneManager.LoadScene("menu-cruza-fallida");

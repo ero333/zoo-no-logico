@@ -54,6 +54,7 @@ public class JsonReader : MonoBehaviour {
     public Sprite foto32;
     public Sprite foto33;
     public Sprite foto34;
+    public Sprite fotoDefault;
 
     public Image estrella1;
     public Image estrella2;
@@ -243,13 +244,16 @@ public class JsonReader : MonoBehaviour {
             case 34:
                 foto.sprite = foto34;
                 break;
+	    case 35:
+		foto.sprite = null;
+		break;
             default:
-                SceneManager.LoadScene("menu-cruza-fallida");
+                if(SceneManager.GetActiveScene().name != "Estasis"){SceneManager.LoadScene("menu-cruza-fallida");}
                 break;
         }
         // if (!foto.sprite)
         // {
-        //     SceneManager.LoadScene("menu-cruza-fallida");
+        //      if(SceneManager.GetActiveScene().name != "Estasis"){SceneManager.LoadScene("menu-cruza-fallida");}
         // }
 
 
@@ -257,29 +261,41 @@ public class JsonReader : MonoBehaviour {
         //CHEQUEAR QUE ESTO ESTE BIEN, SI TE TIRA A CRUZA FALLIDA SIEMPRE COMENTAR LAS 4 LINEAS DE ABAJO
         if (!matched)
         {
-            SceneManager.LoadScene("menu-cruza-fallida");
+             if(SceneManager.GetActiveScene().name != "Estasis"){SceneManager.LoadScene("menu-cruza-fallida");}
+	     index = 35;
         }
 
+        if (index < 35)
+        {
+            descripcion.text = myCruzaList.cruza[index].descripcion;
+            nombre.text = myCruzaList.cruza[index].nombre;
+            dato1.text = myCruzaList.cruza[index].dato1;
+            dato2.text = myCruzaList.cruza[index].dato2;
+            dato3.text = myCruzaList.cruza[index].dato3;
+        }
+        else
+        {
+            nombre.text = "No hay animales";
+            descripcion.text = "Hacé una cruza de animales para poder usar esto";
+            dato1.text = "...";
+            dato2.text = "...";
+            dato3.text = "...";
 
-        descripcion.text = myCruzaList.cruza[index].descripcion;
-        nombre.text = myCruzaList.cruza[index].nombre;
-        dato1.text = myCruzaList.cruza[index].dato1;
-        dato2.text = myCruzaList.cruza[index].dato2;
-        dato3.text = myCruzaList.cruza[index].dato3;
+        }
 
-        if (myCruzaList.cruza[index].peligrosidad == 1)
+        if (index<35 && myCruzaList.cruza[index].peligrosidad == 1)
         {
             estrella1.color = Color.white;
             estrella2.color = Color.grey;
             estrella3.color = Color.grey;
         }
-        if (myCruzaList.cruza[index].peligrosidad == 2)
+        if (index < 35 && myCruzaList.cruza[index].peligrosidad == 2)
         {
             estrella1.color = Color.white;
             estrella2.color = Color.white;
             estrella3.color = Color.grey;
         }
-        if (myCruzaList.cruza[index].peligrosidad == 3)
+        if (index < 35 && myCruzaList.cruza[index].peligrosidad == 3)
         {
             estrella1.color = Color.white;
             estrella2.color = Color.white;
@@ -291,6 +307,6 @@ public class JsonReader : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		print(index);
 	}
 }

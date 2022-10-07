@@ -734,6 +734,7 @@ MonoBehaviour:
   foto32: {fileID: 21300000, guid: ae7ad0d20539a934c8d75b87b7aeb995, type: 3}
   foto33: {fileID: 21300000, guid: 6511f9c213c1d644bad9cfa6d4fb872e, type: 3}
   foto34: {fileID: 21300000, guid: 5d608b029b7f12b418fd916fab8a2a55, type: 3}
+  fotoDefault: {fileID: 21300000, guid: c008794e314ade04c893d6817c555dfa, type: 3}
   estrella1: {fileID: 268347916}
   estrella2: {fileID: 2077643603}
   estrella3: {fileID: 1890573221}
