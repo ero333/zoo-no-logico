@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class popularityTest : MonoBehaviour {
 
 	public GameObject Perdiste;
-	int popularidad;
+	public int popularidad;
 	// Use this for initialization
 	void Start () {
 		
@@ -44,4 +44,6 @@ public class popularityTest : MonoBehaviour {
 		SceneManager.LoadScene(1);
 
 	}
+
+    
 }

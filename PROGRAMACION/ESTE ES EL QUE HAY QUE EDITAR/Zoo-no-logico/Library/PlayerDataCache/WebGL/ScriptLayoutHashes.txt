@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/USAL/2022/Gamer/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD SPRINT 7
+C:/Users/agusp/Desktop/build test
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -162,7 +162,7 @@ cfbabeaa13c78cfd45d1cb19e584d7d3 Assembly-CSharp.dll:.CombinationButton
 9acfbd5a231bee3c2aac9b0c03936d3d Assembly-CSharp.dll:.AgarrarSoltar
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 b980c4e8a5e79d0e5866fd3608e5aa31 Assembly-CSharp.dll:.Comentarios
-f741fbf50896e75366ffe95a21d63268 Assembly-CSharp.dll:.popularityTest
+dfaef55d327718d8d8c99e2333f8b63f Assembly-CSharp.dll:.popularityTest
 f741fbf50896e75366ffe95a21d63268 Assembly-CSharp.dll:.TogglePerdida
 836e85550ed996174cf9a88183781154 Assembly-CSharp.dll:.Item
 e00ca635335d1f1eb8a80b8d015df923 Assembly-CSharp.dll:.Inventory
@@ -222,6 +222,7 @@ c92f0d16986ff767f284e98e402ca1a0 Assembly-CSharp.dll:.swipe_inventory
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 6e404d2eb02a9f60bc876e534b1d44c5 Assembly-CSharp.dll:.CambioDeDia
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-0469996674155f6f969450a66fe39d84 Assembly-CSharp.dll:.MoneySetter
+7c23b812965c238defaa3d0807b165ce Assembly-CSharp.dll:.MoneySetter
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SellAnimal
 c56b08465897335a8da63764e79d83d3 Assembly-CSharp.dll:.Character
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SaveManager

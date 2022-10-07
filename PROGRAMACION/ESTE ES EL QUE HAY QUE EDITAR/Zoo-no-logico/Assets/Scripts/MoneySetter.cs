@@ -8,7 +8,7 @@ public class MoneySetter : MonoBehaviour {
     Text moneyQty;
     public Sprite Moneda;
     Sprite monedaImg;
-    int Monedas;
+    public int Monedas;
 
 	// Use this for initialization
 	void Start () {
