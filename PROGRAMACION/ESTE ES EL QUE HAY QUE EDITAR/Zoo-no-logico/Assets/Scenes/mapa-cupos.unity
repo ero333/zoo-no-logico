@@ -387,7 +387,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: / 20
+  m_Text: / 5
 --- !u!222 &326882899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -782,8 +782,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4cdfa5a00cec9419dd46e7027a5084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numJaulasOcupadas: 0
   textoJaulas: {fileID: 2118000777}
+  Cruzas: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!114 &887779160
 MonoBehaviour:
   m_ObjectHideFlags: 0
