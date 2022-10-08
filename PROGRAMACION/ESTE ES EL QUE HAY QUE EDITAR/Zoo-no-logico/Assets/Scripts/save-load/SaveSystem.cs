@@ -8,7 +8,7 @@ public static class SaveSystem  {
     {
         BinaryFormatter formatter = new BinaryFormatter();
 
-        string path = Application.persistentDataPath + "/popularidad.txt";
+        string path = Application.persistentDataPath + "/save.txt";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         GameData data = new GameData(popularidad, monedas);
@@ -19,7 +19,7 @@ public static class SaveSystem  {
 
     public static GameData LoadGame ()
     {
-        string path = Application.persistentDataPath + "/popularidad.txt";
+        string path = Application.persistentDataPath + "/save.txt";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();

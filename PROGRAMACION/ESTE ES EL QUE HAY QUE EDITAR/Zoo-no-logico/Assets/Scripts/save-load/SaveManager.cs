@@ -29,9 +29,6 @@ public class SaveManager : MonoBehaviour{
     public void LoadGame()
     {
         GameData data = SaveSystem.LoadGame();
-
-        Debug.Log(data.popularidad_save);
-        Debug.Log(data.monedas_save);
         
         popularidadValue = data.popularidad_save;
         PlayerPrefs.SetInt("Popularidad", popularidadValue);
@@ -46,5 +43,7 @@ public class SaveManager : MonoBehaviour{
         PlayerPrefs.SetInt("CantidadMurcielago", data.cant_murcielago);
         PlayerPrefs.SetInt("CantidadSerpiente", data.cant_serpiente);
         PlayerPrefs.SetInt("CantidadAve", data.cant_ave);
+
+        PlayerPrefs.SetString("Jaula1", data.jaula1);
     }
 }

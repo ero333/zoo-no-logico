@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/configuracion2.unity
+=======
+- path: Assets/Scenes/menu-principal.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1

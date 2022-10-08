@@ -17,6 +17,8 @@ public class GameData {
     public int cant_serpiente;
     public int cant_ave;
 
+    public string jaula1;
+
     public GameData (popularityTest popularidad, MoneySetter monedas)
     {
         popularidad_save = popularidad.popularidad;
@@ -30,5 +32,7 @@ public class GameData {
         cant_murcielago = PlayerPrefs.GetInt("CantidadMurcielago");
         cant_serpiente = PlayerPrefs.GetInt("CantidadSerpiente");
         cant_ave = PlayerPrefs.GetInt("CantidadAve");
+
+        jaula1 = PlayerPrefs.GetString("Jaula1");
     }
 }

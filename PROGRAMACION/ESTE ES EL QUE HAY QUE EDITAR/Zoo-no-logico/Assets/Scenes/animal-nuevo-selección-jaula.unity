@@ -280,6 +280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 10243781}
+  cruza: {fileID: 1366687588}
+  cruza_num: 
 --- !u!1 &107397001
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 201525067}
+  cruza: {fileID: 1366687588}
+  cruza_num: 
 --- !u!114 &201525067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2688,6 +2692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 1238624815}
+  cruza: {fileID: 1366687588}
+  cruza_num: 
 --- !u!1 &1291227120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +2769,11 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291227120}
   m_CullTransparentMesh: 0
+--- !u!1 &1366687588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1250251737020354, guid: 40c99e3272af02243a05f735e635cb9c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1991414873}
 --- !u!1 &1415662148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,8 +3165,8 @@ RectTransform:
   - {fileID: 803451085}
   - {fileID: 314846146}
   - {fileID: 1905745812}
-  - {fileID: 1912452977}
   - {fileID: 1653896710}
+  - {fileID: 1912452977}
   - {fileID: 564704260}
   - {fileID: 1784651961}
   - {fileID: 437786440}
@@ -3247,6 +3258,7 @@ MonoBehaviour:
   foto32: {fileID: 21300000, guid: ae7ad0d20539a934c8d75b87b7aeb995, type: 3}
   foto33: {fileID: 21300000, guid: 6511f9c213c1d644bad9cfa6d4fb872e, type: 3}
   foto34: {fileID: 21300000, guid: 5d608b029b7f12b418fd916fab8a2a55, type: 3}
+  fotoDefault: {fileID: 0}
   estrella1: {fileID: 1110018436}
   estrella2: {fileID: 2034853954}
   estrella3: {fileID: 731822188}
@@ -3325,7 +3337,7 @@ Transform:
   m_LocalScale: {x: 41.93423, y: 41.93423, z: 41.93423}
   m_Children: []
   m_Father: {fileID: 1576139902}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672600506
 GameObject:
@@ -4275,7 +4287,7 @@ Prefab:
     - target: {fileID: 224634674530137706, guid: 40c99e3272af02243a05f735e635cb9c,
         type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 224634674530137706, guid: 40c99e3272af02243a05f735e635cb9c,
         type: 2}
@@ -4336,6 +4348,10 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250251737020354, guid: 40c99e3272af02243a05f735e635cb9c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40c99e3272af02243a05f735e635cb9c, type: 2}
