@@ -64,7 +64,9 @@ public class NewDayMoney : MonoBehaviour {
     {
 
         popularityMultipliyer = popularity / 100 + 1;
+        if (GameObject.FindGameObjectWithTag("NewTextoMonedas")) { 
         newMoneyText = GameObject.FindGameObjectWithTag("NewTextoMonedas").GetComponent<Text>();
+        }
 
 
         newMoney = (cage1Money / 4 + cage2Money / 4 + cage3Money / 4 + cage4Money/4 + cage5Money/4) * popularityMultipliyer;
