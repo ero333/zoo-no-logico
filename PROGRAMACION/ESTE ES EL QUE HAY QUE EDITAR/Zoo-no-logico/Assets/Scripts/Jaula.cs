@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -34,26 +35,26 @@ public class Jaula : MonoBehaviour {
 
     // Use this for initialization
     void Start () 
-{
+    {
+
+
         textoJaulas = GameObject.FindGameObjectWithTag("TextoJaulas").GetComponent<Text>();
         Jaulas = PlayerPrefs.GetInt("Jaulitas");
-
-
+        
+        
     }
 	
 	// Update is called once per frame
 	void Update () {
         textoJaulas.text = Jaulas.ToString();
         Jaulas = PlayerPrefs.GetInt("Jaulitas");
+        
 
-        print("num de cruza aca");
-        print(PlayerPrefs.GetString("Jaula1"));
+        //Sprite cruza_test_img = Resources.Load<Sprite>(PlayerPrefs.GetString("Jaula1"));
 
-        Sprite cruza_test_img = Resources.Load<Sprite>(PlayerPrefs.GetString("Jaula1"));
+        //Image Jaula1_image = Jaula1.GetComponent<Image>();
 
-        Image Jaula1_image = Jaula1.GetComponent<Image>();
-
-        Jaula1_image.sprite = cruza_test_img;
+        //Jaula1_image.sprite = cruza_test_img;
 
         //switch (Jaulas)
         //{
@@ -544,5 +545,5 @@ public class Jaula : MonoBehaviour {
         //}
     }
 
-
+    
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,7 @@ public class CuposJaulas : MonoBehaviour
     //GameObject Jaula1;
     private int numJaulasOcupadas;
     public Text textoJaulas;
-    public TextAsset Cruzas;
+    TextAsset Cruzas;
 
 
     [System.Serializable]
@@ -95,6 +96,8 @@ public class CuposJaulas : MonoBehaviour
 
     }
 
+    
+
     public void DesocuparJaulas()
     {
         numJaulasOcupadas--;
@@ -107,7 +110,6 @@ public class CuposJaulas : MonoBehaviour
             PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         }
     }
-
 
 
 }

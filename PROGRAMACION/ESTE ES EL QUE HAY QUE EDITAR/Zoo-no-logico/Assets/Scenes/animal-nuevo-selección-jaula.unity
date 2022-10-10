@@ -125,6 +125,8 @@ GameObject:
   - component: {fileID: 10243782}
   - component: {fileID: 10243785}
   - component: {fileID: 10243781}
+  - component: {fileID: 10243787}
+  - component: {fileID: 10243786}
   - component: {fileID: 10243780}
   - component: {fileID: 10243784}
   m_Layer: 5
@@ -214,6 +216,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 10243786}
+        m_MethodName: ComprarJaulaTest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &10243782
@@ -280,8 +293,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 10243781}
+--- !u!114 &10243786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10243778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed64cf893543974f8d7bf67aa2a2b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   cruza: {fileID: 1366687588}
   cruza_num: 
+--- !u!114 &10243787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10243778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b169be96add313b4fa0ceb7d8f5e7825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  JaulasArray: []
 --- !u!1 &107397001
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoJaulas: {fileID: 0}
-  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   myCruzaList:
     cruza: []
 --- !u!1 &182353293
@@ -668,6 +704,8 @@ GameObject:
   - component: {fileID: 201525068}
   - component: {fileID: 201525066}
   - component: {fileID: 201525067}
+  - component: {fileID: 201525073}
+  - component: {fileID: 201525072}
   - component: {fileID: 201525071}
   m_Layer: 5
   m_Name: "Bot\xF3n Aceptar JG"
@@ -689,8 +727,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 201525067}
-  cruza: {fileID: 1366687588}
-  cruza_num: 
 --- !u!114 &201525067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,6 +773,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 201525072}
+        m_MethodName: ComprarJaulaTest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -813,6 +860,32 @@ MonoBehaviour:
   Button: {fileID: 0}
   testMonedas2: {fileID: 942967496}
   Cosoprueba: {fileID: 0}
+--- !u!114 &201525072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201525065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed64cf893543974f8d7bf67aa2a2b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cruza: {fileID: 1366687588}
+  cruza_num: 
+--- !u!114 &201525073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201525065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b169be96add313b4fa0ceb7d8f5e7825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  JaulasArray: []
 --- !u!1 &307390050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,6 +2610,8 @@ GameObject:
   - component: {fileID: 1238624816}
   - component: {fileID: 1238624820}
   - component: {fileID: 1238624815}
+  - component: {fileID: 1238624822}
+  - component: {fileID: 1238624821}
   - component: {fileID: 1238624814}
   - component: {fileID: 1238624819}
   m_Layer: 5
@@ -2603,6 +2678,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1238624821}
+        m_MethodName: ComprarJaulaTest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2692,8 +2778,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jaulasTotales: 5
   boton: {fileID: 1238624815}
+--- !u!114 &1238624821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238624813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed64cf893543974f8d7bf67aa2a2b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   cruza: {fileID: 1366687588}
   cruza_num: 
+--- !u!114 &1238624822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238624813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b169be96add313b4fa0ceb7d8f5e7825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  JaulasArray: []
 --- !u!1 &1291227120
 GameObject:
   m_ObjectHideFlags: 0
@@ -4020,7 +4130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoJaulas: {fileID: 1905745813}
-  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   myCruzaList:
     cruza: []
 --- !u!224 &1912452977 stripped
