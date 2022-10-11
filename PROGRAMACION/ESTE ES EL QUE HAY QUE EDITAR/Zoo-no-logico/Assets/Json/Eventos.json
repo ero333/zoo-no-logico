@@ -3,7 +3,7 @@
     {
       "id": "0",
       "titulo": "EL PRECIO DEL ÉXITO",
-      "descripcion": " Enhorabuena, tu zoológico es más exitoso que nunca! Malas noticias: uno de tus empleados, viendo tu éxito, siente que se merece algo de compensación por sus aportes a la organizaci�n. Siendo tu científico de cabecera y el portavoz de tu área de investigación, tiene todo el poder de arruinar tu imagen o de hacer lucir a todo el equipo. Por supuesto, algo de dinero podría ayudarlo a sentirse más comprometido con la causa?",
+      "descripcion": " Enhorabuena, tu zoológico es más exitoso que nunca! Malas noticias: uno de tus empleados, viendo tu éxito, siente que se merece algo de compensación por sus aportes a la organización. Siendo tu científico de cabecera y el portavoz de tu área de investigación, tiene todo el poder de arruinar tu imagen o de hacer lucir a todo el equipo. Por supuesto, algo de dinero podría ayudarlo a sentirse más comprometido con la causa?",
       "Opcion1Text": "Sobornar científico",
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 5,
@@ -33,7 +33,7 @@
     {
       "id": "2",
       "titulo": "PARO SINDICAL",
-      "descripcion": " El sindicato de vendedores de palomitas y algodón de azúcar se pusieron a hacer una huelga en frente de las puertas de tu zoo, si no les aumentan el sueldo no piensan vender absolutamente nada. Puedes darles un jugoso aumento que los mantendrá felices por todo el a�o, o puedes darles una entrada totalmente gratis al show secreto de Dua Lipa que será justamente en la guarida de los cocodrilos, ¡Tienen asientos en primera fila! Algo me dice que vas a tener que contratar nuevo personal luego.",
+      "descripcion": " El sindicato de vendedores de palomitas y algodón de azúcar se pusieron a hacer una huelga en frente de las puertas de tu zoo, si no les aumentan el sueldo no piensan vender absolutamente nada. Puedes darles un jugoso aumento que los mantendrá felices por todo el año, o puedes darles una entrada totalmente gratis al show secreto de Dua Lipa que será justamente en la guarida de los cocodrilos, ¡Tienen asientos en primera fila! Algo me dice que vas a tener que contratar nuevo personal luego.",
       "Opcion1Text": "Darles aumento",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
@@ -48,7 +48,7 @@
     {
       "id": "3",
       "titulo": "NEGOCIO ES NEGOCIO",
-      "descripcion": "El negocio de los zoológicos es un mundo duro y competitivo, pero tener amigos siempre ayuda. El Zoológico de Valendo está conduciendo una serie de investigaciones con cocodrilos, pero luego de la popularidad de Steve Irwin, nadie quiere mandar a un pobre cocodrilo a un oscuro laboratorio a ser pinchado. Un esp�cimen sano podría ayudarlos con sus proyectos, gan�ndote una buena reputaci�n con ellos en el proceso. Por supuesto, ese mismo esp�cimen tiene un alto precio en el mercado negro.",
+      "descripcion": "El negocio de los zoológicos es un mundo duro y competitivo, pero tener amigos siempre ayuda. El Zoológico de Valendo está conduciendo una serie de investigaciones con cocodrilos, pero luego de la popularidad de Steve Irwin, nadie quiere mandar a un pobre cocodrilo a un oscuro laboratorio a ser pinchado. Un espécimen sano podría ayudarlos con sus proyectos, ganándote una buena reputación con ellos en el proceso. Por supuesto, ese mismo espécimen tiene un alto precio en el mercado negro.",
       "Opcion1Text": "Donar cocodrilo",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
@@ -108,7 +108,7 @@
     {
       "id": "7",
       "titulo": "EL REGRESO DE BELUSKA COLA",
-      "descripcion": " La oportunidad de una vida está frente tuyo. El CEO de  Beluska Cola está buscando algo de publicidad luego de un a�o fiscal complicado. La compañía te está ofreciendo financiar todas tus operaciones por el siguiente mes a cambio de que pongas algunos carteles publicitando su nuevo producto cuestionable en tu zoológico. El dinero es tentador, pero delatar a la compañía y sus intentos por publicitar un producto dañino a la salud podría traer muy buena publicidad para tu zoológico.",
+      "descripcion": " La oportunidad de una vida está frente tuyo. El CEO de  Beluska Cola está buscando algo de publicidad luego de un año fiscal complicado. La compañía te está ofreciendo financiar todas tus operaciones por el siguiente mes a cambio de que pongas algunos carteles publicitando su nuevo producto cuestionable en tu zoológico. El dinero es tentador, pero delatar a la compañía y sus intentos por publicitar un producto dañino a la salud podría traer muy buena publicidad para tu zoológico.",
       "Opcion1Text": "Aceptar acuerdo",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
@@ -138,7 +138,7 @@
     {
       "id": "9",
       "titulo": "EL PRECIO DE LA REPUTACIÓN",
-      "descripcion": " Hay veces en las que ninguna opción en la vida parece ser la correcta. Tristemente para vos, ese es el caso en esta situación. Un leak dentro de la compañía ha llevado a la luz algunos contratos cuestionables en los éltimos a�os. Enterrar toda la evidencia podría costar mucho dinero, pero el golpe a tu reputaci�n podría terminar siendo peor a la larga.",
+      "descripcion": " Hay veces en las que ninguna opción en la vida parece ser la correcta. Tristemente para vos, ese es el caso en esta situación. Un leak dentro de la compañía ha llevado a la luz algunos contratos cuestionables en los éltimos años. Enterrar toda la evidencia podría costar mucho dinero, pero el golpe a tu reputación podría terminar siendo peor a la larga.",
       "Opcion1Text": "Confesar y disculparse",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
@@ -213,7 +213,7 @@
     {
       "id": "14",
       "titulo": "EL PRECIO DEL ÉXITO",
-      "descripcion": "Afortunadamente para vos, las oportunidades de negocio están en todas partes para el dueño de un zoológico como el tuyo. Un coleccionista de arañas ex�ticas está interesado en comprar uno de tus espec�menes, y está ofreciendo una gran suma de dinero por ella. Sin embargo, tratar con este coleccionista en particular podría probar ser una espada con doble filo, ya que su reputaci�n no es algo de lo que estar orgulloso, y cualquier asociación tuya con él podría perjudicarte. Esto por supuesto también presenta la oportunidad de ganar nuevos fans apelando a sus haters.",
+      "descripcion": "Afortunadamente para vos, las oportunidades de negocio están en todas partes para el dueño de un zoológico como el tuyo. Un coleccionista de arañas ex�ticas está interesado en comprar uno de tus espec�menes, y está ofreciendo una gran suma de dinero por ella. Sin embargo, tratar con este coleccionista en particular podría probar ser una espada con doble filo, ya que su reputación no es algo de lo que estar orgulloso, y cualquier asociación tuya con él podría perjudicarte. Esto por supuesto también presenta la oportunidad de ganar nuevos fans apelando a sus haters.",
       "Opcion1Text": "Vender araña",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
