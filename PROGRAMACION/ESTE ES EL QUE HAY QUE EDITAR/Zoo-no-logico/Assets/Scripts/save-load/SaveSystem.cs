@@ -28,6 +28,12 @@ public static class SaveSystem  {
             GameData data = formatter.Deserialize(stream) as GameData;
             stream.Close();
 
+
+            Debug.Log(data.jaula0);
+            Debug.Log(data.jaula1);
+            Debug.Log(data.jaula2);
+            Debug.Log(data.jaula3);
+
             return data;
         } else
         {

@@ -15,17 +15,42 @@ public class ComprarJaula : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        
 	}
 
     public void ComprarJaulaTest ()
     {
         cruza_num = cruza.GetComponent<Image>().sprite.name;
-        PlayerPrefs.SetString("Jaula" + PlayerPrefs.GetInt("JaulasOcupadas"), cruza_num);
+        //PlayerPrefs.SetString("Jaula" + PlayerPrefs.GetInt("JaulasOcupadas"), cruza_num);
         
         PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
-        print(PlayerPrefs.GetInt("JaulasOcupadas"));
+        //print(PlayerPrefs.GetInt("JaulasOcupadas"));
 
+        Jaula JManager = FindObjectOfType<Jaula>();
 
+        int selectedActiveIndex = -1;
+        
+
+        for (int i = 0; i < JManager.JaulasActivas.Length; i++)
+        {
+            if (i != 0 && JManager.JaulasActivas[i] == 0 && selectedActiveIndex == -1)
+            {
+                print("here");
+                selectedActiveIndex = i;
+
+            }
+            else if (i == 0 && JManager.JaulasActivas[i] == 0 && selectedActiveIndex == -1)
+            {
+                print("here 2");
+                selectedActiveIndex = i;
+            }
+        }
+
+        JManager.JaulasActivas[selectedActiveIndex] = 1;
+        PlayerPrefs.SetInt("JaulaActiva" + selectedActiveIndex, 1);
+
+        print("Jaula" + selectedActiveIndex);
+        print("cruza num: " + cruza_num);
+        PlayerPrefs.SetString("Jaula" + selectedActiveIndex, cruza_num);
     }
 }
