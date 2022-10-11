@@ -36,11 +36,16 @@ public class Eventos : MonoBehaviour {
     public Text Descripcion;
     public Text Opcion1;
     public Text Opcion2;
+    private int eventNumber;
 
     void Start()
     {
+        eventNumber = Random.Range(0, 3);
         myEventoList = JsonUtility.FromJson<EventoList>(EventosJson.text);
-        print(myEventoList.evento[0].titulo);
+        Title.text = myEventoList.evento[eventNumber].titulo;
+        Descripcion.text = myEventoList.evento[eventNumber].descripcion;
+        Opcion1.text = myEventoList.evento[eventNumber].Opcion1Text;
+        Opcion2.text = myEventoList.evento[eventNumber].Opcion2Text;
     }
 
     void Update()
