@@ -15,18 +15,23 @@ public class popularityTest : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		popularidad = PlayerPrefs.GetInt("Popularidad");
-		// print(popularidad);
+        // print(popularidad);
+        if (popularidad>0)
+        {
+            if (popularidad >= 100)
+            {
+                print("ganaste");
+            }
+            if (popularidad <= 0)
+            {
+                Perdiste.SetActive(true);
+            }
 
-		if (popularidad >= 100){
-			print("ganaste");
-}
-		if(popularidad<=0 ){
-		Perdiste.SetActive(true);
-		}
-		
-		else{
-		Perdiste.SetActive(false);
-		}
+            else
+            {
+                Perdiste.SetActive(false);
+            }
+        }
 		
 	}
 

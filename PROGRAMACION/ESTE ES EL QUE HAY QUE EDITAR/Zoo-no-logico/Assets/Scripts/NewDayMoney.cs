@@ -43,6 +43,7 @@ public class NewDayMoney : MonoBehaviour {
     void Start () {
 
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
+        print(myCruzaList);
 
         if (PlayerPrefs.GetInt("Jaula1") != 89) { cage1Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula1")].dinero; }
         if (PlayerPrefs.GetInt("Jaula2") != 89) { cage2Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula2")].dinero; }
