@@ -21,11 +21,11 @@ public class DeletePlayerPrefs : MonoBehaviour {
 
 
 
-        PlayerPrefs.SetInt("Jaula1", 89);
-        PlayerPrefs.SetInt("Jaula2", 89);
-        PlayerPrefs.SetInt("Jaula3", 89);
-        PlayerPrefs.SetInt("Jaula4", 89);
-        PlayerPrefs.SetInt("Jaula5", 89);
+        //PlayerPrefs.SetInt("Jaula1", 89);
+        //PlayerPrefs.SetInt("Jaula2", 89);
+        //PlayerPrefs.SetInt("Jaula3", 89);
+        //PlayerPrefs.SetInt("Jaula4", 89);
+        //PlayerPrefs.SetInt("Jaula5", 89);
 
         PlayerPrefs.SetInt("Moneditas", 12500);
 
@@ -39,9 +39,9 @@ public class DeletePlayerPrefs : MonoBehaviour {
         PlayerPrefs.SetInt("CantidadSerpiente", 0);
         PlayerPrefs.SetInt("CantidadAve", 0);
 
-        //for (int i = 0; i < 20; i++)
-        //{
-        //    PlayerPrefs.SetInt("Jaula" + i, 0);
-        //}
+        for (int i = 0; i < 20; i++)
+        {
+            PlayerPrefs.SetInt("Jaula" + i, 89);
+        }
     }
 }
