@@ -53,5 +53,9 @@ public class DeletePlayerPrefs : MonoBehaviour {
         {
             PlayerPrefs.SetInt("Jaula" + i, 89);
         }
+
+        PlayerPrefs.SetInt("ResetListCartas", 0);
+        PlayerPrefs.SetInt("EventoCartas", 0);
+        PlayerPrefs.SetInt("DesactivarNoti", 0);
     }
 }

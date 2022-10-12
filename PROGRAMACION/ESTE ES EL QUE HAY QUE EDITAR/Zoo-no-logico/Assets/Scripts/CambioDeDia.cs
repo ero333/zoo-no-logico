@@ -36,6 +36,8 @@ public class CambioDeDia : MonoBehaviour {
             textoTurno.text = "DIA: " + numTurno.ToString();
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("Dias", numTurno);
+
+            PlayerPrefs.SetInt("EventoCartas", 1);
         }
         else
         {
