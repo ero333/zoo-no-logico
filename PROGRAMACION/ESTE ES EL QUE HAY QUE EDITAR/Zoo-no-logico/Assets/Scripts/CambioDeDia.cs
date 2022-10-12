@@ -23,7 +23,7 @@ public class CambioDeDia : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         numTurno = PlayerPrefs.GetInt("Dias");
-        textoTurno.text = numTurno.ToString();
+        textoTurno.text = "DIA: "+numTurno.ToString();
         Popularidad = PlayerPrefs.GetInt("Popularidad");
     }
 
@@ -33,7 +33,7 @@ public class CambioDeDia : MonoBehaviour {
         if (!PantallaPostEvento)
         {
             numTurno++;
-            textoTurno.text = numTurno.ToString();
+            textoTurno.text = "DIA: " + numTurno.ToString();
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("Dias", numTurno);
         }
