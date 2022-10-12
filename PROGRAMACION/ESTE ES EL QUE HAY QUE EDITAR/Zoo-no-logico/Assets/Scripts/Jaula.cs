@@ -12,13 +12,30 @@ public class Jaula : MonoBehaviour
 
     public GameObject[] JaulasArray;
 
+    public int Monedas;
+
+    [SerializeField] public GameObject testMonedas;
+    [SerializeField] public GameObject testMonedas2;
+
+    void Awake()
+    {
+        GetJaulas();
+    }
+
     // Use this for initialization
     void Start()
     {
 
-        GetJaulas();
+        
+        //print(JaulasArray[0]);
+        //print(JaulasArray[3]);
+        //print(JaulasArray[15]);
 
         int jaulas_ocupadas = PlayerPrefs.GetInt("JaulasOcupadas");
+        int Monedas = PlayerPrefs.GetInt("Moneditas");
+
+        
+        
 
         //print(jaulas_ocupadas);
 
@@ -44,38 +61,38 @@ public class Jaula : MonoBehaviour
         }
         
 
-        //for (int i = 0; i < JaulasActivas.Length; i++)
-        //{
-        //    if (JaulasActivas[i] == 1)
-        //    {
-        //        print("caso: " + i);
+        for (int i = 0; i < JaulasActivas.Length; i++)
+        {
+            if (JaulasActivas[i] == 1)
+            {
+                print("caso: " + i);
 
-        //        JaulasArray[i].SetActive(true);
+                JaulasArray[i].SetActive(true);
 
-        //        print("Jaula" + i);
+                print("Jaula" + i);
 
-        //        print("jaula: " + PlayerPrefs.GetString("Jaula" + i));
+                print("jaula: " + PlayerPrefs.GetString("Jaula" + i));
 
-        //        Sprite cruza_test_img = Resources.Load<Sprite>(PlayerPrefs.GetString("Jaula" + i));
+                Sprite cruza_test_img = Resources.Load<Sprite>(PlayerPrefs.GetString("Jaula" + i));
 
-        //        Image Jaula_image = JaulasArray[i].GetComponent<Image>();
+                Image Jaula_image = JaulasArray[i].GetComponent<Image>();
 
-        //        Jaula_image.sprite = cruza_test_img;
+                Jaula_image.sprite = cruza_test_img;
 
-        //        print("cruza: " + cruza_test_img);
-        //        print(JaulasActivas[i]);
+                print("cruza: " + cruza_test_img);
+                print(JaulasActivas[i]);
 
-        //    }
-        //    else if (JaulasActivas[i] == 0)
-        //    {
-        //        print("caso else: " + i);
-        //        if (i >= 0 && i <= 19)
-        //        {
-        //            JaulasArray[i].SetActive(false);
-        //        }
+            }
+            else if (JaulasActivas[i] == 0)
+            {
+                print("caso else: " + i);
+                if (i >= 0 && i <= 19)
+                {
+                    JaulasArray[i].SetActive(false);
+                }
                 
-        //    }
-        //}
+            }
+        }
     }
 
     // Update is called once per frame
@@ -85,6 +102,9 @@ public class Jaula : MonoBehaviour
         {
             JaulasActivas[i] = PlayerPrefs.GetInt("JaulaActiva" + i, JaulasActivas[i]);
         }
+
+        //JaulaManager jm = FindObjectOfType<JaulaManager>();
+        //print(jm.JaulasArray[3] + "TEST JM");
     }
 
     GameObject[] GetJaulas()
@@ -101,51 +121,51 @@ public class Jaula : MonoBehaviour
 
     public void OcuparJaula (int costoJaula)
     {
-        int selectedJaula = -1;
+        //int selectedJaula = -1;
 
-        for (int i = 0; i < JaulasActivas.Length; i++)
-        {
-            if ((JaulasActivas[i] == 0) && selectedJaula == -1)
-            {
-                JaulasActivas[i] = 1;
-                PlayerPrefs.SetInt("JaulaActiva" + i, 1);
-                selectedJaula = i;
-                print(i + " here");
-            }
-        }
-        
-        JaulasArray[selectedJaula].SetActive(true);
-
-        PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
-
-        //if (Monedas > costoJaula)
+        //for (int i = 0; i < JaulasActivas.Length; i++)
         //{
-        //    testMonedas.SetActive(true);
-        //    Monedas -= OcuparJaula; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
-        //    PlayerPrefs.SetInt("Moneditas", Monedas);
-
-        //    int selectedJaula = -1;
-
-        //    for (int i = 0; i < JaulasActivas.Length; i++)
+        //    if ((JaulasActivas[i] == 0) && selectedJaula == -1)
         //    {
-        //        if ((JaulasActivas[i] == 0) && selectedJaula == -1)
-        //        {
-        //            JaulasActivas[i] = 1;
-        //            PlayerPrefs.SetInt("JaulaActiva" + i, 1);
-        //            selectedJaula = i;
-        //            print(i + " here");
-        //        }
+        //        JaulasActivas[i] = 1;
+        //        PlayerPrefs.SetInt("JaulaActiva" + i, 1);
+        //        selectedJaula = i;
+        //        print(i + " here");
         //    }
-
-        //    JaulasArray[selectedJaula].SetActive(true);
-
-        //    PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
-
         //}
-        //else
-        //{
-        //    testMonedas2.SetActive(true);
-        //}
+
+        //JaulasArray[selectedJaula].SetActive(true);
+
+        //PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
+
+        if (Monedas > costoJaula)
+        {
+            testMonedas.SetActive(true);
+            Monedas -= costoJaula; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
+            PlayerPrefs.SetInt("Moneditas", Monedas);
+
+            int selectedJaula = -1;
+
+            for (int i = 0; i < JaulasActivas.Length; i++)
+            {
+                if ((JaulasActivas[i] == 0) && selectedJaula == -1)
+                {
+                    JaulasActivas[i] = 1;
+                    PlayerPrefs.SetInt("JaulaActiva" + i, 1);
+                    selectedJaula = i;
+                    print(i + " here");
+                }
+            }
+
+            JaulasArray[selectedJaula].SetActive(true);
+
+            PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
+
+        }
+        else
+        {
+            testMonedas2.SetActive(true);
+        }
     }
 
     public void DesocuparJaula (int selectedJaula)

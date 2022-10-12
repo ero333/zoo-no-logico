@@ -11,7 +11,7 @@ public class CuposJaulas : MonoBehaviour
     //GameObject Jaula1;
     private int numJaulasOcupadas;
     public Text textoJaulas;
-    TextAsset Cruzas;
+    public TextAsset Cruzas;
 
 
     [System.Serializable]

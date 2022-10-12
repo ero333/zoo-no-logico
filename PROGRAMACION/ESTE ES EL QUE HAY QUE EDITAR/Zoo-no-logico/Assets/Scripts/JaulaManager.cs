@@ -37,15 +37,19 @@ public class JaulaManager : MonoBehaviour {
 
     public GameObject[] JaulasArray;
 
+    void Awake()
+    {
+        GetJaulas();
+    }
+
     // Use this for initialization
     void Start () 
     {
 
-
         textoJaulas = GameObject.FindGameObjectWithTag("TextoJaulas").GetComponent<Text>();
         Jaulas = PlayerPrefs.GetInt("JaulasOcupadas");
 
-        GetJaulas();
+        //GetJaulas();
 
         int jaulas_ocupadas = PlayerPrefs.GetInt("JaulasOcupadas");
 
@@ -103,6 +107,7 @@ public class JaulaManager : MonoBehaviour {
                 print("caso else: " + i);
                 if (i >= 0 && i <= 19)
                 {
+
                     JaulasArray[i].SetActive(false);
                 }
 
@@ -123,8 +128,9 @@ public class JaulaManager : MonoBehaviour {
 
     GameObject[] GetJaulas()
     {
-        JaulasArray = GameObject.FindGameObjectsWithTag("Jaula");
+        JaulasArray = GameObject.FindGameObjectsWithTag("Jaula"); 
         Array.Sort(JaulasArray, CompareJaulas);
+        print(JaulasArray[3]);
         return JaulasArray;
     }
 

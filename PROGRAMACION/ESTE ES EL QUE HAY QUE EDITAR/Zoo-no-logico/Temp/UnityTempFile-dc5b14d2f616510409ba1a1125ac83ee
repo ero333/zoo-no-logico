@@ -2,8 +2,12 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Unity.TextMeshPro.dll
+-out:Temp/Assembly-CSharp.dll
 -nostdlib
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -66,28 +70,13 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
--r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
--r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
--r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
--r:C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
--r:C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
--r:C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
--r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/Alumno/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/Alumno/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
@@ -180,50 +169,60 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/FastAction.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/MaterialReferenceManager.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/PackageResourceImporterWindow.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextContainer.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextMeshPro.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextMeshProUGUI.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Asset.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ColorGradient.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Compatibility.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_CoroutineTween.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_DefaultControls.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Dropdown.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_FontAsset.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_InputField.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_InputValidator.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_LineInfo.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ListPool.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_MaterialManager.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_MeshInfo.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ObjectPool.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SelectionCaret.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Settings.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Sprite.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAnimator.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAsset.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Style.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_StyleSheet.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SubMesh.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SubMeshUI.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Text.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextElement.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextInfo.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextUtilities.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_UpdateManager.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_UpdateRegistery.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_XmlTagStack.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_EventManager.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_ExtensionMethods.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_FontUtilities.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_MeshUtilities.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_Private.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_ShaderUtilities.cs
-C:/Users/Zanty.DESKTOP-O0QB1PV/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_UGUI_Private.cs
+"Assets/Items & Inventory/Scripts/CantidadCupos.cs"
+"Assets/Items & Inventory/Scripts/CantidadVisitantes.cs"
+"Assets/Items & Inventory/Scripts/Character.cs"
+"Assets/Items & Inventory/Scripts/CombinationButton.cs"
+"Assets/Items & Inventory/Scripts/DisableCombinationBtn.cs"
+"Assets/Items & Inventory/Scripts/Drag.cs"
+"Assets/Items & Inventory/Scripts/DragAndDropVisual.cs"
+"Assets/Items & Inventory/Scripts/Drop.cs"
+"Assets/Items & Inventory/Scripts/EquippableItem.cs"
+"Assets/Items & Inventory/Scripts/InterfazCruza.cs"
+"Assets/Items & Inventory/Scripts/Inventory.cs"
+"Assets/Items & Inventory/Scripts/Item.cs"
+"Assets/Items & Inventory/Scripts/ItemSlot.cs"
+"Assets/Items & Inventory/Scripts/SlotDeCruza.cs"
+Assets/PopularidadBar.cs
+Assets/Scripts/AbrirCartas.cs
+Assets/Scripts/AgarrarSoltar.cs
+Assets/Scripts/BotonJC.cs
+Assets/Scripts/BotonJG.cs
+Assets/Scripts/BotonJM.cs
+Assets/Scripts/CambioDeDia.cs
+Assets/Scripts/CantidadAnimales.cs
+Assets/Scripts/CartaAzar.cs
+Assets/Scripts/ChangeScene.cs
+Assets/Scripts/CombinateByPercent.cs
+Assets/Scripts/Comentarios.cs
+Assets/Scripts/ComprarJaula.cs
+Assets/Scripts/CuposJaulas.cs
+Assets/Scripts/DeletePlayerPrefs.cs
+Assets/Scripts/DestroyCombination.cs
+Assets/Scripts/DisableCartaBtn.cs
+Assets/Scripts/DisableJaulaBtn.cs
+Assets/Scripts/DontDestroy.cs
+Assets/Scripts/Eventos/evento.cs
+Assets/Scripts/Eventos/Eventos.cs
+Assets/Scripts/ImageForJaulaCruza.cs
+Assets/Scripts/Jaula.cs
+Assets/Scripts/JaulaManager.cs
+Assets/Scripts/JsonCalculatePercent.cs
+Assets/Scripts/JsonReader.cs
+Assets/Scripts/MonedasTotales.cs
+Assets/Scripts/MoneySetter.cs
+Assets/Scripts/NewDayMoney.cs
+Assets/Scripts/Peligrosidad.cs
+Assets/Scripts/popularityTest.cs
+Assets/Scripts/RandomPercent.cs
+Assets/Scripts/RawImageTexture.cs
+Assets/Scripts/save-load/GameData.cs
+Assets/Scripts/save-load/SaveManager.cs
+Assets/Scripts/save-load/SaveSystem.cs
+Assets/Scripts/SellAnimal.cs
+Assets/Scripts/ShowPercent.cs
+Assets/Scripts/swipe_inventory.cs
+Assets/Scripts/Test.cs
+Assets/Scripts/TogglePerder2.cs
+Assets/Scripts/TogglePerdida.cs
 -lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity"

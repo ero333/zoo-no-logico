@@ -26,6 +26,7 @@ public class CombinateByPercent : MonoBehaviour {
         int total = plata - costo;
         print(total);
         PlayerPrefs.SetInt("Moneditas", total);
+        PlayerPrefs.SetString("PrimeraCombinacion", "false");
 
         if (PlayerPrefs.GetFloat("Porcentaje")<= int.Parse(porcentajeText.text))
         {
