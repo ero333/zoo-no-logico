@@ -16,5 +16,10 @@ public class ChangeScene : MonoBehaviour {
         SceneManager.LoadScene(sceneID);
     }
 
+    public void VolverAJugar()
+    {
+        PlayerPrefs.SetInt("Dias", 0);
+    }
+
     
 }

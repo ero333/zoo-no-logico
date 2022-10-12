@@ -40,6 +40,7 @@ TagManager:
   - BarraPopularidad
   - ComentarioTexto
   - Jaula
+  - CruzaSlot
   layers:
   - Default
   - TransparentFX

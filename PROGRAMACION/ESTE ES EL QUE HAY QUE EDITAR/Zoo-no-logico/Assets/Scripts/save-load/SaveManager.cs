@@ -87,5 +87,8 @@ public class SaveManager : MonoBehaviour{
         PlayerPrefs.SetInt("JaulaActiva19", data.jaula_activa_19);
 
         PlayerPrefs.SetInt("JaulasOcupadas", data.jaulas_ocupadas);
+        PlayerPrefs.SetInt("Dias", data.Dias);
+
+        PlayerPrefs.SetInt("Cruza1", data.cruza1);
     }
 }

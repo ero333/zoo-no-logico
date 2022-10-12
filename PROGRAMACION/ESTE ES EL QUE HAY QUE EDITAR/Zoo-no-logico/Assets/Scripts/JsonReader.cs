@@ -130,6 +130,7 @@ public class JsonReader : MonoBehaviour {
         }
 
         PlayerPrefs.SetInt("indexCurrentCruza", index);
+        PlayerPrefs.SetInt("Cruza" + index, 1);
         PlayerPrefs.SetString("nombreCurrentCruza", nombreAnimal);
         PlayerPrefs.SetString("descripcionCurrentCruza", myCruzaList.cruza[index].descripcion);
         PlayerPrefs.SetString("dato1CurrectCruza", myCruzaList.cruza[index].dato1);

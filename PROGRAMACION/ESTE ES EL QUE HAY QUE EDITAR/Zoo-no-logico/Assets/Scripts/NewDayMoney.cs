@@ -30,6 +30,8 @@ public class NewDayMoney : MonoBehaviour {
     private float newMoney;
     private int newMoneyInt;
     float Monedas;
+    private int impuestoDeuda = 0;
+    private int impuestoDiario = 0;
 
     [System.Serializable]
     public class CruzaList
@@ -69,9 +71,26 @@ public class NewDayMoney : MonoBehaviour {
         newMoneyText = GameObject.FindGameObjectWithTag("NewTextoMonedas").GetComponent<Text>();
         }
 
+        if (PlayerPrefs.GetInt("Moneditas") < 0)
+        {
+            impuestoDeuda = 5;
+        }
 
-        newMoney = (cage1Money / 4 + cage2Money / 4 + cage3Money / 4 + cage4Money/4 + cage5Money/4) * popularityMultipliyer;
+        impuestoDiario = (PlayerPrefs.GetInt("JaulasOcupadas") * 1000) + 500;
 
+        PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
+
+
+        newMoney = ((cage1Money / 4 + cage2Money / 4 + cage3Money / 4 + cage4Money/4 + cage5Money/4) * popularityMultipliyer) - impuestoDiario;
+
+        if (newMoney < 0)
+        {
+            newMoneyText.color = Color.red;
+        }
+        else
+        {
+            newMoneyText.color = new Color(0.1607843f, 0.3137255f, 0.1372549f);
+        }
 
         newMoneyInt = (int)newMoney;
         newMoneyText.text = newMoneyInt.ToString();

@@ -10,7 +10,7 @@ public class CambioDeDia : MonoBehaviour {
     public int numTurno;
     public GameObject Pantalla;
     public GameObject PantallaPostEvento;
-
+    public GameObject PantallaPerder;
     public GameObject PantallaGanar;
     public int Popularidad;
 
@@ -45,11 +45,16 @@ public class CambioDeDia : MonoBehaviour {
 
     public void AbrirPantalla()
     {
-        if (Popularidad >= 100)
+        if (Popularidad >= 100 && PlayerPrefs.GetInt("Ganaste")==0)
         {
             PantallaGanar.SetActive(true);
+            PlayerPrefs.SetInt("Ganaste", 1);
         }
-        else
+        else if (Popularidad <= 0 && PlayerPrefs.GetInt("Ganaste") == 0)
+        {
+            PantallaPerder.SetActive(true);
+        }
+        else 
         {
             Pantalla.SetActive(true);
         }

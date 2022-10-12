@@ -61,6 +61,10 @@ public class GameData {
 
     public int jaulas_ocupadas;
 
+    public int Dias;
+
+    public int cruza1;
+
     public GameData (popularityTest popularidad, MoneySetter monedas)
     {
         popularidad_save = popularidad.popularidad;
@@ -118,5 +122,9 @@ public class GameData {
         jaula_activa_19 = PlayerPrefs.GetInt("JaulaActiva19");
 
         jaulas_ocupadas = PlayerPrefs.GetInt("JaulasOcupadas");
+
+        Dias = PlayerPrefs.GetInt("Dias");
+
+        cruza1 = PlayerPrefs.GetInt("Cruza1");
     }
 }

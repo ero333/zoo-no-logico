@@ -48,7 +48,7 @@ public class OcuparJaula : MonoBehaviour {
 
         //PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") + 1);
 
-        if (Monedas > costoJaula)
+        if (Monedas >= costoJaula)
         {
             testMonedas.SetActive(true);
             Monedas -= costoJaula; // Al int con mis monedas le voy a restar el dato que recibe desde el botón

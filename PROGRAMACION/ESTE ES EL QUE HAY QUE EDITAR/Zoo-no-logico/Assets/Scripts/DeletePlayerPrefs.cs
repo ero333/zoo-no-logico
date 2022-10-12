@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeletePlayerPrefs : MonoBehaviour {
+
+    public Button continuar;
 
 	// Use this for initialization
 	void Start () {
@@ -11,7 +14,13 @@ public class DeletePlayerPrefs : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+        if (PlayerPrefs.GetInt("Dias") == 0){
+            continuar.interactable = false;
+        }
+        else{
+            continuar.interactable = true;
+        }
 	}
 
     public void Delete() {
