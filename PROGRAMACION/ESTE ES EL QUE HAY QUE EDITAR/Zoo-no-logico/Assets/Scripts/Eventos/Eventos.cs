@@ -61,10 +61,14 @@ public class Eventos : MonoBehaviour {
        
         myEventoList = JsonUtility.FromJson<EventoList>(EventosJson.text);
 
+
+    }
+
+    void Update()
+    {
         if (Title)
         {
-            eventNumber = Random.Range(0, 3);
-            PlayerPrefs.SetInt("eventNumber", eventNumber);
+            eventNumber = PlayerPrefs.GetInt("eventNumber");
             Title.text = myEventoList.evento[eventNumber].titulo;
             Descripcion.text = myEventoList.evento[eventNumber].descripcion;
             Opcion1.text = myEventoList.evento[eventNumber].Opcion1Text;
@@ -80,23 +84,22 @@ public class Eventos : MonoBehaviour {
         }
     }
 
-    void Update()
-    {
-    }
-
     public void setIcon(Image icon, string thing)
     {
         if(thing == "Popularidad")
         {
             icon.sprite = popularidad;
+            icon.color = new Color(1, 1, 1, 1);
         } 
         else if(thing == "Moneditas")
         {
             icon.sprite = monedas;
+            icon.color = new Color(1, 1, 1, 1);
         }
-        else if(thing == "animal")
+        else if(thing.Contains("Cantidad"))
         {
             icon.sprite = animal;
+            icon.color = new Color(1, 1, 1, 1);
         }
         else
         {
@@ -132,4 +135,16 @@ public class Eventos : MonoBehaviour {
         continuar.interactable = true;
     }
 
-   }
+    public void ClearEvent()
+    {
+        eventNumber = Random.Range(0, 15);
+        PlayerPrefs.SetInt("eventNumber", eventNumber);
+        opcion1Container.SetActive(true);
+        opcion2Button.interactable = true;
+        continuar.interactable = false;
+        opcion2Container.SetActive(true);
+        opcion1Button.interactable = true;
+
+    }
+
+}

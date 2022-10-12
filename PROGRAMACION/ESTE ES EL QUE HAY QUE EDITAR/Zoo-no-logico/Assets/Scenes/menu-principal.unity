@@ -7600,6 +7600,7 @@ GameObject:
   - component: {fileID: 1983965511}
   - component: {fileID: 1983965510}
   - component: {fileID: 1983965509}
+  - component: {fileID: 1983965513}
   - component: {fileID: 1983965512}
   - component: {fileID: 1983965508}
   m_Layer: 5
@@ -7682,8 +7683,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983965512}
-        m_MethodName: AbrirPantalla
+      - m_Target: {fileID: 1983965513}
+        m_MethodName: ClearEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7779,6 +7780,40 @@ MonoBehaviour:
   PantallaPostEvento: {fileID: 457022996}
   PantallaGanar: {fileID: 1373270451}
   Popularidad: 0
+--- !u!114 &1983965513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1983965506}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce4ac0089fe2d0468d01cae8c0bef62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventosJson: {fileID: 0}
+  myEventoList:
+    evento: []
+  Title: {fileID: 0}
+  Descripcion: {fileID: 0}
+  Opcion1: {fileID: 0}
+  Opcion2: {fileID: 0}
+  monedas: {fileID: 0}
+  popularidad: {fileID: 0}
+  animal: {fileID: 0}
+  opcion1GainImage: {fileID: 0}
+  opcion2GainImage: {fileID: 0}
+  opcion1LoseImage: {fileID: 0}
+  opcion2LoseImage: {fileID: 0}
+  opcion1GainText: {fileID: 0}
+  opcion2GainText: {fileID: 0}
+  opcion1LoseText: {fileID: 0}
+  opcion2LoseText: {fileID: 0}
+  opcion1Container: {fileID: 130106735}
+  opcion2Container: {fileID: 1266311509}
+  opcion1Button: {fileID: 184109046}
+  opcion2Button: {fileID: 1776459875}
+  continuar: {fileID: 1983965509}
 --- !u!1 &2008049318
 GameObject:
   m_ObjectHideFlags: 0
