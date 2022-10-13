@@ -12,7 +12,11 @@ public class UnlockStoreAnimals : MonoBehaviour {
 
 	public GameObject aveImg;
 	public GameObject aranaImg;
-	public GameObject serpienteImg; 
+	public GameObject serpienteImg;
+
+	public GameObject aveMiniImg;
+	public GameObject aranaMiniImg;
+	public GameObject serpienteMiniImg;
 
 	// Use this for initialization
 	void Start () {
@@ -26,17 +30,20 @@ public class UnlockStoreAnimals : MonoBehaviour {
         {
 			aveButton.interactable = true;
             aveImg.GetComponent<SpriteRenderer>().color = Color.white;
-        }
+			aveMiniImg.GetComponent<SpriteRenderer>().color = Color.white;
+		}
 		if (PlayerPrefs.GetInt("aranaDesbloqueada") == 1)
 		{
 			aranaButton.interactable = true;
 			aranaImg.GetComponent<SpriteRenderer>().color = Color.white;
+			aranaMiniImg.GetComponent<SpriteRenderer>().color = Color.white;
 		}
 
 		if (PlayerPrefs.GetInt("serpienteDesbloqueada") == 1)
 		{
 			serpienteButton.interactable = true;
 			serpienteImg.GetComponent<SpriteRenderer>().color = Color.white;
+			serpienteMiniImg.GetComponent<SpriteRenderer>().color = Color.white;
 		}
 
 	}
