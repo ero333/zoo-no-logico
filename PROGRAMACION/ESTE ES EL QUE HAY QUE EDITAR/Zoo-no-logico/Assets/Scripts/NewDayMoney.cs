@@ -31,7 +31,9 @@ public class NewDayMoney : MonoBehaviour {
     private int newMoneyInt;
     float Monedas;
     private int impuestoDeuda = 0;
-    private int impuestoDiario = 0;
+    float  impuestoDiario = 0;
+
+    float impuestoDiarioMultiplicador;
 
     [System.Serializable]
     public class CruzaList
@@ -76,12 +78,20 @@ public class NewDayMoney : MonoBehaviour {
             impuestoDeuda = 5;
         }
 
-        impuestoDiario = (PlayerPrefs.GetInt("JaulasOcupadas") * 1000) + 500;
+        impuestoDiarioMultiplicador = 0.2f * PlayerPrefs.GetInt("Dias");
+        if (impuestoDiarioMultiplicador < 1)
+        {
+            impuestoDiarioMultiplicador = 1;
+        }
+
+        print(impuestoDiarioMultiplicador);
+        impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 1000) + 500) * impuestoDiarioMultiplicador;
+        print(impuestoDiario);
 
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
 
 
-        newMoney = ((cage1Money / 4 + cage2Money / 4 + cage3Money / 4 + cage4Money/4 + cage5Money/4) * popularityMultipliyer) - impuestoDiario;
+        newMoney = ((cage1Money / 4 + cage2Money / 4 + cage3Money / 4 + cage4Money/4 + cage5Money/4) * popularityMultipliyer) - (int)impuestoDiario;
 
         if (newMoney < 0)
         {
