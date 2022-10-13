@@ -325,11 +325,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monedas: 0
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   cruza: {fileID: 1366687588}
   cruza_num: 
+  myCruzaList:
+    cruza: []
 --- !u!212 &10243789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -950,11 +953,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monedas: 0
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   cruza: {fileID: 1366687588}
   cruza_num: 
+  myCruzaList:
+    cruza: []
 --- !u!212 &201525075
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3194,11 +3200,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Monedas: 0
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   cruza: {fileID: 1366687588}
   cruza_num: 
+  myCruzaList:
+    cruza: []
 --- !u!212 &1238624824
 SpriteRenderer:
   m_ObjectHideFlags: 0

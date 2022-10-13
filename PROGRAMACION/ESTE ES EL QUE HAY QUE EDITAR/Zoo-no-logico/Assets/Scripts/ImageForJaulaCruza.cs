@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class ImageForJaulaCruza : MonoBehaviour {
     public TextAsset Cruzas;
-    public int index;
+    private int index;
   
 
     public Text nombreAnimal;
@@ -76,8 +76,8 @@ public class ImageForJaulaCruza : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-           
 
+        index = PlayerPrefs.GetInt("indexCurrentCruza");
         if (nombreAnimal)
         {
             nombreAnimal.text = PlayerPrefs.GetString("nombreCurrentCruza");
@@ -90,7 +90,7 @@ public class ImageForJaulaCruza : MonoBehaviour {
         {
             plata.text = PlayerPrefs.GetInt("plataCurrentCruza").ToString();
         }
-
+        print(index);
         switch (index)
         {
             case 0:

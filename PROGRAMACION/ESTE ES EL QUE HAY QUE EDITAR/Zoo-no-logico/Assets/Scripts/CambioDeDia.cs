@@ -42,6 +42,10 @@ public class CambioDeDia : MonoBehaviour {
             PlayerPrefs.SetInt("serpienteDesbloqueada", 1);
             PlayerPrefs.SetInt("CantidadSerpiente", PlayerPrefs.GetInt("CantidadSerpiente") + 1);
         }
+
+        PlayerPrefs.SetString("Slot1", "");
+        PlayerPrefs.SetString("Slot2", "");
+        PlayerPrefs.SetString("Slot3", "");
     }
 
 

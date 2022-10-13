@@ -164,6 +164,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 0}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!114 &14903455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +392,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &123541630
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +609,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &200977428
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +751,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &326882896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1030,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &601799197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1172,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &772885713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1314,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &775412472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1456,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &861090837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoJaulas: {fileID: 2118000777}
+  Cruzas: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!114 &887779160
@@ -1863,6 +1912,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1023865723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,6 +2055,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 0}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1049382363
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,6 +2145,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!114 &1049382368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2339,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1063684383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,6 +2556,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1172054388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,6 +2698,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1255496397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2911,6 +2996,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1562569727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,6 +3138,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1594756046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3183,6 +3280,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1616403994
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3422,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1640935922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3455,6 +3564,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1686151634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3706,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!224 &1704442992 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224976243536763120, guid: e020a9a895d626841a13bd6588b1211f,
@@ -3732,6 +3853,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &1939535588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4020,6 +4147,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JaulasActivas: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   JaulasArray: []
+  Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
+  Monedas: 0
+  testMonedas: {fileID: 0}
+  testMonedas2: {fileID: 0}
+  myCruzaList:
+    cruza: []
 --- !u!1 &2118000776
 GameObject:
   m_ObjectHideFlags: 0

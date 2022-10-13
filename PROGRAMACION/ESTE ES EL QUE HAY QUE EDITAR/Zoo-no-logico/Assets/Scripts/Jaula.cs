@@ -12,10 +12,26 @@ public class Jaula : MonoBehaviour
 
     public GameObject[] JaulasArray;
 
+    public TextAsset Cruzas;
+
     public int Monedas;
 
     [SerializeField] public GameObject testMonedas;
     [SerializeField] public GameObject testMonedas2;
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public int popularidad;
+    }
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
 
     void Awake()
     {
@@ -25,8 +41,8 @@ public class Jaula : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
-        
         //print(JaulasArray[0]);
         //print(JaulasArray[3]);
         //print(JaulasArray[15]);
@@ -170,13 +186,15 @@ public class Jaula : MonoBehaviour
 
     public void DesocuparJaula (int selectedJaula)
     {
+        print("DESOCUPAR ESTA FUNCIONANDO");
+        PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + selectedJaula))].popularidad);
+
+
         JaulasArray[selectedJaula].SetActive(false);
-
         PlayerPrefs.SetInt("JaulaActiva" + selectedJaula, 0);
-
+        PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
         PlayerPrefs.SetString("Jaula" + selectedJaula, "");
 
-        PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
     }
 
     public int GetFirstUnoccupiedJaula ()

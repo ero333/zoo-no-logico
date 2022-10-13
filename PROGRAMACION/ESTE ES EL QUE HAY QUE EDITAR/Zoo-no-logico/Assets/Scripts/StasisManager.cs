@@ -13,6 +13,7 @@ public class StasisManager : MonoBehaviour
     public Text dato2;
     public Text dato3;
     public Text nombre;
+    public Text plata;
     private int peligrosidad;
     public int index;
     public Image foto;
@@ -76,11 +77,15 @@ public class StasisManager : MonoBehaviour
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
         GetCruza(PlayerPrefs.GetInt("StasisPosition"));
+        print(index);
 
     }
 
     void Update()
     {
+        if(plata.text == "0"){
+            PlayerPrefs.SetInt("plataCurrentCruza", 0);
+        }
     }
 
     void GetCruza (int index)
@@ -111,6 +116,7 @@ public class StasisManager : MonoBehaviour
                 dato1.text = myCruzaList.cruza[index].dato1;
                 dato2.text = myCruzaList.cruza[index].dato2;
                 dato3.text = myCruzaList.cruza[index].dato3;
+                plata.text = myCruzaList.cruza[index].dinero.ToString();
             }
             else
             {
@@ -119,6 +125,8 @@ public class StasisManager : MonoBehaviour
                 dato1.text = "...";
                 dato2.text = "...";
                 dato3.text = "...";
+                plata.text = "0";
+                PlayerPrefs.SetInt("plataCurrentCruza", 0);
 
             }
 
@@ -154,6 +162,8 @@ public class StasisManager : MonoBehaviour
             dato1.text = "...";
             dato2.text = "...";
             dato3.text = "...";
+            plata.text = "0";
+            PlayerPrefs.SetInt("plataCurrentCruza", 0);
         }
         
     }

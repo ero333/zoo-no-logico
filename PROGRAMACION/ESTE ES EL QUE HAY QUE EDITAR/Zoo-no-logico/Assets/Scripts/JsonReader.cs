@@ -93,40 +93,51 @@ public class JsonReader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        animal1 = PlayerPrefs.GetString("Slot1").Replace(" ", "");
-        animal2 = PlayerPrefs.GetString("Slot2").Replace(" ", "");
-        animal3 = PlayerPrefs.GetString("Slot3").Replace(" ", "");
-
-        animalesArray = new string[] { animal1, animal2, animal3};
- 
-    
-        Array.Sort(animalesArray);
-
-
-
-        for(int i = 0; i<animalesArray.Length; i++)
-        {
-            animales += animalesArray[i];
-        }
-
-
-        //index = Random.Range(0, 11);
-
-        
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
-
-        int forCounter = 0;
         bool matched = false;
-        for (int i = 0; i < myCruzaList.cruza.Length; i++)
+        if (PlayerPrefs.GetString("Slot1").Length > 1 && PlayerPrefs.GetString("Slot2").Length > 1 && PlayerPrefs.GetString("Slot3").Length > 1)
         {
+            animal1 = PlayerPrefs.GetString("Slot1").Replace(" ", "");
+            animal2 = PlayerPrefs.GetString("Slot2").Replace(" ", "");
+            animal3 = PlayerPrefs.GetString("Slot3").Replace(" ", "");
 
-            //int idx = Array.IndexOf(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""), animales.ToUpper());
-            if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
+            animalesArray = new string[] { animal1, animal2, animal3 };
+
+
+            Array.Sort(animalesArray);
+
+
+
+            for (int i = 0; i < animalesArray.Length; i++)
             {
-                index = forCounter;
-                matched = true;
+                animales += animalesArray[i];
             }
-            forCounter = forCounter + 1;
+
+
+            //index = Random.Range(0, 11);
+
+
+
+
+            int forCounter = 0;
+            
+            for (int i = 0; i < myCruzaList.cruza.Length; i++)
+            {
+
+                //int idx = Array.IndexOf(myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", ""), animales.ToUpper());
+                if (myCruzaList.cruza[i].nombre.ToUpper().Replace(" ", "") == animales.ToUpper())
+                {
+                    index = forCounter;
+                    matched = true;
+                }
+                forCounter = forCounter + 1;
+            }
+
+            
+        }
+        else
+        {
+            index = PlayerPrefs.GetInt("indexCurrentCruza");
         }
 
         PlayerPrefs.SetInt("indexCurrentCruza", index);
