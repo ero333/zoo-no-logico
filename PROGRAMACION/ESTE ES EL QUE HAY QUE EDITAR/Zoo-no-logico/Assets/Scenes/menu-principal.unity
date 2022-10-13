@@ -3791,7 +3791,7 @@ GameObject:
   - component: {fileID: 983230274}
   m_Layer: 5
   m_Name: Comentario 2
-  m_TagString: ComentarioTexto
+  m_TagString: ComentarioTexto2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3811,8 +3811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 205.08, y: -126.49}
-  m_SizeDelta: {x: 272.69, y: 48.74}
+  m_AnchoredPosition: {x: 210.97, y: -127.54}
+  m_SizeDelta: {x: 284.47, y: 50.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &983230274
 MonoBehaviour:
@@ -3825,7 +3825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40bd9fa82b253dd43996dcfcfb65ff98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Comentario: {fileID: 983230275}
+  Comentario: {fileID: 0}
+  Comentario2: {fileID: 983230275}
 --- !u!114 &983230275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3858,11 +3859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Comentario
-
-    -
-
-    -'
+  m_Text: Comentario
 --- !u!222 &983230276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7500,8 +7497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 205.08, y: -54.61}
-  m_SizeDelta: {x: 272.69, y: 47.95}
+  m_AnchoredPosition: {x: 209.14, y: -55.32}
+  m_SizeDelta: {x: 280.8, y: 49.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861663385
 MonoBehaviour:
@@ -7535,11 +7532,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Comentario
-
-    -
-
-    -'
+  m_Text: Comentario
 --- !u!222 &1861663386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7559,6 +7552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Comentario: {fileID: 1861663385}
+  Comentario2: {fileID: 0}
 --- !u!1 &1874683515
 GameObject:
   m_ObjectHideFlags: 0

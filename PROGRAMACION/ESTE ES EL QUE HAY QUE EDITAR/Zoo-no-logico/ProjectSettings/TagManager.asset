@@ -41,6 +41,7 @@ TagManager:
   - ComentarioTexto
   - Jaula
   - CruzaSlot
+  - ComentarioTexto2
   layers:
   - Default
   - TransparentFX
