@@ -145,7 +145,7 @@ RectTransform:
   - {fileID: 250871804}
   - {fileID: 1594821379}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 191452530}
   - component: {fileID: 191452529}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: "Ara\xF1a Boton"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 191452531}
   m_OnClick:
     m_PersistentCalls:
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 193233197}
   - component: {fileID: 193233196}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Ave Boton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,7 +936,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 193233198}
   m_OnClick:
     m_PersistentCalls:
@@ -1015,7 +1015,7 @@ Transform:
   m_LocalScale: {x: 9.708513, y: 9.708513, z: 9.708513}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &202007171
 SpriteRenderer:
@@ -1611,7 +1611,7 @@ Transform:
   m_LocalScale: {x: 13.326983, y: 13.326983, z: 13.326983}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &339755240
 SpriteRenderer:
@@ -1686,7 +1686,7 @@ Transform:
   m_LocalScale: {x: 11.622968, y: 11.622968, z: 11.622968}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &358278302
 SpriteRenderer:
@@ -1724,7 +1724,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 06f0ee39cfc86304eaddca8b631948bf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2065,7 +2065,7 @@ RectTransform:
   m_Children:
   - {fileID: 590886220}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -2556,6 +2556,7 @@ GameObject:
   - component: {fileID: 653819669}
   - component: {fileID: 653819668}
   - component: {fileID: 653819672}
+  - component: {fileID: 653819673}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2633,6 +2634,7 @@ RectTransform:
   - {fileID: 251538707}
   - {fileID: 191452528}
   - {fileID: 193233195}
+  - {fileID: 2125038296}
   - {fileID: 489951537}
   - {fileID: 1568054024}
   - {fileID: 901880546}
@@ -2647,7 +2649,6 @@ RectTransform:
   - {fileID: 1508144206}
   - {fileID: 33450660}
   - {fileID: 1068893825}
-  - {fileID: 2125038296}
   - {fileID: 451869563}
   - {fileID: 486757384}
   - {fileID: 1061796374}
@@ -2691,6 +2692,23 @@ MonoBehaviour:
   CantidadMurcielago: 0
   CantidadSerpiente: 0
   CantidadAve: 0
+--- !u!114 &653819673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 653819667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66df9afc54a745419c0f876b08f9733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aveButton: {fileID: 193233197}
+  aranaButton: {fileID: 191452530}
+  serpienteButton: {fileID: 2125038298}
+  aveImg: {fileID: 901880544}
+  aranaImg: {fileID: 0}
+  serpienteImg: {fileID: 0}
 --- !u!1 &680555916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3451,7 +3469,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 937fad170686aca4a8d8aad0f56ac71b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3472,7 +3490,7 @@ Transform:
   m_LocalScale: {x: 28.570951, y: 28.570951, z: 28.570951}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905772616
 GameObject:
@@ -4136,7 +4154,7 @@ RectTransform:
   - {fileID: 222003915}
   - {fileID: 312657977}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4347,7 +4365,7 @@ RectTransform:
   - {fileID: 988821594}
   - {fileID: 2093792716}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4559,7 +4577,7 @@ Transform:
   m_LocalScale: {x: 10.833747, y: 11.59211, z: 10.833747}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1160901139
 SpriteRenderer:
@@ -4709,7 +4727,7 @@ Transform:
   m_LocalScale: {x: 19.17, y: 19.17, z: 19.17}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1251705566
 SpriteRenderer:
@@ -4747,7 +4765,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d3fdde2dfaeeab64fa700d7d19c7ac8e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5152,7 +5170,7 @@ RectTransform:
   - {fileID: 370864902}
   - {fileID: 262223328}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5238,7 +5256,7 @@ Prefab:
     - target: {fileID: 224603925215389656, guid: ab14ac5e388da1b4f965bb525272286e,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224603925215389656, guid: ab14ac5e388da1b4f965bb525272286e,
         type: 2}
@@ -5482,7 +5500,7 @@ RectTransform:
   - {fileID: 733853932}
   - {fileID: 983598180}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5880,7 +5898,7 @@ Transform:
   m_LocalScale: {x: 3.7347538, y: 3.7347538, z: 3.7347538}
   m_Children: []
   m_Father: {fileID: 653819671}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1605444611
 SpriteRenderer:
@@ -6781,7 +6799,7 @@ GameObject:
   - component: {fileID: 2125038298}
   - component: {fileID: 2125038297}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Serpiente Boton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6800,7 +6818,7 @@ RectTransform:
   - {fileID: 334601977}
   - {fileID: 82040027}
   m_Father: {fileID: 653819671}
-  m_RootOrder: 17
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6858,7 +6876,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2125038299}
   m_OnClick:
     m_PersistentCalls:
