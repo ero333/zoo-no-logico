@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD SPRINT 8 ALPHA (BIEN ESCRITO)
+E:/Facultad/Cuarto/Taller IV/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD SPRINT 8
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -166,6 +166,7 @@ bd75feae25c3db0a3a14db2a14d33a8e Assembly-CSharp.dll:.Jaula
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 cfbabeaa13c78cfd45d1cb19e584d7d3 Assembly-CSharp.dll:.CombinationButton
 a84927fd41ba670e529859d0b41cfbcd Assembly-CSharp.dll:.CartaAzar
+2d2eab5173e4f9e554d04f33f3794302 Assembly-CSharp.dll:.PasarPantallaTuto
 9acfbd5a231bee3c2aac9b0c03936d3d Assembly-CSharp.dll:.AgarrarSoltar
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 c3d129ace24ff5e440c8404346f3e914 Assembly-CSharp.dll:.OcuparJaula
