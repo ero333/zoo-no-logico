@@ -47,14 +47,12 @@ public class NewDayMoney : MonoBehaviour {
     void Start () {
 
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
-        print(myCruzaList);
 
         if (PlayerPrefs.GetInt("Jaula1") != 89) { cage1Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula1")].dinero; }
         if (PlayerPrefs.GetInt("Jaula2") != 89) { cage2Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula2")].dinero; }
         if (PlayerPrefs.GetInt("Jaula3") != 89) { cage3Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula3")].dinero; }
         if (PlayerPrefs.GetInt("Jaula4") != 89) { cage4Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula4")].dinero; }
         if (PlayerPrefs.GetInt("Jaula5") != 89) { cage5Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula5")].dinero; }
-        print(PlayerPrefs.GetInt("Jaula1"));
 
 
     }
@@ -75,7 +73,7 @@ public class NewDayMoney : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("Moneditas") < 0)
         {
-            impuestoDeuda = 5;
+            impuestoDeuda = 12;
         }
 
         impuestoDiarioMultiplicador = 0.2f * PlayerPrefs.GetInt("Dias");
@@ -84,9 +82,7 @@ public class NewDayMoney : MonoBehaviour {
             impuestoDiarioMultiplicador = 1;
         }
 
-        print(impuestoDiarioMultiplicador);
         impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 1000) + 500) * impuestoDiarioMultiplicador;
-        print(impuestoDiario);
 
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
 
@@ -107,6 +103,5 @@ public class NewDayMoney : MonoBehaviour {
         Monedas = PlayerPrefs.GetInt("Moneditas");
         Monedas = Monedas + (int)newMoneyInt;
         PlayerPrefs.SetInt("Moneditas", (int)Monedas);
-        print(Monedas);
     }
 }

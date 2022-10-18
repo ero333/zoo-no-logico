@@ -13,6 +13,7 @@ public class CambioDeDia : MonoBehaviour {
     public GameObject PantallaPerder;
     public GameObject PantallaGanar;
     public int Popularidad;
+    public GameObject PopularidadBarra;
 
     // Use this for initialization
     void Start () {
@@ -57,7 +58,7 @@ public class CambioDeDia : MonoBehaviour {
             textoTurno.text = "DIA: " + numTurno.ToString();
             Pantalla.SetActive(false);
             PlayerPrefs.SetInt("Dias", numTurno);
-
+            PopularidadBarra.SetActive(true);
             PlayerPrefs.SetInt("EventoCartas", 1);
         }
         else
@@ -80,6 +81,7 @@ public class CambioDeDia : MonoBehaviour {
         else 
         {
             Pantalla.SetActive(true);
+            PopularidadBarra.SetActive(false);
         }
 
     }

@@ -10,6 +10,7 @@
         gameObject.name = SlotNumber.ToString();
     }
 
+
     public override bool CanReceiveItem(Item item)
     {
         if (item == null)

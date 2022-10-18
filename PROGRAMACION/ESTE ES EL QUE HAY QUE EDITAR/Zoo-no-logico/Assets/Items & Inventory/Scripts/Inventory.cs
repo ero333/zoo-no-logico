@@ -29,30 +29,30 @@ public class Inventory : MonoBehaviour
         }
         SetStartingItems();
 
-        if(PlayerPrefs.GetInt("CantidadCarpincho")==0){
+        if(PlayerPrefs.GetInt("CantidadCarpincho")<=0){
             itemSlots[0].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadArana")==0){
+                if(PlayerPrefs.GetInt("CantidadArana") <= 0){
             itemSlots[1].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadCocodrilo")==0){
+                if(PlayerPrefs.GetInt("CantidadCocodrilo") <= 0){
             itemSlots[2].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadZorro")==0){
+                if(PlayerPrefs.GetInt("CantidadZorro") <= 0){
             itemSlots[3].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadMurcielago")==0){
+                if(PlayerPrefs.GetInt("CantidadMurcielago")<=0){
             itemSlots[4].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadSerpiente")==0){
+                if(PlayerPrefs.GetInt("CantidadSerpiente")<=0){
             itemSlots[5].Item = null;
         }
-                if(PlayerPrefs.GetInt("CantidadAve")==0){
+                if(PlayerPrefs.GetInt("CantidadAve")<=0){
             itemSlots[6].Item = null;
         }
 
-        print(itemSlots[1].Item);
     }
+
 
 
 
@@ -73,7 +73,6 @@ public class Inventory : MonoBehaviour
         for (; i < startingItems.Count && i < itemSlots.Length; i++) // POR CADA ITEM QUE TENGAMOS, LE VAMOS A ASIGNAR UN SLOT POR CADA SLOT QUE NO ESTÉ YA OCUPADO POR OTRO ITEM
         {
             itemSlots[i].Item = startingItems[i];
-            print(startingItems[i]);
         }
 
         for (; i < itemSlots.Length; i++)
@@ -102,6 +101,7 @@ public class Inventory : MonoBehaviour
         {
             if (itemSlots[i].Item == item)
             {
+                print(itemSlots[i].Item);
                 itemSlots[i].Item = null;
                 return true;
             }

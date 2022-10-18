@@ -76,7 +76,12 @@ public class Character : MonoBehaviour
             draggableItem.transform.position = Input.mousePosition;
             draggableItem.enabled = true;
             Debug.Log("EMPIEZA EL DRAGEO");
-
+            print(itemSlot.ToString());
+            if (!itemSlot.ToString().Contains("Inventario"))
+            {
+                PlayerPrefs.SetString(itemSlot.ToString(), "");
+            }
+            print(PlayerPrefs.GetString("Slot1"));
             //Pruebas
             //Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             //transform.Translate(mousePosition);
@@ -90,6 +95,7 @@ public class Character : MonoBehaviour
         draggableItem.enabled = false;
         Cursor.SetCursor(arrow, Vector2.zero, CursorMode.ForceSoftware);
     }
+
 
     private void Drag(ItemSlot itemSlot)
     {
@@ -155,7 +161,6 @@ public class Character : MonoBehaviour
                         Cosoprueba.SendMessage("SumarCantidadAve");
                     }
 
-                    print("Caso A");
                     if (dragItem != null) dragItem.unequip(this);
                     if (dropItem != null) dropItem.equip(this);
 
@@ -164,9 +169,13 @@ public class Character : MonoBehaviour
 
                 if (dropitemSlot is SlotDeCruza)
                 {
-                    print(dropitemSlot.tag.ToString());
-                    print(draggedSlot.Item.name);
                     PlayerPrefs.SetString(dropitemSlot.tag.ToString(), draggedSlot.Item.name.ToString());
+                    //print(dropitemSlot.tag.ToString());
+                    //print(draggedSlot.Item.name.ToString());
+                    print(PlayerPrefs.GetString("Slot1"));
+                    print(PlayerPrefs.GetString("Slot2"));
+                    print(PlayerPrefs.GetString("Slot3"));
+
                     if (dragItem != null) dragItem.equip(this);
                     if (dropItem != null) dropItem.unequip(this);
 

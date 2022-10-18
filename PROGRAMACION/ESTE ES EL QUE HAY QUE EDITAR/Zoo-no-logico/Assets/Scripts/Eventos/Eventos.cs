@@ -113,8 +113,6 @@ public class Eventos : MonoBehaviour {
 
         int nroEvento = PlayerPrefs.GetInt("eventNumber");
         //print(myEventoList.evento[2]);
-        print(myEventoList.evento[nroEvento].Opcion1WhichGain);
-        print(myEventoList.evento[nroEvento].Opcion1WhichLose);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion1WhatGain, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion1WhatGain) + myEventoList.evento[nroEvento].Opcion1WhichGain);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion1WhatLose, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion1WhatLose) - myEventoList.evento[nroEvento].Opcion1WhichLose);
         opcion2Container.SetActive(false);
@@ -126,8 +124,6 @@ public class Eventos : MonoBehaviour {
     public void OnOption2Click()
     {
         int nroEvento = PlayerPrefs.GetInt("eventNumber");
-        print(myEventoList.evento[nroEvento].Opcion2WhatGain);
-        print(myEventoList.evento[nroEvento].Opcion2WhichGain);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion2WhatGain, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion2WhatGain) + myEventoList.evento[nroEvento].Opcion2WhichGain);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion2WhatLose, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion2WhatLose) - myEventoList.evento[nroEvento].Opcion2WhichLose);
         opcion1Container.SetActive(false);
