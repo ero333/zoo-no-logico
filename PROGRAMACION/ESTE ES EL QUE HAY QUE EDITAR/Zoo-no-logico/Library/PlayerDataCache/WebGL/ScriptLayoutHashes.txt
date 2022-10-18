@@ -192,6 +192,7 @@ da21fc3f8056b1f91c3dd09c7bf4f90a UnityEngine.Networking.dll:UnityEngine.Networki
 529a95e9e8e7686c4816e08fbb37183f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CheatCodes
 9fcb2fae12c9a885e572f33731d12a60 Assembly-CSharp.dll:.ShowPercent
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Test
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
@@ -232,10 +233,9 @@ c92f0d16986ff767f284e98e402ca1a0 Assembly-CSharp.dll:.swipe_inventory
 1994da97db29f278c1acb237e51c7b27 Assembly-CSharp.dll:.CantidadVisitantes
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 f0ff25c609dc00f9b19e45427d40f03a Assembly-CSharp.dll:.CodexCruzas
-35046f2350281d5100634a870a96ad26 Assembly-CSharp.dll:.CambioDeDia
+2425689d4bc47d34ed42587c6ebf3aad Assembly-CSharp.dll:.CambioDeDia
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 7c23b812965c238defaa3d0807b165ce Assembly-CSharp.dll:.MoneySetter
 6055442ac6576e8af477f77ebd58792f Assembly-CSharp.dll:.UnlockStoreAnimals
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SellAnimal
 c56b08465897335a8da63764e79d83d3 Assembly-CSharp.dll:.Character
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CheatCodes
