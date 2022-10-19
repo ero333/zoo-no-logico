@@ -27,7 +27,7 @@ public class Character : MonoBehaviour
         // setup events 
         //click derecho
         //inventory.OnRightClickEvent += Equip;
-        equipmentPanel.OnRightClickEvent += Unequip;
+       // equipmentPanel.OnRightClickEvent += Unequip;
         //empieza drageo
         inventory.OnBeginDragEvent += BeginDrag;
         equipmentPanel.OnBeginDragEvent += BeginDrag;
