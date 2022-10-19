@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 92
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 285
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 88
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,21 +346,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: aebeffff0cc0ffff5ef2ffffe6fbffff00000000c03300004c3a0000
+    m_ExpandedIDs: e6fbffff00000000d0140000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameObject
-      m_OriginalName: GameObject
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -21050
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 4
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3661189, y: 0.66575366, z: 464.5664}
+    m_Target: {x: -1.3420864, y: -0.17754751, z: 476.27826}
     speed: 2
-    m_Value: {x: 1.3661189, y: 0.66575366, z: 464.5664}
+    m_Value: {x: -1.3420864, y: -0.17754751, z: 476.27826}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.7797985
+    m_Target: 13.068711
     speed: 2
-    m_Value: 12.7797985
+    m_Value: 13.068711
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -511,11 +511,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Items & Inventory/Fonts
+    - Assets/Json
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Items & Inventory/Fonts
+  - Assets/Json
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Tomi\Documents\ZooNoLogico\zoo-no-logico\PROGRAMACION\ESTE
     ES EL QUE HAY QUE EDITAR\Zoo-no-logico
@@ -523,9 +523,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 102}
-    m_SelectedIDs: 840c0000
-    m_LastClickedID: 3204
-    m_ExpandedIDs: 00000000e0090000140d0000280d0000fc0f00006a100000b81000007c33000000ca9a3b
+    m_SelectedIDs: 680e0000
+    m_LastClickedID: 3688
+    m_ExpandedIDs: 00000000e0090000140d0000280d0000fc0f00006a100000b81000007836000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +553,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0090000140d0000280d0000fc0f00006a100000b81000007c330000
+    m_ExpandedIDs: 00000000e0090000140d0000280d0000fc0f00006a100000b810000078360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
