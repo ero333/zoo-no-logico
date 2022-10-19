@@ -7,7 +7,7 @@ using System;
 
 public class Comentarios : MonoBehaviour {
 
-    private string[] Comentariosuwu = new string[] {"¡El Zorro-serpiente-araña se enredó en su propia telaraña!","¡La Araña-carpincho-murciélago le arranco un brazo a un cuidador con sus pinzas!","¡La Serpiente-zorro-cocodrilo se robó mi brazalete!"};
+    private string[] Comentariosuwu = new string[] {"¡Me saqué una selfie con una ave secretaria!","Los zorros estaban acurrucados durmiendo una siesta ¡súper tiernos!","¡La Serpiente se tragó mi brazalete!"};
     private string[] Comentariosuwu2 = new string[] { "Unas arañas se metieron en los pantalones de un cuidador", "Una niña le dio algodón de azúcar a un cocodrilo", "¡voy a volver la próxima semana!", "¡Un carpincho estaba tomando mate!" };
     private int ComentarioRandom;
     private int ComentarioRandom2;
