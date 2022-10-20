@@ -61,11 +61,18 @@ public class StasisManager : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.SetInt("StasisPosition", 0);
-
         for (int i = 0; i < StasisActivas.Length; i++)
         {
             StasisActivas[i] = PlayerPrefs.GetInt("StasisActiva" + i);
+        }
+
+        for (int i = 0; i < StasisActivas.Length; i++)
+        {
+            if (StasisActivas[i] == 1)
+            {
+                PlayerPrefs.SetInt("StasisPosition", i);
+                break;
+            }
         }
     }
 
