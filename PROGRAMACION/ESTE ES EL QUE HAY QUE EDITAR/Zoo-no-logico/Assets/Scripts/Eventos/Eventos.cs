@@ -38,6 +38,11 @@ public class Eventos : MonoBehaviour {
     public Text Opcion2;
     int eventNumber;
 
+    public Text mas1;
+    public Text menos1;
+    public Text mas2;
+    public Text menos2;
+
     public Sprite monedas;
     public Sprite popularidad;
     public Sprite Carpincho;
@@ -79,14 +84,50 @@ public class Eventos : MonoBehaviour {
             Descripcion.text = myEventoList.evento[eventNumber].descripcion;
             Opcion1.text = myEventoList.evento[eventNumber].Opcion1Text;
             Opcion2.text = myEventoList.evento[eventNumber].Opcion2Text;
-            opcion1GainText.text = myEventoList.evento[eventNumber].Opcion1WhichGain.ToString();
-            opcion2GainText.text = myEventoList.evento[eventNumber].Opcion2WhichGain.ToString();
-            opcion1LoseText.text = myEventoList.evento[eventNumber].Opcion1WhichLose.ToString();
-            opcion2LoseText.text = myEventoList.evento[eventNumber].Opcion2WhichLose.ToString();
             setIcon(opcion1GainImage, myEventoList.evento[eventNumber].Opcion1WhatGain);
             setIcon(opcion2GainImage, myEventoList.evento[eventNumber].Opcion2WhatGain);
             setIcon(opcion1LoseImage, myEventoList.evento[eventNumber].Opcion1WhatLose);
             setIcon(opcion2LoseImage, myEventoList.evento[eventNumber].Opcion2WhatLose);
+            if (myEventoList.evento[eventNumber].Opcion1WhatGain.Length < 2)
+            {
+                opcion1GainText.text = null;
+                mas1.text = null;
+            }
+            else
+            {
+                opcion1GainText.text = myEventoList.evento[eventNumber].Opcion1WhichGain.ToString();
+                mas1.text = "+";
+            }
+            if (myEventoList.evento[eventNumber].Opcion2WhatGain.Length<2)
+            {
+                opcion2GainText.text = null;
+                mas2.text = null;
+            }
+            else
+            {
+                opcion2GainText.text = myEventoList.evento[eventNumber].Opcion2WhichGain.ToString();
+                mas2.text = "+";
+            }
+            if (myEventoList.evento[eventNumber].Opcion1WhatLose.Length < 2)
+            {
+                opcion1LoseText.text = null;
+                menos1.text = null;
+            }
+            else
+            {
+                opcion1LoseText.text = myEventoList.evento[eventNumber].Opcion1WhichLose.ToString();
+                menos2.text = "-";
+            }
+            if (myEventoList.evento[eventNumber].Opcion2WhatLose.Length < 2)
+            {
+                opcion2LoseText.text = null;
+                menos2.text = null;
+            }
+            else
+            {
+                opcion2LoseText.text = myEventoList.evento[eventNumber].Opcion2WhichLose.ToString();
+                menos1.text = "-";
+            }
         }
     }
 

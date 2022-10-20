@@ -51,8 +51,14 @@ public class Mati_Cruza : MonoBehaviour
             Text TextoPorcentaje = GameObject.FindGameObjectWithTag("txt_porcentaje").GetComponent<Text>();                         // Variable de texto de porcentaje
             foreach (Mati_CruzasAnimales a in cruzas)                                                                               // Por cada animal en la Lista de cruzas
             {
+                print(a);
+                print(animales1[0]);
+                print(animales1[1]);
+                print(animales1[2]);
                 if ((a.nombre.Contains(animales1[0])) && (a.nombre.Contains(animales1[1])) && (a.nombre.Contains(animales1[2])))    // Si un animal que está dentro del slot contiene parte del nombre de la cruza
                 {
+                    print("NO DA ERROR!!!!!!!!!!!!!");
+                    
                     int costo = ((int)a.precio / divisorCosto);
                     print(costo);
                     print(a.precio);
@@ -62,10 +68,12 @@ public class Mati_Cruza : MonoBehaviour
                     break;                                              // Sale del bucle
                 }
             }
-
-            if(RetenerAnimal.precio/divisorCosto <= PlayerPrefs.GetInt("Moneditas")) // Si el costo del animal es menor a la plata que tiene el jugador (Osea, si tengo plata para comprar)
+            if (RetenerAnimal)
             {
-                Boton.interactable = true;                              // Activa el botón
+                if (RetenerAnimal.precio / divisorCosto <= PlayerPrefs.GetInt("Moneditas")) // Si el costo del animal es menor a la plata que tiene el jugador (Osea, si tengo plata para comprar)
+                {
+                    Boton.interactable = true;                              // Activa el botón
+                }
             }
         }
 
