@@ -6,6 +6,7 @@ public class AbrirCartas : MonoBehaviour {
 
     public GameObject CartaInfo;
     public GameObject Sombreado;
+    public GameObject CartaBoton;
 
 
 	// Use this for initialization
@@ -21,6 +22,7 @@ public class AbrirCartas : MonoBehaviour {
    public void Abrir()
     {
         CartaInfo.SetActive(true);
+        CartaBoton.SetActive(true);
         Sombreado.SetActive(true);
     }
 
@@ -28,6 +30,7 @@ public class AbrirCartas : MonoBehaviour {
     public void Cerrar()
     {
         CartaInfo.SetActive(false);
+        CartaBoton.SetActive(false);
         Sombreado.SetActive(false);
     }
 }
