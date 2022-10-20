@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 76
+  controlID: 82
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 77
+  controlID: 83
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,9 +344,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 600effffe6fbffff000000003a14000058150000
+    m_SelectedIDs: c47c0000
+    m_LastClickedID: 31940
+    m_ExpandedIDs: 1223feff2494ffff3cd3ffff12f3ffff2ef9ffff000000007e3c000038480000b4760000ec76000022770000647800002a790000c47c0000847e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.2616724, y: -0.32509667, z: 90}
+    m_Target: {x: 0.09887402, y: 0.4026917, z: 110.74973}
     speed: 2
-    m_Value: {x: -0.2616724, y: -0.32509667, z: 90}
+    m_Value: {x: 0.09887402, y: 0.4026917, z: 110.74973}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.64597
+    m_Target: 11.474316
     speed: 2
-    m_Value: 10.64597
+    m_Value: 11.474316
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -511,20 +511,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Img/Botones
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Img/Botones
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE HAY QUE EDITAR\Zoo-no-logico
+  m_LastProjectPath: C:\Users\Tomi\Documents\ZooNoLogico\zoo-no-logico\PROGRAMACION\ESTE
+    ES EL QUE HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a00a0000
-    m_LastClickedID: 2720
-    m_ExpandedIDs: 00000000ea090000440d0000580d00004610000060100000d4100000221100000037000000ca9a3b
+    scrollPos: {x: 0, y: 86}
+    m_SelectedIDs: 38300000
+    m_LastClickedID: 12344
+    m_ExpandedIDs: 00000000982f0000f23200000e36000082360000d0360000923b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +553,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea090000440d0000580d00004610000060100000d41000002211000000370000
+    m_ExpandedIDs: 00000000982f0000f232000006330000f43500000e36000082360000d0360000923b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +581,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a000000000000589d00006e36000090320000da0c000030370000
+    m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c00003037000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +605,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 215.43166}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 305
 --- !u!114 &16
