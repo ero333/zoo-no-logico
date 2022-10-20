@@ -27,18 +27,18 @@ public class CambioDeDia : MonoBehaviour {
         textoTurno.text = "DIA: "+numTurno.ToString();
         Popularidad = PlayerPrefs.GetInt("Popularidad");
 
-        if (Popularidad > 35 && PlayerPrefs.GetInt("aranaDesbloqueada") == 0)
+        if (Popularidad > 25 && PlayerPrefs.GetInt("aranaDesbloqueada") == 0)
         {
             PlayerPrefs.SetInt("aranaDesbloqueada", 1);
             PlayerPrefs.SetInt("CantidadArana", PlayerPrefs.GetInt("CantidadArana") + 1);
             
         }
-        if (Popularidad > 65 && PlayerPrefs.GetInt("aveDesbloqueada") == 0)
+        if (Popularidad > 35 && PlayerPrefs.GetInt("aveDesbloqueada") == 0)
         {
             PlayerPrefs.SetInt("aveDesbloqueada", 1);
             PlayerPrefs.SetInt("CantidadAve", PlayerPrefs.GetInt("CantidadAve") + 1);
         }
-        if (Popularidad > 85 && PlayerPrefs.GetInt("serpienteDesbloqueada") == 0)
+        if (Popularidad > 50 && PlayerPrefs.GetInt("serpienteDesbloqueada") == 0)
         {
             PlayerPrefs.SetInt("serpienteDesbloqueada", 1);
             PlayerPrefs.SetInt("CantidadSerpiente", PlayerPrefs.GetInt("CantidadSerpiente") + 1);

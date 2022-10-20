@@ -271,11 +271,11 @@ public class JsonReader : MonoBehaviour {
 
 
         //CHEQUEAR QUE ESTO ESTE BIEN, SI TE TIRA A CRUZA FALLIDA SIEMPRE COMENTAR LAS 4 LINEAS DE ABAJO
-        if (!matched)
-        {
-             if(SceneManager.GetActiveScene().name != "Estasis"){SceneManager.LoadScene("menu-cruza-fallida");}
-	     index = 35;
-        }
+        // if (!matched)
+        // {
+        //      if(SceneManager.GetActiveScene().name != "Estasis"){SceneManager.LoadScene("menu-cruza-fallida");}
+	    //  index = 35;
+        // }
 
         if (index < 35)
         {

@@ -41,7 +41,7 @@ public class DeletePlayerPrefs : MonoBehaviour {
         PlayerPrefs.SetInt("Popularidad", 20);
 
         PlayerPrefs.SetInt("CantidadCarpincho", 1);
-        PlayerPrefs.SetInt("CantidadArana", 1);
+        PlayerPrefs.SetInt("CantidadArana", 0);
         PlayerPrefs.SetInt("CantidadCocodrilo", 1);
         PlayerPrefs.SetInt("CantidadZorro", 1);
         PlayerPrefs.SetInt("CantidadMurcielago", 0);

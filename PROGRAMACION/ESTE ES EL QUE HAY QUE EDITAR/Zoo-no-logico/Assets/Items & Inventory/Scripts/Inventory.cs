@@ -29,27 +29,27 @@ public class Inventory : MonoBehaviour
         }
         SetStartingItems();
 
-        if(PlayerPrefs.GetInt("CantidadCarpincho")<=0){
-            itemSlots[0].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadArana") <= 0){
-            itemSlots[1].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadCocodrilo") <= 0){
-            itemSlots[2].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadZorro") <= 0){
-            itemSlots[3].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadMurcielago")<=0){
-            itemSlots[4].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadSerpiente")<=0){
-            itemSlots[5].Item = null;
-        }
-                if(PlayerPrefs.GetInt("CantidadAve")<=0){
-            itemSlots[6].Item = null;
-        }
+        //if(PlayerPrefs.GetInt("CantidadCarpincho")<=0){
+        //    itemSlots[0].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadArana") <= 0){
+        //    itemSlots[1].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadCocodrilo") <= 0){
+        //    itemSlots[2].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadZorro") <= 0){
+        //    itemSlots[3].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadMurcielago")<=0){
+        //    itemSlots[4].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadSerpiente")<=0){
+        //    itemSlots[5].Item = null;
+        //}
+        //        if(PlayerPrefs.GetInt("CantidadAve")<=0){
+        //    itemSlots[6].Item = null;
+        //}
 
     }
 

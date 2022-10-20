@@ -40,7 +40,13 @@ public class Eventos : MonoBehaviour {
 
     public Sprite monedas;
     public Sprite popularidad;
-    public Sprite animal;
+    public Sprite Carpincho;
+    public Sprite Arana;
+    public Sprite Cocodrilo;
+    public Sprite Ave;
+    public Sprite Murcielago;
+    public Sprite Serpiente;
+    public Sprite Zorro;
     public Image opcion1GainImage;
     public Image opcion2GainImage;
     public Image opcion1LoseImage;
@@ -96,9 +102,39 @@ public class Eventos : MonoBehaviour {
             icon.sprite = monedas;
             icon.color = new Color(1, 1, 1, 1);
         }
-        else if(thing.Contains("Cantidad"))
+        else if(thing == "CantidadCarpincho")
         {
-            icon.sprite = animal;
+            icon.sprite = Carpincho;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadArana")
+        {
+            icon.sprite = Arana;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadCocodrilo")
+        {
+            icon.sprite = Cocodrilo;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadAve")
+        {
+            icon.sprite = Ave;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadMurcielago")
+        {
+            icon.sprite = Murcielago;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadSerpiente")
+        {
+            icon.sprite = Serpiente;
+            icon.color = new Color(1, 1, 1, 1);
+        }
+        else if (thing == "CantidadZorro")
+        {
+            icon.sprite = Zorro;
             icon.color = new Color(1, 1, 1, 1);
         }
         else

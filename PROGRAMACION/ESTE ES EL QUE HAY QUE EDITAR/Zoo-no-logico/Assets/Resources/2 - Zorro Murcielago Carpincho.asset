@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57e31c61cf34bc41b40c905f3eadea4, type: 3}
+  m_Name: 2 - Zorro Murcielago Carpincho
+  m_EditorClassIdentifier: 
+  img: {fileID: 21300000, guid: 2965a48c9b90e7346bcb5d2ea770d00e, type: 3}
+  nombre: Zorro Murcielago Carpincho
+  id: 2
+  porcentaje: 95
+  peligrosidad: 1
+  precio: 6000
+  popularidad: 5
+  "descripci\xF3n": 
+  dato1: 
+  dato2: 
+  dato3: 

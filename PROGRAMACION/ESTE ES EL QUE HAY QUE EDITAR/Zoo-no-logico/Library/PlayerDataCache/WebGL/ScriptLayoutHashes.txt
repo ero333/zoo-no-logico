@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/Tomi/Documents/ZooNoLogico/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -18,7 +18,7 @@ Assets/Scenes/cartas.unity
 Assets/Scenes/configuracion2.unity
 Assets/Scenes/tutorial.unity
 SceneListEnd?
-3325bd587702b4d8fb7c375e3b10cbe4 Assembly-CSharp.dll:.Eventos
+b80412ec1d4350ee429f2258d3dc9ec4 Assembly-CSharp.dll:.Eventos
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 b7f4c379bb4c02013f98eaec114a6b34 Assembly-CSharp.dll:.EventoCartas
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -239,3 +239,7 @@ f0ff25c609dc00f9b19e45427d40f03a Assembly-CSharp.dll:.CodexCruzas
 6055442ac6576e8af477f77ebd58792f Assembly-CSharp.dll:.UnlockStoreAnimals
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SellAnimal
 c56b08465897335a8da63764e79d83d3 Assembly-CSharp.dll:.Character
+2ee5546f056f2cfb434c1617aecb7eb1 Assembly-CSharp.dll:.Mati_CruzasAnimales
+3bb6f1d43da67d3cfede06b5d604f1b5 Assembly-CSharp.dll:.VM_AgarrarSoltar
+9b2f706a69e975d94cbdcf73f5645fab Assembly-CSharp.dll:.Mati_Cruza
+0783416587bab5733395e27bf788e35d Assembly-CSharp.dll:.Mati_Animales
