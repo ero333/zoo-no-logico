@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+D:/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -225,7 +225,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ChangeScene
 73b15c48561b2ab5daaedaaf74fdae1c Assembly-CSharp.dll:.CantidadCupos
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-7a0534021431e33874a76ae5bde37dbf Assembly-CSharp.dll:.AbrirCartas
+0c4169af3939da2cd30f2c2f0b09ef43 Assembly-CSharp.dll:.AbrirCartas
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DestroyCombination
 1999c2ff80dfcfe41760985f92593731 Assembly-CSharp.dll:.StasisManager
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -235,6 +235,7 @@ c92f0d16986ff767f284e98e402ca1a0 Assembly-CSharp.dll:.swipe_inventory
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 1994da97db29f278c1acb237e51c7b27 Assembly-CSharp.dll:.CantidadVisitantes
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
+6b8d3026542d6f2544ea0368e7e6aee3 Assembly-CSharp.dll:.UIZoomImage
 f0ff25c609dc00f9b19e45427d40f03a Assembly-CSharp.dll:.CodexCruzas
 2425689d4bc47d34ed42587c6ebf3aad Assembly-CSharp.dll:.CambioDeDia
 3bb6f1d43da67d3cfede06b5d604f1b5 Assembly-CSharp.dll:.VM_AgarrarSoltar
