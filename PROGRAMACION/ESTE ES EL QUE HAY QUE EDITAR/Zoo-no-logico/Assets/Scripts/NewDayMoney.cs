@@ -48,11 +48,9 @@ public class NewDayMoney : MonoBehaviour {
 
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
-        if (PlayerPrefs.GetInt("Jaula1") != 89) { cage1Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula1")].dinero; }
-        if (PlayerPrefs.GetInt("Jaula2") != 89) { cage2Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula2")].dinero; }
-        if (PlayerPrefs.GetInt("Jaula3") != 89) { cage3Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula3")].dinero; }
-        if (PlayerPrefs.GetInt("Jaula4") != 89) { cage4Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula4")].dinero; }
-        if (PlayerPrefs.GetInt("Jaula5") != 89) { cage5Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula5")].dinero; }
+        for (int i = 0; i<20; i++){
+            if (PlayerPrefs.GetInt("Jaula" + i) != 89) { cage1Money = myCruzaList.cruza[PlayerPrefs.GetInt("Jaula" + i)].dinero;}
+        }
 
 
     }

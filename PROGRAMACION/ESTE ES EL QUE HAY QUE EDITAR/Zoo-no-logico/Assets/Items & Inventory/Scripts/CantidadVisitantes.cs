@@ -16,7 +16,14 @@ public class CantidadVisitantes : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Popularidad = PlayerPrefs.GetInt("Popularidad");
-        Cantidad.text = (Popularidad * Popularidad).ToString();
+        if (Popularidad > 0)
+        {
+            Cantidad.text = (Popularidad * Popularidad).ToString();
+        }
+        else
+        {
+            Cantidad.text = "No vino ni la gente de limpieza";
+        }
 
 
     }

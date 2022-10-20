@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 37
+  controlID: 72
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 54
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,10 +343,10 @@ MonoBehaviour:
     height: 614
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 4c54faff0a55faff5856faff5c56faff6656faff7e56faff8a56faffa656faffd656faffda56faffe256fafffe56faff3257faff4657faff4a57faff5057faff5457faffbecafbff48d2fbff205dfcffd863fcfff873fcff0e7bfcffb081fcff18f4ffffdefbffff000000000836000080360000a837000054380000
+    scrollPos: {x: 0, y: 103}
+    m_SelectedIDs: 16150000
+    m_LastClickedID: 5398
+    m_ExpandedIDs: defbffff000000008413000058150000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3007321, y: -0.12431042, z: 2.193454}
+    m_Target: {x: 2.0237465, y: 2.324046, z: 2.2451684}
     speed: 2
-    m_Value: {x: 1.3007321, y: -0.12431042, z: 2.193454}
+    m_Value: {x: 2.0237465, y: 2.324046, z: 2.2451684}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.730978
+    m_Target: 8.488463
     speed: 2
-    m_Value: 13.730978
+    m_Value: 8.488463
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -511,11 +511,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Items & Inventory/Fonts
+    - Assets/Items & Inventory/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Items & Inventory/Fonts
+  - Assets/Items & Inventory/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Zanty.DESKTOP-O0QB1PV\Documents\GitHub\zoo-no-logico\PROGRAMACION\ESTE
     ES EL QUE HAY QUE EDITAR\Zoo-no-logico
@@ -523,9 +523,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 223}
-    m_SelectedIDs: b00c0000
-    m_LastClickedID: 3248
-    m_ExpandedIDs: 00000000ee090000480d00005c0d00004a10000064100000d810000026110000b635000000ca9a3b
+    m_SelectedIDs: 26110000
+    m_LastClickedID: 4390
+    m_ExpandedIDs: 00000000ee090000480d00005c0d00004a10000064100000d810000026110000fe36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +553,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee090000480d00005c0d00004a10000064100000d810000026110000b6350000
+    m_ExpandedIDs: 00000000ee090000480d00005c0d00004a10000064100000d810000026110000fe360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
