@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/USAL/2022/Gamer/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+E:/Facultad/Cuarto/Taller IV/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -71,7 +71,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
-ba60df840e55e4074235393923ce76bc Assembly-CSharp.dll:.DisableCartaBtn
+9e0f203bd3991f1eba4955c4248be7d4 Assembly-CSharp.dll:.DisableCartaBtn
 e433c02a88adc6d0961e61d668ab874e Assembly-CSharp.dll:.CantidadAnimales
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DontDestroy
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter

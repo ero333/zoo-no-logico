@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 54
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 55
+  controlID: 69
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,21 +346,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 36cdfcff6ecefcff6eefffff6af5ffff00000000fe3b0000303c00003a3c0000423c0000843c0000fe3c0000063d0000263d0000503d0000703d00008c3d0000a03d0000b83d0000c03d0000d83d0000f43d0000083e00001c3e0000523e00006e3e0000ce3e0000d63e0000ec3e00004e3f0000ac3f0000b43f000048710000c2710000
+    m_ExpandedIDs: 5cf5ffff12f6ffff60f7ffff64f7ffff70f7ffff88f7ffff94f7ffffb0f7ffffe0f7ffffe4f7ffffecf7ffff08f8ffff3cf8ffff50f8ffff54f8ffff5af8ffff5ef8ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Carta1
-      m_OriginalName: Carta1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16206
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -523,9 +523,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 183}
-    m_SelectedIDs: 70330000
-    m_LastClickedID: 13168
-    m_ExpandedIDs: 000000000a310000f0330000c83600003c3700007a370000dc3b000000ca9a3b
+    m_SelectedIDs: ac0c0000
+    m_LastClickedID: 3244
+    m_ExpandedIDs: 00000000ea090000440d000060100000d810000026110000c036000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +553,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a310000f0330000c83600003c3700007a370000dc3b0000
+    m_ExpandedIDs: 00000000ea090000440d000060100000d810000026110000c0360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c00003037000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
