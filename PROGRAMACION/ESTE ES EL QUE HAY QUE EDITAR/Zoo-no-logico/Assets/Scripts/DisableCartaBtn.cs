@@ -17,8 +17,8 @@ public class DisableCartaBtn : MonoBehaviour
     public Button boton8;
     public Button boton9;
     public Button boton10;
-    public Button boton11;
-    public Button boton12;
+    //public Button boton11;
+    //public Button boton12;
 
     public int numAzar = 0;
 
@@ -32,8 +32,8 @@ public class DisableCartaBtn : MonoBehaviour
     public int ActivadorCarta8 = 0;
     public int ActivadorCarta9 = 0;
     public int ActivadorCarta10 = 0;
-    public int ActivadorCarta11 = 0;
-    public int ActivadorCarta12 = 0;
+    //public int ActivadorCarta11 = 0;
+    //public int ActivadorCarta12 = 0;
 
     bool Abrir = false;
 
@@ -217,36 +217,36 @@ public class DisableCartaBtn : MonoBehaviour
         }
 
 
-        ActivadorCarta11 = PlayerPrefs.GetInt("ActivadorCarta11");
-        if (ActivadorCarta11 >= 11)
-        {
-            boton11.interactable = true;
+        //ActivadorCarta11 = PlayerPrefs.GetInt("ActivadorCarta11");
+        //if (ActivadorCarta11 >= 11)
+        //{
+        //    boton11.interactable = true;
 
-        }
+        //}
 
-        if (ActivadorCarta11 == 11 && Abrir == true)
-        {
-            boton11.SendMessage("Abrir");
-            Abrir = false;
-            ActivadorCarta11++;
-            PlayerPrefs.SetInt("ActivadorCarta11", ActivadorCarta11);
-        }
+        //if (ActivadorCarta11 == 11 && Abrir == true)
+        //{
+        //    boton11.SendMessage("Abrir");
+        //    Abrir = false;
+        //    ActivadorCarta11++;
+        //    PlayerPrefs.SetInt("ActivadorCarta11", ActivadorCarta11);
+        //}
 
 
-        ActivadorCarta12 = PlayerPrefs.GetInt("ActivadorCarta12");
-        if (ActivadorCarta12 >= 12)
-        {
-            boton12.interactable = true;
+        //ActivadorCarta12 = PlayerPrefs.GetInt("ActivadorCarta12");
+        //if (ActivadorCarta12 >= 12)
+        //{
+        //    boton12.interactable = true;
 
-        }
+        //}
 
-        if (ActivadorCarta12 == 12 && Abrir == true)
-        {
-            boton12.SendMessage("Abrir");
-            Abrir = false;
-            ActivadorCarta12++;
-            PlayerPrefs.SetInt("ActivadorCarta12", ActivadorCarta12);
-        }
+        //if (ActivadorCarta12 == 12 && Abrir == true)
+        //{
+        //    boton12.SendMessage("Abrir");
+        //    Abrir = false;
+        //    ActivadorCarta12++;
+        //    PlayerPrefs.SetInt("ActivadorCarta12", ActivadorCarta12);
+        //}
 
 
         switch (numAzar)
@@ -341,23 +341,23 @@ public class DisableCartaBtn : MonoBehaviour
                 PlayerPrefs.SetInt("AzarCartas", numAzar);
                 break;
 
-            case 11:
-                ActivadorCarta11 = 11;
-                Abrir = true;
-                PlayerPrefs.SetInt("ActivadorCarta11", ActivadorCarta11);
+            //case 11:
+            //    ActivadorCarta11 = 11;
+            //    Abrir = true;
+            //    PlayerPrefs.SetInt("ActivadorCarta11", ActivadorCarta11);
 
-                numAzar = 0;
-                PlayerPrefs.SetInt("AzarCartas", numAzar);
-                break;
+            //    numAzar = 0;
+            //    PlayerPrefs.SetInt("AzarCartas", numAzar);
+            //    break;
 
-            case 12:
-                ActivadorCarta12 = 12;
-                Abrir = true;
-                PlayerPrefs.SetInt("ActivadorCarta12", ActivadorCarta12);
+            //case 12:
+            //    ActivadorCarta12 = 12;
+            //    Abrir = true;
+            //    PlayerPrefs.SetInt("ActivadorCarta12", ActivadorCarta12);
 
-                numAzar = 0;
-                PlayerPrefs.SetInt("AzarCartas", numAzar);
-                break;
+            //    numAzar = 0;
+            //    PlayerPrefs.SetInt("AzarCartas", numAzar);
+            //    break;
 
         }
     }
