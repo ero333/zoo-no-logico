@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 111
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 233
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 76
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,8 +231,8 @@ MonoBehaviour:
     y: 0
     width: 477
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -346,7 +346,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 30f0ffff0af1ffff56f2ffff5af2ffff68f2ffff80f2ffff8cf2ffffa8f2ffffd8f2ffffdcf2ffffe4f2ffff00f3ffff34f3ffff48f3ffff4cf3ffff52f3ffff56f3ffffe6fbffff00000000
+    m_ExpandedIDs: 943ffcff7840fcffc841fcffd041fcffe241fcfffe41fcff0e42fcff2e42fcff6242fcff6a42fcff7642fcff9642fcffce42fcffe642fcffee42fcfff842fcff0043fcff104cfcff82d4fcff7272fdffa28afdffa48afdff5250feff7e51feffc27cfeff888dfeffcac5ffffd4d8ffffdee3ffff72f2ffff7ef4ffff38f5ffffd6f8ffff00000000b43f0000ee3f0000464500005c4f0000866d0000ca6f0000cc720000d8720000ae730000bc740000107500002c7500003a750000447a000082800000de840000c885000064860000da860000ac870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,14 +396,14 @@ MonoBehaviour:
     height: 522
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 809.4438996
+  lastFramingTime: 944.2182266
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.09887402, y: 0.4026917, z: 110.74973}
+    m_Target: {x: -1.4552517, y: -0.1526624, z: 386.29556}
     speed: 2
-    m_Value: {x: 0.09887402, y: 0.4026917, z: 110.74973}
+    m_Value: {x: -1.4552517, y: -0.1526624, z: 386.29556}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.474316
+    m_Target: 12.728241
     speed: 2
-    m_Value: 11.474316
+    m_Value: 12.728241
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -517,15 +517,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Tomi\Documents\ZooNoLogico\zoo-no-logico\PROGRAMACION\ESTE
-    ES EL QUE HAY QUE EDITAR\Zoo-no-logico
+  m_LastProjectPath: D:\USAL\2022\Gamer\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE
+    HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 86}
-    m_SelectedIDs: 8a0a0000
-    m_LastClickedID: 2698
-    m_ExpandedIDs: 00000000ea090000440d000060100000d810000026110000fc36000000ca9a3b
+    m_SelectedIDs: 48300000
+    m_LastClickedID: 12360
+    m_ExpandedIDs: 00000000a82f0000fe320000123600008a360000d83600009a3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +553,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea090000440d000060100000d810000026110000fc360000
+    m_ExpandedIDs: 00000000a82f0000fe320000123600008a360000d83600009a3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c00003037000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
