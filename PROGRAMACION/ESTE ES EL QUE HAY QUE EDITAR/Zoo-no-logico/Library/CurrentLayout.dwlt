@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 45
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 233
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 10
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,7 +346,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d4e2feff1cecffffb2ecffff1cefffffb8efffffbef5ffff000000005c3f0000963f0000e23f0000
+    m_ExpandedIDs: e6fbffff000000002a150000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,20 +511,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Img/Botones
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Img/Botones
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 188.32967}
-    m_SelectedIDs: 92310000
-    m_LastClickedID: 12690
-    m_ExpandedIDs: 00000000fa300000e4330000c43600003437000072370000dc3b000000ca9a3b
+    scrollPos: {x: 0, y: 56.994503}
+    m_SelectedIDs: a00a0000
+    m_LastClickedID: 2720
+    m_ExpandedIDs: 00000000ea090000440d000064100000dc1000002a110000c836000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa300000e4330000c43600003437000072370000dc3b0000
+    m_ExpandedIDs: 00000000ea090000440d000064100000dc1000002a110000c8360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,7 +604,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 182}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 305
 --- !u!114 &16
