@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-E:/Facultad/Cuarto/Taller IV/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+C:/Users/Alumno/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
