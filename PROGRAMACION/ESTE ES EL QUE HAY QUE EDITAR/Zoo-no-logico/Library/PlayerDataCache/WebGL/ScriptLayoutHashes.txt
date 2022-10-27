@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/Zanty.DESKTOP-O0QB1PV/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+D:/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -19,6 +19,7 @@ Assets/Scenes/configuracion2.unity
 Assets/Scenes/tutorial.unity
 SceneListEnd?
 ab56130263503b45feaf5b7a9b60990c Assembly-CSharp.dll:.Eventos
+b5d7ae5bbadaa93b0790fd25dce4a846 Assembly-CSharp.dll:.ConfirmacionDesocuparJaula
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 b7f4c379bb4c02013f98eaec114a6b34 Assembly-CSharp.dll:.EventoCartas
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -159,10 +160,10 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 c9e08716e407c9758aa1866eab691b27 Assembly-CSharp.dll:.NewDayMoney
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.evento
 38829d7a7e9b146081cd4c3703a6e6aa Assembly-CSharp.dll:.CuposJaulas
-6e4155528e7483b6ae67a9a37d08ea19 Assembly-CSharp.dll:.JaulaManager
+2100acbbe10a9f9d41955d16d9c8965d Assembly-CSharp.dll:.JaulaManager
 5443a314ef4b7e76edf1f6b6a0ca5ab3 Assembly-CSharp.dll:.EquippableItem
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
-bd75feae25c3db0a3a14db2a14d33a8e Assembly-CSharp.dll:.Jaula
+188eb715a39aca84f86d04e523066fed Assembly-CSharp.dll:.Jaula
 3bfdd8c4f96d27271cdbb9bc7ae5688b Assembly-CSharp.dll:.DisableJaulaBtn
 2ee5546f056f2cfb434c1617aecb7eb1 Assembly-CSharp.dll:.Mati_CruzasAnimales
 9c76527d255895cfc45b29cf06fd2df9 Assembly-CSharp.dll:.ItemSlot
