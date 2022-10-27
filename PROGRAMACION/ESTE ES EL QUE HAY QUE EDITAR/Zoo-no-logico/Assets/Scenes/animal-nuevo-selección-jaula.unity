@@ -314,6 +314,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!114 &10243788
@@ -945,6 +946,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!114 &201525074
@@ -3325,6 +3327,7 @@ MonoBehaviour:
   Monedas: 0
   testMonedas: {fileID: 437786439}
   testMonedas2: {fileID: 942967496}
+  confirmacion: {fileID: 0}
   myCruzaList:
     cruza: []
 --- !u!114 &1238624823
@@ -4755,7 +4758,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
