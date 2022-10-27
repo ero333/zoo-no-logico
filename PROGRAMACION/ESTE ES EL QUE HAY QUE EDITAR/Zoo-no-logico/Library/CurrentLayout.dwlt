@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 30
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 407
     height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -154,12 +154,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407
     y: 0
-    width: 1182
+    width: 1180
     height: 947
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 23
+  controlID: 31
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1182
+    width: 1180
     height: 543
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -203,7 +203,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 543
-    width: 1182
+    width: 1180
     height: 404
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
@@ -227,9 +227,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1589
+    x: 1587
     y: 0
-    width: 331
+    width: 333
     height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -346,7 +346,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 4cf4ffffdcf8ffff00000000
+    m_ExpandedIDs: 86ebfdff24fefdff0cc4ffff5cc5ffff4af0ffffe6fbffff000000003a3a00004c3a00000ca7000054a7000016a8000066a8000074a8000094a80000faa9000076ea000066fe0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
   m_ExpandedScenes:
-  - inicio1
+  - Estasis
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409
     y: 92
-    width: 1178
+    width: 1176
     height: 522
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.32588476, y: 0.06767358, z: 62.490047}
+    m_Target: {x: 0.101105094, y: -0.4522428, z: 62.490234}
     speed: 2
-    m_Value: {x: -0.32588476, y: 0.06767358, z: 62.490047}
+    m_Value: {x: 0.101105094, y: -0.4522428, z: 62.490234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409
     y: 635
-    width: 1178
+    width: 1176
     height: 383
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -511,20 +511,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Items & Inventory/Images/poptext(prueba)
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Items & Inventory/Images/poptext(prueba)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 118}
-    m_SelectedIDs: 76300000
-    m_LastClickedID: 12406
-    m_ExpandedIDs: 00000000d22f00003c3300003e36000058360000cc3600001a3700001c3a000000ca9a3b
+    scrollPos: {x: 0, y: 110.28435}
+    m_SelectedIDs: e60b0000
+    m_LastClickedID: 3046
+    m_ExpandedIDs: 00000000ee0900005c0d00006610000080100000f8100000461100002834000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d22f00003c3300003e36000058360000cc3600001a3700001c3a0000
+    m_ExpandedIDs: 00000000ee0900005c0d00006610000080100000f81000004611000028340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,8 +579,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c000030370000000000004e300000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c0000303700004e3000003612000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,9 +652,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1591
+    x: 1589
     y: 92
-    width: 329
+    width: 331
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
