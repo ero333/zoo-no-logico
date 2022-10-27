@@ -2004,7 +2004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &819993241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2038,10 +2038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipmentSlotsParent: {fileID: 819993241}
-  equipmentSlots:
-  - {fileID: 1294546659}
-  - {fileID: 1137708152}
-  - {fileID: 1175144435}
+  equipmentSlots: []
 --- !u!1 &834907076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,7 +2594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1137708151
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2800,7 +2797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1175144434
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3285,7 +3282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1294546658
 RectTransform:
   m_ObjectHideFlags: 0

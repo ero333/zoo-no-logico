@@ -40,7 +40,6 @@ public class Mati_Cruza : MonoBehaviour
         {
             animales2.Add(animal);                                      // Añade el animal a la Lista
             animales1.Add(animal.nombre);                               // Añade el nombre del animal a la lista
-            print(animal);
         }
 
         if (animales2.Count == 3)                                       // una vez que hay 3 animales en los slots
@@ -51,17 +50,10 @@ public class Mati_Cruza : MonoBehaviour
             Text TextoPorcentaje = GameObject.FindGameObjectWithTag("txt_porcentaje").GetComponent<Text>();                         // Variable de texto de porcentaje
             foreach (Mati_CruzasAnimales a in cruzas)                                                                               // Por cada animal en la Lista de cruzas
             {
-                print(a);
-                print(animales1[0]);
-                print(animales1[1]);
-                print(animales1[2]);
                 if ((a.nombre.Contains(animales1[0])) && (a.nombre.Contains(animales1[1])) && (a.nombre.Contains(animales1[2])))    // Si un animal que está dentro del slot contiene parte del nombre de la cruza
                 {
-                    print("NO DA ERROR!!!!!!!!!!!!!");
                     
                     int costo = ((int)a.precio / divisorCosto);
-                    print(costo);
-                    print(a.precio);
                     TextoMonedas.text = costo.ToString();            // cambia texto del precio
                     TextoPorcentaje.text = a.porcentaje.ToString();     // cambia texto del porcentaje
                     RetenerAnimal = a;                                  // Se retiene el animal
@@ -82,7 +74,8 @@ public class Mati_Cruza : MonoBehaviour
     public void Quitar(Mati_Animales animal)                            // Este método es llamado desde la tarjeta del animal
     {
         animales2.Remove(animal);                                       // Quita el animal de la lista
-        animales1.Remove(animal.nombre);                                // Quita el nombre del animal de la lista
+        animales1.Remove(animal.nombre);
+        // Quita el nombre del animal de la lista
 
         if (animales2.Count < 3)                                        // Si hay menos de 3 animales en el slot
         {
@@ -102,13 +95,11 @@ public class Mati_Cruza : MonoBehaviour
 
         int plata = PlayerPrefs.GetInt("Moneditas");                    // Creo variable que obtiene las monedas que tengo
         int total = plata - RetenerAnimal.precio/divisorCosto;                       // Hago la cuenta de mi plata - lo que cuesta el animal
-        print(total);
         PlayerPrefs.SetInt("Moneditas", total);                         // El resultado de la cuenta se convierte en mi plata
 
 
         int random = Random.Range(0, 101);                              // número random del 0 al 100
 
-        print(random);
 
         PlayerPrefs.SetInt("indexCurrentCruza",RetenerAnimal.id);       // ID para la pantalla de animal nuevo.
 
@@ -116,15 +107,17 @@ public class Mati_Cruza : MonoBehaviour
         {
 
             string cantidad = "Cantidad";                               // string
-
-            if (a == "Araña")                                           // El playerpref de la Araña está como "CantidadArana".
+            if (a.Contains("Ara"))                                      // El playerpref de la Araña está como "CantidadArana".
             {
+                print("SE DIO CUENTA QUE ES UNA ARAÑA");
                 int restar = PlayerPrefs.GetInt(cantidad + "Arana");
                 restar--;
                 PlayerPrefs.SetInt(cantidad + "Arana", restar);
+               
             }
             else if (a == "Ave Secretaria")
             {
+                print("ES UN AVE");
                 int restar = PlayerPrefs.GetInt(cantidad + "Ave");      // El playerpref del Ave Secretaria está como "CantidadAve"
                 restar--;
                 PlayerPrefs.SetInt(cantidad + "Ave", restar);
