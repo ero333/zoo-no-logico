@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/USAL/2022/Gamer/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+C:/Users/Usuario/Documents/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA/Build
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -38,6 +38,7 @@ f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 a8289e5f690b0aa59e6d4b8249dd1826 Assembly-CSharp.dll:.JsonReader
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.SaveManager
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
+0b93d7bb91d1f8993a0d8fc1cd246891 Assembly-CSharp.dll:.CheckCuposCruza
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -244,4 +245,3 @@ f0ff25c609dc00f9b19e45427d40f03a Assembly-CSharp.dll:.CodexCruzas
 6055442ac6576e8af477f77ebd58792f Assembly-CSharp.dll:.UnlockStoreAnimals
 92762586fa49e2deb0890c720b411398 Assembly-CSharp.dll:.SellAnimal
 c56b08465897335a8da63764e79d83d3 Assembly-CSharp.dll:.Character
-0b93d7bb91d1f8993a0d8fc1cd246891 Assembly-CSharp.dll:.CheckCuposCruza
