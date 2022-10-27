@@ -19,6 +19,8 @@ public class Jaula : MonoBehaviour
     [SerializeField] public GameObject testMonedas;
     [SerializeField] public GameObject testMonedas2;
 
+    [SerializeField] GameObject confirmacion;
+
     [System.Serializable]
     public class Cruza
     {
@@ -41,6 +43,7 @@ public class Jaula : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
         //print(JaulasArray[0]);
@@ -186,14 +189,16 @@ public class Jaula : MonoBehaviour
 
     public void DesocuparJaula (int selectedJaula)
     {
-        print("DESOCUPAR ESTA FUNCIONANDO");
-        PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + selectedJaula))].popularidad);
+        confirmacion.SetActive(true);
+        PlayerPrefs.SetInt("IndexDesocuparJaula", selectedJaula);
+        //print("DESOCUPAR ESTA FUNCIONANDO");
+        //PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + selectedJaula))].popularidad);
 
 
-        JaulasArray[selectedJaula].SetActive(false);
-        PlayerPrefs.SetInt("JaulaActiva" + selectedJaula, 0);
-        PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
-        PlayerPrefs.SetString("Jaula" + selectedJaula, "");
+        //JaulasArray[selectedJaula].SetActive(false);
+        //PlayerPrefs.SetInt("JaulaActiva" + selectedJaula, 0);
+        //PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
+        //PlayerPrefs.SetString("Jaula" + selectedJaula, "");
 
     }
 

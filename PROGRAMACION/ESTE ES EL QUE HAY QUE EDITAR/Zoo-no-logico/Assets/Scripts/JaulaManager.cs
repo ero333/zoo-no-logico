@@ -37,6 +37,22 @@ public class JaulaManager : MonoBehaviour {
 
     public GameObject[] JaulasArray;
 
+    public TextAsset Cruzas;
+
+    [System.Serializable]
+    public class Cruza
+    {
+        public string id;
+        public int popularidad;
+    }
+    [System.Serializable]
+    public class CruzaList
+    {
+        public Cruza[] cruza;
+    }
+
+    public CruzaList myCruzaList = new CruzaList();
+
     void Awake()
     {
         GetJaulas();
@@ -45,6 +61,7 @@ public class JaulaManager : MonoBehaviour {
     // Use this for initialization
     void Start () 
     {
+        myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
         textoJaulas = GameObject.FindGameObjectWithTag("TextoJaulas").GetComponent<Text>();
         Jaulas = PlayerPrefs.GetInt("JaulasOcupadas");
@@ -137,6 +154,18 @@ public class JaulaManager : MonoBehaviour {
     private int CompareJaulas(GameObject x, GameObject y)
     {
         return Int16.Parse(x.name).CompareTo(Int16.Parse(y.name));
+    }
+
+    public void DesocuparJaula(int selectedJaula)
+    {
+        PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + selectedJaula))].popularidad);
+
+
+        JaulasArray[selectedJaula].SetActive(false);
+        PlayerPrefs.SetInt("JaulaActiva" + selectedJaula, 0);
+        PlayerPrefs.SetInt("JaulasOcupadas", PlayerPrefs.GetInt("JaulasOcupadas") - 1);
+        PlayerPrefs.SetString("Jaula" + selectedJaula, "");
+
     }
 
 

@@ -18,7 +18,7 @@ public class CantidadCupos   : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Ocupadas = PlayerPrefs.GetInt("Jaulitas");
+        Ocupadas = PlayerPrefs.GetInt("JaulasOcupadas");
         CantidadCupostext.text = Ocupadas.ToString();
 		
 	}

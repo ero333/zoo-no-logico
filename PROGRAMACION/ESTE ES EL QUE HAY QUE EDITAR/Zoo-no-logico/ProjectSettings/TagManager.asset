@@ -48,6 +48,7 @@ TagManager:
   - Slot1u
   - Slot2u
   - Slot3u
+  - ConfirmacionDesocupar
   layers:
   - Default
   - TransparentFX
