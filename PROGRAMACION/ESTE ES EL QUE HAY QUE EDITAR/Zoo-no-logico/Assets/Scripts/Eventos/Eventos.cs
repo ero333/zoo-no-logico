@@ -116,7 +116,7 @@ public class Eventos : MonoBehaviour {
             else
             {
                 opcion1LoseText.text = myEventoList.evento[eventNumber].Opcion1WhichLose.ToString();
-                menos2.text = "-";
+                menos1.text = "-";
             }
             if (myEventoList.evento[eventNumber].Opcion2WhatLose.Length < 2)
             {
@@ -126,7 +126,7 @@ public class Eventos : MonoBehaviour {
             else
             {
                 opcion2LoseText.text = myEventoList.evento[eventNumber].Opcion2WhichLose.ToString();
-                menos1.text = "-";
+                menos2.text = "-";
             }
         }
     }
