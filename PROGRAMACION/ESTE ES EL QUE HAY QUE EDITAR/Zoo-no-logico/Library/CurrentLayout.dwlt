@@ -14,13 +14,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 42
+    y: 51
     width: 1920
     height: 998
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -107,8 +107,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 713, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
   controlID: 110
 --- !u!114 &6
@@ -156,10 +156,10 @@ MonoBehaviour:
     y: 0
     width: 1157
     height: 948
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 10
+  controlID: 92
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,8 +178,8 @@ MonoBehaviour:
     y: 0
     width: 1157
     height: 545
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -338,15 +338,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 91
+    y: 100
     width: 320
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e300000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 4418feffda7dfeff7080feffc083feff0085feff4c86fefffaa6feff82d1feffe0d2feffd619ffff401bffffd83affff843cffff7e3effff2c40ffff7441ffff3643ffff8077ffff94f2ffffaaf8ffff00000000c6ba0000d8ba00002ebb000094c0000026c400007cc400005c330100bc3e0100
+    m_ExpandedIDs: 50efffff30f0ffff7ef1ffff82f1ffff8ef1ffffa8f1ffffacf1ffffc8f1fffff6f1fffffaf1ffff02f2ffff1ef2ffff3af2ffff4ef2ffff80f2ffff86f2ffff8af2fffff0f8ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 324
-    y: 91
+    y: 100
     width: 1153
     height: 524
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 324
-    y: 636
+    y: 645
     width: 1153
     height: 382
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -511,21 +511,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Alumno\Documents\GitHub\zoo-no-logico\PROGRAMACION\ESTE
-    ES EL QUE HAY QUE EDITAR\Zoo-no-logico
+  m_LastProjectPath: D:\GitHub\zoo-no-logico\PROGRAMACION\ESTE ES EL QUE HAY QUE EDITAR\Zoo-no-logico
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 119}
-    m_SelectedIDs: 8a300000
-    m_LastClickedID: 12426
-    m_ExpandedIDs: 00000000ea2f00004c3300003e36000058360000d03600001a3700008a39000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: e62f0000
+    m_LastClickedID: 12262
+    m_ExpandedIDs: 00000000e62f00004c330000423600005c360000d43600001e3700009039000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +552,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea2f00004c3300003e36000058360000d03600001a3700008a390000
+    m_ExpandedIDs: 00000000e62f00004c330000423600005c360000d43600001e37000090390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +579,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d60b0000f43000005835000012330000fa7b0000027c000030300000f60e00002c0a0000589d00006e36000090320000da0c0000303700004e3000003612000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -654,7 +653,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1481
-    y: 91
+    y: 100
     width: 439
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
