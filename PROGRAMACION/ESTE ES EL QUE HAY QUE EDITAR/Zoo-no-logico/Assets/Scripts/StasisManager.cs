@@ -107,23 +107,26 @@ public class StasisManager : MonoBehaviour
 
             print(cruza_img);
 
+            print("index test: " + PlayerPrefs.GetString("Stasis" + index));
+
             PlayerPrefs.SetInt("indexCurrentCruza", index);
-            PlayerPrefs.SetInt("Cruza" + index, 1);
+            PlayerPrefs.SetInt("Cruza" + int.Parse(PlayerPrefs.GetString("Stasis" + index)), 1);
             PlayerPrefs.SetString("nombreCurrentCruza", nombreAnimal);
-            PlayerPrefs.SetString("descripcionCurrentCruza", myCruzaList.cruza[index].descripcion);
-            PlayerPrefs.SetString("dato1CurrectCruza", myCruzaList.cruza[index].dato1);
-            PlayerPrefs.SetString("dato2CurrectCruza", myCruzaList.cruza[index].dato2);
-            PlayerPrefs.SetString("dato3CurrectCruza", myCruzaList.cruza[index].dato3);
-            PlayerPrefs.SetInt("plataCurrentCruza", myCruzaList.cruza[index].dinero);
+            PlayerPrefs.SetString("descripcionCurrentCruza", myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].descripcion);
+            PlayerPrefs.SetString("dato1CurrectCruza", myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato1);
+            PlayerPrefs.SetString("dato2CurrectCruza", myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato2);
+            PlayerPrefs.SetString("dato3CurrectCruza", myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato3);
+            PlayerPrefs.SetInt("plataCurrentCruza", myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dinero);
 
             if (index < 35)
             {
-                descripcion.text = myCruzaList.cruza[index].descripcion;
-                nombre.text = myCruzaList.cruza[index].nombre;
-                dato1.text = myCruzaList.cruza[index].dato1;
-                dato2.text = myCruzaList.cruza[index].dato2;
-                dato3.text = myCruzaList.cruza[index].dato3;
-                plata.text = myCruzaList.cruza[index].dinero.ToString();
+                print("index cruza: " + index);
+                descripcion.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].descripcion;
+                nombre.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].nombre;
+                dato1.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato1;
+                dato2.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato2;
+                dato3.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato3;
+                plata.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dinero.ToString();
             }
             else
             {
@@ -137,19 +140,19 @@ public class StasisManager : MonoBehaviour
 
             }
 
-            if (index < 35 && myCruzaList.cruza[index].peligrosidad == 1)
+            if (index < 35 && myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].peligrosidad == 1)
             {
                 estrella1.color = Color.white;
                 estrella2.color = Color.grey;
                 estrella3.color = Color.grey;
             }
-            if (index < 35 && myCruzaList.cruza[index].peligrosidad == 2)
+            if (index < 35 && myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].peligrosidad == 2)
             {
                 estrella1.color = Color.white;
                 estrella2.color = Color.white;
                 estrella3.color = Color.grey;
             }
-            if (index < 35 && myCruzaList.cruza[index].peligrosidad == 3)
+            if (index < 35 && myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].peligrosidad == 3)
             {
                 estrella1.color = Color.white;
                 estrella2.color = Color.white;

@@ -23,6 +23,8 @@ public class CodexCruzas : MonoBehaviour {
 
 			Cruza_image.sprite = cruza_test_img;
 
+			print(PlayerPrefs.GetInt("Cruza" + i) + " cruza" + i);
+
 			if (PlayerPrefs.GetInt("Cruza" + i) == 0)
             {
 				CruzasArray[i].GetComponent<Button>().interactable = false;
