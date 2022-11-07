@@ -13,23 +13,29 @@ public class Comentarios : MonoBehaviour {
     private int ComentarioRandom2;
     public Text Comentario;
     public Text Comentario2;
+    public Image primeravatar;
+    public Image segundoavatar;
 
 
 
     // Use this for initialization
-    void Start () {
+    void Start() {
 
-       ComentarioRandom = new System.Random().Next(0, 3);
+        ComentarioRandom = new System.Random().Next(0, 3);
         print(Comentariosuwu[ComentarioRandom]);
 
         Comentario = GameObject.FindGameObjectWithTag("ComentarioTexto").GetComponent<Text>();
         Comentario.text = Comentariosuwu[ComentarioRandom];
+
+        primeravatar = GameObject.FindGameObjectWithTag("avatar").GetComponent<Image>();
 
         ComentarioRandom2 = new System.Random().Next(0, 4);
         print(Comentariosuwu2[ComentarioRandom2]);
 
         Comentario2 = GameObject.FindGameObjectWithTag("ComentarioTexto2").GetComponent<Text>();
         Comentario2.text = Comentariosuwu2[ComentarioRandom2];
+
+        segundoavatar = GameObject.FindGameObjectWithTag("avatar2").GetComponent<Image>();
 
     }
 	

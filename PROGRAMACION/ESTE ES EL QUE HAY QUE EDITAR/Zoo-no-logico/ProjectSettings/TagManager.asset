@@ -49,6 +49,8 @@ TagManager:
   - Slot2u
   - Slot3u
   - ConfirmacionDesocupar
+  - avatar
+  - avatar2
   layers:
   - Default
   - TransparentFX
