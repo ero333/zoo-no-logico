@@ -8,12 +8,12 @@
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 5,
       "Opcion1WhatLose": "Moneditas",
-      "Opcion1WhichLose":2500,
+      "Opcion1WhichLose": 2500,
       "Opcion2Text": "Despedir científico",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"Popularidad",
-      "Opcion2WhichLose":7
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "Popularidad",
+      "Opcion2WhichLose": 7
     },
     {
       "id": "1",
@@ -23,12 +23,12 @@
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 3,
       "Opcion1WhatLose": "Moneditas",
-      "Opcion1WhichLose":3000,
+      "Opcion1WhichLose": 3000,
       "Opcion2Text": "Conservas al guardia",
-      "Opcion2WhatGain":"Moneditas",
-      "Opcion2WhichGain":1200,
-      "Opcion2WhatLose":"Popularidad",
-      "Opcion2WhichLose":2
+      "Opcion2WhatGain": "Moneditas",
+      "Opcion2WhichGain": 1200,
+      "Opcion2WhatLose": "Popularidad",
+      "Opcion2WhichLose": 2
     },
     {
       "id": "2",
@@ -38,12 +38,12 @@
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 10,
       "Opcion1WhatLose": "Moneditas",
-      "Opcion1WhichLose":4000,
+      "Opcion1WhichLose": 4000,
       "Opcion2Text": "Darles entradas gratis",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "3",
@@ -53,12 +53,12 @@
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 6,
       "Opcion1WhatLose": "CantidadCocodrilo",
-      "Opcion1WhichLose":1,
+      "Opcion1WhichLose": 1,
       "Opcion2Text": "Vender cocodrilo en mercado negro",
-      "Opcion2WhatGain":"Moneditas",
-      "Opcion2WhichGain":3000,
-      "Opcion2WhatLose":"CantidadCocodrilo",
-      "Opcion2WhichLose":1
+      "Opcion2WhatGain": "Moneditas",
+      "Opcion2WhichGain": 3000,
+      "Opcion2WhatLose": "CantidadCocodrilo",
+      "Opcion2WhichLose": 1
     },
     {
       "id": "4",
@@ -70,10 +70,10 @@
       "Opcion1WhatLose": "Popularidad",
       "Opcion1WhichLose": 4,
       "Opcion2Text": "No aceptar el acuerdo",
-      "Opcion2WhatGain":"Popularidad",
-      "Opcion2WhichGain":3,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":0
+      "Opcion2WhatGain": "Popularidad",
+      "Opcion2WhichGain": 3,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": 0
     },
     {
       "id": "5",
@@ -83,12 +83,12 @@
       "Opcion1WhatGain": "Moneditas",
       "Opcion1WhichGain": 5000,
       "Opcion1WhatLose": "CantidadCarpincho",
-      "Opcion1WhichLose":1,
+      "Opcion1WhichLose": 1,
       "Opcion2Text": "Aceptar acuerdo",
-      "Opcion2WhatGain":"CantidadCocodrilo",
-      "Opcion2WhichGain":3,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "CantidadCocodrilo",
+      "Opcion2WhichGain": 3,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "6",
@@ -98,12 +98,12 @@
       "Opcion1WhatGain": "CantidadArana",
       "Opcion1WhichGain": 2,
       "Opcion1WhatLose": "Moneditas",
-      "Opcion1WhichLose":3000,
+      "Opcion1WhichLose": 3000,
       "Opcion2Text": " Pagas a la cuenta",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"Moneditas",
-      "Opcion2WhichLose":1000
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "Moneditas",
+      "Opcion2WhichLose": 1000
     },
     {
       "id": "7",
@@ -113,12 +113,12 @@
       "Opcion1WhatGain": "Moneditas",
       "Opcion1WhichGain": 2000,
       "Opcion1WhatLose": "Popularidad",
-      "Opcion1WhichLose":10,
+      "Opcion1WhichLose": 10,
       "Opcion2Text": "Delatar a Beluska Cola",
-      "Opcion2WhatGain":"Popularidad",
-      "Opcion2WhichGain":20,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "Popularidad",
+      "Opcion2WhichGain": 20,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "8",
@@ -128,12 +128,12 @@
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
       "Opcion1WhatLose": "Popularidad",
-      "Opcion1WhichLose":15,
+      "Opcion1WhichLose": 15,
       "Opcion2Text": "Pagar indemnización",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"Moneditas",
-      "Opcion2WhichLose":500
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "Moneditas",
+      "Opcion2WhichLose": 500
     },
     {
       "id": "9",
@@ -143,27 +143,27 @@
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
       "Opcion1WhatLose": "Popularidad",
-      "Opcion1WhichLose":35,
+      "Opcion1WhichLose": 35,
       "Opcion2Text": "Ocultar la evidencia",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"Moneditas",
-      "Opcion2WhichLose":2000
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "Moneditas",
+      "Opcion2WhichLose": 2000
     },
     {
       "id": "10",
       "titulo": "CARPINCHO SUCIO",
-      "descripcion": "Las jaulas de los carpinchos están demasiado sucias. Es vital mantener un espacio limpio para que los animales se mantengan sanos. Sin embargo, para limpiar las jaulas debes sacar a los carpinchos de ah�, eso podría no gustarle a los visitantes.",
+      "descripcion": "Las jaulas de los carpinchos están demasiado sucias. Es vital mantener un espacio limpio para que los animales se mantengan sanos. Sin embargo, para limpiar las jaulas debes sacar a los carpinchos de ahí, eso podría no gustarle a los visitantes.",
       "Opcion1Text": "Limpias las jaulas",
       "Opcion1WhatGain": "",
       "Opcion1WhichGain": "",
       "Opcion1WhatLose": "Popularidad",
-      "Opcion1WhichLose":10,
+      "Opcion1WhichLose": 10,
       "Opcion2Text": "Enviar a los carpinchos al veterinario",
-      "Opcion2WhatGain":"",
-      "Opcion2WhichGain":"",
-      "Opcion2WhatLose":"Moneditas",
-      "Opcion2WhichLose":3000
+      "Opcion2WhatGain": "",
+      "Opcion2WhichGain": "",
+      "Opcion2WhatLose": "Moneditas",
+      "Opcion2WhichLose": 3000
     },
     {
       "id": "11",
@@ -173,12 +173,12 @@
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 20,
       "Opcion1WhatLose": "",
-      "Opcion1WhichLose":"",
+      "Opcion1WhichLose": "",
       "Opcion2Text": "Aceptar acciones",
-      "Opcion2WhatGain":"Moneditas",
-      "Opcion2WhichGain":1500, 
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "Moneditas",
+      "Opcion2WhichGain": 1500,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "12",
@@ -186,14 +186,14 @@
       "descripcion": "Es gracioso, pero a veces las cosas se hacen más fáciles cuanto mejor le está yendo a uno. Toda tu popularidad está atrayendo atención, y con esa atención vienen ofertas. Dos coleccionistas de animales están interesados en una reunión con vos y están dispuestos a ofrecerte materia prima a cambio de tu tiempo, y tu exclusividad. ¿Qué oferta tomarás?",
       "Opcion1Text": "Reunirte con Juani",
       "Opcion1WhatGain": "CantidadArana",
-      "Opcion1WhichGain": 1 ,
+      "Opcion1WhichGain": 1,
       "Opcion1WhatLose": "",
-      "Opcion1WhichLose":"",
+      "Opcion1WhichLose": "",
       "Opcion2Text": "Negociar con Julián",
-      "Opcion2WhatGain":"CantidadMurcielago",
-      "Opcion2WhichGain":1,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "CantidadMurcielago",
+      "Opcion2WhichGain": 1,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "13",
@@ -203,12 +203,12 @@
       "Opcion1WhatGain": "Moneditas",
       "Opcion1WhichGain": 2100,
       "Opcion1WhatLose": "CantidadMurcielago",
-      "Opcion1WhichLose":1,
+      "Opcion1WhichLose": 1,
       "Opcion2Text": "Rechazar oferta",
-      "Opcion2WhatGain":"Popularidad",
-      "Opcion2WhichGain":5,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "Popularidad",
+      "Opcion2WhichGain": 5,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     },
     {
       "id": "14",
@@ -218,12 +218,12 @@
       "Opcion1WhatGain": "Moneditas",
       "Opcion1WhichGain": 3200,
       "Opcion1WhatLose": "CantidadArana",
-      "Opcion1WhichLose":1,
+      "Opcion1WhichLose": 1,
       "Opcion2Text": "Rechazar oferta",
-      "Opcion2WhatGain":"Popularidad",
-      "Opcion2WhichGain":15,
-      "Opcion2WhatLose":"",
-      "Opcion2WhichLose":""
+      "Opcion2WhatGain": "Popularidad",
+      "Opcion2WhichGain": 15,
+      "Opcion2WhatLose": "",
+      "Opcion2WhichLose": ""
     }
   ]
 }
