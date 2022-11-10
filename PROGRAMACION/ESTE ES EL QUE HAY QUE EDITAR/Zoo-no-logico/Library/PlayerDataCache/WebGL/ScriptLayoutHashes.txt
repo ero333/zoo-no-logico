@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/GitHub/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
+C:/Users/Tomi/Documents/ZooNoLogico/zoo-no-logico/PROGRAMACION/BUILD (esto se sube a itchio)/BUILD DE BUGS O COMO SEA
 SceneListBegin?
 Assets/Scenes/inicio1.unity
 Assets/Scenes/inicio2.unity
@@ -175,7 +175,7 @@ a84927fd41ba670e529859d0b41cfbcd Assembly-CSharp.dll:.CartaAzar
 9acfbd5a231bee3c2aac9b0c03936d3d Assembly-CSharp.dll:.AgarrarSoltar
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 c3d129ace24ff5e440c8404346f3e914 Assembly-CSharp.dll:.OcuparJaula
-5c5bf2b9f57e6fc13f22a692a33532a0 Assembly-CSharp.dll:.Comentarios
+e41d3f9bb78a1c09990e99f233968536 Assembly-CSharp.dll:.Comentarios
 dfaef55d327718d8d8c99e2333f8b63f Assembly-CSharp.dll:.popularityTest
 f741fbf50896e75366ffe95a21d63268 Assembly-CSharp.dll:.TogglePerdida
 836e85550ed996174cf9a88183781154 Assembly-CSharp.dll:.Item
