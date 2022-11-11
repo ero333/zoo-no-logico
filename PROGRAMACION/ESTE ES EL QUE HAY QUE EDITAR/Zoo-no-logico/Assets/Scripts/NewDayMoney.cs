@@ -25,7 +25,7 @@ public class NewDayMoney : MonoBehaviour {
     private int cage4Money = 0;
     private int cage5Money = 0;
     private float popularity = 75;
-    public float cageDivisor = 3;
+    public float cageDivisor = 2;
     private float popularityMultipliyer;
     private float newMoney;
     private int newMoneyInt;
