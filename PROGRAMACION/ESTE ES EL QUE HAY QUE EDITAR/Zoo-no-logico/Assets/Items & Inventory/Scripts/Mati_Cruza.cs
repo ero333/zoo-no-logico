@@ -92,7 +92,7 @@ public class Mati_Cruza : MonoBehaviour
 
     public void Craftear()                                              // Método llamado desde el botón de cruzar animal
     {
-
+        PlayerPrefs.SetInt("ImpuestoXDiasSinCruzas", 1);
         int plata = PlayerPrefs.GetInt("Moneditas");                    // Creo variable que obtiene las monedas que tengo
         int total = plata - RetenerAnimal.precio/divisorCosto;                       // Hago la cuenta de mi plata - lo que cuesta el animal
         PlayerPrefs.SetInt("Moneditas", total);                         // El resultado de la cuenta se convierte en mi plata

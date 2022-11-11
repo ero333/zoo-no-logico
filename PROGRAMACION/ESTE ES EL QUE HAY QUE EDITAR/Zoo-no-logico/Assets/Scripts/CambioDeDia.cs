@@ -64,6 +64,7 @@ public class CambioDeDia : MonoBehaviour {
         else
         {
             Pantalla.SetActive(false);
+            PlayerPrefs.SetInt("ImpuestoXDiasSinCruzas", PlayerPrefs.GetInt("ImpuestoXDiasSinCruzas"));
         }
     }
 
