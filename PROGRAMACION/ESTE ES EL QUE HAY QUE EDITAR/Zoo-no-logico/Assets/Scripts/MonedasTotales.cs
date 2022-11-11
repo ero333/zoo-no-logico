@@ -38,7 +38,6 @@ public class MonedasTotales : MonoBehaviour {
         Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
         PlayerPrefs.SetInt("Moneditas", Monedas);
         print("a");
-
         }
         else{
             testMonedas2.SetActive(true);
@@ -91,6 +90,11 @@ public class MonedasTotales : MonoBehaviour {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
 
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Carpincho");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
+
+
             Cosoprueba.SendMessage("SumarCantidadCarpincho");
         }
     }
@@ -101,6 +105,10 @@ public class MonedasTotales : MonoBehaviour {
         {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
+
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Arana");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
             Cosoprueba.SendMessage("SumarCantidadArana");
         }
@@ -113,6 +121,10 @@ public class MonedasTotales : MonoBehaviour {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
 
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Cocodrilo");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
+
             Cosoprueba.SendMessage("SumarCantidadCocodrilo");
         }
     }
@@ -123,6 +135,10 @@ public class MonedasTotales : MonoBehaviour {
         {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
+
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Zorro");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
             Cosoprueba.SendMessage("SumarCantidadZorro");
         }
@@ -135,6 +151,10 @@ public class MonedasTotales : MonoBehaviour {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
 
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Murcielago");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
+
             Cosoprueba.SendMessage("SumarCantidadMurcielago");
         }
     }
@@ -146,6 +166,10 @@ public class MonedasTotales : MonoBehaviour {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
 
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Serpiente");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
+
             Cosoprueba.SendMessage("SumarCantidadSerpiente");
         }
     }
@@ -156,6 +180,10 @@ public class MonedasTotales : MonoBehaviour {
         {
             Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
             PlayerPrefs.SetInt("Moneditas", Monedas);
+
+            PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
+            PlayerPrefs.SetString("animalCompra", "Ave");
+            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
             Cosoprueba.SendMessage("SumarCantidadAve");
         }

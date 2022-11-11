@@ -31,6 +31,7 @@ public class Mati_Cruza : MonoBehaviour
         cruzas = Resources.LoadAll<Mati_CruzasAnimales>("");            // Busca los SO de las cruzas en la carpeta Resources
 
         PC = PlayerPrefs.GetString("PrimeraCombinacion");
+
     }
 
     public void Recibir(Mati_Animales animal)                           // Este método es llamado desde la tarjeta del animal
