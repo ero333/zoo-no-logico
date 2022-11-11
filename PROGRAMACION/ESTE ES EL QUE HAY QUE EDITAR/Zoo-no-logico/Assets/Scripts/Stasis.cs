@@ -19,7 +19,6 @@ public class Stasis : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		
 	}
 
@@ -45,5 +44,7 @@ public class Stasis : MonoBehaviour {
         }
 
         PlayerPrefs.SetInt("CantidadCruzasEnStasis", PlayerPrefs.GetInt("CantidadCruzasEnStasis") + 1);
+        PlayerPrefs.SetInt("totalStasis", PlayerPrefs.GetInt("totalStasis") + 1);
+
     }
 }

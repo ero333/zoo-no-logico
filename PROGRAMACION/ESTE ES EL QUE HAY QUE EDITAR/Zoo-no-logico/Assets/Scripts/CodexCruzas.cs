@@ -10,7 +10,8 @@ public class CodexCruzas : MonoBehaviour {
 
 	void Awake ()
     {
-		GetCruzas(); 
+		GetCruzas();
+		PlayerPrefs.SetInt("totalCodex", 0);
 	}
 
 	void Start()
@@ -36,6 +37,8 @@ public class CodexCruzas : MonoBehaviour {
 			} else
             {
 				CruzasArray[i].GetComponent<Button>().interactable = true;
+				PlayerPrefs.SetInt("totalCodex", PlayerPrefs.GetInt("totalCodex") + 1);
+
 			}
 		}
 	}

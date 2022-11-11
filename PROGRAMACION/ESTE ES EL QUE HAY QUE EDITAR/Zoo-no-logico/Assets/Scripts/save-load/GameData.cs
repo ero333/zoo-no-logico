@@ -126,5 +126,8 @@ public class GameData {
         Dias = PlayerPrefs.GetInt("Dias");
 
         cruza1 = PlayerPrefs.GetInt("Cruza1");
+
+
+
     }
 }

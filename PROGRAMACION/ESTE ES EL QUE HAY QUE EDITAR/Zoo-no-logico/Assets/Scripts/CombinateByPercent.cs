@@ -31,10 +31,12 @@ public class CombinateByPercent : MonoBehaviour {
         if (PlayerPrefs.GetFloat("Porcentaje")<= int.Parse(porcentajeText.text))
         {
             SceneManager.LoadScene(6);
+            PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
         }
         else
         {
             SceneManager.LoadScene(9);
+            PlayerPrefs.SetInt("cruzasFalla", PlayerPrefs.GetInt("cruzasFalla") + 1);
         }
     }
 }

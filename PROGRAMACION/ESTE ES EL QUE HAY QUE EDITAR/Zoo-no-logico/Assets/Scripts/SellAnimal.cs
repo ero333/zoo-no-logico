@@ -49,6 +49,9 @@ public class SellAnimal : MonoBehaviour {
         PlayerPrefs.SetString("Stasis" + PlayerPrefs.GetInt("StasisPosition").ToString() , "");
         PlayerPrefs.SetInt("StasisActiva" + PlayerPrefs.GetInt("StasisPosition").ToString(), 0);
         PlayerPrefs.SetInt("CantidadCruzasEnStasis", PlayerPrefs.GetInt("CantidadCruzasEnStasis") - 1);
+        PlayerPrefs.SetInt("totalVendidos", PlayerPrefs.GetInt("totalVendidos") + 1);
+
+
     }
 
     public void Sacar()
