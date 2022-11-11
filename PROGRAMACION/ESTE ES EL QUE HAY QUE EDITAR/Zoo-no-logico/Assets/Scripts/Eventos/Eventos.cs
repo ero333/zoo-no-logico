@@ -84,6 +84,14 @@ public class Eventos : MonoBehaviour {
             Descripcion.text = myEventoList.evento[eventNumber].descripcion;
             Opcion1.text = myEventoList.evento[eventNumber].Opcion1Text;
             Opcion2.text = myEventoList.evento[eventNumber].Opcion2Text;
+            if (myEventoList.evento[eventNumber].Opcion1WhatLose.Contains("Cantidad") && PlayerPrefs.GetInt(myEventoList.evento[eventNumber].Opcion1WhatLose) <= 0)
+            {
+                opcion1Button.interactable = false;
+            }
+            if (myEventoList.evento[eventNumber].Opcion2WhatLose.Contains("Cantidad") && PlayerPrefs.GetInt(myEventoList.evento[eventNumber].Opcion2WhatLose) <= 0)
+            {
+                opcion2Button.interactable = false;
+            }
             setIcon(opcion1GainImage, myEventoList.evento[eventNumber].Opcion1WhatGain);
             setIcon(opcion2GainImage, myEventoList.evento[eventNumber].Opcion2WhatGain);
             setIcon(opcion1LoseImage, myEventoList.evento[eventNumber].Opcion1WhatLose);

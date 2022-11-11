@@ -48,17 +48,17 @@
     {
       "id": "3",
       "titulo": "NEGOCIO ES NEGOCIO",
-      "descripcion": "El negocio de los zoológicos es un mundo duro y competitivo, pero tener amigos siempre ayuda. El Zoológico de Valendo está conduciendo una serie de investigaciones con cocodrilos, pero luego de la popularidad de Steve Irwin, nadie quiere mandar a un pobre cocodrilo a un oscuro laboratorio a ser pinchado. Un espécimen sano podría ayudarlos con sus proyectos, ganándote una buena reputación con ellos en el proceso. Por supuesto, ese mismo espécimen tiene un alto precio en el mercado negro.",
+      "descripcion": "El zoológico de Valendo está buscando un cocodrilo para una serie de experimentos. Podrías darles uno y quedar en sus buenas gracias, o comprar el cocodrilo del mercado negro que están ojeando y retrasar su progreso.",
       "Opcion1Text": "Donar cocodrilo",
       "Opcion1WhatGain": "Popularidad",
       "Opcion1WhichGain": 6,
       "Opcion1WhatLose": "CantidadCocodrilo",
       "Opcion1WhichLose": 1,
-      "Opcion2Text": "Vender cocodrilo en mercado negro",
-      "Opcion2WhatGain": "Moneditas",
-      "Opcion2WhichGain": 3000,
-      "Opcion2WhatLose": "CantidadCocodrilo",
-      "Opcion2WhichLose": 1
+      "Opcion2Text": "Comprar cocodrilo en el mercado negro",
+      "Opcion2WhatGain": "CantidadCocodrilo",
+      "Opcion2WhichGain": 1,
+      "Opcion2WhatLose": "Moneditas",
+      "Opcion2WhichLose": 3000
     },
     {
       "id": "4",
