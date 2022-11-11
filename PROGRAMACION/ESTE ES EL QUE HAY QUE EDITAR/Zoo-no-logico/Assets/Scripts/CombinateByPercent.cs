@@ -10,8 +10,7 @@ public class CombinateByPercent : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        print(porcentajeText.text);
-        print(PlayerPrefs.GetFloat("Porcentaje"));
+
     }
 	
 	// Update is called once per frame
@@ -24,7 +23,6 @@ public class CombinateByPercent : MonoBehaviour {
         int plata = PlayerPrefs.GetInt("Moneditas");
         int costo = PlayerPrefs.GetInt("costoCruza");
         int total = plata - costo;
-        print(total);
         PlayerPrefs.SetInt("Moneditas", total);
         PlayerPrefs.SetString("PrimeraCombinacion", "false");
 

@@ -84,13 +84,9 @@ public class Jaula : MonoBehaviour
         {
             if (JaulasActivas[i] == 1)
             {
-                print("caso: " + i);
 
                 JaulasArray[i].SetActive(true);
 
-                print("Jaula" + i);
-
-                print("jaula: " + PlayerPrefs.GetString("Jaula" + i));
 
                 Sprite cruza_test_img = Resources.Load<Sprite>(PlayerPrefs.GetString("Jaula" + i));
 
@@ -98,13 +94,10 @@ public class Jaula : MonoBehaviour
 
                 Jaula_image.sprite = cruza_test_img;
 
-                print("cruza: " + cruza_test_img);
-                print(JaulasActivas[i]);
 
             }
             else if (JaulasActivas[i] == 0)
             {
-                print("caso else: " + i);
                 if (i >= 0 && i <= 19)
                 {
                     JaulasArray[i].SetActive(false);

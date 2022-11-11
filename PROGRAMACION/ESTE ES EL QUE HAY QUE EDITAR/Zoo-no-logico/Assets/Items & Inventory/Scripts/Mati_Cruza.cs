@@ -110,7 +110,6 @@ public class Mati_Cruza : MonoBehaviour
             string cantidad = "Cantidad";                               // string
             if (a.Contains("Ara"))                                      // El playerpref de la Araña está como "CantidadArana".
             {
-                print("SE DIO CUENTA QUE ES UNA ARAÑA");
                 int restar = PlayerPrefs.GetInt(cantidad + "Arana");
                 restar--;
                 PlayerPrefs.SetInt(cantidad + "Arana", restar);
@@ -118,7 +117,6 @@ public class Mati_Cruza : MonoBehaviour
             }
             else if (a == "Ave Secretaria")
             {
-                print("ES UN AVE");
                 int restar = PlayerPrefs.GetInt(cantidad + "Ave");      // El playerpref del Ave Secretaria está como "CantidadAve"
                 restar--;
                 PlayerPrefs.SetInt(cantidad + "Ave", restar);

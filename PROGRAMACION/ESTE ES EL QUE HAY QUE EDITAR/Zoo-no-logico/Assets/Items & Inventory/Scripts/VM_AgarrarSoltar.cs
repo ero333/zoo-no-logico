@@ -86,7 +86,6 @@ public class VM_AgarrarSoltar : MonoBehaviour
     private void OnMouseDown()      // Método especial de Unity. Se activa cuando hacemos click sobre un objeto con colliders.
     {
         MousePos = gameObject.transform.position - PosicionMouse(); // Creamos un vector 3 según donde hacemos click en el objeto.
-        print("agarraste");
     }
 
     private void OnMouseDrag()                              // Método especial de Unity. Se activa cuando clickeamos y mantenemos dicho click sobre un objeto. Funciona como un Update()

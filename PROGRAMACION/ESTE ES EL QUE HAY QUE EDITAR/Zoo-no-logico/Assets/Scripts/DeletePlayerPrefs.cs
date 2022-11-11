@@ -26,7 +26,6 @@ public class DeletePlayerPrefs : MonoBehaviour {
     public void Delete() {
 
         PlayerPrefs.DeleteAll();
-        print("Deleted");
 
 
 

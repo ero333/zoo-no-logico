@@ -23,6 +23,5 @@ public class PlayTime : MonoBehaviour {
 	void FixedUpdate () {
 		time += (Time.deltaTime);
 		totalTimeSeconds = Mathf.RoundToInt(time);
-		Debug.Log("Play Time: " + totalTimeSeconds);
 	}
 }

@@ -197,7 +197,6 @@ public class Eventos : MonoBehaviour {
     {
 
         int nroEvento = PlayerPrefs.GetInt("eventNumber");
-        //print(myEventoList.evento[2]);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion1WhatGain, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion1WhatGain) + myEventoList.evento[nroEvento].Opcion1WhichGain);
         PlayerPrefs.SetInt(myEventoList.evento[nroEvento].Opcion1WhatLose, PlayerPrefs.GetInt(myEventoList.evento[nroEvento].Opcion1WhatLose) - myEventoList.evento[nroEvento].Opcion1WhichLose);
         opcion2Container.SetActive(false);

@@ -101,7 +101,6 @@ public class Inventory : MonoBehaviour
         {
             if (itemSlots[i].Item == item)
             {
-                print(itemSlots[i].Item);
                 itemSlots[i].Item = null;
                 return true;
             }

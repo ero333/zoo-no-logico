@@ -1495,7 +1495,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMoneyText: {fileID: 242764843}
   Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
-  cageDivisor: 4
   myCruzaList:
     cruza: []
 --- !u!1 &274793516
@@ -8001,7 +8000,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newMoneyText: {fileID: 242764843}
   Cruzas: {fileID: 4900000, guid: 8f0ca36b229e748479a44ad725f26371, type: 3}
-  cageDivisor: 4
   myCruzaList:
     cruza: []
 --- !u!114 &1983965509
