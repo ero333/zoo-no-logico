@@ -3860,8 +3860,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Comentario: {fileID: 0}
   Comentario2: {fileID: 983230275}
-  primeravatar: {fileID: 0}
-  segundoavatar: {fileID: 0}
+  avatar1: {fileID: 21300000, guid: 3d6ac535ca4e38d43a42e869c25c3047, type: 3}
+  avatar2: {fileID: 21300000, guid: 45a76290bbb99c14cbc208f3e77750bb, type: 3}
+  avatar3: {fileID: 21300000, guid: e4260543815deb446ad50ee737af3d2c, type: 3}
+  avatar4: {fileID: 21300000, guid: 3ffdc3ebbfcf7ea47b8324c95cbc8121, type: 3}
+  avatar5: {fileID: 21300000, guid: d001edea23b40774b8d18732b2f95704, type: 3}
+  avatar6: {fileID: 21300000, guid: c4514329b2b83ef46871ab143e26ac99, type: 3}
+  avatar7: {fileID: 21300000, guid: 0a39dfc88c706d349b86a1e24c92b5b2, type: 3}
+  avatar8: {fileID: 21300000, guid: fa1bd772ff31cef4e86b976f4149f2eb, type: 3}
+  avatar9: {fileID: 21300000, guid: ff07081187a8a604cbaa9530c2d096b2, type: 3}
+  avatar10: {fileID: 21300000, guid: aa2ec36740624ca47834a886c77dee32, type: 3}
+  avatar11: {fileID: 21300000, guid: aca47f0925b1e464da84df0ad26ea999, type: 3}
+  avatar12: {fileID: 21300000, guid: adf9c08337678c149b31785d4f486682, type: 3}
+  avatar: {fileID: 1717809826}
+  Avatarfoto2: {fileID: 1581096740}
 --- !u!114 &983230275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7457,8 +7469,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Comentario: {fileID: 1861663385}
   Comentario2: {fileID: 0}
-  primeravatar: {fileID: 0}
-  segundoavatar: {fileID: 0}
+  avatar1: {fileID: 21300000, guid: 3d6ac535ca4e38d43a42e869c25c3047, type: 3}
+  avatar2: {fileID: 21300000, guid: 45a76290bbb99c14cbc208f3e77750bb, type: 3}
+  avatar3: {fileID: 21300000, guid: e4260543815deb446ad50ee737af3d2c, type: 3}
+  avatar4: {fileID: 21300000, guid: 3ffdc3ebbfcf7ea47b8324c95cbc8121, type: 3}
+  avatar5: {fileID: 21300000, guid: d001edea23b40774b8d18732b2f95704, type: 3}
+  avatar6: {fileID: 21300000, guid: c4514329b2b83ef46871ab143e26ac99, type: 3}
+  avatar7: {fileID: 21300000, guid: 0a39dfc88c706d349b86a1e24c92b5b2, type: 3}
+  avatar8: {fileID: 21300000, guid: fa1bd772ff31cef4e86b976f4149f2eb, type: 3}
+  avatar9: {fileID: 21300000, guid: ff07081187a8a604cbaa9530c2d096b2, type: 3}
+  avatar10: {fileID: 21300000, guid: aa2ec36740624ca47834a886c77dee32, type: 3}
+  avatar11: {fileID: 21300000, guid: aca47f0925b1e464da84df0ad26ea999, type: 3}
+  avatar12: {fileID: 21300000, guid: adf9c08337678c149b31785d4f486682, type: 3}
+  avatar: {fileID: 1717809826}
+  Avatarfoto2: {fileID: 1581096740}
 --- !u!1 &1874683515
 GameObject:
   m_ObjectHideFlags: 0

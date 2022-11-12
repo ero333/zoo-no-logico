@@ -13,30 +13,99 @@ public class Comentarios : MonoBehaviour {
     private int ComentarioRandom2;
     public Text Comentario;
     public Text Comentario2;
-    public Image primeravatar;
-    public Image segundoavatar;
+    public Sprite avatar1;
+    public Sprite avatar2;
+    public Sprite avatar3;
+    public Sprite avatar4;
+    public Sprite avatar5;
+    public Sprite avatar6;
+    public Sprite avatar7;
+    public Sprite avatar8;
+    public Sprite avatar9;
+    public Sprite avatar10;
+    public Sprite avatar11;
+    public Sprite avatar12;
 
-
+    public Image avatar;
+    public Image Avatarfoto2;
 
     // Use this for initialization
     void Start() {
 
-        ComentarioRandom = new System.Random().Next(0, 20);  //Cuando se escriban más comentarios, cambiar el 3 (TRES) por la cantidad de comentarios en el array de la linea 10. La cantidad de , (comas) es la cantidad de comentarios.
+        ComentarioRandom = PlayerPrefs.GetInt("comentarioRandom1");  //Cuando se escriban más comentarios, cambiar el 3 (TRES) por la cantidad de comentarios en el array de la linea 10. La cantidad de , (comas) es la cantidad de comentarios.
         print(Comentariosuwu[ComentarioRandom]);
 
         Comentario = GameObject.FindGameObjectWithTag("ComentarioTexto").GetComponent<Text>();
-        Comentario.text = Comentariosuwu[ComentarioRandom];
+        Comentario.text = Comentariosuwu[PlayerPrefs.GetInt("comentarioRandom1")];
 
-        primeravatar = GameObject.FindGameObjectWithTag("avatar").GetComponent<Image>();
+       //primeravatar = GameObject.FindGameObjectWithTag("avatar").GetComponent<Image>();
 
-        ComentarioRandom2 = new System.Random().Next(0, 20); //Cuando se escriban más comentarios, cambiar el 4 (CUATRO) por la cantidad de comentarios en el array de la linea 11. La cantidad de , (comas)  es la cantidad de comentarios.
+        ComentarioRandom2 = PlayerPrefs.GetInt("comentarioRandom2"); //Cuando se escriban más comentarios, cambiar el 4 (CUATRO) por la cantidad de comentarios en el array de la linea 11. La cantidad de , (comas)  es la cantidad de comentarios.
         print(Comentariosuwu2[ComentarioRandom2]);
 
         Comentario2 = GameObject.FindGameObjectWithTag("ComentarioTexto2").GetComponent<Text>();
-        Comentario2.text = Comentariosuwu2[ComentarioRandom2];
+        Comentario2.text = Comentariosuwu2[PlayerPrefs.GetInt("comentarioRandom2")];
 
-        segundoavatar = GameObject.FindGameObjectWithTag("avatar2").GetComponent<Image>();
+        int AvatarRandom1 = PlayerPrefs.GetInt("avatarRandom");
 
+        //segundoavatar = GameObject.FindGameObjectWithTag("avatar2").GetComponent<Image>();
+
+        switch (PlayerPrefs.GetInt("avatarRandom"))
+        {
+            case 1:
+                avatar.sprite = avatar1;
+                Avatarfoto2.sprite = avatar2;
+                break;
+            case 2:
+                avatar.sprite = avatar2;
+                Avatarfoto2.sprite = avatar3;
+                break;
+            case 3:
+                avatar.sprite = avatar3;
+                Avatarfoto2.sprite = avatar4;
+                break;
+            case 4:
+                avatar.sprite = avatar4;
+                Avatarfoto2.sprite = avatar5;
+                break;
+            case 5:
+                avatar.sprite = avatar5;
+                Avatarfoto2.sprite = avatar6;
+                break;
+            case 6:
+                avatar.sprite = avatar6;
+                Avatarfoto2.sprite = avatar7;
+                break;
+            case 7:
+                avatar.sprite = avatar7;
+                Avatarfoto2.sprite = avatar8;
+                break;
+            case 8:
+                avatar.sprite = avatar8;
+                Avatarfoto2.sprite = avatar9;
+                break;
+            case 9:
+                avatar.sprite = avatar9;
+                Avatarfoto2.sprite = avatar10;
+                break;
+            case 10:
+                avatar.sprite = avatar10;
+                Avatarfoto2.sprite = avatar11;
+                break;
+            case 11:
+                avatar.sprite = avatar11;
+                Avatarfoto2.sprite = avatar12;
+                break;
+            case 12:
+                avatar.sprite = avatar12;
+                Avatarfoto2.sprite = avatar1;
+                break;
+
+            default:
+                avatar.sprite = avatar11;
+                Avatarfoto2.sprite = avatar3;
+                break;
+        }
     }
 	
 	// Update is called once per frame

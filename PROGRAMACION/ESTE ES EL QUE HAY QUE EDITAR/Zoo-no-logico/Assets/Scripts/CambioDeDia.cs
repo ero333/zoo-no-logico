@@ -16,22 +16,22 @@ public class CambioDeDia : MonoBehaviour {
     public GameObject PopularidadBarra;
 
     // Use this for initialization
-    void Start () {
+    void Start() {
         textoTurno = GameObject.FindGameObjectWithTag("TextoDias").GetComponent<Text>();
-        
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         numTurno = PlayerPrefs.GetInt("Dias");
-        textoTurno.text = "DIA: "+numTurno.ToString();
+        textoTurno.text = "DIA: " + numTurno.ToString();
         Popularidad = PlayerPrefs.GetInt("Popularidad");
 
         if (Popularidad > 25 && PlayerPrefs.GetInt("aranaDesbloqueada") == 0)
         {
             PlayerPrefs.SetInt("aranaDesbloqueada", 1);
             PlayerPrefs.SetInt("CantidadArana", PlayerPrefs.GetInt("CantidadArana") + 1);
-            
+
         }
         if (Popularidad > 35 && PlayerPrefs.GetInt("aveDesbloqueada") == 0)
         {
@@ -70,6 +70,14 @@ public class CambioDeDia : MonoBehaviour {
 
     public void AbrirPantalla()
     {
+        int Random1= new System.Random().Next(0, 20);
+        int Random2 = new System.Random().Next(0, 20);
+        int Random3 = new System.Random().Next(1, 13);
+
+        PlayerPrefs.SetInt("comentarioRandom1", Random1);
+        PlayerPrefs.SetInt("comentarioRandom2", Random2);
+        PlayerPrefs.SetInt("avatarRandom", Random3);
+
         if (Popularidad >= 100 && PlayerPrefs.GetInt("Ganaste")==0)
         {
             PantallaGanar.SetActive(true);
