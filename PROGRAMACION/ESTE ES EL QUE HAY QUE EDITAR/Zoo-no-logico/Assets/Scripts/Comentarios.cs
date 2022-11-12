@@ -11,6 +11,7 @@ public class Comentarios : MonoBehaviour {
     private string[] Comentariosuwu2 = new string[] { "Unas arañas se metieron en los pantalones de un cuidador", "Una niña le dio algodón de azúcar a un cocodrilo", "¡voy a volver la próxima semana!", "¡Un carpincho estaba tomando mate!", "La serpiente - carpincho - araña es realmente aterradora, jugó con su comida y luego la despedazó frente a nosotros", "¡La Araña-carpincho-murciélago le arranco un brazo a un cuidador con sus pinzas!", "¡La Serpiente-zorro-cocodrilo se robó mi brazalete!", "¡El Zorro-serpiente-araña se enredó en su propia telaraña!", "¡El Ave secretaria-cocodrilo-araña estaba haciendo un baile súper extraño frente a su estanque!", "¡El zorro-ave secretaria-carpincho es tan lindo! Si pudiera, me lo llevaría a casa", "¡La serpiente-ave secretaria-araña engañó a los guardias y se escapó de su jaula! Por suerte la atraparon a tiempo", "¡El carpincho-zorro-murciélago enamoró a mis hijos!¡No podían dejar de hablar de lo tierno que era!", "¡Pudimos ver cómo la cola de la serpiente-murciélago-araña florecía!¡Fue un espectáculo increíble!", "¡El Zorro-cocodrilo-araña tiene mucha fuerza, el vidrio de su jaula tiene marcas de sus dientes!", "No pude ver a la araña-carpincho-cocodrilo, ¡nunca salió de su madriguera!", "La serpiente-cocodrilo-carpincho es enorme, no creí que hubiera suficientes insectos para que comiera", "¡El zorro-cocodrilo-carpincho se descontroló y le arrancó una pierna a uno de los cuidadores! Fue desagradable, pero no podía dejar de mirar.", "¡La araña-murciélago-cocodrilo está loca, estaba tratando de pelear con una roca!", "Es increíble como la serpiente-carpincho-ave secretaria se mueve usando su cola, ¡es tan rápida!", "¡La escoliosis de la serpiente-cocodrilo-araña del zoo empeoró otra vez! Espero que mejore", }; //Agregar los comentarios acá
     private int ComentarioRandom;
     private int ComentarioRandom2;
+    private int AvatarRandom1;
     public Text Comentario;
     public Text Comentario2;
     public Sprite avatar1;
@@ -32,25 +33,25 @@ public class Comentarios : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
-        ComentarioRandom = PlayerPrefs.GetInt("comentarioRandom1");  //Cuando se escriban más comentarios, cambiar el 3 (TRES) por la cantidad de comentarios en el array de la linea 10. La cantidad de , (comas) es la cantidad de comentarios.
+        // ComentarioRandom = PlayerPrefs.GetInt("comentarioRandom1");  //Cuando se escriban más comentarios, cambiar el 3 (TRES) por la cantidad de comentarios en el array de la linea 10. La cantidad de , (comas) es la cantidad de comentarios.
         print(Comentariosuwu[ComentarioRandom]);
 
         Comentario = GameObject.FindGameObjectWithTag("ComentarioTexto").GetComponent<Text>();
-        Comentario.text = Comentariosuwu[PlayerPrefs.GetInt("comentarioRandom1")];
+        Comentario.text = Comentariosuwu[ComentarioRandom];
 
        //primeravatar = GameObject.FindGameObjectWithTag("avatar").GetComponent<Image>();
 
-        ComentarioRandom2 = PlayerPrefs.GetInt("comentarioRandom2"); //Cuando se escriban más comentarios, cambiar el 4 (CUATRO) por la cantidad de comentarios en el array de la linea 11. La cantidad de , (comas)  es la cantidad de comentarios.
+        // ComentarioRandom2 = PlayerPrefs.GetInt("comentarioRandom2"); //Cuando se escriban más comentarios, cambiar el 4 (CUATRO) por la cantidad de comentarios en el array de la linea 11. La cantidad de , (comas)  es la cantidad de comentarios.
         print(Comentariosuwu2[ComentarioRandom2]);
 
         Comentario2 = GameObject.FindGameObjectWithTag("ComentarioTexto2").GetComponent<Text>();
-        Comentario2.text = Comentariosuwu2[PlayerPrefs.GetInt("comentarioRandom2")];
+        Comentario2.text = Comentariosuwu2[ComentarioRandom2];
 
-        int AvatarRandom1 = PlayerPrefs.GetInt("avatarRandom");
+        
 
         //segundoavatar = GameObject.FindGameObjectWithTag("avatar2").GetComponent<Image>();
 
-        switch (PlayerPrefs.GetInt("avatarRandom"))
+        switch (AvatarRandom1)
         {
             case 1:
                 avatar.sprite = avatar1;
@@ -110,6 +111,8 @@ public class Comentarios : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        ComentarioRandom = PlayerPrefs.GetInt("comentarioRandom1");
+        ComentarioRandom2 = PlayerPrefs.GetInt("comentarioRandom2");
+		AvatarRandom1 = PlayerPrefs.GetInt("avatarRandom");
 	}
 }
