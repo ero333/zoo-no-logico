@@ -82,6 +82,7 @@ public class CambioDeDia : MonoBehaviour {
         {
             PantallaGanar.SetActive(true);
             PlayerPrefs.SetInt("Ganaste", 1);
+            PlayerPrefs.SetInt("ActivadorCalificacion", 1);
         }
         else if (Popularidad <= 0 && PlayerPrefs.GetInt("Ganaste") == 0)
         {
