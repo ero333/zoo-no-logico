@@ -78,6 +78,8 @@ public class CambioDeDia : MonoBehaviour {
         PlayerPrefs.SetInt("comentarioRandom2", Random2);
         PlayerPrefs.SetInt("avatarRandom", Random3);
 
+        PlayerPrefs.SetInt("ImpuestoXDiasSinCruzas", PlayerPrefs.GetInt("ImpuestoXDiasSinCruzas")+1);
+
         if (Popularidad >= 100 && PlayerPrefs.GetInt("Ganaste")==0)
         {
             PantallaGanar.SetActive(true);

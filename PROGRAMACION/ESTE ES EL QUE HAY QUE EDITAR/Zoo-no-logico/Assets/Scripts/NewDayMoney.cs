@@ -92,7 +92,7 @@ public class NewDayMoney : MonoBehaviour {
             impuestoDiarioMultiplicador = 1;
         }
 
-        if (PlayerPrefs.GetInt("ImpuestoXDiasSinCruzas") <= 1)
+        if (PlayerPrefs.GetInt("ImpuestoXDiasSinCruzas") <= 2)
         {
             impuestoPorNoHacerCruzasMultiplicador = 1;
         }
@@ -102,7 +102,8 @@ public class NewDayMoney : MonoBehaviour {
         }
 
 
-        impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 300) + 400) * impuestoDiarioMultiplicador * impuestoPorNoHacerCruzasMultiplicador;
+
+        impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 300) + 150) * impuestoDiarioMultiplicador * impuestoPorNoHacerCruzasMultiplicador;
 
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
 
