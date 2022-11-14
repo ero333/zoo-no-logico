@@ -91,14 +91,14 @@ TagManager:
   - name: UI
     uniqueID: 2594924357
     locked: 0
-  - name: Carpincho
-    uniqueID: 4227735225
+  - name: Zorro
+    uniqueID: 2187862563
+    locked: 0
+  - name: Serpiente
+    uniqueID: 3471510061
     locked: 0
   - name: "Ara\xF1a"
     uniqueID: 2449265877
-    locked: 0
-  - name: Cocodrilo
-    uniqueID: 3702495253
     locked: 0
   - name: Ave Secretaria
     uniqueID: 1055430963
@@ -106,9 +106,9 @@ TagManager:
   - name: Murcielago
     uniqueID: 1939952313
     locked: 0
-  - name: Serpiente
-    uniqueID: 3471510061
+  - name: Cocodrilo
+    uniqueID: 3702495253
     locked: 0
-  - name: Zorro
-    uniqueID: 2187862563
+  - name: Carpincho
+    uniqueID: 4227735225
     locked: 0
