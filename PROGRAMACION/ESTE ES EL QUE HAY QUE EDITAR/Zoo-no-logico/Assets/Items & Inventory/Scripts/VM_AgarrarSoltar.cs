@@ -69,6 +69,9 @@ public class VM_AgarrarSoltar : MonoBehaviour
 
         }
 
+        Debug.Log("Agarre "+Agarre);
+        Debug.Log("Contador "+Contador);
+        Debug.Log("Seleccionado "+Seleccionado);
 
     }
     private Vector3 PosicionMouse() // Método de tipo Vector 3
@@ -145,6 +148,7 @@ public class VM_AgarrarSoltar : MonoBehaviour
         {
             transform.position = collision.transform.position;
             transform.localScale = EscalaAgarre;
+            Debug.Log("TriggerStay Seleccionado");
 
         }
         else if ((collision.gameObject.tag == "Slot2u") && Seleccionado)
@@ -170,6 +174,7 @@ public class VM_AgarrarSoltar : MonoBehaviour
         {
             transform.position = vacio;
             transform.localScale = EscalaBase;
+            Debug.Log("TriggerStay Deseleccionado");
         }
 
         if ((collision.gameObject.tag == "Slot2u") && !Seleccionado)
@@ -197,6 +202,8 @@ public class VM_AgarrarSoltar : MonoBehaviour
             transform.localScale = EscalaBase;
 
             Craft.SendMessage("Quitar", animal);
+
+            Debug.Log("TriggerExit");
         }
 
         if ((collision.gameObject.tag == "Slot2u") && Seleccionado)
