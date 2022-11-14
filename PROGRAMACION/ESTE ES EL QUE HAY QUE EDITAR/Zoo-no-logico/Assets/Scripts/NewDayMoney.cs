@@ -102,7 +102,7 @@ public class NewDayMoney : MonoBehaviour {
         }
 
 
-        impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 300) + 150) * impuestoDiarioMultiplicador * impuestoPorNoHacerCruzasMultiplicador;
+        impuestoDiario = ((PlayerPrefs.GetInt("JaulasOcupadas") * 300) + 400) * impuestoDiarioMultiplicador * impuestoPorNoHacerCruzasMultiplicador;
 
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
 
