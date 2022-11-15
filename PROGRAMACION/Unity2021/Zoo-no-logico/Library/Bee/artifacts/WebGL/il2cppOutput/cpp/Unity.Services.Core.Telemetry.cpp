@@ -1,0 +1,5485 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct InterfaceActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+
+// System.Action`1<UnityEngine.AsyncOperation>
+struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB;
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest>
+struct Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1;
+// System.Action`2<System.Object,System.Object>
+struct Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C;
+// System.Action`2<System.Threading.Tasks.Task,System.Object>
+struct Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB;
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>
+struct CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83;
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>
+struct CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo>
+struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo>
+struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
+// System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>
+struct ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449;
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>
+struct ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C;
+// System.Collections.Generic.IDictionary`2<System.Object,System.Object>
+struct IDictionary_2_t823399AD16F88CDEB25958D8CB61771376A5ADED;
+// System.Collections.Generic.IDictionary`2<System.String,System.String>
+struct IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF;
+// System.Collections.Generic.IEnumerable`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>
+struct IEnumerable_1_tF8DCECD54092774BB0753244DEC430F64FDA60B4;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String>
+struct IReadOnlyDictionary_2_t8FD5C7F0C22A371C71196C9A42D80E0E47EAC1C8;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
+struct KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342;
+// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>
+struct List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87;
+// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>
+struct List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA;
+// System.Predicate`1<System.Object>
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+// System.Predicate`1<System.Threading.Tasks.Task>
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>
+struct TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C;
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>
+struct TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.String>
+struct ValueCollection_t238D0D2427C6B841A01F522A41540165A2C4AE76;
+// System.Collections.Generic.Dictionary`2/Entry<System.String,System.String>[]
+struct EntryU5BU5D_t1AF33AD0B7330843448956EC4277517081658AE7;
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// Unity.Services.Core.Telemetry.Internal.Diagnostic[]
+struct DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// Unity.Services.Core.Telemetry.Internal.Metric[]
+struct MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+// UnityEngine.AsyncOperation
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
+// System.Globalization.Calendar
+struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
+// UnityEngine.Networking.CertificateHandler
+struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804;
+// System.Globalization.CompareInfo
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
+// System.Threading.ContextCallback
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+// System.Globalization.CultureData
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+// System.Globalization.DateTimeFormatInfo
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// Unity.Services.Core.Telemetry.Internal.Diagnostics
+struct Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012;
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory
+struct DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2;
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler
+struct DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22;
+// Unity.Services.Core.Telemetry.Internal.DisabledDiagnostics
+struct DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716;
+// Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory
+struct DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD;
+// Unity.Services.Core.Telemetry.Internal.DisabledMetrics
+struct DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338;
+// Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory
+struct DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6;
+// UnityEngine.Networking.DownloadHandler
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB;
+// UnityEngine.Networking.DownloadHandlerBuffer
+struct DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974;
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+// Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy
+struct ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF;
+// Unity.Services.Core.Telemetry.Internal.FileCachePersister
+struct FileCachePersister_tD394A50E26C1D87D1DCB622E10B5E36FCEC8FA30;
+// Unity.Services.Core.Scheduler.Internal.IActionScheduler
+struct IActionScheduler_t0D753016E15BF53FB30C138509CFC34FA0D395F1;
+// Unity.Services.Core.Configuration.Internal.ICloudProjectId
+struct ICloudProjectId_t366B66869ECC734B15C1F60633D2B998CD9231FE;
+// Unity.Services.Core.Telemetry.Internal.IDiagnostics
+struct IDiagnostics_tC5C252A201DC608FD4FA8B95CB546ACE5400345E;
+// Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory
+struct IDiagnosticsFactory_t5DBE289089E6EAD4C111F0D8880F3FE812BE2CC0;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// Unity.Services.Core.Environments.Internal.IEnvironments
+struct IEnvironments_t9DCAF0398EB856DBE771A9C2D7B120661D628CB7;
+// System.IFormatProvider
+struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
+// Unity.Services.Core.Telemetry.Internal.IMetrics
+struct IMetrics_tA68E45B18912AD74792533F57895E50599D4A7D5;
+// Unity.Services.Core.Telemetry.Internal.IMetricsFactory
+struct IMetricsFactory_t28787E894D3913155A7403F74BD62B562E3F906F;
+// Unity.Services.Core.Configuration.Internal.IProjectConfiguration
+struct IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2;
+// Unity.Services.Core.Telemetry.Internal.ITelemetryEvent
+struct ITelemetryEvent_t26AF9ED55F8CF78C0E5D5A3FEA3A6A2812226A79;
+// Unity.Services.Core.Telemetry.Internal.IUnityWebRequestSender
+struct IUnityWebRequestSender_t55426BC4098CF942DFAE2B7D417E252DC43668BE;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// Unity.Services.Core.Telemetry.Internal.Metrics
+struct Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1;
+// Unity.Services.Core.Telemetry.Internal.MetricsFactory
+struct MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05;
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler
+struct MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74;
+// System.Globalization.NumberFormatInfo
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// System.Threading.Tasks.StackGuard
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+// System.String
+struct String_t;
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+// System.Threading.Tasks.TaskScheduler
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig
+struct TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601;
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler
+struct TelemetryHandler_t7692C25504218338692D86878A355488B828A13C;
+// Unity.Services.Core.Telemetry.Internal.TelemetrySender
+struct TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F;
+// System.Globalization.TextInfo
+struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
+// UnityEngine.Networking.UnityWebRequest
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F;
+// UnityEngine.Networking.UnityWebRequestAsyncOperation
+struct UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C;
+// Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender
+struct UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7;
+// UnityEngine.Networking.UploadHandler
+struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6;
+// UnityEngine.Networking.UploadHandlerRaw
+struct UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A;
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState
+struct SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD;
+// System.Threading.Tasks.Task/ContingentProperties
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+// Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0
+struct U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AotHelper_t25AEE9B481C82E565752D5B778B28D4BD372D674_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ICloudProjectId_t366B66869ECC734B15C1F60633D2B998CD9231FE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnvironments_t9DCAF0398EB856DBE771A9C2D7B120661D628CB7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NetworkReachability_tBAA4C61FCCBE7809DBDD06AE02510392A22E2366_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral01C466FBD86FBB7A01FEE5B4420364EB13779331;
+IL2CPP_EXTERN_C String_t* _stringLiteral0BA7E3B11F9D5595D8DA92EFABA9403825DEF0DB;
+IL2CPP_EXTERN_C String_t* _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D;
+IL2CPP_EXTERN_C String_t* _stringLiteral25A6C8E3033AB7B31F1A36176973EBF46D6AA102;
+IL2CPP_EXTERN_C String_t* _stringLiteral2C11F35652FEF935B5238B8E510E25D3B44E30B6;
+IL2CPP_EXTERN_C String_t* _stringLiteral2D004E384A2A96BC8F24287F0F45615FB0FC7C91;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F053D35B71695AE25BC86EAF016A79788935D58;
+IL2CPP_EXTERN_C String_t* _stringLiteral343F1EB8B84724E244591A9C2D3BEA692FFCE3F0;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B77922C3A2E8F89E4C7359003D66665B608BA30;
+IL2CPP_EXTERN_C String_t* _stringLiteral3F484DF1DE5CC5067AC2EE918EB63F569DC0CC1E;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D5478220D856D71CDF1A603AC386C9BA7C0865C;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B58EBE31E594BF8FA4BEA3CD075473149322B18;
+IL2CPP_EXTERN_C String_t* _stringLiteral617DBC0E88F9FD64E6BA155A3D52F887B665BD74;
+IL2CPP_EXTERN_C String_t* _stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E;
+IL2CPP_EXTERN_C String_t* _stringLiteral71D28320423B0978CBA625BE0E4846EC97389105;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B9C8571450A4F167BFFD8C1D0899412FD5DD5F7;
+IL2CPP_EXTERN_C String_t* _stringLiteral823AF51D12FCD183C3A2AABB30CAFA6C05DC54B6;
+IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D1DED8A499AFE312E9F9007B113A945D953937C;
+IL2CPP_EXTERN_C String_t* _stringLiteral8F227E0CD8E768A9E3A64A7320B1DAD5F9A5EE81;
+IL2CPP_EXTERN_C String_t* _stringLiteral92E679ED3523A4085D0D6AE912EAE820BE235580;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D3C19E3A647A2449C174675979309A559260621;
+IL2CPP_EXTERN_C String_t* _stringLiteralA56563187CE402C2D214D1D438FAEFE383069121;
+IL2CPP_EXTERN_C String_t* _stringLiteralA9392DA9B947060CA08274EAE942417D75A7CA0D;
+IL2CPP_EXTERN_C String_t* _stringLiteralB25C6E111877202657B311A682A6585AE1F652B9;
+IL2CPP_EXTERN_C String_t* _stringLiteralC15B993D6B8D2B9BD7784FABEF615F72066DB53C;
+IL2CPP_EXTERN_C String_t* _stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F;
+IL2CPP_EXTERN_C String_t* _stringLiteralCE871287248FF7EDAEE587BCFE45EB79F4C06B0D;
+IL2CPP_EXTERN_C String_t* _stringLiteralCEBC9755CF071B2DB2F4E4365093DF8A5009F227;
+IL2CPP_EXTERN_C String_t* _stringLiteralD0F18B89B1F8655687A510EA40A91CA6D56786B9;
+IL2CPP_EXTERN_C String_t* _stringLiteralD370FE1ACCF063EBBC76335CFD838026A2B964C0;
+IL2CPP_EXTERN_C String_t* _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964;
+IL2CPP_EXTERN_C String_t* _stringLiteralE19245005C2942CFC2763E0A415F5F5582F12C1F;
+IL2CPP_EXTERN_C String_t* _stringLiteralEC0C33C027C86616F69526EFB6E3328D3A142734;
+IL2CPP_EXTERN_C const RuntimeMethod* AotHelper_EnsureType_TisStringEnumConverter_t7C66875DF7AB0719190AEEF8924A99F49C480184_m6A1C428F1F47D693B537597E785391C4D42AD480_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DictionaryExtensions_MergeAllowOverride_TisIDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_TisString_t_TisString_t_m2D5D98C51F556720066C9CB1EE05C8290D306079_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass0_0_U3CSendRequestU3Eg__OnSendingRequestCompletedU7C0_mCE70F89C6945A063861F4DA4B5E3E241035FD99D_RuntimeMethod_var;
+struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com;
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvoke;
+struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301;
+struct MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_tA8E35B180310D6046FB6F4D10E1B4A172B9C0215 
+{
+};
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t1AF33AD0B7330843448956EC4277517081658AE7* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t238D0D2427C6B841A01F522A41540165A2C4AE76* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>
+struct List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>
+struct List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* ___s_emptyArray_5;
+};
+struct Il2CppArrayBounds;
+
+// Unity.Services.Core.Telemetry.Internal.CacheExtensions
+struct CacheExtensions_t6D6DF177850879246A0DDD002A1F3BDBEE17A210  : public RuntimeObject
+{
+};
+
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
+{
+	// System.Boolean System.Globalization.CultureInfo::m_isReadOnly
+	bool ___m_isReadOnly_3;
+	// System.Int32 System.Globalization.CultureInfo::cultureID
+	int32_t ___cultureID_4;
+	// System.Int32 System.Globalization.CultureInfo::parent_lcid
+	int32_t ___parent_lcid_5;
+	// System.Int32 System.Globalization.CultureInfo::datetime_index
+	int32_t ___datetime_index_6;
+	// System.Int32 System.Globalization.CultureInfo::number_index
+	int32_t ___number_index_7;
+	// System.Int32 System.Globalization.CultureInfo::default_calendar_type
+	int32_t ___default_calendar_type_8;
+	// System.Boolean System.Globalization.CultureInfo::m_useUserOverride
+	bool ___m_useUserOverride_9;
+	// System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::numInfo
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	// System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::dateTimeInfo
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	// System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::textInfo
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	// System.String System.Globalization.CultureInfo::m_name
+	String_t* ___m_name_13;
+	// System.String System.Globalization.CultureInfo::englishname
+	String_t* ___englishname_14;
+	// System.String System.Globalization.CultureInfo::nativename
+	String_t* ___nativename_15;
+	// System.String System.Globalization.CultureInfo::iso3lang
+	String_t* ___iso3lang_16;
+	// System.String System.Globalization.CultureInfo::iso2lang
+	String_t* ___iso2lang_17;
+	// System.String System.Globalization.CultureInfo::win3lang
+	String_t* ___win3lang_18;
+	// System.String System.Globalization.CultureInfo::territory
+	String_t* ___territory_19;
+	// System.String[] System.Globalization.CultureInfo::native_calendar_names
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names_20;
+	// System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::compareInfo
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	// System.Void* System.Globalization.CultureInfo::textinfo_data
+	void* ___textinfo_data_22;
+	// System.Int32 System.Globalization.CultureInfo::m_dataItem
+	int32_t ___m_dataItem_23;
+	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture_25;
+	// System.Boolean System.Globalization.CultureInfo::constructed
+	bool ___constructed_26;
+	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form_27;
+	// System.Globalization.CultureData System.Globalization.CultureInfo::m_cultureData
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData_28;
+	// System.Boolean System.Globalization.CultureInfo::m_isInherited
+	bool ___m_isInherited_29;
+};
+
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info_0;
+	// System.Object System.Globalization.CultureInfo::shared_table_lock
+	RuntimeObject* ___shared_table_lock_1;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::default_current_culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture_2;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentUICulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture_34;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentCulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_number
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number_36;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_name
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name_37;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::s_UserPreferredCultureInfoInAppX
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX_38;
+	// System.Boolean System.Globalization.CultureInfo::IsTaiwanSku
+	bool ___IsTaiwanSku_39;
+};
+// Native definition for P/Invoke marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	char* ___m_name_13;
+	char* ___englishname_14;
+	char* ___nativename_15;
+	char* ___iso3lang_16;
+	char* ___iso2lang_17;
+	char* ___win3lang_18;
+	char* ___territory_19;
+	char** ___native_calendar_names_20;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+// Native definition for COM marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	Il2CppChar* ___m_name_13;
+	Il2CppChar* ___englishname_14;
+	Il2CppChar* ___nativename_15;
+	Il2CppChar* ___iso3lang_16;
+	Il2CppChar* ___iso2lang_17;
+	Il2CppChar* ___win3lang_18;
+	Il2CppChar* ___territory_19;
+	Il2CppChar** ___native_calendar_names_20;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+
+// Unity.Services.Core.Telemetry.Internal.Diagnostics
+struct Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012  : public RuntimeObject
+{
+	// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.Diagnostics::<Handler>k__BackingField
+	DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___U3CHandlerU3Ek__BackingField_0;
+	// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Diagnostics::<PackageTags>k__BackingField
+	RuntimeObject* ___U3CPackageTagsU3Ek__BackingField_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory
+struct DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2  : public RuntimeObject
+{
+	// Unity.Services.Core.Configuration.Internal.IProjectConfiguration Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::m_ProjectConfig
+	RuntimeObject* ___m_ProjectConfig_0;
+	// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::<CommonTags>k__BackingField
+	RuntimeObject* ___U3CCommonTagsU3Ek__BackingField_1;
+	// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::<Handler>k__BackingField
+	DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___U3CHandlerU3Ek__BackingField_2;
+};
+
+// Unity.Services.Core.Telemetry.Internal.DisabledDiagnostics
+struct DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory
+struct DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD  : public RuntimeObject
+{
+	// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory::<Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory.CommonTags>k__BackingField
+	RuntimeObject* ___U3CUnity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_CommonTagsU3Ek__BackingField_0;
+};
+
+// Unity.Services.Core.Telemetry.Internal.DisabledMetrics
+struct DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory
+struct DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6  : public RuntimeObject
+{
+	// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory::<Unity.Services.Core.Telemetry.Internal.IMetricsFactory.CommonTags>k__BackingField
+	RuntimeObject* ___U3CUnity_Services_Core_Telemetry_Internal_IMetricsFactory_CommonTagsU3Ek__BackingField_0;
+};
+
+// Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy
+struct ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF  : public RuntimeObject
+{
+	// System.Int32 Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::m_MaxTryCount
+	int32_t ___m_MaxTryCount_0;
+	// System.Single Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::m_BaseDelaySeconds
+	float ___m_BaseDelaySeconds_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.FactoryUtils
+struct FactoryUtils_tB8D7C5B510B49EEDF2A7B42F18F2B8930940CB86  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.FileCachePersister
+struct FileCachePersister_tD394A50E26C1D87D1DCB622E10B5E36FCEC8FA30  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.Metrics
+struct Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1  : public RuntimeObject
+{
+	// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.Metrics::<Handler>k__BackingField
+	MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___U3CHandlerU3Ek__BackingField_0;
+	// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Metrics::<PackageTags>k__BackingField
+	RuntimeObject* ___U3CPackageTagsU3Ek__BackingField_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.MetricsFactory
+struct MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05  : public RuntimeObject
+{
+	// Unity.Services.Core.Configuration.Internal.IProjectConfiguration Unity.Services.Core.Telemetry.Internal.MetricsFactory::m_ProjectConfig
+	RuntimeObject* ___m_ProjectConfig_0;
+	// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsFactory::<CommonTags>k__BackingField
+	RuntimeObject* ___U3CCommonTagsU3Ek__BackingField_1;
+	// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.MetricsFactory::<Handler>k__BackingField
+	MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___U3CHandlerU3Ek__BackingField_2;
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_7;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_10;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_8;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_9;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_11;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_14;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_15;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_16;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_17;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_18;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_19;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_20;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_21;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_12;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_13;
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig
+struct TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601  : public RuntimeObject
+{
+	// System.String Unity.Services.Core.Telemetry.Internal.TelemetryConfig::TargetUrl
+	String_t* ___TargetUrl_0;
+	// System.String Unity.Services.Core.Telemetry.Internal.TelemetryConfig::ServicePath
+	String_t* ___ServicePath_1;
+	// System.Double Unity.Services.Core.Telemetry.Internal.TelemetryConfig::PayloadExpirationSeconds
+	double ___PayloadExpirationSeconds_2;
+	// System.Double Unity.Services.Core.Telemetry.Internal.TelemetryConfig::PayloadSendingMaxIntervalSeconds
+	double ___PayloadSendingMaxIntervalSeconds_3;
+	// System.Double Unity.Services.Core.Telemetry.Internal.TelemetryConfig::SafetyPersistenceIntervalSeconds
+	double ___SafetyPersistenceIntervalSeconds_4;
+	// System.Int32 Unity.Services.Core.Telemetry.Internal.TelemetryConfig::MaxMetricCountPerPayload
+	int32_t ___MaxMetricCountPerPayload_5;
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler
+struct TelemetryHandler_t7692C25504218338692D86878A355488B828A13C  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetrySender
+struct TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F  : public RuntimeObject
+{
+	// System.String Unity.Services.Core.Telemetry.Internal.TelemetrySender::<TargetUrl>k__BackingField
+	String_t* ___U3CTargetUrlU3Ek__BackingField_0;
+	// Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy Unity.Services.Core.Telemetry.Internal.TelemetrySender::m_RetryPolicy
+	ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* ___m_RetryPolicy_1;
+	// Unity.Services.Core.Scheduler.Internal.IActionScheduler Unity.Services.Core.Telemetry.Internal.TelemetrySender::m_Scheduler
+	RuntimeObject* ___m_Scheduler_2;
+	// Unity.Services.Core.Telemetry.Internal.IUnityWebRequestSender Unity.Services.Core.Telemetry.Internal.TelemetrySender::m_RequestSender
+	RuntimeObject* ___m_RequestSender_3;
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetryUtils
+struct TelemetryUtils_tF7DD11C944BA422A98D15E8B5ABB04B50BCA745F  : public RuntimeObject
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender
+struct UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7  : public RuntimeObject
+{
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState
+struct SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD  : public RuntimeObject
+{
+	// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState::Self
+	DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___Self_0;
+	// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload> Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState::Payload
+	CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___Payload_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0
+struct U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D  : public RuntimeObject
+{
+	// System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest> Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0::callback
+	Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* ___callback_0;
+};
+
+// Unity.Collections.NativeArray`1<System.Byte>
+struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
+{
+	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
+	void* ___m_Buffer_0;
+	// System.Int32 Unity.Collections.NativeArray`1::m_Length
+	int32_t ___m_Length_1;
+	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
+	int32_t ___m_AllocatorLabel_2;
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>
+struct TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C  : public TelemetryHandler_t7692C25504218338692D86878A355488B828A13C
+{
+	// Unity.Services.Core.Scheduler.Internal.IActionScheduler Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_Scheduler
+	RuntimeObject* ___m_Scheduler_0;
+	// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_CachePersister
+	RuntimeObject* ___m_CachePersister_1;
+	// Unity.Services.Core.Telemetry.Internal.TelemetrySender Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_Sender
+	TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___m_Sender_2;
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::SendingLoopScheduleId
+	int64_t ___SendingLoopScheduleId_3;
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::PersistenceLoopScheduleId
+	int64_t ___PersistenceLoopScheduleId_4;
+	// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::<Config>k__BackingField
+	TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___U3CConfigU3Ek__BackingField_5;
+	// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::<Cache>k__BackingField
+	CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___U3CCacheU3Ek__BackingField_6;
+};
+
+// Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>
+struct TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0  : public TelemetryHandler_t7692C25504218338692D86878A355488B828A13C
+{
+	// Unity.Services.Core.Scheduler.Internal.IActionScheduler Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_Scheduler
+	RuntimeObject* ___m_Scheduler_0;
+	// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_CachePersister
+	RuntimeObject* ___m_CachePersister_1;
+	// Unity.Services.Core.Telemetry.Internal.TelemetrySender Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::m_Sender
+	TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___m_Sender_2;
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::SendingLoopScheduleId
+	int64_t ___SendingLoopScheduleId_3;
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::PersistenceLoopScheduleId
+	int64_t ___PersistenceLoopScheduleId_4;
+	// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::<Config>k__BackingField
+	TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___U3CConfigU3Ek__BackingField_5;
+	// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2::<Cache>k__BackingField
+	CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___U3CCacheU3Ek__BackingField_6;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Byte
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_0;
+};
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	// System.UInt64 System.DateTime::_dateData
+	uint64_t ____dateData_46;
+};
+
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// Unity.Services.Core.Telemetry.Internal.Diagnostic
+struct Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A 
+{
+	// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Diagnostic::Content
+	RuntimeObject* ___Content_0;
+};
+// Native definition for P/Invoke marshalling of Unity.Services.Core.Telemetry.Internal.Diagnostic
+struct Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_pinvoke
+{
+	RuntimeObject* ___Content_0;
+};
+// Native definition for COM marshalling of Unity.Services.Core.Telemetry.Internal.Diagnostic
+struct Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_com
+{
+	RuntimeObject* ___Content_0;
+};
+
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+struct DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD 
+{
+	// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic> Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Diagnostics
+	List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* ___Diagnostics_0;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::CommonTags
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::DiagnosticsCommonTags
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___DiagnosticsCommonTags_2;
+};
+// Native definition for P/Invoke marshalling of Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+struct DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_pinvoke
+{
+	List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* ___Diagnostics_0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___DiagnosticsCommonTags_2;
+};
+// Native definition for COM marshalling of Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+struct DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_com
+{
+	List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* ___Diagnostics_0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___DiagnosticsCommonTags_2;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.Int64
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.Metric
+struct Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 
+{
+	// System.String Unity.Services.Core.Telemetry.Internal.Metric::Name
+	String_t* ___Name_0;
+	// System.Double Unity.Services.Core.Telemetry.Internal.Metric::Value
+	double ___Value_1;
+	// Unity.Services.Core.Telemetry.Internal.MetricType Unity.Services.Core.Telemetry.Internal.Metric::Type
+	int32_t ___Type_2;
+	// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Metric::Tags
+	RuntimeObject* ___Tags_3;
+};
+// Native definition for P/Invoke marshalling of Unity.Services.Core.Telemetry.Internal.Metric
+struct Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_pinvoke
+{
+	char* ___Name_0;
+	double ___Value_1;
+	int32_t ___Type_2;
+	RuntimeObject* ___Tags_3;
+};
+// Native definition for COM marshalling of Unity.Services.Core.Telemetry.Internal.Metric
+struct Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_com
+{
+	Il2CppChar* ___Name_0;
+	double ___Value_1;
+	int32_t ___Type_2;
+	RuntimeObject* ___Tags_3;
+};
+
+// Unity.Services.Core.Telemetry.Internal.MetricsPayload
+struct MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B 
+{
+	// System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric> Unity.Services.Core.Telemetry.Internal.MetricsPayload::Metrics
+	List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* ___Metrics_0;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsPayload::CommonTags
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsPayload::MetricsCommonTags
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___MetricsCommonTags_2;
+};
+// Native definition for P/Invoke marshalling of Unity.Services.Core.Telemetry.Internal.MetricsPayload
+struct MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_pinvoke
+{
+	List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* ___Metrics_0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___MetricsCommonTags_2;
+};
+// Native definition for COM marshalling of Unity.Services.Core.Telemetry.Internal.MetricsPayload
+struct MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_com
+{
+	List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* ___Metrics_0;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___CommonTags_1;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___MetricsCommonTags_2;
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_22;
+};
+
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// Unity.Services.Core.Telemetry.Internal.WebRequest
+struct WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E 
+{
+	// Unity.Services.Core.Telemetry.Internal.WebRequestResult Unity.Services.Core.Telemetry.Internal.WebRequest::Result
+	int32_t ___Result_0;
+	// System.String Unity.Services.Core.Telemetry.Internal.WebRequest::ErrorMessage
+	String_t* ___ErrorMessage_1;
+	// System.String Unity.Services.Core.Telemetry.Internal.WebRequest::ErrorBody
+	String_t* ___ErrorBody_2;
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.WebRequest::ResponseCode
+	int64_t ___ResponseCode_3;
+};
+// Native definition for P/Invoke marshalling of Unity.Services.Core.Telemetry.Internal.WebRequest
+struct WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_pinvoke
+{
+	int32_t ___Result_0;
+	char* ___ErrorMessage_1;
+	char* ___ErrorBody_2;
+	int64_t ___ResponseCode_3;
+};
+// Native definition for COM marshalling of Unity.Services.Core.Telemetry.Internal.WebRequest
+struct WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_com
+{
+	int32_t ___Result_0;
+	Il2CppChar* ___ErrorMessage_1;
+	Il2CppChar* ___ErrorBody_2;
+	int64_t ___ResponseCode_3;
+};
+
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler/<>c__DisplayClass1_0
+struct U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A 
+{
+	// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload> Unity.Services.Core.Telemetry.Internal.MetricsHandler/<>c__DisplayClass1_0::persistedCache
+	CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___persistedCache_0;
+	// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.MetricsHandler/<>c__DisplayClass1_0::<>4__this
+	MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___U3CU3E4__this_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>
+struct CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83  : public RuntimeObject
+{
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.CachedPayload`1::TimeOfOccurenceTicks
+	int64_t ___TimeOfOccurenceTicks_0;
+	// TPayload Unity.Services.Core.Telemetry.Internal.CachedPayload`1::Payload
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD ___Payload_1;
+};
+
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>
+struct CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75  : public RuntimeObject
+{
+	// System.Int64 Unity.Services.Core.Telemetry.Internal.CachedPayload`1::TimeOfOccurenceTicks
+	int64_t ___TimeOfOccurenceTicks_0;
+	// TPayload Unity.Services.Core.Telemetry.Internal.CachedPayload`1::Payload
+	MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B ___Payload_1;
+};
+
+// UnityEngine.AsyncOperation
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	// System.IntPtr UnityEngine.AsyncOperation::m_Ptr
+	intptr_t ___m_Ptr_0;
+	// System.Action`1<UnityEngine.AsyncOperation> UnityEngine.AsyncOperation::m_completeCallback
+	Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* ___m_completeCallback_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.AsyncOperation
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_completeCallback_1;
+};
+// Native definition for COM marshalling of UnityEngine.AsyncOperation
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_completeCallback_1;
+};
+
+// UnityEngine.Networking.CertificateHandler
+struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Networking.CertificateHandler::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.CertificateHandler
+struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.CertificateHandler
+struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler
+struct DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22  : public TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C
+{
+};
+
+// UnityEngine.Networking.DownloadHandler
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Networking.DownloadHandler::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.DownloadHandler
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.DownloadHandler
+struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler
+struct MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74  : public TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0
+{
+};
+
+// UnityEngine.Networking.UploadHandler
+struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Networking.UploadHandler::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.UploadHandler
+struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.UploadHandler
+struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+
+// UnityEngine.Networking.DownloadHandlerBuffer
+struct DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974  : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB
+{
+	// Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandlerBuffer::m_NativeData
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_NativeData_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.DownloadHandlerBuffer
+struct DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974_marshaled_pinvoke : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke
+{
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_NativeData_1;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.DownloadHandlerBuffer
+struct DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974_marshaled_com : public DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
+{
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_NativeData_1;
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// UnityEngine.Networking.UnityWebRequest
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Networking.UnityWebRequest::m_Ptr
+	intptr_t ___m_Ptr_0;
+	// UnityEngine.Networking.DownloadHandler UnityEngine.Networking.UnityWebRequest::m_DownloadHandler
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___m_DownloadHandler_1;
+	// UnityEngine.Networking.UploadHandler UnityEngine.Networking.UnityWebRequest::m_UploadHandler
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___m_UploadHandler_2;
+	// UnityEngine.Networking.CertificateHandler UnityEngine.Networking.UnityWebRequest::m_CertificateHandler
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804* ___m_CertificateHandler_3;
+	// System.Uri UnityEngine.Networking.UnityWebRequest::m_Uri
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
+	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeCertificateHandlerOnDispose>k__BackingField
+	bool ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
+	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeDownloadHandlerOnDispose>k__BackingField
+	bool ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
+	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeUploadHandlerOnDispose>k__BackingField
+	bool ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.UnityWebRequest
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_pinvoke ___m_DownloadHandler_1;
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke ___m_UploadHandler_2;
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke ___m_CertificateHandler_3;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.UnityWebRequest
+struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+	DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com* ___m_DownloadHandler_1;
+	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com* ___m_UploadHandler_2;
+	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com* ___m_CertificateHandler_3;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+};
+
+// UnityEngine.Networking.UnityWebRequestAsyncOperation
+struct UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C  : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C
+{
+	// UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestAsyncOperation::<webRequest>k__BackingField
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwebRequestU3Ek__BackingField_2;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.UnityWebRequestAsyncOperation
+struct UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_marshaled_pinvoke : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke
+{
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvoke* ___U3CwebRequestU3Ek__BackingField_2;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.UnityWebRequestAsyncOperation
+struct UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_marshaled_com : public AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com
+{
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com* ___U3CwebRequestU3Ek__BackingField_2;
+};
+
+// UnityEngine.Networking.UploadHandlerRaw
+struct UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A  : public UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6
+{
+	// Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.UploadHandlerRaw::m_Payload
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_Payload_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Networking.UploadHandlerRaw
+struct UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A_marshaled_pinvoke : public UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke
+{
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_Payload_1;
+};
+// Native definition for COM marshalling of UnityEngine.Networking.UploadHandlerRaw
+struct UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A_marshaled_com : public UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com
+{
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___m_Payload_1;
+};
+
+// System.Action`1<UnityEngine.AsyncOperation>
+struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest>
+struct Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Threading.Tasks.Task,System.Object>
+struct Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	// System.Object System.ArgumentOutOfRangeException::_actualValue
+	RuntimeObject* ____actualValue_19;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// Unity.Services.Core.Telemetry.Internal.Diagnostic[]
+struct DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A m_Items[1];
+
+	inline Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Content_0), (void*)NULL);
+	}
+	inline Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Content_0), (void*)NULL);
+	}
+};
+// Unity.Services.Core.Telemetry.Internal.Metric[]
+struct MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 m_Items[1];
+
+	inline Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Name_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Tags_3), (void*)NULL);
+		#endif
+	}
+	inline Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Name_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Tags_3), (void*)NULL);
+		#endif
+	}
+};
+
+
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method) ;
+// TDictionary Unity.Services.Core.Internal.DictionaryExtensions::MergeAllowOverride<System.Object,System.Object,System.Object>(TDictionary,System.Collections.Generic.IDictionary`2<TKey,TValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DictionaryExtensions_MergeAllowOverride_TisRuntimeObject_TisRuntimeObject_TisRuntimeObject_m80984F95B46A6F67D8893FE6052EC0FD2C189B5A_gshared (RuntimeObject* ___self0, RuntimeObject* ___dictionary1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::Register(TEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___telemetryEvent0, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::get_Cache()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_gshared_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task Unity.Services.Core.Telemetry.Internal.TelemetrySender::SendAsync<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(TPayload)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_gshared (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD ___payload0, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_gshared (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Telemetry.Internal.CacheExtensions::IsEmpty<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33_gshared (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___self0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5_gshared (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::Clear()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) ;
+// System.Void Newtonsoft.Json.Utilities.AotHelper::EnsureType<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AotHelper_EnsureType_TisRuntimeObject_m8D3D63845F34DADDDC746C0C444E40309347F992_gshared (const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task Unity.Services.Core.Telemetry.Internal.TelemetrySender::SendAsync<Unity.Services.Core.Telemetry.Internal.MetricsPayload>(TPayload)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_gshared (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B ___payload0, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::get_Cache()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::Clear()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::get_Config()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::Register(TEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___telemetryEvent0, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B_gshared (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___item0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA_gshared (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___item0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest>::Invoke(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m8B0C3F4FA0508CD1823F82CF8CD995A0C910DAFE_gshared_inline (Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* __this, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___obj0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3_gshared (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB_gshared (CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41_gshared (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateCachePersister<Unity.Services.Core.Telemetry.Internal.MetricsPayload>(System.String,UnityEngine.RuntimePlatform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB_gshared (String_t* ___fileName0, int32_t ___platform1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::Initialize(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_gshared (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8_gshared (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateCachePersister<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(System.String,UnityEngine.RuntimePlatform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD_gshared (String_t* ___fileName0, int32_t ___platform1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::Initialize(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_gshared (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method) ;
+
+// System.String Unity.Services.Core.Telemetry.Internal.FileCachePersister::GetPersistentDataPathFor(UnityEngine.RuntimePlatform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileCachePersister_GetPersistentDataPathFor_mAA3C085B70D73236A56C8DF6C16FE348F910EE0B (int32_t ___platform0, const RuntimeMethod* method) ;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.String UnityEngine.Application::get_persistentDataPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+inline void Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, RuntimeObject*, const RuntimeMethod*))Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared)(__this, ___dictionary0, method);
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Diagnostics::get_PackageTags()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Diagnostics_get_PackageTags_m9D51DB44CC22531F216C7408EA8065044D0E4BE9_inline (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) ;
+// TDictionary Unity.Services.Core.Internal.DictionaryExtensions::MergeAllowOverride<System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String>(TDictionary,System.Collections.Generic.IDictionary`2<TKey,TValue>)
+inline Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___self0, RuntimeObject* ___dictionary1, const RuntimeMethod* method)
+{
+	return ((  Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, RuntimeObject*, const RuntimeMethod*))DictionaryExtensions_MergeAllowOverride_TisRuntimeObject_TisRuntimeObject_TisRuntimeObject_m80984F95B46A6F67D8893FE6052EC0FD2C189B5A_gshared)(___self0, ___dictionary1, method);
+}
+// System.Int32 System.String::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+// System.String System.String::Substring(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method) ;
+// System.String System.Environment::get_NewLine()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_get_NewLine_m8BF68A4EFDAFFB66500984CE779629811BA98FFF (const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.Diagnostics::get_Handler()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* Diagnostics_get_Handler_mFA92ACC612B06CC0DC12F58A2F6CD09430F0F7B9_inline (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::Register(TEvent)
+inline void TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91 (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___telemetryEvent0, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A, const RuntimeMethod*))TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_gshared)(__this, ___telemetryEvent0, method);
+}
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::get_Cache()
+inline CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method)
+{
+	return ((  CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* (*) (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*, const RuntimeMethod*))TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_gshared_inline)(__this, method);
+}
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.FactoryUtils::CreatePackageTags(Unity.Services.Core.Configuration.Internal.IProjectConfiguration,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FactoryUtils_CreatePackageTags_m41A469956CFED4A1038991A74F8FDED5506D7D65 (RuntimeObject* ___projectConfig0, String_t* ___packageName1, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::get_Handler()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* DiagnosticsFactory_get_Handler_m9FB222AA7FDAC429798F295C9A8AE89BC40BBC76_inline (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.Diagnostics::.ctor(Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_mB69D23596C239D5078D42548C2EAD203301AC98E (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___handler0, RuntimeObject* ___packageTags1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledDiagnostics::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledDiagnostics__ctor_m0F80E600FAE38041EDD9848AB22BCD7B97AE3619 (DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor()
+inline void Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+inline void TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601*, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*, RuntimeObject*, RuntimeObject*, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*, const RuntimeMethod*))TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_gshared)(__this, ___config0, ___cache1, ___scheduler2, ___cachePersister3, ___sender4, method);
+}
+// System.Threading.Tasks.Task Unity.Services.Core.Telemetry.Internal.TelemetrySender::SendAsync<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(TPayload)
+inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664 (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD ___payload0, const RuntimeMethod* method)
+{
+	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD, const RuntimeMethod*))TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_gshared)(__this, ___payload0, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendState__ctor_mB8B88DE6EEED157A4F2316B78925D3295BAD16DB (SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>::.ctor()
+inline void CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941 (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* __this, const RuntimeMethod* method)
+{
+	((  void (*) (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*, const RuntimeMethod*))CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_gshared)(__this, method);
+}
+// System.Void System.Action`2<System.Threading.Tasks.Task,System.Object>::.ctor(System.Object,System.IntPtr)
+inline void Action_2__ctor_mCB8799E12AB6CA46E55E300245D89C3B2A3955E9 (Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::ContinueWith(System.Action`2<System.Threading.Tasks.Task,System.Object>,System.Object,System.Threading.Tasks.TaskContinuationOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_ContinueWith_m0DCFBDCE81D5E39BD04277A2CBA00B76D5B85479 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB* ___continuationAction0, RuntimeObject* ___state1, int32_t ___continuationOptions2, const RuntimeMethod* method) ;
+// System.Void System.ArgumentException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Threading.Tasks.TaskStatus System.Threading.Tasks.Task::get_Status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.CacheExtensions::AddRangeFrom(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CacheExtensions_AddRangeFrom_mBBA5B0317889EF7AC91A2ADA139E4CD8B97C853A (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___self0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___payload1, const RuntimeMethod* method) ;
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___paramName0, String_t* ___message1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Clear()
+inline void Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared)(__this, method);
+}
+// System.String UnityEngine.Application::get_version()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_version_m9CC0E94F12493682C1A2CA803083F6F01BA43124 (const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(TKey,TValue)
+inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+}
+// System.String UnityEngine.Application::get_productName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_productName_m9314FB94C4DE1F1731084FF30B9555F44BA477EB (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Application::get_genuineCheckAvailable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_genuineCheckAvailable_m9E92ED00A38600259813F2CDF40841702336B331 (const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Application::get_genuine()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_genuine_m809A0E5A68D890B8BED1FD2A5CF13637C773AEC6 (const RuntimeMethod* method) ;
+// System.Globalization.CultureInfo System.Globalization.CultureInfo::get_InvariantCulture()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
+// System.String System.Boolean::ToString(System.IFormatProvider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m8A8E8910575F649AA72E01649BACE16F0F362FF4 (bool* __this, RuntimeObject* ___provider0, const RuntimeMethod* method) ;
+// UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E (const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Telemetry.Internal.CacheExtensions::IsEmpty<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>)
+inline bool CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33 (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___self0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*, const RuntimeMethod*))CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33_gshared)(___self0, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+inline void List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5 (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, RuntimeObject*, const RuntimeMethod*))List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5_gshared)(__this, ___collection0, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::Clear()
+inline void List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, const RuntimeMethod*))List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_gshared_inline)(__this, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+inline void TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8 (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601*, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75*, RuntimeObject*, RuntimeObject*, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*, const RuntimeMethod*))TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_gshared)(__this, ___config0, ___cache1, ___scheduler2, ___cachePersister3, ___sender4, method);
+}
+// System.Void Newtonsoft.Json.Utilities.AotHelper::EnsureType<Newtonsoft.Json.Converters.StringEnumConverter>()
+inline void AotHelper_EnsureType_TisStringEnumConverter_t7C66875DF7AB0719190AEEF8924A99F49C480184_m6A1C428F1F47D693B537597E785391C4D42AD480 (const RuntimeMethod* method)
+{
+	((  void (*) (const RuntimeMethod*))AotHelper_EnsureType_TisRuntimeObject_m8D3D63845F34DADDDC746C0C444E40309347F992_gshared)(method);
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.MetricsHandler::<SendPersistedCache>g__AreMetricsOutdated|1_0(Unity.Services.Core.Telemetry.Internal.MetricsHandler/<>c__DisplayClass1_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MetricsHandler_U3CSendPersistedCacheU3Eg__AreMetricsOutdatedU7C1_0_mB5A2589A6176921768AA96F769F3AB52B412FAEC (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A* p0, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task Unity.Services.Core.Telemetry.Internal.TelemetrySender::SendAsync<Unity.Services.Core.Telemetry.Internal.MetricsPayload>(TPayload)
+inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638 (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B ___payload0, const RuntimeMethod* method)
+{
+	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B, const RuntimeMethod*))TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_gshared)(__this, ___payload0, method);
+}
+// Unity.Services.Core.Telemetry.Internal.CachedPayload`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::get_Cache()
+inline CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method)
+{
+	return ((  CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* (*) (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*, const RuntimeMethod*))TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_gshared_inline)(__this, method);
+}
+// System.Int32 System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::get_Count()
+inline int32_t List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, const RuntimeMethod*))List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_gshared_inline)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::Clear()
+inline void List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, const RuntimeMethod*))List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_gshared_inline)(__this, method);
+}
+// System.DateTime System.DateTime::get_UtcNow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA (const RuntimeMethod* method) ;
+// System.Void System.DateTime::.ctor(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m64AFCE84ABB24698256EB9F635EFD0A221823441 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, int64_t ___ticks0, const RuntimeMethod* method) ;
+// System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d10, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d21, const RuntimeMethod* method) ;
+// System.Double System.TimeSpan::get_TotalSeconds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalSeconds_mED686E7CECE6A76A7DC38518698B9199DB8CDEA8 (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::get_Config()
+inline TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method)
+{
+	return ((  TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* (*) (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*, const RuntimeMethod*))TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_gshared_inline)(__this, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetrics::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetrics__ctor_mED3AD0A9283DB0685B28202DE0ED41849D0FC3CD (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Metrics::get_PackageTags()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Metrics_get_PackageTags_m115CC30318BB63CEFCC31F54F4049C4D78DC0472_inline (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) ;
+// TDictionary Unity.Services.Core.Internal.DictionaryExtensions::MergeAllowOverride<System.Collections.Generic.IDictionary`2<System.String,System.String>,System.String,System.String>(TDictionary,System.Collections.Generic.IDictionary`2<TKey,TValue>)
+inline RuntimeObject* DictionaryExtensions_MergeAllowOverride_TisIDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_TisString_t_TisString_t_m2D5D98C51F556720066C9CB1EE05C8290D306079 (RuntimeObject* ___self0, RuntimeObject* ___dictionary1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*))DictionaryExtensions_MergeAllowOverride_TisRuntimeObject_TisRuntimeObject_TisRuntimeObject_m80984F95B46A6F67D8893FE6052EC0FD2C189B5A_gshared)(___self0, ___dictionary1, method);
+}
+// Unity.Services.Core.Telemetry.Internal.Metric Unity.Services.Core.Telemetry.Internal.Metrics::CreateMetric(System.String,System.Double,Unity.Services.Core.Telemetry.Internal.MetricType,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 Metrics_CreateMetric_m9024DA7257F4F1E8F0F18870FE29E5A6347EE11F (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___name0, double ___value1, int32_t ___type2, RuntimeObject* ___tags3, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.Metrics::get_Handler()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6_inline (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::Register(TEvent)
+inline void TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___telemetryEvent0, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3, const RuntimeMethod*))TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_gshared)(__this, ___telemetryEvent0, method);
+}
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.MetricsFactory::get_Handler()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* MetricsFactory_get_Handler_mEEC4790D8D67895DDDB3AC14E796F260A8B9780A_inline (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.Metrics::.ctor(Unity.Services.Core.Telemetry.Internal.MetricsHandler,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_mB1E2387D26E6A7CF77FA50A7240FC8CBA12F2368 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___handler0, RuntimeObject* ___packageTags1, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_CommonTags()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF_inline (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::get_Count()
+inline int32_t List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, const RuntimeMethod*))List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_gshared_inline)(__this, method);
+}
+// System.Int32 Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_m1D942807C7387C00A179CD6B5B80E859F42FD22D (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor(System.Int32)
+inline void List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, int32_t ___capacity0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, int32_t, const RuntimeMethod*))List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B_gshared)(__this, ___capacity0, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::Add(T)
+inline void List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A, const RuntimeMethod*))List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_gshared_inline)(__this, ___item0, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.Add(Unity.Services.Core.Telemetry.Internal.ITelemetryEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3 (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_CommonTags()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD_inline (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) ;
+// System.Int32 Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_mF732FDB3D275692B5204AB3C6F918D7135D0E2D0 (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::.ctor(System.Int32)
+inline void List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, int32_t ___capacity0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, int32_t, const RuntimeMethod*))List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA_gshared)(__this, ___capacity0, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::Add(T)
+inline void List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3, const RuntimeMethod*))List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_gshared_inline)(__this, ___item0, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.Add(Unity.Services.Core.Telemetry.Internal.ITelemetryEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method) ;
+// System.Int32 Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::get_MaxTryCount()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ExponentialBackOffRetryPolicy_get_MaxTryCount_m5D037BB60787C66A7F8CF71E321B8EC528972D01_inline (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::IsTransientError(Unity.Services.Core.Telemetry.Internal.WebRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExponentialBackOffRetryPolicy_IsTransientError_mBBAC8E2C5F932D2676EA50CCFA0A36595E30046E (WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___webRequest0, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::<IsTransientError>g__IsServerErrorCode|9_0(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExponentialBackOffRetryPolicy_U3CIsTransientErrorU3Eg__IsServerErrorCodeU7C9_0_mA06AE32C5A2AAF0575751BFD9C55342CBDEE5315 (int64_t ___responseCode0, const RuntimeMethod* method) ;
+// System.Single Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::get_BaseDelaySeconds()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ExponentialBackOffRetryPolicy_get_BaseDelaySeconds_m62C2D27786AB3A7635D09E79C3F92CA472782087_inline (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) ;
+// System.String Unity.Services.Core.Telemetry.Internal.TelemetrySender::get_TargetUrl()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TelemetrySender_get_TargetUrl_mA9EEA023222BEE40368C40D2293C5A2E917C878F_inline (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UnityWebRequest::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest__ctor_mD4739B0BF1C4937479A83B24B531C6B819712A3E (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___url0, String_t* ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UploadHandlerRaw::.ctor(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadHandlerRaw__ctor_m168C957B67E29CB3072E3542044D37E2F16C42B7 (UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___data0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UploadHandler::set_contentType(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadHandler_set_contentType_mEFF2D2512996DFFF2BFC013388B702078BDC73F3 (UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UnityWebRequest::set_uploadHandler(UnityEngine.Networking.UploadHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.DownloadHandlerBuffer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerBuffer__ctor_m5EE7C9E8AB468B2B937A7C9C66B4176A884147AF (DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UnityWebRequest::set_downloadHandler(UnityEngine.Networking.DownloadHandler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UnityWebRequest::SetRequestHeader(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___name0, String_t* ___value1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m3AB8EAE3A48780260FCF6D1BAA89331E56ECDA14 (U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* __this, const RuntimeMethod* method) ;
+// UnityEngine.Networking.UnityWebRequestAsyncOperation UnityEngine.Networking.UnityWebRequest::SendWebRequest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<UnityEngine.AsyncOperation>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m33ABB7530487276910BEFB499A97D33FB2E06D7D (Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void UnityEngine.AsyncOperation::add_completed(System.Action`1<UnityEngine.AsyncOperation>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_add_completed_mD6F21BA8127D6D4B7ABDEFAA995A7A347A20A793 (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* __this, Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* ___value0, const RuntimeMethod* method) ;
+// System.Int64 UnityEngine.Networking.UnityWebRequest::get_responseCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnityWebRequest_get_responseCode_m012C177F61435D5D120A21D7A03FFF7B0F8B904B (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Internal.UnityWebRequestUtils::HasSucceeded(UnityEngine.Networking.UnityWebRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityWebRequestUtils_HasSucceeded_m06CCE15DA3423C35C7629483DD6BEB166AE4C32D (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___self0, const RuntimeMethod* method) ;
+// UnityEngine.Networking.UnityWebRequest/Result UnityEngine.Networking.UnityWebRequest::get_result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// System.String UnityEngine.Networking.UnityWebRequest::get_error()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// UnityEngine.Networking.DownloadHandler UnityEngine.Networking.UnityWebRequest::get_downloadHandler()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// System.String UnityEngine.Networking.DownloadHandler::get_text()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
+// UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestAsyncOperation::get_webRequest()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAsyncOperation_get_webRequest_mF67D15420C7C1C4DCA1BD6F839048A0542998BC3_inline (UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.WebRequest Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender::Simplify(UnityEngine.Networking.UnityWebRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E UnityWebRequestSender_Simplify_mC187E0425D3956FD0178DD0DC7E1FCA1DB4039A9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___webRequest0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest>::Invoke(T)
+inline void Action_1_Invoke_m8B0C3F4FA0508CD1823F82CF8CD995A0C910DAFE_inline (Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* __this, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___obj0, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1*, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E, const RuntimeMethod*))Action_1_Invoke_m8B0C3F4FA0508CD1823F82CF8CD995A0C910DAFE_gshared_inline)(__this, ___obj0, method);
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.WebRequest::get_IsSuccess()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebRequest_get_IsSuccess_m9E4F85136A009257104579C8342DEC50EB4F15E6 (WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+inline void List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3 (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3_gshared)(__this, ___collection0, method);
+}
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+// System.Boolean Unity.Services.Core.Telemetry.Internal.TelemetryUtils::IsTelemetryDisabled(Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryUtils_IsTelemetryDisabled_m9CB232401FFE1971ED4D7BB286D74FADDD4CA3E8 (RuntimeObject* ___projectConfiguration0, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetricsFactory__ctor_m9C673FABB9E5C1B95DC3AAF81ED8A8ADCB35C65E (DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6* __this, const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateTelemetryConfig(Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryUtils_CreateTelemetryConfig_m07294253B733EC88DE5E501A61DC345AF604F148 (RuntimeObject* ___projectConfiguration0, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>::.ctor()
+inline void CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB (CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* __this, const RuntimeMethod* method)
+{
+	((  void (*) (CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75*, const RuntimeMethod*))CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Metric>::.ctor()
+inline void List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41 (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, const RuntimeMethod*))List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41_gshared)(__this, method);
+}
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateCachePersister<Unity.Services.Core.Telemetry.Internal.MetricsPayload>(System.String,UnityEngine.RuntimePlatform)
+inline RuntimeObject* TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB (String_t* ___fileName0, int32_t ___platform1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (String_t*, int32_t, const RuntimeMethod*))TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB_gshared)(___fileName0, ___platform1, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExponentialBackOffRetryPolicy__ctor_m7A6BA95E28DC18CBF7F44BE204AF156CB341BF5E (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequestSender__ctor_mFE6414F8B34BA9E4D7C18BA4FB0D1CA0E1E90B9A (UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetrySender::.ctor(System.String,System.String,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy,Unity.Services.Core.Telemetry.Internal.IUnityWebRequestSender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetrySender__ctor_m6D1AC5118C8D4576859151AF9E6B32681CAC0285 (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, String_t* ___targetUrl0, String_t* ___servicePath1, RuntimeObject* ___scheduler2, ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* ___retryPolicy3, RuntimeObject* ___requestSender4, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsHandler::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsHandler__ctor_mA99FCDF9FE29231858F71CBBE47319B1FE748567 (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.MetricsPayload,Unity.Services.Core.Telemetry.Internal.Metric>::Initialize(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+inline void TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_gshared)(__this, ___cloudProjectId0, ___environments1, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsFactory::.ctor(Unity.Services.Core.Telemetry.Internal.MetricsHandler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mA1187E29AC3E1EDC2A11A8FB63C1AF0F91C27ED0 (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___handler0, RuntimeObject* ___projectConfig1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledDiagnosticsFactory__ctor_mD9A490FF6F96679DF26A5983799FF898DA5AA77C (DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Unity.Services.Core.Telemetry.Internal.Diagnostic>::.ctor()
+inline void List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8 (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, const RuntimeMethod*))List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8_gshared)(__this, method);
+}
+// Unity.Services.Core.Telemetry.Internal.ICachePersister`1<TPayload> Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateCachePersister<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>(System.String,UnityEngine.RuntimePlatform)
+inline RuntimeObject* TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD (String_t* ___fileName0, int32_t ___platform1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (String_t*, int32_t, const RuntimeMethod*))TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD_gshared)(___fileName0, ___platform1, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler__ctor_m34388FAB309CF69EBF0560966DF5C53BA6EC85F9 (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler`2<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload,Unity.Services.Core.Telemetry.Internal.Diagnostic>::Initialize(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+inline void TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457 (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method)
+{
+	((  void (*) (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_gshared)(__this, ___cloudProjectId0, ___environments1, method);
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::.ctor(Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_mD328A7AFD1858E30D437C423780E98460C78B84C (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___handler0, RuntimeObject* ___projectConfig1, const RuntimeMethod* method) ;
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryConfig::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryConfig__ctor_m36010D53C70E15DC09BA4B8E36AF1666DE4F97A6 (TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Math::Min(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52 (int32_t ___val10, int32_t ___val21, const RuntimeMethod* method) ;
+// System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Unity.Services.Core.Telemetry.Internal.FileCachePersister::IsAvailableFor(UnityEngine.RuntimePlatform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileCachePersister_IsAvailableFor_m8636B649F618431415474B3FBE35686683BD3C64 (int32_t ___platform0, const RuntimeMethod* method) 
+{
+	{
+		// return !string.IsNullOrEmpty(GetPersistentDataPathFor(platform));
+		int32_t L_0 = ___platform0;
+		String_t* L_1;
+		L_1 = FileCachePersister_GetPersistentDataPathFor_mAA3C085B70D73236A56C8DF6C16FE348F910EE0B(L_0, NULL);
+		bool L_2;
+		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.String Unity.Services.Core.Telemetry.Internal.FileCachePersister::GetPersistentDataPathFor(UnityEngine.RuntimePlatform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileCachePersister_GetPersistentDataPathFor_mAA3C085B70D73236A56C8DF6C16FE348F910EE0B (int32_t ___platform0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (platform == RuntimePlatform.Switch)
+		int32_t L_0 = ___platform0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)32)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		// return string.Empty;
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		return L_1;
+	}
+
+IL_000b:
+	{
+		// return Application.persistentDataPath;
+		String_t* L_2;
+		L_2 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		return L_2;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.FileCachePersister::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileCachePersister__ctor_mB9A9B6ACCED500BD7F78D45194011F9198F2A708 (FileCachePersister_tD394A50E26C1D87D1DCB622E10B5E36FCEC8FA30* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.Diagnostics::get_Handler()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* Diagnostics_get_Handler_mFA92ACC612B06CC0DC12F58A2F6CD09430F0F7B9 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal DiagnosticsHandler Handler { get; }
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = __this->___U3CHandlerU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Diagnostics::get_PackageTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Diagnostics_get_PackageTags_m9D51DB44CC22531F216C7408EA8065044D0E4BE9 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal IDictionary<string, string> PackageTags { get; }
+		RuntimeObject* L_0 = __this->___U3CPackageTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Diagnostics::.ctor(Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_mB69D23596C239D5078D42548C2EAD203301AC98E (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___handler0, RuntimeObject* ___packageTags1, const RuntimeMethod* method) 
+{
+	{
+		// public Diagnostics(DiagnosticsHandler handler, IDictionary<string, string> packageTags)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handler = handler;
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = ___handler0;
+		__this->___U3CHandlerU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHandlerU3Ek__BackingField_0), (void*)L_0);
+		// PackageTags = packageTags;
+		RuntimeObject* L_1 = ___packageTags1;
+		__this->___U3CPackageTagsU3Ek__BackingField_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPackageTagsU3Ek__BackingField_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Diagnostics::SendDiagnostic(System.String,System.String,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, String_t* ___name0, String_t* ___message1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD0F18B89B1F8655687A510EA40A91CA6D56786B9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964);
+		s_Il2CppMethodInitialized = true;
+	}
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A* G_B2_0 = NULL;
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A* G_B1_0 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B3_0 = NULL;
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A* G_B3_1 = NULL;
+	{
+		// var diagnostic = new Diagnostic
+		// {
+		//     Content = tags is null
+		//         ? new Dictionary<string, string>(PackageTags)
+		//         : new Dictionary<string, string>(tags)
+		//             .MergeAllowOverride(PackageTags),
+		// };
+		il2cpp_codegen_initobj((&V_1), sizeof(Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A));
+		RuntimeObject* L_0 = ___tags2;
+		G_B1_0 = (&V_1);
+		if (!L_0)
+		{
+			G_B2_0 = (&V_1);
+			goto IL_0020;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___tags2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_2 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_2, L_1, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		RuntimeObject* L_3;
+		L_3 = Diagnostics_get_PackageTags_m9D51DB44CC22531F216C7408EA8065044D0E4BE9_inline(__this, NULL);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_4;
+		L_4 = DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F(L_2, L_3, DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		G_B3_0 = L_4;
+		G_B3_1 = G_B1_0;
+		goto IL_002b;
+	}
+
+IL_0020:
+	{
+		RuntimeObject* L_5;
+		L_5 = Diagnostics_get_PackageTags_m9D51DB44CC22531F216C7408EA8065044D0E4BE9_inline(__this, NULL);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_6 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_6, L_5, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		G_B3_0 = L_6;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002b:
+	{
+		G_B3_1->___Content_0 = G_B3_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___Content_0), (void*)G_B3_0);
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_7 = V_1;
+		V_0 = L_7;
+		// diagnostic.Content.Add(TagKeys.DiagnosticName, name);
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_8 = V_0;
+		RuntimeObject* L_9 = L_8.___Content_0;
+		String_t* L_10 = ___name0;
+		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.String>::Add(TKey,TValue) */, IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_il2cpp_TypeInfo_var, L_9, _stringLiteralCE18B047107AA23D1AA9B2ED32D316148E02655F, L_10);
+		// if (message != null && message.Length > MaxDiagnosticMessageLength)
+		String_t* L_11 = ___message1;
+		if (!L_11)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		String_t* L_12 = ___message1;
+		int32_t L_13;
+		L_13 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_12, NULL);
+		if ((((int32_t)L_13) <= ((int32_t)((int32_t)10000))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		// message = $"{message.Substring(0, MaxDiagnosticMessageLength)}{Environment.NewLine}{DiagnosticMessageTruncateSuffix}";
+		String_t* L_14 = ___message1;
+		String_t* L_15;
+		L_15 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_14, 0, ((int32_t)10000), NULL);
+		String_t* L_16;
+		L_16 = Environment_get_NewLine_m8BF68A4EFDAFFB66500984CE779629811BA98FFF(NULL);
+		String_t* L_17;
+		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_15, L_16, _stringLiteralD0F18B89B1F8655687A510EA40A91CA6D56786B9, NULL);
+		___message1 = L_17;
+	}
+
+IL_0070:
+	{
+		// diagnostic.Content.Add(TagKeys.DiagnosticMessage, message);
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_18 = V_0;
+		RuntimeObject* L_19 = L_18.___Content_0;
+		String_t* L_20 = ___message1;
+		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.String>::Add(TKey,TValue) */, IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_il2cpp_TypeInfo_var, L_19, _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964, L_20);
+		// Handler.Register(diagnostic);
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_21;
+		L_21 = Diagnostics_get_Handler_mFA92ACC612B06CC0DC12F58A2F6CD09430F0F7B9_inline(__this, NULL);
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_22 = V_0;
+		TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91(L_21, L_22, TelemetryHandler_2_Register_m9568D76F69F2507297946630C027D1B35AA86D91_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IReadOnlyDictionary<string, string> CommonTags { get; }
+		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::get_Handler()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* DiagnosticsFactory_get_Handler_m9FB222AA7FDAC429798F295C9A8AE89BC40BBC76 (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal DiagnosticsHandler Handler { get; }
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = __this->___U3CHandlerU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::.ctor(Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_mD328A7AFD1858E30D437C423780E98460C78B84C (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* ___handler0, RuntimeObject* ___projectConfig1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public DiagnosticsFactory(DiagnosticsHandler handler, IProjectConfiguration projectConfig)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handler = handler;
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = ___handler0;
+		__this->___U3CHandlerU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHandlerU3Ek__BackingField_2), (void*)L_0);
+		// m_ProjectConfig = projectConfig;
+		RuntimeObject* L_1 = ___projectConfig1;
+		__this->___m_ProjectConfig_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProjectConfig_0), (void*)L_1);
+		// CommonTags = new Dictionary<string, string>(handler.Cache.Payload.CommonTags)
+		//     .MergeAllowOverride(handler.Cache.Payload.DiagnosticsCommonTags);
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_2 = ___handler0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_3;
+		L_3 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(L_2, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_4 = (&L_3->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_5 = L_4->___CommonTags_1;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_6 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_6, L_5, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_7 = ___handler0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_8;
+		L_8 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(L_7, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_9 = (&L_8->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_10 = L_9->___DiagnosticsCommonTags_2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_11;
+		L_11 = DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F(L_6, L_10, DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		__this->___U3CCommonTagsU3Ek__BackingField_1 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCommonTagsU3Ek__BackingField_1), (void*)L_11);
+		// }
+		return;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.IDiagnostics Unity.Services.Core.Telemetry.Internal.DiagnosticsFactory::Create(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, String_t* ___packageName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	{
+		// if (string.IsNullOrEmpty(packageName))
+		String_t* L_0 = ___packageName0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// throw new ArgumentNullException(nameof(packageName));
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_2 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3B77922C3A2E8F89E4C7359003D66665B608BA30)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B_RuntimeMethod_var)));
+	}
+
+IL_0013:
+	{
+		// var packageTags = FactoryUtils.CreatePackageTags(m_ProjectConfig, packageName);
+		RuntimeObject* L_3 = __this->___m_ProjectConfig_0;
+		String_t* L_4 = ___packageName0;
+		RuntimeObject* L_5;
+		L_5 = FactoryUtils_CreatePackageTags_m41A469956CFED4A1038991A74F8FDED5506D7D65(L_3, L_4, NULL);
+		V_0 = L_5;
+		// var diagnostics = new Diagnostics(Handler, packageTags);
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_6;
+		L_6 = DiagnosticsFactory_get_Handler_m9FB222AA7FDAC429798F295C9A8AE89BC40BBC76_inline(__this, NULL);
+		RuntimeObject* L_7 = V_0;
+		Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* L_8 = (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012*)il2cpp_codegen_object_new(Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var);
+		Diagnostics__ctor_mB69D23596C239D5078D42548C2EAD203301AC98E(L_8, L_6, L_7, NULL);
+		// return diagnostics;
+		return L_8;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledDiagnostics::Unity.Services.Core.Telemetry.Internal.IDiagnostics.SendDiagnostic(System.String,System.String,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledDiagnostics_Unity_Services_Core_Telemetry_Internal_IDiagnostics_SendDiagnostic_mFDA31C1CB9B690CD75866D6213F7BF9A359BAC3C (DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716* __this, String_t* ___name0, String_t* ___message1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledDiagnostics::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledDiagnostics__ctor_m0F80E600FAE38041EDD9848AB22BCD7B97AE3619 (DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory::Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory.get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DisabledDiagnosticsFactory_Unity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_get_CommonTags_mC128791A1E678548DE130031F4C9A63222EEA16B (DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD* __this, const RuntimeMethod* method) 
+{
+	{
+		// IReadOnlyDictionary<string, string> IDiagnosticsFactory.CommonTags { get; }
+		RuntimeObject* L_0 = __this->___U3CUnity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_CommonTagsU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.IDiagnostics Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory::Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory.Create(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DisabledDiagnosticsFactory_Unity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_Create_m92971BDFE96563E0F354BA39B2489FB6FAA0994F (DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD* __this, String_t* ___packageName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IDiagnostics IDiagnosticsFactory.Create(string packageName) => new DisabledDiagnostics();
+		DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716* L_0 = (DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716*)il2cpp_codegen_object_new(DisabledDiagnostics_tB00D3653F5D8D095EBC2BC9C5E2B4E6A4378E716_il2cpp_TypeInfo_var);
+		DisabledDiagnostics__ctor_m0F80E600FAE38041EDD9848AB22BCD7B97AE3619(L_0, NULL);
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledDiagnosticsFactory::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledDiagnosticsFactory__ctor_mD9A490FF6F96679DF26A5983799FF898DA5AA77C (DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// = new Dictionary<string, string>();
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		__this->___U3CUnity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_CommonTagsU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUnity_Services_Core_Telemetry_Internal_IDiagnosticsFactory_CommonTagsU3Ek__BackingField_0), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler__ctor_m34388FAB309CF69EBF0560966DF5C53BA6EC85F9 (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// : base(config, cache, scheduler, cachePersister, sender) {}
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_0 = ___config0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_1 = ___cache1;
+		RuntimeObject* L_2 = ___scheduler2;
+		RuntimeObject* L_3 = ___cachePersister3;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_4 = ___sender4;
+		TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD(__this, L_0, L_1, L_2, L_3, L_4, TelemetryHandler_2__ctor_mAABD95FFCFBA2F85D17FBF1A674F4A2669749BAD_RuntimeMethod_var);
+		// : base(config, cache, scheduler, cachePersister, sender) {}
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::SendPersistedCache(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler_SendPersistedCache_m75EC739A331C2975D6E25E458B966FA13A350217 (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* __this, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___persistedCache0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* V_0 = NULL;
+	{
+		// var sendAsync = m_Sender.SendAsync(persistedCache.Payload);
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_0 = ((TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*)__this)->___m_Sender_2;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_1 = ___persistedCache0;
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD L_2 = L_1->___Payload_1;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
+		L_3 = TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664(L_0, L_2, TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_RuntimeMethod_var);
+		// m_CachePersister.Delete();
+		RuntimeObject* L_4 = ((TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*)__this)->___m_CachePersister_1;
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>::Delete() */, ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var, L_4);
+		// var localState = new SendState
+		// {
+		//     Self = this,
+		//     Payload = new CachedPayload<DiagnosticsPayload>
+		//     {
+		//         TimeOfOccurenceTicks = persistedCache.TimeOfOccurenceTicks,
+		//         Payload = persistedCache.Payload,
+		//     },
+		// };
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_5 = (SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD*)il2cpp_codegen_object_new(SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var);
+		SendState__ctor_mB8B88DE6EEED157A4F2316B78925D3295BAD16DB(L_5, NULL);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_6 = L_5;
+		L_6->___Self_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___Self_0), (void*)__this);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_7 = L_6;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_8 = (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*)il2cpp_codegen_object_new(CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941(L_8, CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_9 = L_8;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_10 = ___persistedCache0;
+		int64_t L_11 = L_10->___TimeOfOccurenceTicks_0;
+		L_9->___TimeOfOccurenceTicks_0 = L_11;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_12 = L_9;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_13 = ___persistedCache0;
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD L_14 = L_13->___Payload_1;
+		L_12->___Payload_1 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_12->___Payload_1))->___Diagnostics_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_12->___Payload_1))->___CommonTags_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_12->___Payload_1))->___DiagnosticsCommonTags_2), (void*)NULL);
+		#endif
+		L_7->___Payload_1 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Payload_1), (void*)L_12);
+		V_0 = L_7;
+		// sendAsync.ContinueWith(OnSendAsyncCompleted, localState, TaskContinuationOptions.ExecuteSynchronously);
+		Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB* L_15 = (Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB*)il2cpp_codegen_object_new(Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB_il2cpp_TypeInfo_var);
+		Action_2__ctor_mCB8799E12AB6CA46E55E300245D89C3B2A3955E9(L_15, NULL, (intptr_t)((void*)DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var), NULL);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_16 = V_0;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_17;
+		L_17 = Task_ContinueWith_m0DCFBDCE81D5E39BD04277A2CBA00B76D5B85479(L_3, L_15, L_16, ((int32_t)524288), NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::OnSendAsyncCompleted(System.Threading.Tasks.Task,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___sendOperation0, RuntimeObject* ___state1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		// if (!(state is SendState castState))
+		RuntimeObject* L_0 = ___state1;
+		V_0 = ((SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD*)IsInstClass((RuntimeObject*)L_0, SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var));
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// throw new ArgumentException("The given state is invalid.");
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCEBC9755CF071B2DB2F4E4365093DF8A5009F227)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var)));
+	}
+
+IL_0015:
+	{
+		// switch (sendOperation.Status)
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3 = ___sendOperation0;
+		int32_t L_4;
+		L_4 = Task_get_Status_m9707FD4B44416BA03FA2FDBEB3D0F0F281D90AD8(L_3, NULL);
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) == ((int32_t)5)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_6 = V_1;
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_6, 6))) <= ((uint32_t)1))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		// castState.Self.Cache.AddRangeFrom(castState.Payload);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_7 = V_0;
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_8 = L_7->___Self_0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_9;
+		L_9 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(L_8, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_10 = V_0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_11 = L_10->___Payload_1;
+		CacheExtensions_AddRangeFrom_mBBA5B0317889EF7AC91A2ADA139E4CD8B97C853A(L_9, L_11, NULL);
+		// break;
+		return;
+	}
+
+IL_003d:
+	{
+		// throw new ArgumentOutOfRangeException(
+		//     nameof(sendOperation.Status), "Can't continue without the send operation being completed.");
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_12 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_12, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB25C6E111877202657B311A682A6585AE1F652B9)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2F053D35B71695AE25BC86EAF016A79788935D58)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var)));
+	}
+
+IL_004d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::FetchSpecificCommonTags(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler_FetchSpecificCommonTags_mFCE408965FC734BD2C1AFB41D9105D19AFB18645 (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICloudProjectId_t366B66869ECC734B15C1F60633D2B998CD9231FE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnvironments_t9DCAF0398EB856DBE771A9C2D7B120661D628CB7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkReachability_tBAA4C61FCCBE7809DBDD06AE02510392A22E2366_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0BA7E3B11F9D5595D8DA92EFABA9403825DEF0DB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral25A6C8E3033AB7B31F1A36176973EBF46D6AA102);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral343F1EB8B84724E244591A9C2D3BEA692FFCE3F0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral617DBC0E88F9FD64E6BA155A3D52F887B665BD74);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D1DED8A499AFE312E9F9007B113A945D953937C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC15B993D6B8D2B9BD7784FABEF615F72066DB53C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE19245005C2942CFC2763E0A415F5F5582F12C1F);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	String_t* G_B2_0 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B2_1 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B2_2 = NULL;
+	String_t* G_B1_0 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B1_1 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B1_2 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B3_2 = NULL;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B3_3 = NULL;
+	{
+		// var commonTags = Cache.Payload.DiagnosticsCommonTags;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_0;
+		L_0 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_1 = (&L_0->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_2 = L_1->___DiagnosticsCommonTags_2;
+		// commonTags.Clear();
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_3 = L_2;
+		Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586(L_3, Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586_RuntimeMethod_var);
+		// commonTags[TagKeys.ApplicationVersion] = Application.version;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_4 = L_3;
+		String_t* L_5;
+		L_5 = Application_get_version_m9CC0E94F12493682C1A2CA803083F6F01BA43124(NULL);
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_4, _stringLiteral343F1EB8B84724E244591A9C2D3BEA692FFCE3F0, L_5, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// commonTags[TagKeys.ProductName] = Application.productName;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_6 = L_4;
+		String_t* L_7;
+		L_7 = Application_get_productName_m9314FB94C4DE1F1731084FF30B9555F44BA477EB(NULL);
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_6, _stringLiteralC15B993D6B8D2B9BD7784FABEF615F72066DB53C, L_7, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// commonTags[TagKeys.CloudProjectId] = cloudProjectId.GetCloudProjectId();
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_8 = L_6;
+		RuntimeObject* L_9 = ___cloudProjectId0;
+		String_t* L_10;
+		L_10 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Services.Core.Configuration.Internal.ICloudProjectId::GetCloudProjectId() */, ICloudProjectId_t366B66869ECC734B15C1F60633D2B998CD9231FE_il2cpp_TypeInfo_var, L_9);
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_8, _stringLiteral0BA7E3B11F9D5595D8DA92EFABA9403825DEF0DB, L_10, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// commonTags[TagKeys.EnvironmentName] = environments.Current;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_11 = L_8;
+		RuntimeObject* L_12 = ___environments1;
+		String_t* L_13;
+		L_13 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Services.Core.Environments.Internal.IEnvironments::get_Current() */, IEnvironments_t9DCAF0398EB856DBE771A9C2D7B120661D628CB7_il2cpp_TypeInfo_var, L_12);
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_11, _stringLiteral617DBC0E88F9FD64E6BA155A3D52F887B665BD74, L_13, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// commonTags[TagKeys.ApplicationGenuine] = Application.genuineCheckAvailable
+		//     ? Application.genuine.ToString(CultureInfo.InvariantCulture)
+		//     : "unavailable";
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_14 = L_11;
+		bool L_15;
+		L_15 = Application_get_genuineCheckAvailable_m9E92ED00A38600259813F2CDF40841702336B331(NULL);
+		G_B1_0 = _stringLiteral8D1DED8A499AFE312E9F9007B113A945D953937C;
+		G_B1_1 = L_14;
+		G_B1_2 = L_14;
+		if (L_15)
+		{
+			G_B2_0 = _stringLiteral8D1DED8A499AFE312E9F9007B113A945D953937C;
+			G_B2_1 = L_14;
+			G_B2_2 = L_14;
+			goto IL_006c;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral25A6C8E3033AB7B31F1A36176973EBF46D6AA102;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		G_B3_3 = G_B1_2;
+		goto IL_007e;
+	}
+
+IL_006c:
+	{
+		bool L_16;
+		L_16 = Application_get_genuine_m809A0E5A68D890B8BED1FD2A5CF13637C773AEC6(NULL);
+		V_0 = L_16;
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_17;
+		L_17 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		String_t* L_18;
+		L_18 = Boolean_ToString_m8A8E8910575F649AA72E01649BACE16F0F362FF4((&V_0), L_17, NULL);
+		G_B3_0 = L_18;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+		G_B3_3 = G_B2_2;
+	}
+
+IL_007e:
+	{
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(G_B3_2, G_B3_1, G_B3_0, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// commonTags[TagKeys.InternetReachability] = Application.internetReachability.ToString();
+		int32_t L_19;
+		L_19 = Application_get_internetReachability_m3FECA8BA005340369BB952CE8CDF3E1A53F3BA0E(NULL);
+		V_1 = L_19;
+		Il2CppFakeBox<int32_t> L_20(NetworkReachability_tBAA4C61FCCBE7809DBDD06AE02510392A22E2366_il2cpp_TypeInfo_var, (&V_1));
+		String_t* L_21;
+		L_21 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_20), NULL);
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(G_B3_3, _stringLiteralE19245005C2942CFC2763E0A415F5F5582F12C1F, L_21, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler::SendCachedPayload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsHandler_SendCachedPayload_m1931EBB20B4287FB00D070173EA35D4D509CCE75 (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* V_0 = NULL;
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* G_B4_0 = NULL;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* G_B3_0 = NULL;
+	{
+		// if (Cache.IsEmpty())
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_0;
+		L_0 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		bool L_1;
+		L_1 = CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33(L_0, CacheExtensions_IsEmpty_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m7CC7F050495B3BFA4D70054B07E0945CE92C3B33_RuntimeMethod_var);
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000e:
+	{
+		// var sendAsync = m_Sender.SendAsync(Cache.Payload);
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_2 = ((TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*)__this)->___m_Sender_2;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_3;
+		L_3 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD L_4 = L_3->___Payload_1;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5;
+		L_5 = TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664(L_2, L_4, TelemetrySender_SendAsync_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F0DC2470065D69F3EF35D681C94A8E59B944664_RuntimeMethod_var);
+		// var localState = new SendState
+		// {
+		//     Self = this,
+		//     Payload = new CachedPayload<DiagnosticsPayload>
+		//     {
+		//         TimeOfOccurenceTicks = Cache.TimeOfOccurenceTicks,
+		//         Payload = new DiagnosticsPayload
+		//         {
+		//             Diagnostics = new List<Diagnostic>(Cache.Payload.Diagnostics),
+		//             CommonTags = new Dictionary<string, string>(Cache.Payload.CommonTags),
+		//             DiagnosticsCommonTags = new Dictionary<string, string>(Cache.Payload.DiagnosticsCommonTags),
+		//         },
+		//     },
+		// };
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_6 = (SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD*)il2cpp_codegen_object_new(SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD_il2cpp_TypeInfo_var);
+		SendState__ctor_mB8B88DE6EEED157A4F2316B78925D3295BAD16DB(L_6, NULL);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_7 = L_6;
+		L_7->___Self_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Self_0), (void*)__this);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_8 = L_7;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_9 = (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*)il2cpp_codegen_object_new(CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941(L_9, CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_10 = L_9;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_11;
+		L_11 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		int64_t L_12 = L_11->___TimeOfOccurenceTicks_0;
+		L_10->___TimeOfOccurenceTicks_0 = L_12;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_13 = L_10;
+		il2cpp_codegen_initobj((&V_1), sizeof(DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD));
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_14;
+		L_14 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_15 = (&L_14->___Payload_1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_16 = L_15->___Diagnostics_0;
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_17 = (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*)il2cpp_codegen_object_new(List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5(L_17, L_16, List_1__ctor_mEE575FF8B00891CD6E764094F7591C758500A4D5_RuntimeMethod_var);
+		(&V_1)->___Diagnostics_0 = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Diagnostics_0), (void*)L_17);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_18;
+		L_18 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_19 = (&L_18->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = L_19->___CommonTags_1;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_21 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_21, L_20, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		(&V_1)->___CommonTags_1 = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___CommonTags_1), (void*)L_21);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_22;
+		L_22 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_23 = (&L_22->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_24 = L_23->___DiagnosticsCommonTags_2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_25 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_25, L_24, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		(&V_1)->___DiagnosticsCommonTags_2 = L_25;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___DiagnosticsCommonTags_2), (void*)L_25);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD L_26 = V_1;
+		L_13->___Payload_1 = L_26;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_13->___Payload_1))->___Diagnostics_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_13->___Payload_1))->___CommonTags_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_13->___Payload_1))->___DiagnosticsCommonTags_2), (void*)NULL);
+		#endif
+		L_8->___Payload_1 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&L_8->___Payload_1), (void*)L_13);
+		V_0 = L_8;
+		// Cache.TimeOfOccurenceTicks = 0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_27;
+		L_27 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		L_27->___TimeOfOccurenceTicks_0 = ((int64_t)0);
+		// Cache.Payload.Diagnostics.Clear();
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_28;
+		L_28 = TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_inline(__this, TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_RuntimeMethod_var);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_29 = (&L_28->___Payload_1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_30 = L_29->___Diagnostics_0;
+		List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_inline(L_30, List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_RuntimeMethod_var);
+		// if (m_CachePersister.CanPersist)
+		RuntimeObject* L_31 = ((TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*)__this)->___m_CachePersister_1;
+		bool L_32;
+		L_32 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>::get_CanPersist() */, ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var, L_31);
+		G_B3_0 = L_5;
+		if (!L_32)
+		{
+			G_B4_0 = L_5;
+			goto IL_00ea;
+		}
+	}
+	{
+		// m_CachePersister.Delete();
+		RuntimeObject* L_33 = ((TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C*)__this)->___m_CachePersister_1;
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>::Delete() */, ICachePersister_1_t01774310766A7B965AC2C38CE75B1001C6277449_il2cpp_TypeInfo_var, L_33);
+		G_B4_0 = G_B3_0;
+	}
+
+IL_00ea:
+	{
+		// sendAsync.ContinueWith(OnSendAsyncCompleted, localState, TaskContinuationOptions.ExecuteSynchronously);
+		Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB* L_34 = (Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB*)il2cpp_codegen_object_new(Action_2_tB3A2D09A16BB2D5A96CEEE66C2F9934F8AF9CEDB_il2cpp_TypeInfo_var);
+		Action_2__ctor_mCB8799E12AB6CA46E55E300245D89C3B2A3955E9(L_34, NULL, (intptr_t)((void*)DiagnosticsHandler_OnSendAsyncCompleted_m64603A110050958673D96E0892EE20324848B8F1_RuntimeMethod_var), NULL);
+		SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* L_35 = V_0;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_36;
+		L_36 = Task_ContinueWith_m0DCFBDCE81D5E39BD04277A2CBA00B76D5B85479(G_B4_0, L_34, L_35, ((int32_t)524288), NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsHandler/SendState::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendState__ctor_mB8B88DE6EEED157A4F2316B78925D3295BAD16DB (SendState_t1BAC864E67898182B54C4EDB04FFE59CD5C08DAD* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsHandler::.ctor(Unity.Services.Core.Telemetry.Internal.TelemetryConfig,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>,Unity.Services.Core.Telemetry.Internal.TelemetrySender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsHandler__ctor_mA99FCDF9FE29231858F71CBBE47319B1FE748567 (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* ___config0, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___cache1, RuntimeObject* ___scheduler2, RuntimeObject* ___cachePersister3, TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* ___sender4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AotHelper_EnsureType_TisStringEnumConverter_t7C66875DF7AB0719190AEEF8924A99F49C480184_m6A1C428F1F47D693B537597E785391C4D42AD480_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AotHelper_t25AEE9B481C82E565752D5B778B28D4BD372D674_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// : base(config, cache, scheduler, cachePersister, sender)
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_0 = ___config0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_1 = ___cache1;
+		RuntimeObject* L_2 = ___scheduler2;
+		RuntimeObject* L_3 = ___cachePersister3;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_4 = ___sender4;
+		TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8(__this, L_0, L_1, L_2, L_3, L_4, TelemetryHandler_2__ctor_mDBFA06496CA614C25F7E28173EC8D521B4F01DC8_RuntimeMethod_var);
+		// AotHelper.EnsureType<StringEnumConverter>();
+		il2cpp_codegen_runtime_class_init_inline(AotHelper_t25AEE9B481C82E565752D5B778B28D4BD372D674_il2cpp_TypeInfo_var);
+		AotHelper_EnsureType_TisStringEnumConverter_t7C66875DF7AB0719190AEEF8924A99F49C480184_m6A1C428F1F47D693B537597E785391C4D42AD480(AotHelper_EnsureType_TisStringEnumConverter_t7C66875DF7AB0719190AEEF8924A99F49C480184_m6A1C428F1F47D693B537597E785391C4D42AD480_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsHandler::SendPersistedCache(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsHandler_SendPersistedCache_m2B7EBCE94FE28C1AE4FEAF232DBE2E518642D056 (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* ___persistedCache0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_0 = ___persistedCache0;
+		(&V_0)->___persistedCache_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___persistedCache_0), (void*)L_0);
+		(&V_0)->___U3CU3E4__this_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_1), (void*)__this);
+		// if (!AreMetricsOutdated())
+		bool L_1;
+		L_1 = MetricsHandler_U3CSendPersistedCacheU3Eg__AreMetricsOutdatedU7C1_0_mB5A2589A6176921768AA96F769F3AB52B412FAEC(__this, (&V_0), NULL);
+		if (L_1)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		// m_Sender.SendAsync(persistedCache.Payload);
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_2 = ((TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*)__this)->___m_Sender_2;
+		U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A L_3 = V_0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_4 = L_3.___persistedCache_0;
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B L_5 = L_4->___Payload_1;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
+		L_6 = TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638(L_2, L_5, TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_RuntimeMethod_var);
+	}
+
+IL_0031:
+	{
+		// m_CachePersister.Delete();
+		RuntimeObject* L_7 = ((TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*)__this)->___m_CachePersister_1;
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>::Delete() */, ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var, L_7);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsHandler::FetchSpecificCommonTags(Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsHandler_FetchSpecificCommonTags_m6156B375125D3A277F843AC77D1B7E548EDE0A7F (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, RuntimeObject* ___cloudProjectId0, RuntimeObject* ___environments1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Cache.Payload.MetricsCommonTags.Clear();
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_0;
+		L_0 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(__this, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* L_1 = (&L_0->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_2 = L_1->___MetricsCommonTags_2;
+		Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586(L_2, Dictionary_2_Clear_m96A01966628B0B9F973D4E29050CC769B116A586_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsHandler::SendCachedPayload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsHandler_SendCachedPayload_mD5D0D6C9FDCE3620C4CA330F405A3C2C9C48010B (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (Cache.Payload.Metrics.Count <= 0)
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_0;
+		L_0 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(__this, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* L_1 = (&L_0->___Payload_1);
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_2 = L_1->___Metrics_0;
+		int32_t L_3;
+		L_3 = List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_inline(L_2, List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_RuntimeMethod_var);
+		if ((((int32_t)L_3) > ((int32_t)0)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0019:
+	{
+		// m_Sender.SendAsync(Cache.Payload);
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_4 = ((TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*)__this)->___m_Sender_2;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_5;
+		L_5 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(__this, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B L_6 = L_5->___Payload_1;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_7;
+		L_7 = TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638(L_4, L_6, TelemetrySender_SendAsync_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_mF66284D211194613C885C35CBC71723EF57E8638_RuntimeMethod_var);
+		// Cache.Payload.Metrics.Clear();
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_8;
+		L_8 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(__this, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* L_9 = (&L_8->___Payload_1);
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_10 = L_9->___Metrics_0;
+		List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_inline(L_10, List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_RuntimeMethod_var);
+		// Cache.TimeOfOccurenceTicks = 0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_11;
+		L_11 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(__this, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		L_11->___TimeOfOccurenceTicks_0 = ((int64_t)0);
+		// if (m_CachePersister.CanPersist)
+		RuntimeObject* L_12 = ((TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*)__this)->___m_CachePersister_1;
+		bool L_13;
+		L_13 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>::get_CanPersist() */, ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var, L_12);
+		if (!L_13)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		// m_CachePersister.Delete();
+		RuntimeObject* L_14 = ((TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0*)__this)->___m_CachePersister_1;
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Unity.Services.Core.Telemetry.Internal.ICachePersister`1<Unity.Services.Core.Telemetry.Internal.MetricsPayload>::Delete() */, ICachePersister_1_tF7A5B105765FB6A2DF9281C7FD48BBAE8DC7189C_il2cpp_TypeInfo_var, L_14);
+	}
+
+IL_006a:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.MetricsHandler::<SendPersistedCache>g__AreMetricsOutdated|1_0(Unity.Services.Core.Telemetry.Internal.MetricsHandler/<>c__DisplayClass1_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MetricsHandler_U3CSendPersistedCacheU3Eg__AreMetricsOutdatedU7C1_0_mB5A2589A6176921768AA96F769F3AB52B412FAEC (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* __this, U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A* p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var differenceFromUtcNow = DateTime.UtcNow - new DateTime(persistedCache.TimeOfOccurenceTicks);
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
+		L_0 = DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA(NULL);
+		U3CU3Ec__DisplayClass1_0_t3D6D1D3DE0606CD7655DDBBD1B4FE0030B982A1A* L_1 = p0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_2 = L_1->___persistedCache_0;
+		int64_t L_3 = L_2->___TimeOfOccurenceTicks_0;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		DateTime__ctor_m64AFCE84ABB24698256EB9F635EFD0A221823441((&L_4), L_3, /*hidden argument*/NULL);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_5;
+		L_5 = DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123(L_0, L_4, NULL);
+		V_0 = L_5;
+		// return differenceFromUtcNow.TotalSeconds > Config.PayloadExpirationSeconds;
+		double L_6;
+		L_6 = TimeSpan_get_TotalSeconds_mED686E7CECE6A76A7DC38518698B9199DB8CDEA8((&V_0), NULL);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_7;
+		L_7 = TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_inline(__this, TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_RuntimeMethod_var);
+		double L_8 = L_7->___PayloadExpirationSeconds_2;
+		return (bool)((((double)L_6) > ((double)L_8))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Unity.Services.Core.Telemetry.Internal.TelemetryHandler::FormatOperatingSystemInfo(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TelemetryHandler_FormatOperatingSystemInfo_mEE68BAEE487E5AA2A841905B5A050B7ECF8204F4 (String_t* ___rawOsInfo0, const RuntimeMethod* method) 
+{
+	{
+		// return rawOsInfo;
+		String_t* L_0 = ___rawOsInfo0;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryHandler__ctor_mDB78AFAD4EB8C244BE71A1B79383CD6409110D32 (TelemetryHandler_t7692C25504218338692D86878A355488B828A13C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m0FF24497F094E3715E22B3CD54F4375C4587E6DB (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* __this, String_t* ___name0, double ___value1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_m3BC8CBF924E4A55F812DAD8DDA20795B39C12600 (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* __this, String_t* ___name0, double ___time1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_mB40257CB1987903E960F7A27BC4FB83FF6705724 (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* __this, String_t* ___name0, double ___value1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetrics::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetrics__ctor_mED3AD0A9283DB0685B28202DE0ED41849D0FC3CD (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory::Unity.Services.Core.Telemetry.Internal.IMetricsFactory.get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DisabledMetricsFactory_Unity_Services_Core_Telemetry_Internal_IMetricsFactory_get_CommonTags_m21C88307D510EAFD5B1615A11E54A2412930288C (DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6* __this, const RuntimeMethod* method) 
+{
+	{
+		// IReadOnlyDictionary<string, string> IMetricsFactory.CommonTags { get; }
+		RuntimeObject* L_0 = __this->___U3CUnity_Services_Core_Telemetry_Internal_IMetricsFactory_CommonTagsU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.IMetrics Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory::Unity.Services.Core.Telemetry.Internal.IMetricsFactory.Create(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DisabledMetricsFactory_Unity_Services_Core_Telemetry_Internal_IMetricsFactory_Create_m837C4BEC6FE6FEB5AC854A3DD19D2E5400A3D284 (DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6* __this, String_t* ___packageName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IMetrics IMetricsFactory.Create(string packageName) => new DisabledMetrics();
+		DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338* L_0 = (DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338*)il2cpp_codegen_object_new(DisabledMetrics_tDD1FEF93B7BF27F4AF3ED32521415AEE0769C338_il2cpp_TypeInfo_var);
+		DisabledMetrics__ctor_mED3AD0A9283DB0685B28202DE0ED41849D0FC3CD(L_0, NULL);
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DisabledMetricsFactory::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisabledMetricsFactory__ctor_m9C673FABB9E5C1B95DC3AAF81ED8A8ADCB35C65E (DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// = new Dictionary<string, string>();
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		__this->___U3CUnity_Services_Core_Telemetry_Internal_IMetricsFactory_CommonTagsU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUnity_Services_Core_Telemetry_Internal_IMetricsFactory_CommonTagsU3Ek__BackingField_0), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.Metrics::get_Handler()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal MetricsHandler Handler { get; }
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = __this->___U3CHandlerU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.Metrics::get_PackageTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Metrics_get_PackageTags_m115CC30318BB63CEFCC31F54F4049C4D78DC0472 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal IDictionary<string, string> PackageTags { get; }
+		RuntimeObject* L_0 = __this->___U3CPackageTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Metrics::.ctor(Unity.Services.Core.Telemetry.Internal.MetricsHandler,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_mB1E2387D26E6A7CF77FA50A7240FC8CBA12F2368 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___handler0, RuntimeObject* ___packageTags1, const RuntimeMethod* method) 
+{
+	{
+		// public Metrics(MetricsHandler handler, IDictionary<string, string> packageTags)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handler = handler;
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = ___handler0;
+		__this->___U3CHandlerU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHandlerU3Ek__BackingField_0), (void*)L_0);
+		// PackageTags = packageTags;
+		RuntimeObject* L_1 = ___packageTags1;
+		__this->___U3CPackageTagsU3Ek__BackingField_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPackageTagsU3Ek__BackingField_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.Metric Unity.Services.Core.Telemetry.Internal.Metrics::CreateMetric(System.String,System.Double,Unity.Services.Core.Telemetry.Internal.MetricType,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 Metrics_CreateMetric_m9024DA7257F4F1E8F0F18870FE29E5A6347EE11F (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___name0, double ___value1, int32_t ___type2, RuntimeObject* ___tags3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DictionaryExtensions_MergeAllowOverride_TisIDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_TisString_t_TisString_t_m2D5D98C51F556720066C9CB1EE05C8290D306079_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3* G_B2_0 = NULL;
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3* G_B1_0 = NULL;
+	RuntimeObject* G_B3_0 = NULL;
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3* G_B3_1 = NULL;
+	{
+		// var metric = new Metric
+		// {
+		//     Name = name,
+		//     Value = value,
+		//     Type = type,
+		//     Tags = tags is null ? PackageTags : tags.MergeAllowOverride(PackageTags),
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3));
+		String_t* L_0 = ___name0;
+		(&V_0)->___Name_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___Name_0), (void*)L_0);
+		double L_1 = ___value1;
+		(&V_0)->___Value_1 = L_1;
+		int32_t L_2 = ___type2;
+		(&V_0)->___Type_2 = L_2;
+		RuntimeObject* L_3 = ___tags3;
+		G_B1_0 = (&V_0);
+		if (!L_3)
+		{
+			G_B2_0 = (&V_0);
+			goto IL_0035;
+		}
+	}
+	{
+		RuntimeObject* L_4 = ___tags3;
+		RuntimeObject* L_5;
+		L_5 = Metrics_get_PackageTags_m115CC30318BB63CEFCC31F54F4049C4D78DC0472_inline(__this, NULL);
+		RuntimeObject* L_6;
+		L_6 = DictionaryExtensions_MergeAllowOverride_TisIDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_TisString_t_TisString_t_m2D5D98C51F556720066C9CB1EE05C8290D306079(L_4, L_5, DictionaryExtensions_MergeAllowOverride_TisIDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF_TisString_t_TisString_t_m2D5D98C51F556720066C9CB1EE05C8290D306079_RuntimeMethod_var);
+		G_B3_0 = L_6;
+		G_B3_1 = G_B1_0;
+		goto IL_003b;
+	}
+
+IL_0035:
+	{
+		RuntimeObject* L_7;
+		L_7 = Metrics_get_PackageTags_m115CC30318BB63CEFCC31F54F4049C4D78DC0472_inline(__this, NULL);
+		G_B3_0 = L_7;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_003b:
+	{
+		G_B3_1->___Tags_3 = G_B3_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___Tags_3), (void*)G_B3_0);
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_8 = V_0;
+		// return metric;
+		return L_8;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Metrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___name0, double ___value1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var metric = CreateMetric(name, value, MetricType.Gauge, tags);
+		String_t* L_0 = ___name0;
+		double L_1 = ___value1;
+		RuntimeObject* L_2 = ___tags2;
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_3;
+		L_3 = Metrics_CreateMetric_m9024DA7257F4F1E8F0F18870FE29E5A6347EE11F(__this, L_0, L_1, 0, L_2, NULL);
+		V_0 = L_3;
+		// Handler.Register(metric);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_4;
+		L_4 = Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6_inline(__this, NULL);
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_5 = V_0;
+		TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB(L_4, L_5, TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Metrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___name0, double ___time1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var metric = CreateMetric(name, time, MetricType.Histogram, tags);
+		String_t* L_0 = ___name0;
+		double L_1 = ___time1;
+		RuntimeObject* L_2 = ___tags2;
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_3;
+		L_3 = Metrics_CreateMetric_m9024DA7257F4F1E8F0F18870FE29E5A6347EE11F(__this, L_0, L_1, 2, L_2, NULL);
+		V_0 = L_3;
+		// Handler.Register(metric);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_4;
+		L_4 = Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6_inline(__this, NULL);
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_5 = V_0;
+		TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB(L_4, L_5, TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.Metrics::Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(System.String,System.Double,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___name0, double ___value1, RuntimeObject* ___tags2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var metric = CreateMetric(name, value, MetricType.Sum, tags);
+		String_t* L_0 = ___name0;
+		double L_1 = ___value1;
+		RuntimeObject* L_2 = ___tags2;
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_3;
+		L_3 = Metrics_CreateMetric_m9024DA7257F4F1E8F0F18870FE29E5A6347EE11F(__this, L_0, L_1, 1, L_2, NULL);
+		V_0 = L_3;
+		// Handler.Register(metric);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_4;
+		L_4 = Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6_inline(__this, NULL);
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_5 = V_0;
+		TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB(L_4, L_5, TelemetryHandler_2_Register_m75836815F537898F8E9388A5E3E0AC11A2E12BEB_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsFactory::get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IReadOnlyDictionary<string, string> CommonTags { get; }
+		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.MetricsHandler Unity.Services.Core.Telemetry.Internal.MetricsFactory::get_Handler()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* MetricsFactory_get_Handler_mEEC4790D8D67895DDDB3AC14E796F260A8B9780A (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal MetricsHandler Handler { get; }
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = __this->___U3CHandlerU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsFactory::.ctor(Unity.Services.Core.Telemetry.Internal.MetricsHandler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mA1187E29AC3E1EDC2A11A8FB63C1AF0F91C27ED0 (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* ___handler0, RuntimeObject* ___projectConfig1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public MetricsFactory(MetricsHandler handler, IProjectConfiguration projectConfig)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Handler = handler;
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = ___handler0;
+		__this->___U3CHandlerU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHandlerU3Ek__BackingField_2), (void*)L_0);
+		// m_ProjectConfig = projectConfig;
+		RuntimeObject* L_1 = ___projectConfig1;
+		__this->___m_ProjectConfig_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProjectConfig_0), (void*)L_1);
+		// CommonTags = new Dictionary<string, string>(handler.Cache.Payload.CommonTags)
+		//     .MergeAllowOverride(handler.Cache.Payload.MetricsCommonTags);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_2 = ___handler0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_3;
+		L_3 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(L_2, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* L_4 = (&L_3->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_5 = L_4->___CommonTags_1;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_6 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_6, L_5, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_7 = ___handler0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_8;
+		L_8 = TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_inline(L_7, TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_RuntimeMethod_var);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* L_9 = (&L_8->___Payload_1);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_10 = L_9->___MetricsCommonTags_2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_11;
+		L_11 = DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F(L_6, L_10, DictionaryExtensions_MergeAllowOverride_TisDictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_TisString_t_TisString_t_m4A386C7FA6BA2824CB5BCC50DCC3A157679E9E1F_RuntimeMethod_var);
+		__this->___U3CCommonTagsU3Ek__BackingField_1 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCommonTagsU3Ek__BackingField_1), (void*)L_11);
+		// }
+		return;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.IMetrics Unity.Services.Core.Telemetry.Internal.MetricsFactory::Create(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46 (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, String_t* ___packageName0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	{
+		// if (string.IsNullOrEmpty(packageName))
+		String_t* L_0 = ___packageName0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// throw new ArgumentNullException(nameof(packageName));
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_2 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3B77922C3A2E8F89E4C7359003D66665B608BA30)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46_RuntimeMethod_var)));
+	}
+
+IL_0013:
+	{
+		// var packageTags = FactoryUtils.CreatePackageTags(m_ProjectConfig, packageName);
+		RuntimeObject* L_3 = __this->___m_ProjectConfig_0;
+		String_t* L_4 = ___packageName0;
+		RuntimeObject* L_5;
+		L_5 = FactoryUtils_CreatePackageTags_m41A469956CFED4A1038991A74F8FDED5506D7D65(L_3, L_4, NULL);
+		V_0 = L_5;
+		// var metrics = new Metrics(Handler, packageTags);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_6;
+		L_6 = MetricsFactory_get_Handler_mEEC4790D8D67895DDDB3AC14E796F260A8B9780A_inline(__this, NULL);
+		RuntimeObject* L_7 = V_0;
+		Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* L_8 = (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1*)il2cpp_codegen_object_new(Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var);
+		Metrics__ctor_mB1E2387D26E6A7CF77FA50A7240FC8CBA12F2368(L_8, L_6, L_7, NULL);
+		// return metrics;
+		return L_8;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.Diagnostic
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_pinvoke(const Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A& unmarshaled, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Content_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Content' of type 'Diagnostic'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Content_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_pinvoke_back(const Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_pinvoke& marshaled, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A& unmarshaled)
+{
+	Exception_t* ___Content_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Content' of type 'Diagnostic'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Content_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.Diagnostic
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_pinvoke_cleanup(Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.Diagnostic
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_com(const Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A& unmarshaled, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_com& marshaled)
+{
+	Exception_t* ___Content_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Content' of type 'Diagnostic'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Content_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_com_back(const Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_com& marshaled, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A& unmarshaled)
+{
+	Exception_t* ___Content_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Content' of type 'Diagnostic'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Content_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.Diagnostic
+IL2CPP_EXTERN_C void Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshal_com_cleanup(Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_pinvoke(const DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD& unmarshaled, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Diagnostics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Diagnostics' of type 'DiagnosticsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Diagnostics_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_pinvoke_back(const DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_pinvoke& marshaled, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD& unmarshaled)
+{
+	Exception_t* ___Diagnostics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Diagnostics' of type 'DiagnosticsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Diagnostics_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_pinvoke_cleanup(DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_com(const DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD& unmarshaled, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_com& marshaled)
+{
+	Exception_t* ___Diagnostics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Diagnostics' of type 'DiagnosticsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Diagnostics_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_com_back(const DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_com& marshaled, DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD& unmarshaled)
+{
+	Exception_t* ___Diagnostics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Diagnostics' of type 'DiagnosticsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Diagnostics_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload
+IL2CPP_EXTERN_C void DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshal_com_cleanup(DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_marshaled_com& marshaled)
+{
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) 
+{
+	{
+		// Dictionary<string, string> ITelemetryPayload.CommonTags => CommonTags;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = __this->___CommonTags_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD*>(__this + _offset);
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* _returnValue;
+	_returnValue = DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Int32 Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_m1D942807C7387C00A179CD6B5B80E859F42FD22D (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* G_B2_0 = NULL;
+	List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* G_B1_0 = NULL;
+	{
+		// int ITelemetryPayload.Count => Diagnostics?.Count ?? 0;
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_0 = __this->___Diagnostics_0;
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_000c:
+	{
+		int32_t L_2;
+		L_2 = List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_inline(G_B2_0, List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_RuntimeMethod_var);
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  int32_t DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_m1D942807C7387C00A179CD6B5B80E859F42FD22D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_m1D942807C7387C00A179CD6B5B80E859F42FD22D(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.Add(Unity.Services.Core.Telemetry.Internal.ITelemetryEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3 (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// if (!(telemetryEvent is Diagnostic diagnostic))
+		RuntimeObject* L_0 = ___telemetryEvent0;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___telemetryEvent0;
+		V_0 = ((*(Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A*)((Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A*)(Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A*)UnBox(L_1, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A_il2cpp_TypeInfo_var))));
+		goto IL_001c;
+	}
+
+IL_0011:
+	{
+		// throw new ArgumentException("This payload accepts only Diagnostic events.");
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral92E679ED3523A4085D0D6AE912EAE820BE235580)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3_RuntimeMethod_var)));
+	}
+
+IL_001c:
+	{
+		// if (Diagnostics is null)
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_3 = __this->___Diagnostics_0;
+		if (L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// Diagnostics = new List<Diagnostic>(1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_4 = (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*)il2cpp_codegen_object_new(List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B(L_4, 1, List_1__ctor_mDE8FD2CC867BCFD8DDDF78483279A5AB2B16DB0B_RuntimeMethod_var);
+		__this->___Diagnostics_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Diagnostics_0), (void*)L_4);
+	}
+
+IL_0030:
+	{
+		// Diagnostics.Add(diagnostic);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_5 = __this->___Diagnostics_0;
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_6 = V_0;
+		List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_inline(L_5, L_6, List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method)
+{
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD*>(__this + _offset);
+	DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m0356DD93E34EC022453F77FB555AA32FDA4B59B3(_thisAdjusted, ___telemetryEvent0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.Metric
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_pinvoke(const Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3& unmarshaled, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Tags_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Tags' of type 'Metric'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Tags_3Exception, NULL);
+}
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_pinvoke_back(const Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_pinvoke& marshaled, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3& unmarshaled)
+{
+	Exception_t* ___Tags_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Tags' of type 'Metric'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Tags_3Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.Metric
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_pinvoke_cleanup(Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.Metric
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_com(const Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3& unmarshaled, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_com& marshaled)
+{
+	Exception_t* ___Tags_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Tags' of type 'Metric'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Tags_3Exception, NULL);
+}
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_com_back(const Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_com& marshaled, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3& unmarshaled)
+{
+	Exception_t* ___Tags_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Tags' of type 'Metric'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Tags_3Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.Metric
+IL2CPP_EXTERN_C void Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshal_com_cleanup(Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.MetricsPayload
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_pinvoke(const MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B& unmarshaled, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___Metrics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Metrics' of type 'MetricsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Metrics_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_pinvoke_back(const MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_pinvoke& marshaled, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B& unmarshaled)
+{
+	Exception_t* ___Metrics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Metrics' of type 'MetricsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Metrics_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.MetricsPayload
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_pinvoke_cleanup(MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.MetricsPayload
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_com(const MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B& unmarshaled, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_com& marshaled)
+{
+	Exception_t* ___Metrics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Metrics' of type 'MetricsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Metrics_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_com_back(const MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_com& marshaled, MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B& unmarshaled)
+{
+	Exception_t* ___Metrics_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'Metrics' of type 'MetricsPayload'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___Metrics_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.MetricsPayload
+IL2CPP_EXTERN_C void MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshal_com_cleanup(MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_marshaled_com& marshaled)
+{
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_CommonTags()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) 
+{
+	{
+		// Dictionary<string, string> ITelemetryPayload.CommonTags => CommonTags;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = __this->___CommonTags_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B*>(__this + _offset);
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* _returnValue;
+	_returnValue = MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Int32 Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_mF732FDB3D275692B5204AB3C6F918D7135D0E2D0 (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* G_B2_0 = NULL;
+	List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* G_B1_0 = NULL;
+	{
+		// int ITelemetryPayload.Count => Metrics?.Count ?? 0;
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_0 = __this->___Metrics_0;
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_000c:
+	{
+		int32_t L_2;
+		L_2 = List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_inline(G_B2_0, List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_RuntimeMethod_var);
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  int32_t MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_mF732FDB3D275692B5204AB3C6F918D7135D0E2D0_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_Count_mF732FDB3D275692B5204AB3C6F918D7135D0E2D0(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.MetricsPayload::Unity.Services.Core.Telemetry.Internal.ITelemetryPayload.Add(Unity.Services.Core.Telemetry.Internal.ITelemetryEvent)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// if (!(telemetryEvent is Metric metric))
+		RuntimeObject* L_0 = ___telemetryEvent0;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___telemetryEvent0;
+		V_0 = ((*(Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3*)((Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3*)(Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3*)UnBox(L_1, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_il2cpp_TypeInfo_var))));
+		goto IL_001c;
+	}
+
+IL_0011:
+	{
+		// throw new ArgumentException("This payload accepts only Metric events.");
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral823AF51D12FCD183C3A2AABB30CAFA6C05DC54B6)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C_RuntimeMethod_var)));
+	}
+
+IL_001c:
+	{
+		// if (Metrics is null)
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_3 = __this->___Metrics_0;
+		if (L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// Metrics = new List<Metric>(1);
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_4 = (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*)il2cpp_codegen_object_new(List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_il2cpp_TypeInfo_var);
+		List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA(L_4, 1, List_1__ctor_m24AC156E244B49B87728E8F3C10F3052A38523FA_RuntimeMethod_var);
+		__this->___Metrics_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Metrics_0), (void*)L_4);
+	}
+
+IL_0030:
+	{
+		// Metrics.Add(metric);
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_5 = __this->___Metrics_0;
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_6 = V_0;
+		List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_inline(L_5, L_6, List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___telemetryEvent0, const RuntimeMethod* method)
+{
+	MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B*>(__this + _offset);
+	MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_Add_m3A2A212B08D337BCEC1A4679361D431B3D728D5C(_thisAdjusted, ___telemetryEvent0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::get_MaxTryCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ExponentialBackOffRetryPolicy_get_MaxTryCount_m5D037BB60787C66A7F8CF71E321B8EC528972D01 (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_MaxTryCount;
+		int32_t L_0 = __this->___m_MaxTryCount_0;
+		return L_0;
+	}
+}
+// System.Single Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::get_BaseDelaySeconds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ExponentialBackOffRetryPolicy_get_BaseDelaySeconds_m62C2D27786AB3A7635D09E79C3F92CA472782087 (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_BaseDelaySeconds;
+		float L_0 = __this->___m_BaseDelaySeconds_1;
+		return L_0;
+	}
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::CanRetry(Unity.Services.Core.Telemetry.Internal.WebRequest,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExponentialBackOffRetryPolicy_CanRetry_mDFBDB80F7CAD2273DD2D3DCE8E01573E8CA862F6 (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___webRequest0, int32_t ___sendCount1, const RuntimeMethod* method) 
+{
+	{
+		// return sendCount < MaxTryCount
+		//     && IsTransientError(webRequest);
+		int32_t L_0 = ___sendCount1;
+		int32_t L_1;
+		L_1 = ExponentialBackOffRetryPolicy_get_MaxTryCount_m5D037BB60787C66A7F8CF71E321B8EC528972D01_inline(__this, NULL);
+		if ((((int32_t)L_0) >= ((int32_t)L_1)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_2 = ___webRequest0;
+		bool L_3;
+		L_3 = ExponentialBackOffRetryPolicy_IsTransientError_mBBAC8E2C5F932D2676EA50CCFA0A36595E30046E(L_2, NULL);
+		return L_3;
+	}
+
+IL_0010:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::IsTransientError(Unity.Services.Core.Telemetry.Internal.WebRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExponentialBackOffRetryPolicy_IsTransientError_mBBAC8E2C5F932D2676EA50CCFA0A36595E30046E (WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___webRequest0, const RuntimeMethod* method) 
+{
+	{
+		// return webRequest.Result == WebRequestResult.ConnectionError
+		//     || webRequest.Result == WebRequestResult.ProtocolError && IsServerErrorCode(webRequest.ResponseCode);
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_0 = ___webRequest0;
+		int32_t L_1 = L_0.___Result_0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_2 = ___webRequest0;
+		int32_t L_3 = L_2.___Result_0;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_4 = ___webRequest0;
+		int64_t L_5 = L_4.___ResponseCode_3;
+		bool L_6;
+		L_6 = ExponentialBackOffRetryPolicy_U3CIsTransientErrorU3Eg__IsServerErrorCodeU7C9_0_mA06AE32C5A2AAF0575751BFD9C55342CBDEE5315(L_5, NULL);
+		return L_6;
+	}
+
+IL_001e:
+	{
+		return (bool)0;
+	}
+
+IL_0020:
+	{
+		return (bool)1;
+	}
+}
+// System.Single Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::GetDelayBeforeSendingSeconds(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ExponentialBackOffRetryPolicy_GetDelayBeforeSendingSeconds_mB6231AE06EB810767C8D84425D2DED0CD1CBE1A3 (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, int32_t ___sendCount0, const RuntimeMethod* method) 
+{
+	{
+		// if (sendCount <= 0)
+		int32_t L_0 = ___sendCount0;
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		// return BaseDelaySeconds;
+		float L_1;
+		L_1 = ExponentialBackOffRetryPolicy_get_BaseDelaySeconds_m62C2D27786AB3A7635D09E79C3F92CA472782087_inline(__this, NULL);
+		return L_1;
+	}
+
+IL_000b:
+	{
+		// return Mathf.Pow(BaseDelaySeconds, sendCount);
+		float L_2;
+		L_2 = ExponentialBackOffRetryPolicy_get_BaseDelaySeconds_m62C2D27786AB3A7635D09E79C3F92CA472782087_inline(__this, NULL);
+		int32_t L_3 = ___sendCount0;
+		float L_4;
+		L_4 = powf(L_2, ((float)L_3));
+		return L_4;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExponentialBackOffRetryPolicy__ctor_m7A6BA95E28DC18CBF7F44BE204AF156CB341BF5E (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) 
+{
+	{
+		// int m_MaxTryCount = 10;
+		__this->___m_MaxTryCount_0 = ((int32_t)10);
+		// float m_BaseDelaySeconds = 2;
+		__this->___m_BaseDelaySeconds_1 = (2.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy::<IsTransientError>g__IsServerErrorCode|9_0(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExponentialBackOffRetryPolicy_U3CIsTransientErrorU3Eg__IsServerErrorCodeU7C9_0_mA06AE32C5A2AAF0575751BFD9C55342CBDEE5315 (int64_t ___responseCode0, const RuntimeMethod* method) 
+{
+	{
+		// return responseCode >= 500
+		//     && responseCode < 600;
+		int64_t L_0 = ___responseCode0;
+		if ((((int64_t)L_0) < ((int64_t)((int64_t)((int32_t)500)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int64_t L_1 = ___responseCode0;
+		return (bool)((((int64_t)L_1) < ((int64_t)((int64_t)((int32_t)600))))? 1 : 0);
+	}
+
+IL_0013:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Unity.Services.Core.Telemetry.Internal.TelemetrySender::get_TargetUrl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TelemetrySender_get_TargetUrl_mA9EEA023222BEE40368C40D2293C5A2E917C878F (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string TargetUrl { get; }
+		String_t* L_0 = __this->___U3CTargetUrlU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetrySender::.ctor(System.String,System.String,Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Telemetry.Internal.ExponentialBackOffRetryPolicy,Unity.Services.Core.Telemetry.Internal.IUnityWebRequestSender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetrySender__ctor_m6D1AC5118C8D4576859151AF9E6B32681CAC0285 (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, String_t* ___targetUrl0, String_t* ___servicePath1, RuntimeObject* ___scheduler2, ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* ___retryPolicy3, RuntimeObject* ___requestSender4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public TelemetrySender(
+		//     [NotNull] string targetUrl, [NotNull] string servicePath,
+		//     [NotNull] IActionScheduler scheduler, [NotNull] ExponentialBackOffRetryPolicy retryPolicy,
+		//     [NotNull] IUnityWebRequestSender requestSender)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// TargetUrl = $"{targetUrl}/{servicePath}";
+		String_t* L_0 = ___targetUrl0;
+		String_t* L_1 = ___servicePath1;
+		String_t* L_2;
+		L_2 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_0, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, L_1, NULL);
+		__this->___U3CTargetUrlU3Ek__BackingField_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTargetUrlU3Ek__BackingField_0), (void*)L_2);
+		// m_RetryPolicy = retryPolicy;
+		ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* L_3 = ___retryPolicy3;
+		__this->___m_RetryPolicy_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RetryPolicy_1), (void*)L_3);
+		// m_Scheduler = scheduler;
+		RuntimeObject* L_4 = ___scheduler2;
+		__this->___m_Scheduler_2 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Scheduler_2), (void*)L_4);
+		// m_RequestSender = requestSender;
+		RuntimeObject* L_5 = ___requestSender4;
+		__this->___m_RequestSender_3 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RequestSender_3), (void*)L_5);
+		// }
+		return;
+	}
+}
+// UnityEngine.Networking.UnityWebRequest Unity.Services.Core.Telemetry.Internal.TelemetrySender::CreateRequest(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* TelemetrySender_CreateRequest_m07F21575D6C83E478EC2CB75F659BCE7C8CB0872 (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___serializedPayload0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B58EBE31E594BF8FA4BEA3CD075473149322B18);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// var request = new UnityWebRequest(TargetUrl, UnityWebRequest.kHttpVerbPOST)
+		// {
+		//     uploadHandler = new UploadHandlerRaw(serializedPayload)
+		//     {
+		//         contentType = UnityWebRequestUtils.JsonContentType,
+		//     },
+		//     downloadHandler = new DownloadHandlerBuffer()
+		// };
+		String_t* L_0;
+		L_0 = TelemetrySender_get_TargetUrl_mA9EEA023222BEE40368C40D2293C5A2E917C878F_inline(__this, NULL);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)il2cpp_codegen_object_new(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
+		UnityWebRequest__ctor_mD4739B0BF1C4937479A83B24B531C6B819712A3E(L_1, L_0, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D, NULL);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = L_1;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___serializedPayload0;
+		UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A* L_4 = (UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A*)il2cpp_codegen_object_new(UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A_il2cpp_TypeInfo_var);
+		UploadHandlerRaw__ctor_m168C957B67E29CB3072E3542044D37E2F16C42B7(L_4, L_3, NULL);
+		UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A* L_5 = L_4;
+		UploadHandler_set_contentType_mEFF2D2512996DFFF2BFC013388B702078BDC73F3(L_5, _stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E, NULL);
+		UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE(L_2, L_5, NULL);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = L_2;
+		DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974* L_7 = (DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974*)il2cpp_codegen_object_new(DownloadHandlerBuffer_t34C626F6513FA9A44FDDDEE85455CF2CD9DA5974_il2cpp_TypeInfo_var);
+		DownloadHandlerBuffer__ctor_m5EE7C9E8AB468B2B937A7C9C66B4176A884147AF(L_7, NULL);
+		UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F(L_6, L_7, NULL);
+		// request.SetRequestHeader("Content-Type", UnityWebRequestUtils.JsonContentType);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = L_6;
+		UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5(L_8, _stringLiteral5B58EBE31E594BF8FA4BEA3CD075473149322B18, _stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E, NULL);
+		// return request;
+		return L_8;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender::SendRequest(UnityEngine.Networking.UnityWebRequest,System.Action`1<Unity.Services.Core.Telemetry.Internal.WebRequest>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequestSender_SendRequest_mF8D5821CFD78C4898D5A15E6DAE0DF690F76EFF4 (UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___request0, Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* ___callback1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass0_0_U3CSendRequestU3Eg__OnSendingRequestCompletedU7C0_mCE70F89C6945A063861F4DA4B5E3E241035FD99D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* L_0 = (U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass0_0__ctor_m3AB8EAE3A48780260FCF6D1BAA89331E56ECDA14(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* L_1 = V_0;
+		Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* L_2 = ___callback1;
+		L_1->___callback_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___callback_0), (void*)L_2);
+		// var sendingOperation = request.SendWebRequest();
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___request0;
+		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_4;
+		L_4 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_3, NULL);
+		// sendingOperation.completed += OnSendingRequestCompleted;
+		U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* L_5 = V_0;
+		Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* L_6 = (Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB*)il2cpp_codegen_object_new(Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB_il2cpp_TypeInfo_var);
+		Action_1__ctor_m33ABB7530487276910BEFB499A97D33FB2E06D7D(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CSendRequestU3Eg__OnSendingRequestCompletedU7C0_mCE70F89C6945A063861F4DA4B5E3E241035FD99D_RuntimeMethod_var), NULL);
+		AsyncOperation_add_completed_mD6F21BA8127D6D4B7ABDEFAA995A7A347A20A793(L_4, L_6, NULL);
+		// }
+		return;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.WebRequest Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender::Simplify(UnityEngine.Networking.UnityWebRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E UnityWebRequestSender_Simplify_mC187E0425D3956FD0178DD0DC7E1FCA1DB4039A9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___webRequest0, const RuntimeMethod* method) 
+{
+	WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	{
+		// var simplifiedRequest = new WebRequest
+		// {
+		//     ResponseCode = webRequest.responseCode,
+		// };
+		il2cpp_codegen_initobj((&V_1), sizeof(WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E));
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___webRequest0;
+		int64_t L_1;
+		L_1 = UnityWebRequest_get_responseCode_m012C177F61435D5D120A21D7A03FFF7B0F8B904B(L_0, NULL);
+		(&V_1)->___ResponseCode_3 = L_1;
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_2 = V_1;
+		V_0 = L_2;
+		// if (webRequest.HasSucceeded())
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___webRequest0;
+		bool L_4;
+		L_4 = UnityWebRequestUtils_HasSucceeded_m06CCE15DA3423C35C7629483DD6BEB166AE4C32D(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// simplifiedRequest.Result = WebRequestResult.Success;
+		(&V_0)->___Result_0 = 0;
+		goto IL_0075;
+	}
+
+IL_0029:
+	{
+		// switch (webRequest.result)
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___webRequest0;
+		int32_t L_6;
+		L_6 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_5, NULL);
+		V_2 = L_6;
+		int32_t L_7 = V_2;
+		if ((((int32_t)L_7) == ((int32_t)2)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		int32_t L_8 = V_2;
+		if ((((int32_t)L_8) == ((int32_t)3)))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		goto IL_004e;
+	}
+
+IL_003a:
+	{
+		// simplifiedRequest.Result = WebRequestResult.ConnectionError;
+		(&V_0)->___Result_0 = 1;
+		// break;
+		goto IL_0056;
+	}
+
+IL_0044:
+	{
+		// simplifiedRequest.Result = WebRequestResult.ProtocolError;
+		(&V_0)->___Result_0 = 2;
+		// break;
+		goto IL_0056;
+	}
+
+IL_004e:
+	{
+		// simplifiedRequest.Result = WebRequestResult.UnknownError;
+		(&V_0)->___Result_0 = 3;
+	}
+
+IL_0056:
+	{
+		// simplifiedRequest.ErrorMessage = webRequest.error;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_9 = ___webRequest0;
+		String_t* L_10;
+		L_10 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_9, NULL);
+		(&V_0)->___ErrorMessage_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___ErrorMessage_1), (void*)L_10);
+		// simplifiedRequest.ErrorBody = webRequest.downloadHandler.text;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_11 = ___webRequest0;
+		DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* L_12;
+		L_12 = UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5(L_11, NULL);
+		String_t* L_13;
+		L_13 = DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8(L_12, NULL);
+		(&V_0)->___ErrorBody_2 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___ErrorBody_2), (void*)L_13);
+	}
+
+IL_0075:
+	{
+		// return simplifiedRequest;
+		WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_14 = V_0;
+		return L_14;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequestSender__ctor_mFE6414F8B34BA9E4D7C18BA4FB0D1CA0E1E90B9A (UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m3AB8EAE3A48780260FCF6D1BAA89331E56ECDA14 (U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Unity.Services.Core.Telemetry.Internal.UnityWebRequestSender/<>c__DisplayClass0_0::<SendRequest>g__OnSendingRequestCompleted|0(UnityEngine.AsyncOperation)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CSendRequestU3Eg__OnSendingRequestCompletedU7C0_mCE70F89C6945A063861F4DA4B5E3E241035FD99D (U3CU3Ec__DisplayClass0_0_tDE54F8273B494250883D12CAD43A8B45B107445D* __this, AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___operation0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
+	WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// using (var webRequest = ((UnityWebRequestAsyncOperation)operation).webRequest)
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_0 = ___operation0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1;
+		L_1 = UnityWebRequestAsyncOperation_get_webRequest_mF67D15420C7C1C4DCA1BD6F839048A0542998BC3_inline(((UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C*)CastclassClass((RuntimeObject*)L_0, UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C_il2cpp_TypeInfo_var)), NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002b:
+			{// begin finally (depth: 1)
+				{
+					UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = V_0;
+					if (!L_2)
+					{
+						goto IL_0034;
+					}
+				}
+				{
+					UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = V_0;
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_3);
+				}
+
+IL_0034:
+				{
+					return;
+				}
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				// if (callback is null)
+				Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* L_4 = __this->___callback_0;
+				if (L_4)
+				{
+					goto IL_0016_1;
+				}
+			}
+			{
+				// return;
+				goto IL_0035;
+			}
+
+IL_0016_1:
+			{
+				// var simplifiedRequest = Simplify(webRequest);
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = V_0;
+				WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_6;
+				L_6 = UnityWebRequestSender_Simplify_mC187E0425D3956FD0178DD0DC7E1FCA1DB4039A9(L_5, NULL);
+				V_1 = L_6;
+				// callback(simplifiedRequest);
+				Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* L_7 = __this->___callback_0;
+				WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E L_8 = V_1;
+				Action_1_Invoke_m8B0C3F4FA0508CD1823F82CF8CD995A0C910DAFE_inline(L_7, L_8, NULL);
+				// }
+				goto IL_0035;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0035:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.WebRequest
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_pinvoke(const WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E& unmarshaled, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Result_0 = unmarshaled.___Result_0;
+	marshaled.___ErrorMessage_1 = il2cpp_codegen_marshal_string(unmarshaled.___ErrorMessage_1);
+	marshaled.___ErrorBody_2 = il2cpp_codegen_marshal_string(unmarshaled.___ErrorBody_2);
+	marshaled.___ResponseCode_3 = unmarshaled.___ResponseCode_3;
+}
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_pinvoke_back(const WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_pinvoke& marshaled, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E& unmarshaled)
+{
+	int32_t unmarshaledResult_temp_0 = 0;
+	unmarshaledResult_temp_0 = marshaled.___Result_0;
+	unmarshaled.___Result_0 = unmarshaledResult_temp_0;
+	unmarshaled.___ErrorMessage_1 = il2cpp_codegen_marshal_string_result(marshaled.___ErrorMessage_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___ErrorMessage_1), (void*)il2cpp_codegen_marshal_string_result(marshaled.___ErrorMessage_1));
+	unmarshaled.___ErrorBody_2 = il2cpp_codegen_marshal_string_result(marshaled.___ErrorBody_2);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___ErrorBody_2), (void*)il2cpp_codegen_marshal_string_result(marshaled.___ErrorBody_2));
+	int64_t unmarshaledResponseCode_temp_3 = 0;
+	unmarshaledResponseCode_temp_3 = marshaled.___ResponseCode_3;
+	unmarshaled.___ResponseCode_3 = unmarshaledResponseCode_temp_3;
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.WebRequest
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_pinvoke_cleanup(WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___ErrorMessage_1);
+	marshaled.___ErrorMessage_1 = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___ErrorBody_2);
+	marshaled.___ErrorBody_2 = NULL;
+}
+// Conversion methods for marshalling of: Unity.Services.Core.Telemetry.Internal.WebRequest
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_com(const WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E& unmarshaled, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_com& marshaled)
+{
+	marshaled.___Result_0 = unmarshaled.___Result_0;
+	marshaled.___ErrorMessage_1 = il2cpp_codegen_marshal_bstring(unmarshaled.___ErrorMessage_1);
+	marshaled.___ErrorBody_2 = il2cpp_codegen_marshal_bstring(unmarshaled.___ErrorBody_2);
+	marshaled.___ResponseCode_3 = unmarshaled.___ResponseCode_3;
+}
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_com_back(const WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_com& marshaled, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E& unmarshaled)
+{
+	int32_t unmarshaledResult_temp_0 = 0;
+	unmarshaledResult_temp_0 = marshaled.___Result_0;
+	unmarshaled.___Result_0 = unmarshaledResult_temp_0;
+	unmarshaled.___ErrorMessage_1 = il2cpp_codegen_marshal_bstring_result(marshaled.___ErrorMessage_1);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___ErrorMessage_1), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___ErrorMessage_1));
+	unmarshaled.___ErrorBody_2 = il2cpp_codegen_marshal_bstring_result(marshaled.___ErrorBody_2);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___ErrorBody_2), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___ErrorBody_2));
+	int64_t unmarshaledResponseCode_temp_3 = 0;
+	unmarshaledResponseCode_temp_3 = marshaled.___ResponseCode_3;
+	unmarshaled.___ResponseCode_3 = unmarshaledResponseCode_temp_3;
+}
+// Conversion method for clean up from marshalling of: Unity.Services.Core.Telemetry.Internal.WebRequest
+IL2CPP_EXTERN_C void WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshal_com_cleanup(WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___ErrorMessage_1);
+	marshaled.___ErrorMessage_1 = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___ErrorBody_2);
+	marshaled.___ErrorBody_2 = NULL;
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.WebRequest::get_IsSuccess()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebRequest_get_IsSuccess_m9E4F85136A009257104579C8342DEC50EB4F15E6 (WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsSuccess => Result == WebRequestResult.Success;
+		int32_t L_0 = __this->___Result_0;
+		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+IL2CPP_EXTERN_C  bool WebRequest_get_IsSuccess_m9E4F85136A009257104579C8342DEC50EB4F15E6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = WebRequest_get_IsSuccess_m9E4F85136A009257104579C8342DEC50EB4F15E6(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.TelemetryConfig::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryConfig__ctor_m36010D53C70E15DC09BA4B8E36AF1666DE4F97A6 (TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Services.Core.Telemetry.Internal.CacheExtensions::AddRangeFrom(Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>,Unity.Services.Core.Telemetry.Internal.CachedPayload`1<Unity.Services.Core.Telemetry.Internal.DiagnosticsPayload>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CacheExtensions_AddRangeFrom_mBBA5B0317889EF7AC91A2ADA139E4CD8B97C853A (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___self0, CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* ___payload1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	{
+		// var hasDiagnosticsToAdd = payload.Payload.Diagnostics.Count > 0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_0 = ___payload1;
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_1 = (&L_0->___Payload_1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_2 = L_1->___Diagnostics_0;
+		int32_t L_3;
+		L_3 = List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_inline(L_2, List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_RuntimeMethod_var);
+		// if (hasDiagnosticsToAdd)
+		int32_t L_4 = ((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
+		G_B1_0 = L_4;
+		if (!L_4)
+		{
+			G_B2_0 = L_4;
+			goto IL_0031;
+		}
+	}
+	{
+		// self.Payload.Diagnostics.AddRange(payload.Payload.Diagnostics);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_5 = ___self0;
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_6 = (&L_5->___Payload_1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_7 = L_6->___Diagnostics_0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_8 = ___payload1;
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* L_9 = (&L_8->___Payload_1);
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_10 = L_9->___Diagnostics_0;
+		List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3(L_7, L_10, List_1_AddRange_m44C394E4EABE58F1C3F98F15A17BEBFE98ED81E3_RuntimeMethod_var);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0031:
+	{
+		// if (hasDiagnosticsToAdd
+		//     && self.TimeOfOccurenceTicks <= 0)
+		if (!G_B2_0)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_11 = ___self0;
+		int64_t L_12 = L_11->___TimeOfOccurenceTicks_0;
+		if ((((int64_t)L_12) > ((int64_t)((int64_t)0))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		// self.TimeOfOccurenceTicks = payload.TimeOfOccurenceTicks;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_13 = ___self0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_14 = ___payload1;
+		int64_t L_15 = L_14->___TimeOfOccurenceTicks_0;
+		L_13->___TimeOfOccurenceTicks_0 = L_15;
+	}
+
+IL_0049:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Unity.Services.Core.Telemetry.Internal.FactoryUtils::CreatePackageTags(Unity.Services.Core.Configuration.Internal.IProjectConfiguration,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FactoryUtils_CreatePackageTags_m41A469956CFED4A1038991A74F8FDED5506D7D65 (RuntimeObject* ___projectConfig0, String_t* ___packageName1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C11F35652FEF935B5238B8E510E25D3B44E30B6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D004E384A2A96BC8F24287F0F45615FB0FC7C91);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA56563187CE402C2D214D1D438FAEFE383069121);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		// var packageVersion = projectConfig.GetString(
+		//     string.Format(PackageVersionKeyFormat, packageName), string.Empty);
+		RuntimeObject* L_0 = ___projectConfig0;
+		String_t* L_1 = ___packageName1;
+		String_t* L_2;
+		L_2 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral2D004E384A2A96BC8F24287F0F45615FB0FC7C91, L_1, NULL);
+		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		String_t* L_4;
+		L_4 = InterfaceFuncInvoker2< String_t*, String_t*, String_t* >::Invoke(3 /* System.String Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetString(System.String,System.String) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_0, L_2, L_3);
+		V_0 = L_4;
+		// if (string.IsNullOrEmpty(packageVersion))
+		String_t* L_5 = V_0;
+		bool L_6;
+		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
+		// return new Dictionary<string, string>
+		// {
+		//     [TagKeys.PackageName] = packageName,
+		//     [TagKeys.PackageVersion] = packageVersion,
+		// };
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_7 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_7, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_8 = L_7;
+		String_t* L_9 = ___packageName1;
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_8, _stringLiteralA56563187CE402C2D214D1D438FAEFE383069121, L_9, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_10 = L_8;
+		String_t* L_11 = V_0;
+		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_10, _stringLiteral2C11F35652FEF935B5238B8E510E25D3B44E30B6, L_11, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
+		return L_10;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Unity.Services.Core.Telemetry.Internal.IMetricsFactory Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateMetricsFactory(Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration,Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryUtils_CreateMetricsFactory_m9D7EE59ABB75E1F1162CE95F0603A96632B1B294 (RuntimeObject* ___scheduler0, RuntimeObject* ___projectConfiguration1, RuntimeObject* ___cloudProjectId2, RuntimeObject* ___environments3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE871287248FF7EDAEE587BCFE45EB79F4C06B0D);
+		s_Il2CppMethodInitialized = true;
+	}
+	TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* V_0 = NULL;
+	CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* V_3 = NULL;
+	UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* V_4 = NULL;
+	TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* V_5 = NULL;
+	MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		// if (IsTelemetryDisabled(projectConfiguration))
+		RuntimeObject* L_0 = ___projectConfiguration1;
+		bool L_1;
+		L_1 = TelemetryUtils_IsTelemetryDisabled_m9CB232401FFE1971ED4D7BB286D74FADDD4CA3E8(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// return new DisabledMetricsFactory();
+		DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6* L_2 = (DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6*)il2cpp_codegen_object_new(DisabledMetricsFactory_t60F6C496E8CC6F5C6636793C571038D864BD48D6_il2cpp_TypeInfo_var);
+		DisabledMetricsFactory__ctor_m9C673FABB9E5C1B95DC3AAF81ED8A8ADCB35C65E(L_2, NULL);
+		return L_2;
+	}
+
+IL_000e:
+	{
+		// var config = CreateTelemetryConfig(projectConfiguration);
+		RuntimeObject* L_3 = ___projectConfiguration1;
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_4;
+		L_4 = TelemetryUtils_CreateTelemetryConfig_m07294253B733EC88DE5E501A61DC345AF604F148(L_3, NULL);
+		V_0 = L_4;
+		// var cache = new CachedPayload<MetricsPayload>
+		// {
+		//     Payload = new MetricsPayload
+		//     {
+		//         Metrics = new List<Metric>(),
+		//         CommonTags = new Dictionary<string, string>(),
+		//         MetricsCommonTags = new Dictionary<string, string>(),
+		//     },
+		// };
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_5 = (CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75*)il2cpp_codegen_object_new(CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75_il2cpp_TypeInfo_var);
+		CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB(L_5, CachedPayload_1__ctor_mFFE79054BF40C1ED0F09204F2CBA47557DF53DEB_RuntimeMethod_var);
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_6 = L_5;
+		il2cpp_codegen_initobj((&V_6), sizeof(MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B));
+		List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* L_7 = (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*)il2cpp_codegen_object_new(List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA_il2cpp_TypeInfo_var);
+		List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41(L_7, List_1__ctor_m0E5759C3AA1DEB73437F7F0843557CA8A3387B41_RuntimeMethod_var);
+		(&V_6)->___Metrics_0 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___Metrics_0), (void*)L_7);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_8 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_8, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		(&V_6)->___CommonTags_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___CommonTags_1), (void*)L_8);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_9 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_9, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		(&V_6)->___MetricsCommonTags_2 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___MetricsCommonTags_2), (void*)L_9);
+		MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B L_10 = V_6;
+		L_6->___Payload_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___Metrics_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___CommonTags_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___MetricsCommonTags_2), (void*)NULL);
+		#endif
+		V_1 = L_6;
+		// var cachePersister = CreateCachePersister<MetricsPayload>("UnityServicesCachedMetrics", Application.platform);
+		int32_t L_11;
+		L_11 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		RuntimeObject* L_12;
+		L_12 = TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB(_stringLiteralCE871287248FF7EDAEE587BCFE45EB79F4C06B0D, L_11, TelemetryUtils_CreateCachePersister_TisMetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B_m98843C4E1CA526F608C2E9350F4A850A9D7F30DB_RuntimeMethod_var);
+		V_2 = L_12;
+		// var retryPolicy = new ExponentialBackOffRetryPolicy();
+		ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* L_13 = (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF*)il2cpp_codegen_object_new(ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF_il2cpp_TypeInfo_var);
+		ExponentialBackOffRetryPolicy__ctor_m7A6BA95E28DC18CBF7F44BE204AF156CB341BF5E(L_13, NULL);
+		V_3 = L_13;
+		// var requestSender = new UnityWebRequestSender();
+		UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* L_14 = (UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7*)il2cpp_codegen_object_new(UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7_il2cpp_TypeInfo_var);
+		UnityWebRequestSender__ctor_mFE6414F8B34BA9E4D7C18BA4FB0D1CA0E1E90B9A(L_14, NULL);
+		V_4 = L_14;
+		// var metricsSender = new TelemetrySender(
+		//     config.TargetUrl, config.ServicePath, scheduler, retryPolicy, requestSender);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_15 = V_0;
+		String_t* L_16 = L_15->___TargetUrl_0;
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_17 = V_0;
+		String_t* L_18 = L_17->___ServicePath_1;
+		RuntimeObject* L_19 = ___scheduler0;
+		ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* L_20 = V_3;
+		UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* L_21 = V_4;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_22 = (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*)il2cpp_codegen_object_new(TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F_il2cpp_TypeInfo_var);
+		TelemetrySender__ctor_m6D1AC5118C8D4576859151AF9E6B32681CAC0285(L_22, L_16, L_18, L_19, L_20, L_21, NULL);
+		V_5 = L_22;
+		// var handler = new MetricsHandler(config, cache, scheduler, cachePersister, metricsSender);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_23 = V_0;
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_24 = V_1;
+		RuntimeObject* L_25 = ___scheduler0;
+		RuntimeObject* L_26 = V_2;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_27 = V_5;
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_28 = (MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74*)il2cpp_codegen_object_new(MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74_il2cpp_TypeInfo_var);
+		MetricsHandler__ctor_mA99FCDF9FE29231858F71CBBE47319B1FE748567(L_28, L_23, L_24, L_25, L_26, L_27, NULL);
+		// handler.Initialize(cloudProjectId, environments);
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_29 = L_28;
+		RuntimeObject* L_30 = ___cloudProjectId2;
+		RuntimeObject* L_31 = ___environments3;
+		TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F(L_29, L_30, L_31, TelemetryHandler_2_Initialize_mC4FAADC6B628B4978932A1EFEE5BDEE73641D33F_RuntimeMethod_var);
+		// return new MetricsFactory(handler, projectConfiguration);
+		RuntimeObject* L_32 = ___projectConfiguration1;
+		MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* L_33 = (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05*)il2cpp_codegen_object_new(MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05_il2cpp_TypeInfo_var);
+		MetricsFactory__ctor_mA1187E29AC3E1EDC2A11A8FB63C1AF0F91C27ED0(L_33, L_29, L_32, NULL);
+		return L_33;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.IDiagnosticsFactory Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateDiagnosticsFactory(Unity.Services.Core.Scheduler.Internal.IActionScheduler,Unity.Services.Core.Configuration.Internal.IProjectConfiguration,Unity.Services.Core.Configuration.Internal.ICloudProjectId,Unity.Services.Core.Environments.Internal.IEnvironments)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TelemetryUtils_CreateDiagnosticsFactory_m068125371D15D5E365480D3C79E5F8290081865B (RuntimeObject* ___scheduler0, RuntimeObject* ___projectConfiguration1, RuntimeObject* ___cloudProjectId2, RuntimeObject* ___environments3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F227E0CD8E768A9E3A64A7320B1DAD5F9A5EE81);
+		s_Il2CppMethodInitialized = true;
+	}
+	TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* V_0 = NULL;
+	CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* V_1 = NULL;
+	RuntimeObject* V_2 = NULL;
+	ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* V_3 = NULL;
+	UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* V_4 = NULL;
+	TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* V_5 = NULL;
+	DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		// if (IsTelemetryDisabled(projectConfiguration))
+		RuntimeObject* L_0 = ___projectConfiguration1;
+		bool L_1;
+		L_1 = TelemetryUtils_IsTelemetryDisabled_m9CB232401FFE1971ED4D7BB286D74FADDD4CA3E8(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// return new DisabledDiagnosticsFactory();
+		DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD* L_2 = (DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD*)il2cpp_codegen_object_new(DisabledDiagnosticsFactory_tC83C6D31A42BFAD606C61B6ACB2D1A140786A6DD_il2cpp_TypeInfo_var);
+		DisabledDiagnosticsFactory__ctor_mD9A490FF6F96679DF26A5983799FF898DA5AA77C(L_2, NULL);
+		return L_2;
+	}
+
+IL_000e:
+	{
+		// var config = CreateTelemetryConfig(projectConfiguration);
+		RuntimeObject* L_3 = ___projectConfiguration1;
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_4;
+		L_4 = TelemetryUtils_CreateTelemetryConfig_m07294253B733EC88DE5E501A61DC345AF604F148(L_3, NULL);
+		V_0 = L_4;
+		// var cache = new CachedPayload<DiagnosticsPayload>
+		// {
+		//     Payload = new DiagnosticsPayload
+		//     {
+		//         Diagnostics = new List<Diagnostic>(),
+		//         CommonTags = new Dictionary<string, string>(),
+		//         DiagnosticsCommonTags = new Dictionary<string, string>(),
+		//     },
+		// };
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_5 = (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*)il2cpp_codegen_object_new(CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83_il2cpp_TypeInfo_var);
+		CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941(L_5, CachedPayload_1__ctor_m447B5533D2087B5DBAD5CE29FB14C86F650FE941_RuntimeMethod_var);
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_6 = L_5;
+		il2cpp_codegen_initobj((&V_6), sizeof(DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD));
+		List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* L_7 = (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*)il2cpp_codegen_object_new(List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87_il2cpp_TypeInfo_var);
+		List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8(L_7, List_1__ctor_m10D43F52BCD06D9D822ED38C2F64182953E8ECA8_RuntimeMethod_var);
+		(&V_6)->___Diagnostics_0 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___Diagnostics_0), (void*)L_7);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_8 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_8, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		(&V_6)->___CommonTags_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___CommonTags_1), (void*)L_8);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_9 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_9, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
+		(&V_6)->___DiagnosticsCommonTags_2 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_6)->___DiagnosticsCommonTags_2), (void*)L_9);
+		DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD L_10 = V_6;
+		L_6->___Payload_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___Diagnostics_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___CommonTags_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___Payload_1))->___DiagnosticsCommonTags_2), (void*)NULL);
+		#endif
+		V_1 = L_6;
+		// var cachePersister = CreateCachePersister<DiagnosticsPayload>("UnityServicesCachedDiagnostics", Application.platform);
+		int32_t L_11;
+		L_11 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		RuntimeObject* L_12;
+		L_12 = TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD(_stringLiteral8F227E0CD8E768A9E3A64A7320B1DAD5F9A5EE81, L_11, TelemetryUtils_CreateCachePersister_TisDiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD_m3F204710C094AC433BDF212C69BCC95E731D05DD_RuntimeMethod_var);
+		V_2 = L_12;
+		// var retryPolicy = new ExponentialBackOffRetryPolicy();
+		ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* L_13 = (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF*)il2cpp_codegen_object_new(ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF_il2cpp_TypeInfo_var);
+		ExponentialBackOffRetryPolicy__ctor_m7A6BA95E28DC18CBF7F44BE204AF156CB341BF5E(L_13, NULL);
+		V_3 = L_13;
+		// var requestSender = new UnityWebRequestSender();
+		UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* L_14 = (UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7*)il2cpp_codegen_object_new(UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7_il2cpp_TypeInfo_var);
+		UnityWebRequestSender__ctor_mFE6414F8B34BA9E4D7C18BA4FB0D1CA0E1E90B9A(L_14, NULL);
+		V_4 = L_14;
+		// var metricsSender = new TelemetrySender(
+		//     config.TargetUrl, config.ServicePath, scheduler, retryPolicy, requestSender);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_15 = V_0;
+		String_t* L_16 = L_15->___TargetUrl_0;
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_17 = V_0;
+		String_t* L_18 = L_17->___ServicePath_1;
+		RuntimeObject* L_19 = ___scheduler0;
+		ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* L_20 = V_3;
+		UnityWebRequestSender_t492C8E8BC0D2DC9B9B2786B4BD2DD5D9C87FF6D7* L_21 = V_4;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_22 = (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F*)il2cpp_codegen_object_new(TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F_il2cpp_TypeInfo_var);
+		TelemetrySender__ctor_m6D1AC5118C8D4576859151AF9E6B32681CAC0285(L_22, L_16, L_18, L_19, L_20, L_21, NULL);
+		V_5 = L_22;
+		// var handler = new DiagnosticsHandler(
+		//     config, cache, scheduler, cachePersister, metricsSender);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_23 = V_0;
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_24 = V_1;
+		RuntimeObject* L_25 = ___scheduler0;
+		RuntimeObject* L_26 = V_2;
+		TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* L_27 = V_5;
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_28 = (DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22*)il2cpp_codegen_object_new(DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22_il2cpp_TypeInfo_var);
+		DiagnosticsHandler__ctor_m34388FAB309CF69EBF0560966DF5C53BA6EC85F9(L_28, L_23, L_24, L_25, L_26, L_27, NULL);
+		// handler.Initialize(cloudProjectId, environments);
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_29 = L_28;
+		RuntimeObject* L_30 = ___cloudProjectId2;
+		RuntimeObject* L_31 = ___environments3;
+		TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457(L_29, L_30, L_31, TelemetryHandler_2_Initialize_mF83887007D69683927853CF6A2D58C66255ED457_RuntimeMethod_var);
+		// return new DiagnosticsFactory(handler, projectConfiguration);
+		RuntimeObject* L_32 = ___projectConfiguration1;
+		DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* L_33 = (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2*)il2cpp_codegen_object_new(DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2_il2cpp_TypeInfo_var);
+		DiagnosticsFactory__ctor_mD328A7AFD1858E30D437C423780E98460C78B84C(L_33, L_29, L_32, NULL);
+		return L_33;
+	}
+}
+// System.Boolean Unity.Services.Core.Telemetry.Internal.TelemetryUtils::IsTelemetryDisabled(Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TelemetryUtils_IsTelemetryDisabled_m9CB232401FFE1971ED4D7BB286D74FADDD4CA3E8 (RuntimeObject* ___projectConfiguration0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA9392DA9B947060CA08274EAE942417D75A7CA0D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// => projectConfiguration.GetBool(TelemetryDisabledKey);
+		RuntimeObject* L_0 = ___projectConfiguration0;
+		bool L_1;
+		L_1 = InterfaceFuncInvoker2< bool, String_t*, bool >::Invoke(0 /* System.Boolean Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetBool(System.String,System.Boolean) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_0, _stringLiteralA9392DA9B947060CA08274EAE942417D75A7CA0D, (bool)0);
+		return L_1;
+	}
+}
+// Unity.Services.Core.Telemetry.Internal.TelemetryConfig Unity.Services.Core.Telemetry.Internal.TelemetryUtils::CreateTelemetryConfig(Unity.Services.Core.Configuration.Internal.IProjectConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryUtils_CreateTelemetryConfig_m07294253B733EC88DE5E501A61DC345AF604F148 (RuntimeObject* ___projectConfiguration0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral01C466FBD86FBB7A01FEE5B4420364EB13779331);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F484DF1DE5CC5067AC2EE918EB63F569DC0CC1E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D5478220D856D71CDF1A603AC386C9BA7C0865C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral71D28320423B0978CBA625BE0E4846EC97389105);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B9C8571450A4F167BFFD8C1D0899412FD5DD5F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D3C19E3A647A2449C174675979309A559260621);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD370FE1ACCF063EBBC76335CFD838026A2B964C0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEC0C33C027C86616F69526EFB6E3328D3A142734);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// var config = new TelemetryConfig
+		// {
+		//     TargetUrl = projectConfiguration.GetString(TelemetryConfigKeys.TargetUrl, defaultTargetUrl),
+		//     ServicePath = projectConfiguration.GetString(TelemetryConfigKeys.ServicePath, defaultServicePath),
+		//     PayloadExpirationSeconds = projectConfiguration.GetInt(TelemetryConfigKeys.PayloadExpirationSeconds, defaultPayloadExpirationSeconds),
+		//     PayloadSendingMaxIntervalSeconds = projectConfiguration.GetInt(TelemetryConfigKeys.PayloadSendingMaxIntervalSeconds, defaultPayloadSendingMaxIntervalSeconds),
+		//     SafetyPersistenceIntervalSeconds = projectConfiguration.GetInt(TelemetryConfigKeys.SafetyPersistenceIntervalSeconds, defaultSafetyPersistenceIntervalSeconds),
+		//     MaxMetricCountPerPayload = Math.Min(TelemetryConfig.MaxMetricCountPerPayloadLimit, projectConfiguration.GetInt(TelemetryConfigKeys.MaxMetricCountPerPayload, TelemetryConfig.MaxMetricCountPerPayloadLimit)),
+		// };
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_0 = (TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601*)il2cpp_codegen_object_new(TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601_il2cpp_TypeInfo_var);
+		TelemetryConfig__ctor_m36010D53C70E15DC09BA4B8E36AF1666DE4F97A6(L_0, NULL);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_1 = L_0;
+		RuntimeObject* L_2 = ___projectConfiguration0;
+		String_t* L_3;
+		L_3 = InterfaceFuncInvoker2< String_t*, String_t*, String_t* >::Invoke(3 /* System.String Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetString(System.String,System.String) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_2, _stringLiteral9D3C19E3A647A2449C174675979309A559260621, _stringLiteral01C466FBD86FBB7A01FEE5B4420364EB13779331);
+		L_1->___TargetUrl_0 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___TargetUrl_0), (void*)L_3);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_4 = L_1;
+		RuntimeObject* L_5 = ___projectConfiguration0;
+		String_t* L_6;
+		L_6 = InterfaceFuncInvoker2< String_t*, String_t*, String_t* >::Invoke(3 /* System.String Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetString(System.String,System.String) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_5, _stringLiteral71D28320423B0978CBA625BE0E4846EC97389105, _stringLiteral7B9C8571450A4F167BFFD8C1D0899412FD5DD5F7);
+		L_4->___ServicePath_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___ServicePath_1), (void*)L_6);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_7 = L_4;
+		RuntimeObject* L_8 = ___projectConfiguration0;
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(1 /* System.Int32 Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetInt(System.String,System.Int32) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_8, _stringLiteral4D5478220D856D71CDF1A603AC386C9BA7C0865C, ((int32_t)3600));
+		L_7->___PayloadExpirationSeconds_2 = ((double)L_9);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_10 = L_7;
+		RuntimeObject* L_11 = ___projectConfiguration0;
+		int32_t L_12;
+		L_12 = InterfaceFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(1 /* System.Int32 Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetInt(System.String,System.Int32) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_11, _stringLiteral3F484DF1DE5CC5067AC2EE918EB63F569DC0CC1E, ((int32_t)600));
+		L_10->___PayloadSendingMaxIntervalSeconds_3 = ((double)L_12);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_13 = L_10;
+		RuntimeObject* L_14 = ___projectConfiguration0;
+		int32_t L_15;
+		L_15 = InterfaceFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(1 /* System.Int32 Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetInt(System.String,System.Int32) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_14, _stringLiteralD370FE1ACCF063EBBC76335CFD838026A2B964C0, ((int32_t)300));
+		L_13->___SafetyPersistenceIntervalSeconds_4 = ((double)L_15);
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_16 = L_13;
+		RuntimeObject* L_17 = ___projectConfiguration0;
+		int32_t L_18;
+		L_18 = InterfaceFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(1 /* System.Int32 Unity.Services.Core.Configuration.Internal.IProjectConfiguration::GetInt(System.String,System.Int32) */, IProjectConfiguration_tB5A7516DEB869AD005431EC83C6E02221D2B60D2_il2cpp_TypeInfo_var, L_17, _stringLiteralEC0C33C027C86616F69526EFB6E3328D3A142734, ((int32_t)295));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_19;
+		L_19 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(((int32_t)295), L_18, NULL);
+		L_16->___MaxMetricCountPerPayload_5 = L_19;
+		// return config;
+		return L_16;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Diagnostics_get_PackageTags_m9D51DB44CC22531F216C7408EA8065044D0E4BE9_inline (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal IDictionary<string, string> PackageTags { get; }
+		RuntimeObject* L_0 = __this->___U3CPackageTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____stringLength_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* Diagnostics_get_Handler_mFA92ACC612B06CC0DC12F58A2F6CD09430F0F7B9_inline (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal DiagnosticsHandler Handler { get; }
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = __this->___U3CHandlerU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* DiagnosticsFactory_get_Handler_m9FB222AA7FDAC429798F295C9A8AE89BC40BBC76_inline (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal DiagnosticsHandler Handler { get; }
+		DiagnosticsHandler_t9AE9840AF25655F717E0584299B3608FCE227C22* L_0 = __this->___U3CHandlerU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Metrics_get_PackageTags_m115CC30318BB63CEFCC31F54F4049C4D78DC0472_inline (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal IDictionary<string, string> PackageTags { get; }
+		RuntimeObject* L_0 = __this->___U3CPackageTagsU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* Metrics_get_Handler_mA4E865590FA0068CCF4695CE05936FAF2C73EAC6_inline (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal MetricsHandler Handler { get; }
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = __this->___U3CHandlerU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* MetricsFactory_get_Handler_mEEC4790D8D67895DDDB3AC14E796F260A8B9780A_inline (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
+{
+	{
+		// internal MetricsHandler Handler { get; }
+		MetricsHandler_tEB5A2227BB53393F34EF42AE8F015A673466FE74* L_0 = __this->___U3CHandlerU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* DiagnosticsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m275FCC10220ACC7D300B67F7B8254E9E57FA41EF_inline (DiagnosticsPayload_tFACE4451747DC3F51B8260AFCF8183DD54D9FFFD* __this, const RuntimeMethod* method) 
+{
+	{
+		// Dictionary<string, string> ITelemetryPayload.CommonTags => CommonTags;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = __this->___CommonTags_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* MetricsPayload_Unity_Services_Core_Telemetry_Internal_ITelemetryPayload_get_CommonTags_m3AB485DBD3D5D0909D2CB009B677EA22665489BD_inline (MetricsPayload_t2D7CB9F1AFE2ECB1AE26E70EECAB36D805E75F1B* __this, const RuntimeMethod* method) 
+{
+	{
+		// Dictionary<string, string> ITelemetryPayload.CommonTags => CommonTags;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = __this->___CommonTags_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ExponentialBackOffRetryPolicy_get_MaxTryCount_m5D037BB60787C66A7F8CF71E321B8EC528972D01_inline (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_MaxTryCount;
+		int32_t L_0 = __this->___m_MaxTryCount_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ExponentialBackOffRetryPolicy_get_BaseDelaySeconds_m62C2D27786AB3A7635D09E79C3F92CA472782087_inline (ExponentialBackOffRetryPolicy_t96CDC709DB5E2ED182D549B2DBABC6E157954DCF* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_BaseDelaySeconds;
+		float L_0 = __this->___m_BaseDelaySeconds_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TelemetrySender_get_TargetUrl_mA9EEA023222BEE40368C40D2293C5A2E917C878F_inline (TelemetrySender_t67AA5E279317D039D339BB675990F0BB795ADA3F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string TargetUrl { get; }
+		String_t* L_0 = __this->___U3CTargetUrlU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestAsyncOperation_get_webRequest_mF67D15420C7C1C4DCA1BD6F839048A0542998BC3_inline (UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* __this, const RuntimeMethod* method) 
+{
+	{
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = __this->___U3CwebRequestU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* TelemetryHandler_2_get_Cache_mABC919ED89C7DA6F0C00545C4E494016A5BBED7B_gshared_inline (TelemetryHandler_2_tACBE6FB667B76B9218CB9ACFAA5030F7416CDC0C* __this, const RuntimeMethod* method) 
+{
+	{
+		// public CachedPayload<TPayload> Cache { get; }
+		CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83* L_0 = (CachedPayload_1_tB2CA12BE14B7EE4471F02BB61F7FEBCF33F30B83*)__this->___U3CCacheU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m09BD2C329D95D9ED08F9309AEA0ECCF6C48B5BB7_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		if (!true)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int32_t L_1 = (int32_t)__this->____size_2;
+		V_0 = L_1;
+		__this->____size_2 = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* L_3 = (DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301*)__this->____items_1;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_0035:
+	{
+		__this->____size_2 = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* TelemetryHandler_2_get_Cache_mF64411ABBC8FBF4CF2F309FA0D97F4AE12D8FF5A_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
+{
+	{
+		// public CachedPayload<TPayload> Cache { get; }
+		CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75* L_0 = (CachedPayload_1_tAAF20A1E90B5FF0B52131D6DE0A1024012EF2D75*)__this->___U3CCacheU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mB78998C760772531BF23B271EC995F20FF111F8D_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = (int32_t)__this->____size_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m203D6B144E830E38A7277C56A0E4478AAE492853_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		if (!true)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int32_t L_1 = (int32_t)__this->____size_2;
+		V_0 = L_1;
+		__this->____size_2 = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* L_3 = (MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39*)__this->____items_1;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_0035:
+	{
+		__this->____size_2 = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* TelemetryHandler_2_get_Config_m7D7528D1ABD233F97CE10E7E0A1DBDDF18203455_gshared_inline (TelemetryHandler_2_tA3D5E2CA7153825BF54828A98F95123293889FC0* __this, const RuntimeMethod* method) 
+{
+	{
+		// public TelemetryConfig Config { get; }
+		TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601* L_0 = (TelemetryConfig_t7D6911708D0C402786B501769520404D9EF41601*)__this->___U3CConfigU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m10ECF13A4D03A6AA1FF22092658DD6EAB2BA4256_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = (int32_t)__this->____size_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m8004FEA76065612822149F3602D2E0FC863CD695_gshared_inline (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87* __this, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A ___item0, const RuntimeMethod* method) 
+{
+	DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* L_1 = (DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301*)__this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = (int32_t)__this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* L_4 = V_0;
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		DiagnosticU5BU5D_t60834B63D750C1B7811C97EAFB789F900AED4301* L_6 = V_0;
+		int32_t L_7 = V_1;
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_8 = ___item0;
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A L_9 = ___item0;
+		((  void (*) (List_1_tD7FF0018F4BAEE8EE946582B89AA7DAF37AE5E87*, Diagnostic_t6762F35062B939B79ECD2F38670A5A56FF25311A, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mBDDFD218EA8F751936639E6A5D618992077B91A4_gshared_inline (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA* __this, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 ___item0, const RuntimeMethod* method) 
+{
+	MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* L_1 = (MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39*)__this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = (int32_t)__this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* L_4 = V_0;
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		MetricU5BU5D_tDD42D30B25EE55F74638B326DA32DBB3A98FBC39* L_6 = V_0;
+		int32_t L_7 = V_1;
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_8 = ___item0;
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 L_9 = ___item0;
+		((  void (*) (List_1_t0E000AE0E09082F1D878813D84836DEAE5C1C3DA*, Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m8B0C3F4FA0508CD1823F82CF8CD995A0C910DAFE_gshared_inline (Action_1_t98E0ADA5F89D6F93D91113490DCD09FD00D684F1* __this, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, WebRequest_t4CF804EE9852A8DB80C31D8016F18749C647206E, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
