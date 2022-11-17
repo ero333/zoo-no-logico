@@ -84,7 +84,6 @@ public class StasisManager : MonoBehaviour
         myCruzaList = JsonUtility.FromJson<CruzaList>(Cruzas.text);
 
         GetCruza(PlayerPrefs.GetInt("StasisPosition"));
-        print(index);
 
     }
 
@@ -105,9 +104,6 @@ public class StasisManager : MonoBehaviour
 
             stasis_img.sprite = cruza_img;
 
-            print(cruza_img);
-
-            print("index test: " + PlayerPrefs.GetString("Stasis" + index));
 
             PlayerPrefs.SetInt("indexCurrentCruza", index);
             PlayerPrefs.SetInt("Cruza" + int.Parse(PlayerPrefs.GetString("Stasis" + index)), 1);
@@ -120,7 +116,6 @@ public class StasisManager : MonoBehaviour
 
             if (index < 35)
             {
-                print("index cruza: " + index);
                 descripcion.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].descripcion;
                 nombre.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].nombre;
                 dato1.text = myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Stasis" + index))].dato1;
@@ -183,7 +178,6 @@ public class StasisManager : MonoBehaviour
         if (PlayerPrefs.GetInt("StasisPosition") < 9)
         {
             PlayerPrefs.SetInt("StasisPosition", PlayerPrefs.GetInt("StasisPosition") + 1);
-            print(PlayerPrefs.GetInt("StasisPosition"));
             GetCruza(PlayerPrefs.GetInt("StasisPosition"));
         }
     }
@@ -193,7 +187,6 @@ public class StasisManager : MonoBehaviour
         if (PlayerPrefs.GetInt("StasisPosition") > 0)
         {
             PlayerPrefs.SetInt("StasisPosition", PlayerPrefs.GetInt("StasisPosition") - 1);
-            print(PlayerPrefs.GetInt("StasisPosition"));
             GetCruza(PlayerPrefs.GetInt("StasisPosition"));
         }
     }

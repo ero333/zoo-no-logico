@@ -12,7 +12,6 @@ public class RandomPercent : MonoBehaviour {
         if (PlayerPrefs.GetString("PrimeraCombinacion") == "false") {
         PerCent = Random.Range(0, 100);
         PlayerPrefs.SetFloat("Porcentaje", PerCent);
-        print(PerCent);
         }
         else
         {
@@ -27,6 +26,5 @@ public class RandomPercent : MonoBehaviour {
 
     public void ShowPercent()
     {
-        print(PerCent);
     }
 }

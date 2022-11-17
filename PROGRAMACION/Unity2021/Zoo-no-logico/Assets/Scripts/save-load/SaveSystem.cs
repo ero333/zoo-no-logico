@@ -29,15 +29,10 @@ public static class SaveSystem  {
             stream.Close();
 
 
-            Debug.Log(data.jaula0);
-            Debug.Log(data.jaula1);
-            Debug.Log(data.jaula2);
-            Debug.Log(data.jaula3);
 
             return data;
         } else
         {
-            Debug.LogError("save file not found in" + path);
             return null;
         }
     }

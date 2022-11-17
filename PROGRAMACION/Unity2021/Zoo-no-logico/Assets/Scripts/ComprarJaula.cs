@@ -35,13 +35,13 @@ public class ComprarJaula : MonoBehaviour {
         {
             if (i != 0 && JManager.JaulasActivas[i] == 0 && selectedActiveIndex == -1)
             {
-                print("here");
+
                 selectedActiveIndex = i;
 
             }
             else if (i == 0 && JManager.JaulasActivas[i] == 0 && selectedActiveIndex == -1)
             {
-                print("here 2");
+
                 selectedActiveIndex = i;
             }
         }
@@ -49,8 +49,6 @@ public class ComprarJaula : MonoBehaviour {
         JManager.JaulasActivas[selectedActiveIndex] = 1;
         PlayerPrefs.SetInt("JaulaActiva" + selectedActiveIndex, 1);
 
-        print("Jaula" + selectedActiveIndex);
-        print("cruza num: " + cruza_num);
         PlayerPrefs.SetString("Jaula" + selectedActiveIndex, cruza_num);
     }
 }

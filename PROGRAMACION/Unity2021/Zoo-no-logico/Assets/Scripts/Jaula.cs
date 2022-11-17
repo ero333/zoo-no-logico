@@ -165,7 +165,6 @@ public class Jaula : MonoBehaviour
                     JaulasActivas[i] = 1;
                     PlayerPrefs.SetInt("JaulaActiva" + i, 1);
                     selectedJaula = i;
-                    print(i + " here");
                 }
             }
 

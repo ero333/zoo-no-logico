@@ -319,6 +319,5 @@ public class JsonReader : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print(index);
 	}
 }

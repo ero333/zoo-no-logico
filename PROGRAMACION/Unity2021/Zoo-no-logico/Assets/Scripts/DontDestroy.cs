@@ -7,8 +7,6 @@ public class DontDestroy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(this.gameObject);
-        Debug.Log("this.gameobject");
-        Debug.Log(this.gameObject);
     }
 	
 	// Update is called once per frame

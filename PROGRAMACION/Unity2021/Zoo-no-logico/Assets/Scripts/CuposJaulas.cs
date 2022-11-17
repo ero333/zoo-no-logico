@@ -63,7 +63,6 @@ public class CuposJaulas : MonoBehaviour
         numJaulasOcupadas++;
         PlayerPrefs.SetInt("Jaulitas", numJaulasOcupadas);
         int cruza = PlayerPrefs.GetInt("indexCurrentCruza");
-        print(cruza);
         switch (numJaulasOcupadas)
         {
             case 1:

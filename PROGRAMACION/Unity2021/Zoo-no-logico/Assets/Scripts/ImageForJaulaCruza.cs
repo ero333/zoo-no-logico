@@ -90,7 +90,6 @@ public class ImageForJaulaCruza : MonoBehaviour {
         {
             plata.text = PlayerPrefs.GetInt("plataCurrentCruza").ToString();
         }
-        print(index);
         switch (index)
         {
             case 0:

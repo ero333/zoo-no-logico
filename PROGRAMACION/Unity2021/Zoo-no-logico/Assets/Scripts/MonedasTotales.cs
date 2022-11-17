@@ -37,7 +37,6 @@ public class MonedasTotales : MonoBehaviour {
             testMonedas.SetActive(true);
         Monedas -= gastarPlata; // Al int con mis monedas le voy a restar el dato que recibe desde el botón
         PlayerPrefs.SetInt("Moneditas", Monedas);
-        print("a");
         }
         else{
             testMonedas2.SetActive(true);

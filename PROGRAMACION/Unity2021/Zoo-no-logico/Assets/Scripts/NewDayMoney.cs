@@ -107,16 +107,6 @@ public class NewDayMoney : MonoBehaviour {
 
         PlayerPrefs.SetInt("Popularidad", PlayerPrefs.GetInt("Popularidad") - impuestoDeuda);
 
-        print(PlayerPrefs.GetInt("cage1Money")/cageDivisor);
-        print(PlayerPrefs.GetInt("cage2Money"));
-        print(PlayerPrefs.GetInt("cage3Money"));
-        print(PlayerPrefs.GetInt("cage4Money"));
-        print(PlayerPrefs.GetInt("cage5Money"));
-        print(popularityMultipliyer);
-        print(PlayerPrefs.GetInt("JaulasOcupadas")*400+150);
-        print(impuestoDiarioMultiplicador);
-        print(impuestoPorNoHacerCruzasMultiplicador);
-        print(impuestoDiario);
 
 
         newMoney = ((PlayerPrefs.GetInt("cage1Money") / cageDivisor + PlayerPrefs.GetInt("cage2Money") / cageDivisor + PlayerPrefs.GetInt("cage3Money") / cageDivisor + PlayerPrefs.GetInt("cage4Money")/cageDivisor + PlayerPrefs.GetInt("cage5Money")/cageDivisor + PlayerPrefs.GetInt("cage6Money") / cageDivisor + PlayerPrefs.GetInt("cage7Money") / cageDivisor + PlayerPrefs.GetInt("cage8Money") / cageDivisor + PlayerPrefs.GetInt("cage9Money")/cageDivisor + PlayerPrefs.GetInt("cage10Money")/cageDivisor + PlayerPrefs.GetInt("cage11Money") / cageDivisor + PlayerPrefs.GetInt("cage12Money") / cageDivisor + PlayerPrefs.GetInt("cage13Money") / cageDivisor + PlayerPrefs.GetInt("cage14Money") / cageDivisor + PlayerPrefs.GetInt("cage15Money") / cageDivisor + PlayerPrefs.GetInt("cage16Money") / cageDivisor + PlayerPrefs.GetInt("cage17Money") / cageDivisor + PlayerPrefs.GetInt("cage18Money") / cageDivisor + PlayerPrefs.GetInt("cage19Money") / cageDivisor + PlayerPrefs.GetInt("cage20Money") / cageDivisor) * popularityMultipliyer) - (int)impuestoDiario;

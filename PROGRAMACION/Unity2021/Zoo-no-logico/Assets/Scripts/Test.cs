@@ -6,7 +6,6 @@ public class Test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log(GameObject.Find("Image"));
 	}
 	
 	// Update is called once per frame

@@ -38,8 +38,6 @@ public class Stasis : MonoBehaviour {
                 PlayerPrefs.SetInt("StasisActiva" + i, 1);
                 selectedStasisSlot = i;
                 PlayerPrefs.SetString("Stasis" + i, cruza_img.sprite.name);
-                print(cruza_img.sprite.name);
-                print(i + " here");
             }
         }
 

@@ -47,7 +47,6 @@ public void OnEndDrag(PointerEventData eventData)
 
 public void OnPointerClick(PointerEventData eventData)
 {
-    Debug.Log("OnPointerClick");
 }
     
 } 

@@ -42,7 +42,6 @@ public class CartaAzar : MonoBehaviour
 
             Reset = 1;
             PlayerPrefs.SetInt("ResetListCartas", Reset);
-            print("Hecho el clear, aver");
 
         }
 

@@ -34,7 +34,6 @@ public class Comentarios : MonoBehaviour {
     void Start() {
 
         // ComentarioRandom = PlayerPrefs.GetInt("comentarioRandom1");  //Cuando se escriban más comentarios, cambiar el 3 (TRES) por la cantidad de comentarios en el array de la linea 10. La cantidad de , (comas) es la cantidad de comentarios.
-        print(Comentariosuwu[ComentarioRandom]);
 
         Comentario = GameObject.FindGameObjectWithTag("ComentarioTexto").GetComponent<Text>();
         
@@ -42,7 +41,6 @@ public class Comentarios : MonoBehaviour {
        //primeravatar = GameObject.FindGameObjectWithTag("avatar").GetComponent<Image>();
 
         // ComentarioRandom2 = PlayerPrefs.GetInt("comentarioRandom2"); //Cuando se escriban más comentarios, cambiar el 4 (CUATRO) por la cantidad de comentarios en el array de la linea 11. La cantidad de , (comas)  es la cantidad de comentarios.
-        print(Comentariosuwu2[ComentarioRandom2]);
 
         Comentario2 = GameObject.FindGameObjectWithTag("ComentarioTexto2").GetComponent<Text>();
         

@@ -21,7 +21,6 @@ float popularidadMaxima = 100f;
 	void Update () {
 		popularidad = (float)PlayerPrefs.GetInt("Popularidad");
 		barra.fillAmount = popularidad/popularidadMaxima;
-		print(popularidad/popularidadMaxima);
-		print(popularidad);
+
 	}
 }
