@@ -276,148 +276,148 @@ extern void EventosAnalytics_comprar_mA8A33F501BDC5F859E709F7C022A2FDA2EC3530C (
 extern void EventosAnalytics_cruza_m08C29B9AFE00033935C241C2BB593670AC087100 (void);
 // 0x00000084 System.Void EventosAnalytics::ganar()
 extern void EventosAnalytics_ganar_m8166FDBBDE8F5C33A27AA45281CEA6814146E1A4 (void);
-// 0x00000085 System.Void EventosAnalytics::leer_cartas()
-extern void EventosAnalytics_leer_cartas_m844793106B6EFBDE779918AA9C5D9840AC79349B (void);
-// 0x00000086 System.Void EventosAnalytics::salir()
+// 0x00000085 System.Void EventosAnalytics::salir()
 extern void EventosAnalytics_salir_mC7D524D27A79AEEAFBCDC8D50D5A48DA50F108AD (void);
-// 0x00000087 System.Void EventosAnalytics::iniciar_partida()
+// 0x00000086 System.Void EventosAnalytics::iniciar_partida()
 extern void EventosAnalytics_iniciar_partida_m2263A9C6AE124015E38818A5902FA1019F341FE3 (void);
-// 0x00000088 System.Void EventosAnalytics::continuar_partida()
+// 0x00000087 System.Void EventosAnalytics::continuar_partida()
 extern void EventosAnalytics_continuar_partida_m1237DEE3D87E9D18294367E0614FCF8704C65B3A (void);
-// 0x00000089 System.Void EventosAnalytics::codex()
+// 0x00000088 System.Void EventosAnalytics::codex()
 extern void EventosAnalytics_codex_mAA0C8D624CFAA2A36BEFB13EF22277A020CBAE57 (void);
-// 0x0000008A System.Void EventosAnalytics::ver_mapa()
+// 0x00000089 System.Void EventosAnalytics::ver_mapa()
 extern void EventosAnalytics_ver_mapa_mE4C499A0F0E238DAF94E8317CA5E97A305EC3133 (void);
-// 0x0000008B System.Void EventosAnalytics::borrar_animal()
+// 0x0000008A System.Void EventosAnalytics::borrar_animal()
 extern void EventosAnalytics_borrar_animal_m51F0512FF2A8FBB6602F2C887457D818C46093F6 (void);
-// 0x0000008C System.Void EventosAnalytics::stasis()
+// 0x0000008B System.Void EventosAnalytics::stasis()
 extern void EventosAnalytics_stasis_m7D4C198722F05E32619C53A0F898A97D0D189DF2 (void);
-// 0x0000008D System.Void EventosAnalytics::leer_tutorial()
+// 0x0000008C System.Void EventosAnalytics::leer_tutorial()
 extern void EventosAnalytics_leer_tutorial_m8509A49E34E03F75B1730AE300CF66AEE34DE4E8 (void);
-// 0x0000008E System.Void EventosAnalytics::fin_del_turno()
+// 0x0000008D System.Void EventosAnalytics::fin_del_turno()
 extern void EventosAnalytics_fin_del_turno_m703C73D0613272818B6C239AE7CF1941C00EA3A9 (void);
-// 0x0000008F System.Void EventosAnalytics::leer_evento()
+// 0x0000008E System.Void EventosAnalytics::leer_evento()
 extern void EventosAnalytics_leer_evento_m1FEAEA12051E1FBFCC6E606E3EEC3C60D15CC7EA (void);
-// 0x00000090 System.Void EventosAnalytics::mandar_a_stasis()
+// 0x0000008F System.Void EventosAnalytics::mandar_a_stasis()
 extern void EventosAnalytics_mandar_a_stasis_m81D937B0328026F0623F85B54A3F3B0AA611C850 (void);
-// 0x00000091 System.Void EventosAnalytics::mandar_a_lazaro()
+// 0x00000090 System.Void EventosAnalytics::mandar_a_lazaro()
 extern void EventosAnalytics_mandar_a_lazaro_mC66C8E9D3E51C25226BC010CC67AA2F8E42118BE (void);
-// 0x00000092 System.Void EventosAnalytics::elegir_carta()
-extern void EventosAnalytics_elegir_carta_m5D4DC838BD5F2995941EAE8F0A9AF75B3B888DAB (void);
-// 0x00000093 System.Void EventosAnalytics::calificacion()
+// 0x00000091 System.Void EventosAnalytics::calificacion()
 extern void EventosAnalytics_calificacion_m20F56542A94899B7A90FC6D2D7703F52B3FA765D (void);
-// 0x00000094 System.Void EventosAnalytics::.ctor()
+// 0x00000092 System.Void EventosAnalytics::.ctor()
 extern void EventosAnalytics__ctor_mC1C99CB99E2B43D99504D12A3E3847FCEE6B10E5 (void);
-// 0x00000095 System.Void EventosAnalytics/<Start>d__1::MoveNext()
+// 0x00000093 System.Void EventosAnalytics/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_mF4542F37F154BDCAC2619ED5DFCA34C7D5F82892 (void);
-// 0x00000096 System.Void EventosAnalytics/<Start>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000094 System.Void EventosAnalytics/<Start>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CStartU3Ed__1_SetStateMachine_mF62F2047477E6CF5EE48F535931A1A46F99550C1 (void);
-// 0x00000097 System.Void BotonJC::Start()
+// 0x00000095 System.Void BotonJC::Start()
 extern void BotonJC_Start_mE78B9092C625B670E8CB71CE459A08B14B76FF87 (void);
-// 0x00000098 System.Void BotonJC::Update()
+// 0x00000096 System.Void BotonJC::Update()
 extern void BotonJC_Update_m4D73FA9169F5B7912CD3736DB1E0CF324E5B923B (void);
-// 0x00000099 System.Void BotonJC::Mover()
+// 0x00000097 System.Void BotonJC::Mover()
 extern void BotonJC_Mover_m866141C56F3A54F6471A4CF52989097C20B73A4A (void);
-// 0x0000009A System.Void BotonJC::.ctor()
+// 0x00000098 System.Void BotonJC::.ctor()
 extern void BotonJC__ctor_m0523198D8654912318C74FD0B863C43857C21B49 (void);
-// 0x0000009B System.Void BotonJG::Start()
+// 0x00000099 System.Void BotonJG::Start()
 extern void BotonJG_Start_m68FAD30CD60018D1AF9EE8B9152392121A391675 (void);
-// 0x0000009C System.Void BotonJG::Update()
+// 0x0000009A System.Void BotonJG::Update()
 extern void BotonJG_Update_mD8F7D2A172DFF05E43B99B162A194386C81D8C46 (void);
-// 0x0000009D System.Void BotonJG::Mover()
+// 0x0000009B System.Void BotonJG::Mover()
 extern void BotonJG_Mover_m27F8021933C48ED052174B335915E11652A99BFD (void);
-// 0x0000009E System.Void BotonJG::.ctor()
+// 0x0000009C System.Void BotonJG::.ctor()
 extern void BotonJG__ctor_m42C5F1E3BA82BE9EEA96348CB89B8E23129E7452 (void);
-// 0x0000009F System.Void BotonJM::Start()
+// 0x0000009D System.Void BotonJM::Start()
 extern void BotonJM_Start_mDE1747DF6DD9C93210949F89D3B60BB913A5487A (void);
-// 0x000000A0 System.Void BotonJM::Update()
+// 0x0000009E System.Void BotonJM::Update()
 extern void BotonJM_Update_m3254FF3C288EF382CDE26D20CCF93633A2A1A295 (void);
-// 0x000000A1 System.Void BotonJM::Mover()
+// 0x0000009F System.Void BotonJM::Mover()
 extern void BotonJM_Mover_mFC469447BC718207206BBE57D7BCF5F7C59EF634 (void);
-// 0x000000A2 System.Void BotonJM::.ctor()
+// 0x000000A0 System.Void BotonJM::.ctor()
 extern void BotonJM__ctor_m67E28150CEFB1CDB7328D40DB74B839EC82A6E7E (void);
-// 0x000000A3 System.Void Calificacion::Start()
+// 0x000000A1 System.Void Calificacion::Start()
 extern void Calificacion_Start_mBE6AF4A6966D7CF182AD9D485A4A28E67E167672 (void);
-// 0x000000A4 System.Void Calificacion::Update()
+// 0x000000A2 System.Void Calificacion::Update()
 extern void Calificacion_Update_m7C9EB650C8CD3D373C20C6724431383745960914 (void);
-// 0x000000A5 System.Void Calificacion::Abrir()
+// 0x000000A3 System.Void Calificacion::Abrir()
 extern void Calificacion_Abrir_mFC3AF3D5BFF694C2CE69B365252F36BF52495321 (void);
-// 0x000000A6 System.Void Calificacion::Cerrar()
+// 0x000000A4 System.Void Calificacion::Cerrar()
 extern void Calificacion_Cerrar_mD4CD192D7BCC0322A0817C2C76E91246CFCE31F0 (void);
-// 0x000000A7 System.Void Calificacion::Graficos(System.Int32)
+// 0x000000A5 System.Void Calificacion::Graficos(System.Int32)
 extern void Calificacion_Graficos_mFD0502625E190959A472EEBFF0EDE4E3CB02D67C (void);
-// 0x000000A8 System.Void Calificacion::Jugabilidad(System.Int32)
+// 0x000000A6 System.Void Calificacion::Jugabilidad(System.Int32)
 extern void Calificacion_Jugabilidad_mB39099D56AFC6A5ECA8D8BD0F22B55FFB506D301 (void);
-// 0x000000A9 System.Void Calificacion::Redaccion(System.Int32)
+// 0x000000A7 System.Void Calificacion::Redaccion(System.Int32)
 extern void Calificacion_Redaccion_mD2A90EE21307B15E0702ED18EF9E5B3515B52EF5 (void);
-// 0x000000AA System.Void Calificacion::Contenido(System.Int32)
+// 0x000000A8 System.Void Calificacion::Contenido(System.Int32)
 extern void Calificacion_Contenido_mCDCA546468C859F34252AFAE4327A3C004FBD220 (void);
-// 0x000000AB System.Void Calificacion::.ctor()
+// 0x000000A9 System.Void Calificacion::.ctor()
 extern void Calificacion__ctor_mF03178DAFF97E5D723483B8A481214FAC6CD4C40 (void);
-// 0x000000AC System.Void CambioDeDia::Start()
+// 0x000000AA System.Void CambioDeDia::Start()
 extern void CambioDeDia_Start_m72F1BC4883D5611FAD47377AC441C5717BF9DB69 (void);
-// 0x000000AD System.Void CambioDeDia::Update()
+// 0x000000AB System.Void CambioDeDia::Update()
 extern void CambioDeDia_Update_mD6FB76E954C0B095C0A9042046501B2830CEE710 (void);
-// 0x000000AE System.Void CambioDeDia::Pasar()
+// 0x000000AC System.Void CambioDeDia::Pasar()
 extern void CambioDeDia_Pasar_mEA56A32FF9C7484A6B8CEA0F9E105B8C33473E41 (void);
-// 0x000000AF System.Void CambioDeDia::AbrirPantalla()
+// 0x000000AD System.Void CambioDeDia::AbrirPantalla()
 extern void CambioDeDia_AbrirPantalla_m50496348CF884C5923EB7E7ADFEB824168B82286 (void);
-// 0x000000B0 System.Void CambioDeDia::OnPantallaPostEvento()
+// 0x000000AE System.Void CambioDeDia::OnPantallaPostEvento()
 extern void CambioDeDia_OnPantallaPostEvento_m730228DD237024B75C5D0ADB2887CF2192EF52B9 (void);
-// 0x000000B1 System.Void CambioDeDia::.ctor()
+// 0x000000AF System.Void CambioDeDia::.ctor()
 extern void CambioDeDia__ctor_m5ECD44D5C7A33B662832FA44EE7945C87B4A1267 (void);
-// 0x000000B2 System.Void CantidadAnimales::Start()
+// 0x000000B0 System.Void CantidadAnimales::Start()
 extern void CantidadAnimales_Start_m5146AEBAAB2556923FCB9114B5A5914CB33B7E2D (void);
-// 0x000000B3 System.Void CantidadAnimales::Update()
+// 0x000000B1 System.Void CantidadAnimales::Update()
 extern void CantidadAnimales_Update_m7B7BDBA85573AB5D9AC7D1D9D8A7B3F50995690A (void);
-// 0x000000B4 System.Void CantidadAnimales::RestarCantidadCarpincho()
+// 0x000000B2 System.Void CantidadAnimales::RestarCantidadCarpincho()
 extern void CantidadAnimales_RestarCantidadCarpincho_m6EC38DF25692A9829660031F211DD50E8EFAFB11 (void);
-// 0x000000B5 System.Void CantidadAnimales::RestarCantidadArana()
+// 0x000000B3 System.Void CantidadAnimales::RestarCantidadArana()
 extern void CantidadAnimales_RestarCantidadArana_m70C3A0A593706603414E1D529D988EB8180ADCE8 (void);
-// 0x000000B6 System.Void CantidadAnimales::RestarCantidadCocodrilo()
+// 0x000000B4 System.Void CantidadAnimales::RestarCantidadCocodrilo()
 extern void CantidadAnimales_RestarCantidadCocodrilo_mFB13AA35D0C903460E332C104587A0A49D8B798B (void);
-// 0x000000B7 System.Void CantidadAnimales::RestarCantidadZorro()
+// 0x000000B5 System.Void CantidadAnimales::RestarCantidadZorro()
 extern void CantidadAnimales_RestarCantidadZorro_mE2A58700006E81A645CBD27AF81FC0D1A1C1A706 (void);
-// 0x000000B8 System.Void CantidadAnimales::RestarCantidadMurcielago()
+// 0x000000B6 System.Void CantidadAnimales::RestarCantidadMurcielago()
 extern void CantidadAnimales_RestarCantidadMurcielago_m4AC2A4731C243ADEAF1A495320293C67793831A0 (void);
-// 0x000000B9 System.Void CantidadAnimales::RestarCantidadSerpiente()
+// 0x000000B7 System.Void CantidadAnimales::RestarCantidadSerpiente()
 extern void CantidadAnimales_RestarCantidadSerpiente_m99A0ADF4651F160425DDE507DB38A728B4D9693B (void);
-// 0x000000BA System.Void CantidadAnimales::RestarCantidadAve()
+// 0x000000B8 System.Void CantidadAnimales::RestarCantidadAve()
 extern void CantidadAnimales_RestarCantidadAve_mE7C25B3F12FEC5EB5F94F1F13D86FAABCA122349 (void);
-// 0x000000BB System.Void CantidadAnimales::SumarCantidadCarpincho()
+// 0x000000B9 System.Void CantidadAnimales::SumarCantidadCarpincho()
 extern void CantidadAnimales_SumarCantidadCarpincho_mA41EB3620C901397BE340D8E224E09B2C70EA0D4 (void);
-// 0x000000BC System.Void CantidadAnimales::SumarCantidadArana()
+// 0x000000BA System.Void CantidadAnimales::SumarCantidadArana()
 extern void CantidadAnimales_SumarCantidadArana_mD67FF6864EBBCE382B53CB1ED7F3CC6D42BEBA8F (void);
-// 0x000000BD System.Void CantidadAnimales::SumarCantidadCocodrilo()
+// 0x000000BB System.Void CantidadAnimales::SumarCantidadCocodrilo()
 extern void CantidadAnimales_SumarCantidadCocodrilo_m93098399BE5399D2182B02BA1A602F4D1C42150F (void);
-// 0x000000BE System.Void CantidadAnimales::SumarCantidadZorro()
+// 0x000000BC System.Void CantidadAnimales::SumarCantidadZorro()
 extern void CantidadAnimales_SumarCantidadZorro_mAD9130D6BCB6A1087D26EBFC5533136AB125CAFA (void);
-// 0x000000BF System.Void CantidadAnimales::SumarCantidadMurcielago()
+// 0x000000BD System.Void CantidadAnimales::SumarCantidadMurcielago()
 extern void CantidadAnimales_SumarCantidadMurcielago_mAD90C7146893476A2C32488983B72C769DF9C2E5 (void);
-// 0x000000C0 System.Void CantidadAnimales::SumarCantidadSerpiente()
+// 0x000000BE System.Void CantidadAnimales::SumarCantidadSerpiente()
 extern void CantidadAnimales_SumarCantidadSerpiente_m0B999024129D2A208014F7D6A07518D671DDC036 (void);
-// 0x000000C1 System.Void CantidadAnimales::SumarCantidadAve()
+// 0x000000BF System.Void CantidadAnimales::SumarCantidadAve()
 extern void CantidadAnimales_SumarCantidadAve_mA4D54F3F69B47A4565730C17D492771780BD8174 (void);
-// 0x000000C2 System.Void CantidadAnimales::.ctor()
+// 0x000000C0 System.Void CantidadAnimales::.ctor()
 extern void CantidadAnimales__ctor_m24C6E3ECA8D7B2FD6428FC87FAD065646F8D1511 (void);
-// 0x000000C3 System.Void CartaAzar::Start()
+// 0x000000C1 System.Void CartaAzar::Start()
 extern void CartaAzar_Start_mCF5CE714511061B251719EB5948DBBD3B807DFDF (void);
-// 0x000000C4 System.Void CartaAzar::Update()
+// 0x000000C2 System.Void CartaAzar::Update()
 extern void CartaAzar_Update_m4B6C05184DCB5F5C3B17F23209030B28546E0BDB (void);
-// 0x000000C5 System.Void CartaAzar::ElegirCarta()
+// 0x000000C3 System.Void CartaAzar::ElegirCarta()
 extern void CartaAzar_ElegirCarta_mD51E91AE71FD715FB546385BCCBD4FEA5BC506B2 (void);
-// 0x000000C6 System.Void CartaAzar::.ctor()
+// 0x000000C4 System.Void CartaAzar::.ctor()
 extern void CartaAzar__ctor_mE5B27EDF22328668C05EF07AD6C3E15366210083 (void);
-// 0x000000C7 System.Void CartaAzar::.cctor()
+// 0x000000C5 System.Void CartaAzar::.cctor()
 extern void CartaAzar__cctor_m14BC7F797125C6B12EF2D9B83F47117A765DCCB4 (void);
-// 0x000000C8 System.Void ChangeScene::Start()
+// 0x000000C6 System.Void ChangeScene::Start()
 extern void ChangeScene_Start_m390823308069B9691E1212DBD9F6422B5FA63553 (void);
-// 0x000000C9 System.Void ChangeScene::MoveToScene(System.Int32)
+// 0x000000C7 System.Void ChangeScene::MoveToScene(System.Int32)
 extern void ChangeScene_MoveToScene_m471A2C0C7A834C34290857A22E6D2E5FF6A7AEDA (void);
-// 0x000000CA System.Void ChangeScene::VolverAJugar()
+// 0x000000C8 System.Void ChangeScene::VolverAJugar()
 extern void ChangeScene_VolverAJugar_m44937E61402E5951BFC4BDD9D5158F5C8A4AA1FE (void);
-// 0x000000CB System.Void ChangeScene::NoRestarAnimales()
+// 0x000000C9 System.Void ChangeScene::NoRestarAnimales()
 extern void ChangeScene_NoRestarAnimales_mFB82E216F30AEBC386EB807C4A558C6325B1BEA2 (void);
+// 0x000000CA System.Void ChangeScene::SumarContinuarParaAnalytics(System.String)
+extern void ChangeScene_SumarContinuarParaAnalytics_m4106C0D6BA29A1AE52649BC47354956AA74F5B22 (void);
+// 0x000000CB System.Void ChangeScene::ejecutarAccionAnalytics(System.String)
+extern void ChangeScene_ejecutarAccionAnalytics_mBBEF37E2EB6415347D81C782F45E3934F15DF5ED (void);
 // 0x000000CC System.Void ChangeScene::.ctor()
 extern void ChangeScene__ctor_m31CB879A0944B416D16AA2130F9504E1ABAD6FA1 (void);
 // 0x000000CD System.Void CheatCodes::Start()
@@ -710,145 +710,147 @@ extern void CruzaList__ctor_m81F218783EABF6C9E5144E5A341F119636BD3B33 (void);
 extern void PlayTime_Awake_mBF5DE189A7FAA3B411CFFAA646D9CD10C7469F2D (void);
 // 0x0000015D System.Void PlayTime::Start()
 extern void PlayTime_Start_m78C1379B0ADDFF1343F16870ED4454266E5A51DC (void);
-// 0x0000015E System.Void PlayTime::FixedUpdate()
+// 0x0000015E System.Void PlayTime::Update()
+extern void PlayTime_Update_m7465F3B3C8E5D5D93FF560E80554A9A0078761D8 (void);
+// 0x0000015F System.Void PlayTime::FixedUpdate()
 extern void PlayTime_FixedUpdate_mFF07DCE426D7AE73805B482977FE90D364ADD9E5 (void);
-// 0x0000015F System.Void PlayTime::.ctor()
+// 0x00000160 System.Void PlayTime::.ctor()
 extern void PlayTime__ctor_m32711D83D6B8451AC3F064C75F712E4C0C9A4E1D (void);
-// 0x00000160 System.Void PopularidadBar::Start()
+// 0x00000161 System.Void PopularidadBar::Start()
 extern void PopularidadBar_Start_mDFB5FB1B997CD684E78F9BB73AFA2564D4D823A9 (void);
-// 0x00000161 System.Void PopularidadBar::Update()
+// 0x00000162 System.Void PopularidadBar::Update()
 extern void PopularidadBar_Update_mF2A541293092B26234EA8704A196B7D7C927606A (void);
-// 0x00000162 System.Void PopularidadBar::.ctor()
+// 0x00000163 System.Void PopularidadBar::.ctor()
 extern void PopularidadBar__ctor_m94021C9902A8DBE8D9E7C3F30A5F32DDF077BFA7 (void);
-// 0x00000163 System.Void popularityTest::Start()
+// 0x00000164 System.Void popularityTest::Start()
 extern void popularityTest_Start_m9DFF6ED81A2D2D2BC1A46EF4A4EAE699233EAA9F (void);
-// 0x00000164 System.Void popularityTest::Update()
+// 0x00000165 System.Void popularityTest::Update()
 extern void popularityTest_Update_m30DB8EFAFED96B7A2F5E3D4F490C5BCCA9E46B2A (void);
-// 0x00000165 System.Void popularityTest::aumentar()
+// 0x00000166 System.Void popularityTest::aumentar()
 extern void popularityTest_aumentar_m2BD6A74FC9A80CDFDB701B790FCDB025ECE7A565 (void);
-// 0x00000166 System.Void popularityTest::reducir()
+// 0x00000167 System.Void popularityTest::reducir()
 extern void popularityTest_reducir_m248EB8434F6DF1EC130EC7634BD0627BB069594E (void);
-// 0x00000167 System.Void popularityTest::restartMain()
+// 0x00000168 System.Void popularityTest::restartMain()
 extern void popularityTest_restartMain_m27DDD5D663E8478789BDB9A8D70AC883ABF2C5B4 (void);
-// 0x00000168 System.Void popularityTest::.ctor()
+// 0x00000169 System.Void popularityTest::.ctor()
 extern void popularityTest__ctor_m2481F36150849B942DB43C9599D34A3144C2FA0B (void);
-// 0x00000169 System.Void RandomPercent::Start()
+// 0x0000016A System.Void RandomPercent::Start()
 extern void RandomPercent_Start_m06AE1C9C47CAF31927C65267A149DF30E7D830E9 (void);
-// 0x0000016A System.Void RandomPercent::Update()
+// 0x0000016B System.Void RandomPercent::Update()
 extern void RandomPercent_Update_m81A8B9D23AF885D32DD628EE9EA6673D20827BAF (void);
-// 0x0000016B System.Void RandomPercent::ShowPercent()
+// 0x0000016C System.Void RandomPercent::ShowPercent()
 extern void RandomPercent_ShowPercent_mAA18176AF5D067AA987B0A5B19707E39D854C02F (void);
-// 0x0000016C System.Void RandomPercent::.ctor()
+// 0x0000016D System.Void RandomPercent::.ctor()
 extern void RandomPercent__ctor_mED51F5507AA70887DE79143839E59BE24BE041EB (void);
-// 0x0000016D System.Void RawImageTexture::Start()
+// 0x0000016E System.Void RawImageTexture::Start()
 extern void RawImageTexture_Start_m6D949BA566C6B70465031148B880C9B10DED9D1F (void);
-// 0x0000016E System.Void RawImageTexture::NewImage()
+// 0x0000016F System.Void RawImageTexture::NewImage()
 extern void RawImageTexture_NewImage_m42213A3FC0594C873E8E235AE1DAB0D585968AFB (void);
-// 0x0000016F System.Void RawImageTexture::.ctor()
+// 0x00000170 System.Void RawImageTexture::.ctor()
 extern void RawImageTexture__ctor_m8F0D7518E850D063B857B6B7D879CC6D5A203A1E (void);
-// 0x00000170 System.Void GameData::.ctor(popularityTest,MoneySetter)
+// 0x00000171 System.Void GameData::.ctor(popularityTest,MoneySetter)
 extern void GameData__ctor_m3E3BB24B203C47DEB0FE9DD29E2F2459439E32DA (void);
-// 0x00000171 System.Void SaveManager::Start()
+// 0x00000172 System.Void SaveManager::Start()
 extern void SaveManager_Start_m15A011D82A0D65E15B7C1242F81CE2971F0AD675 (void);
-// 0x00000172 System.Void SaveManager::Update()
+// 0x00000173 System.Void SaveManager::Update()
 extern void SaveManager_Update_m000CE1120AE16EF07C944FF62FEFF841A74752C2 (void);
-// 0x00000173 System.Void SaveManager::SaveGame()
+// 0x00000174 System.Void SaveManager::SaveGame()
 extern void SaveManager_SaveGame_m9F3A8416B3CE326E6321A1119540A46BAA673407 (void);
-// 0x00000174 System.Void SaveManager::LoadGame()
+// 0x00000175 System.Void SaveManager::LoadGame()
 extern void SaveManager_LoadGame_m0C175B654BE1E3A2B575183A14DA1DE088D21F02 (void);
-// 0x00000175 System.Void SaveManager::.ctor()
+// 0x00000176 System.Void SaveManager::.ctor()
 extern void SaveManager__ctor_m1F205ADF8D0DB62531A750C62939AB6BC056D9FE (void);
-// 0x00000176 System.Void SaveSystem::SaveGame(popularityTest,MoneySetter)
+// 0x00000177 System.Void SaveSystem::SaveGame(popularityTest,MoneySetter)
 extern void SaveSystem_SaveGame_mC41C9D0B0ADF56E303C4BB773343BCBC145CA9CC (void);
-// 0x00000177 GameData SaveSystem::LoadGame()
+// 0x00000178 GameData SaveSystem::LoadGame()
 extern void SaveSystem_LoadGame_m30EAA6C2B0FC264CF537EA8C54F84DC5D1FF9C0B (void);
-// 0x00000178 System.Void SellAnimal::Awake()
+// 0x00000179 System.Void SellAnimal::Awake()
 extern void SellAnimal_Awake_m73DC0E60D3756D7C8814B57E43064B539B4B2073 (void);
-// 0x00000179 System.Void SellAnimal::Start()
+// 0x0000017A System.Void SellAnimal::Start()
 extern void SellAnimal_Start_mFBBD45889365C6EC7232F958FB2CD8493C6B3D59 (void);
-// 0x0000017A System.Void SellAnimal::Update()
+// 0x0000017B System.Void SellAnimal::Update()
 extern void SellAnimal_Update_m1D94F72DCC51AE74AC9178B39CBAFEEA678FC43C (void);
-// 0x0000017B System.Void SellAnimal::Vender()
+// 0x0000017C System.Void SellAnimal::Vender()
 extern void SellAnimal_Vender_m5914B6EC48A29E1B33004126215E3425162A9FDD (void);
-// 0x0000017C System.Void SellAnimal::Sacar()
+// 0x0000017D System.Void SellAnimal::Sacar()
 extern void SellAnimal_Sacar_m963319AE876F8B7F914322E23CA83CFEEC2FC326 (void);
-// 0x0000017D System.Void SellAnimal::.ctor()
+// 0x0000017E System.Void SellAnimal::.ctor()
 extern void SellAnimal__ctor_m81559DC98C5FE4FCDD9076770A5E899493F0F438 (void);
-// 0x0000017E System.Void ShowPercent::Start()
+// 0x0000017F System.Void ShowPercent::Start()
 extern void ShowPercent_Start_m25FFBA5D5D8D4A73943EEF07BC4AA7CBEBA8A77F (void);
-// 0x0000017F System.Void ShowPercent::Update()
+// 0x00000180 System.Void ShowPercent::Update()
 extern void ShowPercent_Update_mB8C88CDEB83B56D71E101753816B83C52EEFA38B (void);
-// 0x00000180 System.Void ShowPercent::.ctor()
+// 0x00000181 System.Void ShowPercent::.ctor()
 extern void ShowPercent__ctor_mFFAE84E9348F232B91ECC5F0AC3A0AEB76D9C347 (void);
-// 0x00000181 System.Void Stasis::Start()
+// 0x00000182 System.Void Stasis::Start()
 extern void Stasis_Start_mD675208CD7E162B5F6A1E776B5795DAEDBC78C80 (void);
-// 0x00000182 System.Void Stasis::Update()
+// 0x00000183 System.Void Stasis::Update()
 extern void Stasis_Update_m3052D596FA150F2CF339F05BC046AA27CE60B3B9 (void);
-// 0x00000183 System.Void Stasis::AddAnimalToStasis()
+// 0x00000184 System.Void Stasis::AddAnimalToStasis()
 extern void Stasis_AddAnimalToStasis_m628BFE8AF161A878A3F78E9B921CAB7E5418F9C9 (void);
-// 0x00000184 System.Void Stasis::.ctor()
+// 0x00000185 System.Void Stasis::.ctor()
 extern void Stasis__ctor_mD455F06E2BE7844233F20C4DCD5564CFAC5ED25D (void);
-// 0x00000185 System.Void StasisManager::Awake()
+// 0x00000186 System.Void StasisManager::Awake()
 extern void StasisManager_Awake_m880FFD19E753AF2AAC9320C76BD7F0E655EA3F63 (void);
-// 0x00000186 System.Void StasisManager::Start()
+// 0x00000187 System.Void StasisManager::Start()
 extern void StasisManager_Start_mAE94EEA196DD2F7458E960DC78F11015ECD8D566 (void);
-// 0x00000187 System.Void StasisManager::Update()
+// 0x00000188 System.Void StasisManager::Update()
 extern void StasisManager_Update_m13843CD28FE18B1886A0AB3368A7BAC8D19655D2 (void);
-// 0x00000188 System.Void StasisManager::GetCruza(System.Int32)
+// 0x00000189 System.Void StasisManager::GetCruza(System.Int32)
 extern void StasisManager_GetCruza_m525FEF4B6DD8936A208D8E15624E24D1CF22AA69 (void);
-// 0x00000189 System.Void StasisManager::NextStasisSlot()
+// 0x0000018A System.Void StasisManager::NextStasisSlot()
 extern void StasisManager_NextStasisSlot_m08118D8B0D0447739BF7C346798588C9FA80CE5B (void);
-// 0x0000018A System.Void StasisManager::PreviousStasisSlot()
+// 0x0000018B System.Void StasisManager::PreviousStasisSlot()
 extern void StasisManager_PreviousStasisSlot_mF1AAB322960530B61967532E2B4C85BA2B1584CC (void);
-// 0x0000018B System.Void StasisManager::.ctor()
+// 0x0000018C System.Void StasisManager::.ctor()
 extern void StasisManager__ctor_m74D583B15BF970A1563615930CE09CE66B78F7CD (void);
-// 0x0000018C System.Void StasisManager/Cruza::.ctor()
+// 0x0000018D System.Void StasisManager/Cruza::.ctor()
 extern void Cruza__ctor_m87F83FEA929FBA020AF9091F4EAC955BB07BEC8F (void);
-// 0x0000018D System.Void StasisManager/CruzaList::.ctor()
+// 0x0000018E System.Void StasisManager/CruzaList::.ctor()
 extern void CruzaList__ctor_m04C201E36176F0478FA14266FDC0B31525EDC5EF (void);
-// 0x0000018E System.Void swipe_inventory::Start()
+// 0x0000018F System.Void swipe_inventory::Start()
 extern void swipe_inventory_Start_mB99E699242DDC75DC02E5A4C743B56D05765D467 (void);
-// 0x0000018F System.Void swipe_inventory::Update()
+// 0x00000190 System.Void swipe_inventory::Update()
 extern void swipe_inventory_Update_m5F7F437F162B0BB2CF6CF4768735BBC8BC43F2E6 (void);
-// 0x00000190 System.Void swipe_inventory::.ctor()
+// 0x00000191 System.Void swipe_inventory::.ctor()
 extern void swipe_inventory__ctor_m1769BCC508924D4812BE45CC16D9B08F2FABB7CC (void);
-// 0x00000191 System.Void Test::Start()
+// 0x00000192 System.Void Test::Start()
 extern void Test_Start_mA902842AF55C0A063D71F22B280F28BF0FB01497 (void);
-// 0x00000192 System.Void Test::Update()
+// 0x00000193 System.Void Test::Update()
 extern void Test_Update_m68AE52707CAA861E0DBDC29971974A5BF62D82D1 (void);
-// 0x00000193 System.Void Test::.ctor()
+// 0x00000194 System.Void Test::.ctor()
 extern void Test__ctor_mB84DF4A3888723C395E76E3879FDFB8AA1EFEDCB (void);
-// 0x00000194 System.Void TogglePerder2::Start()
+// 0x00000195 System.Void TogglePerder2::Start()
 extern void TogglePerder2_Start_m4B09FC7BC7B196D313F5D08982E922F3AC6FAC5F (void);
-// 0x00000195 System.Void TogglePerder2::Update()
+// 0x00000196 System.Void TogglePerder2::Update()
 extern void TogglePerder2_Update_m7AD05A951443F23A2BB9047594B0E9E7A3177ACA (void);
-// 0x00000196 System.Void TogglePerder2::click()
+// 0x00000197 System.Void TogglePerder2::click()
 extern void TogglePerder2_click_m1FC46DCC6A22C6F069BEA6EC50BC4699FCCE2A52 (void);
-// 0x00000197 System.Void TogglePerder2::.ctor()
+// 0x00000198 System.Void TogglePerder2::.ctor()
 extern void TogglePerder2__ctor_mE2312BFA4EC909FE79FE3C707262380852EAA4F0 (void);
-// 0x00000198 System.Void TogglePerdida::Start()
+// 0x00000199 System.Void TogglePerdida::Start()
 extern void TogglePerdida_Start_mD7A0E604AE049D16410E9BFDC4D211DB36B196EB (void);
-// 0x00000199 System.Void TogglePerdida::Update()
+// 0x0000019A System.Void TogglePerdida::Update()
 extern void TogglePerdida_Update_m1E9CDCE2CAEB9B6A07926A33B1E0E2A646099AD5 (void);
-// 0x0000019A System.Void TogglePerdida::click()
+// 0x0000019B System.Void TogglePerdida::click()
 extern void TogglePerdida_click_mF1AC111D5B859B45C3DF177B622C1A387759972A (void);
-// 0x0000019B System.Void TogglePerdida::.ctor()
+// 0x0000019C System.Void TogglePerdida::.ctor()
 extern void TogglePerdida__ctor_m94151D12CE61CFFD53DFABD97D6748A1C62D4791 (void);
-// 0x0000019C System.Void UIZoomImage::Awake()
+// 0x0000019D System.Void UIZoomImage::Awake()
 extern void UIZoomImage_Awake_m0A017FD48D8CF92D1400813F351DCA606506223B (void);
-// 0x0000019D System.Void UIZoomImage::OnScroll(UnityEngine.EventSystems.PointerEventData)
+// 0x0000019E System.Void UIZoomImage::OnScroll(UnityEngine.EventSystems.PointerEventData)
 extern void UIZoomImage_OnScroll_m2AE375200A7896E156CB546775B26F7472836FED (void);
-// 0x0000019E UnityEngine.Vector3 UIZoomImage::ClampDesiredScale(UnityEngine.Vector3)
+// 0x0000019F UnityEngine.Vector3 UIZoomImage::ClampDesiredScale(UnityEngine.Vector3)
 extern void UIZoomImage_ClampDesiredScale_mD0A3C603359EB1073E730B21965087F41E628FBB (void);
-// 0x0000019F System.Void UIZoomImage::.ctor()
+// 0x000001A0 System.Void UIZoomImage::.ctor()
 extern void UIZoomImage__ctor_mC1E0CE6A6A7A9F540DBC5192BB55908BF59BF921 (void);
-// 0x000001A0 System.Void UnlockStoreAnimals::Start()
+// 0x000001A1 System.Void UnlockStoreAnimals::Start()
 extern void UnlockStoreAnimals_Start_m0A1BD8E2F7805B2DD9A8D5C64AD21C084D2F3F2B (void);
-// 0x000001A1 System.Void UnlockStoreAnimals::Update()
+// 0x000001A2 System.Void UnlockStoreAnimals::Update()
 extern void UnlockStoreAnimals_Update_mB22B02F1D56178574EAA8A1AE797ACD3A730D64B (void);
-// 0x000001A2 System.Void UnlockStoreAnimals::.ctor()
+// 0x000001A3 System.Void UnlockStoreAnimals::.ctor()
 extern void UnlockStoreAnimals__ctor_m038B34EF8F1D7FF8D1BD8D08AFA00F11744994B8 (void);
-static Il2CppMethodPointer s_methodPointers[418] = 
+static Il2CppMethodPointer s_methodPointers[419] = 
 {
 	CantidadCupos_Start_mB2BF50B0923C89206CFD6A276B613095F9EB68DF,
 	CantidadCupos_Update_m41F762071CB725022F8DCF1D5C802AF6E7AE1F46,
@@ -982,7 +984,6 @@ static Il2CppMethodPointer s_methodPointers[418] =
 	EventosAnalytics_comprar_mA8A33F501BDC5F859E709F7C022A2FDA2EC3530C,
 	EventosAnalytics_cruza_m08C29B9AFE00033935C241C2BB593670AC087100,
 	EventosAnalytics_ganar_m8166FDBBDE8F5C33A27AA45281CEA6814146E1A4,
-	EventosAnalytics_leer_cartas_m844793106B6EFBDE779918AA9C5D9840AC79349B,
 	EventosAnalytics_salir_mC7D524D27A79AEEAFBCDC8D50D5A48DA50F108AD,
 	EventosAnalytics_iniciar_partida_m2263A9C6AE124015E38818A5902FA1019F341FE3,
 	EventosAnalytics_continuar_partida_m1237DEE3D87E9D18294367E0614FCF8704C65B3A,
@@ -995,7 +996,6 @@ static Il2CppMethodPointer s_methodPointers[418] =
 	EventosAnalytics_leer_evento_m1FEAEA12051E1FBFCC6E606E3EEC3C60D15CC7EA,
 	EventosAnalytics_mandar_a_stasis_m81D937B0328026F0623F85B54A3F3B0AA611C850,
 	EventosAnalytics_mandar_a_lazaro_mC66C8E9D3E51C25226BC010CC67AA2F8E42118BE,
-	EventosAnalytics_elegir_carta_m5D4DC838BD5F2995941EAE8F0A9AF75B3B888DAB,
 	EventosAnalytics_calificacion_m20F56542A94899B7A90FC6D2D7703F52B3FA765D,
 	EventosAnalytics__ctor_mC1C99CB99E2B43D99504D12A3E3847FCEE6B10E5,
 	U3CStartU3Ed__1_MoveNext_mF4542F37F154BDCAC2619ED5DFCA34C7D5F82892,
@@ -1053,6 +1053,8 @@ static Il2CppMethodPointer s_methodPointers[418] =
 	ChangeScene_MoveToScene_m471A2C0C7A834C34290857A22E6D2E5FF6A7AEDA,
 	ChangeScene_VolverAJugar_m44937E61402E5951BFC4BDD9D5158F5C8A4AA1FE,
 	ChangeScene_NoRestarAnimales_mFB82E216F30AEBC386EB807C4A558C6325B1BEA2,
+	ChangeScene_SumarContinuarParaAnalytics_m4106C0D6BA29A1AE52649BC47354956AA74F5B22,
+	ChangeScene_ejecutarAccionAnalytics_mBBEF37E2EB6415347D81C782F45E3934F15DF5ED,
 	ChangeScene__ctor_m31CB879A0944B416D16AA2130F9504E1ABAD6FA1,
 	CheatCodes_Start_m66BF78203B4645EC2CDE468EA53B17F2E3EF0D68,
 	CheatCodes_Update_m5CB4BB5FBB2DFB8111618057475BA94B1381E2C0,
@@ -1199,6 +1201,7 @@ static Il2CppMethodPointer s_methodPointers[418] =
 	CruzaList__ctor_m81F218783EABF6C9E5144E5A341F119636BD3B33,
 	PlayTime_Awake_mBF5DE189A7FAA3B411CFFAA646D9CD10C7469F2D,
 	PlayTime_Start_m78C1379B0ADDFF1343F16870ED4454266E5A51DC,
+	PlayTime_Update_m7465F3B3C8E5D5D93FF560E80554A9A0078761D8,
 	PlayTime_FixedUpdate_mFF07DCE426D7AE73805B482977FE90D364ADD9E5,
 	PlayTime__ctor_m32711D83D6B8451AC3F064C75F712E4C0C9A4E1D,
 	PopularidadBar_Start_mDFB5FB1B997CD684E78F9BB73AFA2564D4D823A9,
@@ -1273,10 +1276,10 @@ extern void U3CStartU3Ed__1_MoveNext_mF4542F37F154BDCAC2619ED5DFCA34C7D5F82892_A
 extern void U3CStartU3Ed__1_SetStateMachine_mF62F2047477E6CF5EE48F535931A1A46F99550C1_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x06000095, U3CStartU3Ed__1_MoveNext_mF4542F37F154BDCAC2619ED5DFCA34C7D5F82892_AdjustorThunk },
-	{ 0x06000096, U3CStartU3Ed__1_SetStateMachine_mF62F2047477E6CF5EE48F535931A1A46F99550C1_AdjustorThunk },
+	{ 0x06000093, U3CStartU3Ed__1_MoveNext_mF4542F37F154BDCAC2619ED5DFCA34C7D5F82892_AdjustorThunk },
+	{ 0x06000094, U3CStartU3Ed__1_SetStateMachine_mF62F2047477E6CF5EE48F535931A1A46F99550C1_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[418] = 
+static const int32_t s_InvokerIndices[419] = 
 {
 	4946,
 	4946,
@@ -1425,8 +1428,6 @@ static const int32_t s_InvokerIndices[418] =
 	4946,
 	4946,
 	4946,
-	4946,
-	4946,
 	4009,
 	4946,
 	4946,
@@ -1481,6 +1482,8 @@ static const int32_t s_InvokerIndices[418] =
 	3987,
 	4946,
 	4946,
+	4009,
+	4009,
 	4946,
 	4946,
 	4946,
@@ -1645,6 +1648,7 @@ static const int32_t s_InvokerIndices[418] =
 	4946,
 	4946,
 	4946,
+	4946,
 	2293,
 	4946,
 	4946,
@@ -1701,7 +1705,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	418,
+	419,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,
