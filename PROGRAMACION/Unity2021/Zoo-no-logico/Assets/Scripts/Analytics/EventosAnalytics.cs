@@ -245,27 +245,47 @@ public class EventosAnalytics : MonoBehaviour
 
     public void leer_evento()
     {
+        AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object> {
+            {"id", PlayerPrefs.GetInt("eventNumber")},
+            {"opcionElegida", PlayerPrefs.GetInt("eventoElegido")},
 
+
+        }); //TERMINADO
+        Debug.Log("id" + PlayerPrefs.GetInt("eventNumber"));
+        Debug.Log("opcionElegida" + PlayerPrefs.GetInt("eventoElegido"));
     }
 
     public void mandar_a_stasis()
     {
+        AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object> {
+            {"vez", PlayerPrefs.GetInt("enviarStasisTotales")},
 
+        }); //TERMINADO
+        Debug.Log("vez" + PlayerPrefs.GetInt("enviarStasisTotales"));
     }
 
     public void mandar_a_lazaro()
     {
+        AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object> {
+            {"vez", PlayerPrefs.GetInt("enviarLazaroTotales")},
 
-    }
-
-    public void elegir_carta()
-    {
-
+        }); //TERMINADO
+        Debug.Log("vez" + PlayerPrefs.GetInt("enviarLazaroTotales"));
     }
 
     public void calificacion()
     {
+        AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object> {
+            {"graficos", PlayerPrefs.GetInt("CalifGraficos")},
+            {"jugabilidad", PlayerPrefs.GetInt("CalifJugabilidad")},
+            {"redacción", PlayerPrefs.GetInt("CalifRedaccion")},
+            {"contenido", PlayerPrefs.GetInt("CalifContenido")},
 
+        }); //TERMINADO
+        Debug.Log("graficos" + PlayerPrefs.GetInt("CalifGraficos"));
+        Debug.Log("jugabilidad" + PlayerPrefs.GetInt("CalifJugabilidad"));
+        Debug.Log("redacción" + PlayerPrefs.GetInt("CalifRedaccion"));
+        Debug.Log("contenido" + PlayerPrefs.GetInt("CalifContenido"));
     }
 }
 
