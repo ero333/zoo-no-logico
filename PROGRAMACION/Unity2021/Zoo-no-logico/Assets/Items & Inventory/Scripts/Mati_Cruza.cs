@@ -98,6 +98,12 @@ public class Mati_Cruza : MonoBehaviour
         int total = plata - RetenerAnimal.precio/divisorCosto;                       // Hago la cuenta de mi plata - lo que cuesta el animal
         PlayerPrefs.SetInt("Moneditas", total);                         // El resultado de la cuenta se convierte en mi plata
 
+        PlayerPref.SetString("animalSlot1", animales1[0]);
+        PlayerPref.SetString("animalSlot2", animales1[1]);
+        PlayerPref.SetString("animalSlot3", animales1[2]);
+
+        PLayerPrefs.SetInt("combinarTotales", PlayerPrefs.GetInt("combinarTotales") + 1);
+
 
         int random = Random.Range(0, 101);                              // número random del 0 al 100
 

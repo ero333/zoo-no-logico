@@ -202,6 +202,7 @@ public class Eventos : MonoBehaviour {
         opcion2Container.SetActive(false);
         opcion1Button.interactable = false;
         continuar.interactable = true;
+        PlayerPrefs.SetInt("eventoElegido", 1);
 
     }
 
@@ -213,6 +214,7 @@ public class Eventos : MonoBehaviour {
         opcion1Container.SetActive(false);
         opcion2Button.interactable = false;
         continuar.interactable = true;
+        PlayerPrefs.SetInt("eventoElegido", 2);
     }
 
     public void ClearEvent()
