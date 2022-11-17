@@ -92,8 +92,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Carpincho");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("carpinchosTotales", PlayerPrefs.GetInt("carpinchosTotales") + 1);
 
             Cosoprueba.SendMessage("SumarCantidadCarpincho");
         }
@@ -108,8 +108,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Arana");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("aranasTotales", PlayerPrefs.GetInt("aranasTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadArana");
         }
     }
@@ -123,8 +123,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Cocodrilo");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("cocodrilosTotales", PlayerPrefs.GetInt("cocodrilosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadCocodrilo");
         }
     }
@@ -138,8 +138,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Zorro");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("zorrosTotales", PlayerPrefs.GetInt("zorrosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadZorro");
         }
     }
@@ -153,8 +153,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Murcielago");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("murcielagosTotales", PlayerPrefs.GetInt("murcielagosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadMurcielago");
         }
     }
@@ -168,8 +168,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Serpiente");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("serpientesTotales", PlayerPrefs.GetInt("serpientesTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadSerpiente");
         }
     }
@@ -183,8 +183,8 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("vezCompra", PlayerPrefs.GetInt("vezCompra") + 1);
             PlayerPrefs.SetString("animalCompra", "Ave");
-            Debug.Log(PlayerPrefs.GetInt("vezCompra") + PlayerPrefs.GetString("animalCompra"));
 
+            PlayerPrefs.SetInt("avesTotales", PlayerPrefs.GetInt("avesTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadAve");
         }
     }

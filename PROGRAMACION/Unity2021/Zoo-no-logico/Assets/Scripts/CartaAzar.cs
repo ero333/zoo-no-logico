@@ -71,6 +71,7 @@ public class CartaAzar : MonoBehaviour
     public void ElegirCarta()
     {
 
+        PlayerPrefs.SetInt("cartasTotales", PlayerPrefs.GetInt("cartasTotales") + 1);
 
         Reset = 1;
         PlayerPrefs.SetInt("ResetListCartas", Reset);

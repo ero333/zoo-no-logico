@@ -24,7 +24,7 @@ public class DeletePlayerPrefs : MonoBehaviour {
 	}
 
     public void Delete() {
-
+        int inicioPartidaTotales = PlayerPrefs.GetInt("inicioPartidaTotales");
         PlayerPrefs.DeleteAll();
 
 
@@ -47,6 +47,7 @@ public class DeletePlayerPrefs : MonoBehaviour {
         PlayerPrefs.SetInt("CantidadSerpiente", 0);
         PlayerPrefs.SetInt("CantidadAve", 0);
         PlayerPrefs.SetString("PrimeraCombinacion", "true");
+        PlayerPrefs.SetInt("inicioPartidaTotales", inicioPartidaTotales + 1);
 
         for (int i = 0; i < 20; i++)
         {

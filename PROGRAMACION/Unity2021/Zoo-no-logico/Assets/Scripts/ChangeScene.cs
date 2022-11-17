@@ -30,5 +30,10 @@ public class ChangeScene : MonoBehaviour {
         PlayerPrefs.SetInt("Cantidad" + PlayerPrefs.GetString("Slot3"), PlayerPrefs.GetInt("Cantidad" + PlayerPrefs.GetString("Slot3")) + 1);
     }
 
+    public void SumarContinuarParaAnalytics(string playerPref)
+    {
+        PlayerPrefs.SetInt(playerPref, PlayerPrefs.GetInt(playerPref) + 1);
+    }
+
     
 }
