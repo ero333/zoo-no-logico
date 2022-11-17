@@ -147,7 +147,7 @@ public class EventosAnalytics : MonoBehaviour
             {"cruzas", PlayerPrefs.GetInt("totalCodex")},
         }); //TERMINADO
 
-        Debug.Log("tiempo_juego" + PlayerPrefs.GetInt("Tiempojuego"));
+        Debug.Log("tiempo_juego" + PlayerPrefs.GetInt("TiempoJuego"));
         Debug.Log("cruzas_fallidas" + PlayerPrefs.GetInt("cruzasFalla"));
         Debug.Log("cruzas_exitosas" + PlayerPrefs.GetInt("cruzasExito"));
         Debug.Log("cupos" + PlayerPrefs.GetInt("JaulasOcupadas"));
