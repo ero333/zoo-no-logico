@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &80595234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,6 +648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!1 &115112219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,6 +1086,7 @@ MonoBehaviour:
   opcion1Button: {fileID: 184109046}
   opcion2Button: {fileID: 1776459875}
   continuar: {fileID: 1983965509}
+  ANALYTICS: {fileID: 0}
 --- !u!1 &208765374
 GameObject:
   m_ObjectHideFlags: 0
@@ -3022,18 +3025,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 681547263}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: MoveToScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 681547263}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: SumarContinuarParaAnalytics
         m_Mode: 5
@@ -3043,6 +3034,30 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: stasisTotales
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681547263}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ejecutarAccionAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: stasis
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 681547263}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: MoveToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &681547261
@@ -3095,6 +3110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!1 &688691294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,6 +4552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1064331004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5184,6 +5201,7 @@ MonoBehaviour:
   opcion1Button: {fileID: 184109046}
   opcion2Button: {fileID: 1776459875}
   continuar: {fileID: 0}
+  ANALYTICS: {fileID: 0}
 --- !u!1 &1300514076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5390,6 +5408,7 @@ MonoBehaviour:
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1368914046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5664,6 +5683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1411704581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6595,6 +6615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1675872949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7255,6 +7276,7 @@ MonoBehaviour:
   opcion1Button: {fileID: 184109046}
   opcion2Button: {fileID: 1776459875}
   continuar: {fileID: 1983965509}
+  ANALYTICS: {fileID: 0}
 --- !u!1 &1789728114
 GameObject:
   m_ObjectHideFlags: 0
@@ -7307,6 +7329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1789728117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7696,6 +7719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!1 &1842176360
 GameObject:
   m_ObjectHideFlags: 0
@@ -7821,6 +7845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1849446192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7866,18 +7891,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1849446191}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: MoveToScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1849446191}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: SumarContinuarParaAnalytics
         m_Mode: 5
@@ -7887,6 +7900,30 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: codexTotales
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1849446191}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ejecutarAccionAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: codex
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1849446191}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: MoveToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1849446193
@@ -8256,6 +8293,7 @@ MonoBehaviour:
   Button: {fileID: 0}
   testMonedas2: {fileID: 0}
   Cosoprueba: {fileID: 0}
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1875251167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8888,6 +8926,7 @@ MonoBehaviour:
   opcion1Button: {fileID: 184109046}
   opcion2Button: {fileID: 1776459875}
   continuar: {fileID: 1983965509}
+  ANALYTICS: {fileID: 0}
 --- !u!1 &2008049318
 GameObject:
   m_ObjectHideFlags: 0

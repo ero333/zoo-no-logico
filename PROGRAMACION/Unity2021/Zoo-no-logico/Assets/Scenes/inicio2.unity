@@ -477,6 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &799928153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,6 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &895503634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,6 +856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1429457057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,7 +926,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1429457056}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: MoveToScene
         m_Mode: 3
         m_Arguments:
@@ -932,6 +935,18 @@ MonoBehaviour:
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1429457056}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ejecutarAccionAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: iniciar_partida
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1429457058
@@ -1071,18 +1086,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1558287590}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1558287590}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: SumarContinuarParaAnalytics
         m_Mode: 5
         m_Arguments:
@@ -1091,6 +1094,30 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: continuarPartidaTotales
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1558287590}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ejecutarAccionAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: continuar_partida
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1558287590}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: MoveToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1558287588
@@ -1143,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!1 &1641534363
 GameObject:
   m_ObjectHideFlags: 0

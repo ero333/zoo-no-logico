@@ -87,6 +87,7 @@ public class CambioDeDia : MonoBehaviour {
             PantallaGanar.SetActive(true);
             PlayerPrefs.SetInt("Ganaste", 1);
             PlayerPrefs.SetInt("ActivadorCalificacion", 1);
+            ANALYTICS.SendMessage("ganar");
         }
         else if (Popularidad <= 0 && PlayerPrefs.GetInt("Ganaste") == 0)
         {
@@ -98,6 +99,8 @@ public class CambioDeDia : MonoBehaviour {
             Pantalla.SetActive(true);
             PopularidadBarra.SetActive(false);
         }
+
+        ANALYTICS.SendMessage("fin_del_turno");
 
     }
 

@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour {
-    
 
+    [SerializeField] private GameObject ANALYTICS;
     void Start()
-    {
-
+    { 
+        ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
     }
 
 
@@ -32,6 +32,11 @@ public class ChangeScene : MonoBehaviour {
     public void SumarContinuarParaAnalytics(string playerPref)
     {
         PlayerPrefs.SetInt(playerPref, PlayerPrefs.GetInt(playerPref) + 1);
+    }
+
+    public void ejecutarAccionAnalytics(string accion)
+    {
+        ANALYTICS.SendMessage(accion);
     }
 
     

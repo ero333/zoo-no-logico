@@ -15,12 +15,14 @@ public class MonedasTotales : MonoBehaviour {
 
     public GameObject Cosoprueba;
 
+    [SerializeField] private GameObject ANALYTICS;
+
     // Start is called before the first frame update
     void Start()
     {
         textoMonedas = GameObject.FindGameObjectWithTag("TextoMonedas").GetComponent<Text>(); // Busca el objeto por su tag y le da el componente Text
         Monedas = PlayerPrefs.GetInt("Moneditas");
-       
+        ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
     }
 
 
@@ -95,6 +97,7 @@ public class MonedasTotales : MonoBehaviour {
             PlayerPrefs.SetInt("carpinchosTotales", PlayerPrefs.GetInt("carpinchosTotales") + 1);
 
             Cosoprueba.SendMessage("SumarCantidadCarpincho");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -110,6 +113,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("aranasTotales", PlayerPrefs.GetInt("aranasTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadArana");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -125,6 +129,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("cocodrilosTotales", PlayerPrefs.GetInt("cocodrilosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadCocodrilo");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -140,6 +145,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("zorrosTotales", PlayerPrefs.GetInt("zorrosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadZorro");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -155,6 +161,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("murcielagosTotales", PlayerPrefs.GetInt("murcielagosTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadMurcielago");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -170,6 +177,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("serpientesTotales", PlayerPrefs.GetInt("serpientesTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadSerpiente");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 
@@ -185,6 +193,7 @@ public class MonedasTotales : MonoBehaviour {
 
             PlayerPrefs.SetInt("avesTotales", PlayerPrefs.GetInt("avesTotales") + 1);
             Cosoprueba.SendMessage("SumarCantidadAve");
+            ANALYTICS.SendMessage("comprar");
         }
     }
 

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Mati_Cruza : MonoBehaviour
 {
+
     public List<string> animales1 = new List<string>();                 // Lista que guarda los nombres de los animales recibidos
     public List<Mati_Animales> animales2 = new List<Mati_Animales>();   // Lista que guarda los animales recibidos (Scriptable Objects)
 
@@ -21,6 +22,8 @@ public class Mati_Cruza : MonoBehaviour
 
     private int divisorCosto = 4;
 
+    [SerializeField] private GameObject ANALYTICS;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +34,8 @@ public class Mati_Cruza : MonoBehaviour
         cruzas = Resources.LoadAll<Mati_CruzasAnimales>("");            // Busca los SO de las cruzas en la carpeta Resources
 
         PC = PlayerPrefs.GetString("PrimeraCombinacion");
+
+        ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
 
     }
 
@@ -133,6 +138,8 @@ public class Mati_Cruza : MonoBehaviour
                 restar--;                                               // Resta 1
                 PlayerPrefs.SetInt(cantidad + a, restar);               // Actualiza el PlayerPref
             }
+
+            ANALYTICS.SendMessage("cruza");
         }
 
 

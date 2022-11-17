@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Calificacion : MonoBehaviour
 {
 
+    [SerializeField] private GameObject ANALYTICS;
 
     public GameObject Pantalla;
     public GameObject CalifBoton;
@@ -49,7 +50,7 @@ public class Calificacion : MonoBehaviour
         Jugabilidad(PlayerPrefs.GetInt("CalifJugabilidad"));
         Redaccion(PlayerPrefs.GetInt("CalifRedaccion"));
         Redaccion(PlayerPrefs.GetInt("CalifContenido"));
-
+        ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
     }
 
     // Update is called once per frame
@@ -90,6 +91,7 @@ public class Calificacion : MonoBehaviour
         Pantalla.SetActive(false);
         CalifBoton.SetActive(true);
         DesactivarPantalla = 1;
+        ANALYTICS.SendMessage("calificacion");
     }
 
     public void Graficos(int Num)

@@ -1411,6 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &642968872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3043,6 +3044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &1918701530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3695,6 +3697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc4e04c7e122e243862dca6dfb9179d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ANALYTICS: {fileID: 0}
 --- !u!114 &2080581601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3739,6 +3742,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2080581600}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: SumarContinuarParaAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: enviarLazaroTotales
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2080581600}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ejecutarAccionAnalytics
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: enviar_a_lazaro
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2080581604}
         m_TargetAssemblyTypeName: 
         m_MethodName: Vender
@@ -3761,18 +3788,6 @@ MonoBehaviour:
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2080581600}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: SumarContinuarParaAnalytics
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: enviarLazaroTotales
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2080581602

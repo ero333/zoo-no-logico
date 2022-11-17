@@ -67,11 +67,13 @@ public class Eventos : MonoBehaviour {
     public Button opcion2Button;
     public Button continuar;
 
+    [SerializeField] private GameObject ANALYTICS;
+
     void Start()
     {
        
         myEventoList = JsonUtility.FromJson<EventoList>(EventosJson.text);
-
+        ANALYTICS = GameObject.FindGameObjectWithTag("ANALYTICS");
 
     }
 
@@ -203,6 +205,7 @@ public class Eventos : MonoBehaviour {
         opcion1Button.interactable = false;
         continuar.interactable = true;
         PlayerPrefs.SetInt("eventoElegido", 1);
+        ANALYTICS.SendMessage("leer_evento");
 
     }
 
@@ -215,6 +218,7 @@ public class Eventos : MonoBehaviour {
         opcion2Button.interactable = false;
         continuar.interactable = true;
         PlayerPrefs.SetInt("eventoElegido", 2);
+        ANALYTICS.SendMessage("leer_evento");
     }
 
     public void ClearEvent()
