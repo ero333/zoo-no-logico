@@ -182,6 +182,7 @@ public class Jaula : MonoBehaviour
     public void DesocuparJaula (int selectedJaula)
     {
         confirmacion.SetActive(true);
+        Debug.Log(PlayerPrefs.GetString("Jaula" + selectedJaula) + " id borrar");
         PlayerPrefs.SetInt("IndexDesocuparJaula", selectedJaula);
         //print("DESOCUPAR ESTA FUNCIONANDO");
         //PlayerPrefs.SetInt("popularidad", PlayerPrefs.GetInt("popularidad") - myCruzaList.cruza[int.Parse(PlayerPrefs.GetString("Jaula" + selectedJaula))].popularidad);

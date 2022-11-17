@@ -18,11 +18,15 @@ public class PlayTime : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+
+    private void Update()
+    {
+    }
+
+    // Update is called once per frame
+    void FixedUpdate () {
 		time += (Time.deltaTime);
 		totalTimeSeconds = Mathf.RoundToInt(time);
-		PlayerPrefs.SetInt("TiempoJuego", totalTimeSeconds);
-	}
+        PlayerPrefs.SetInt("TiempoJuego", totalTimeSeconds);
+    }
 }

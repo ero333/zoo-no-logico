@@ -10,13 +10,14 @@ public class CodexCruzas : MonoBehaviour {
 
 	void Awake ()
     {
-		GetCruzas();
-		PlayerPrefs.SetInt("totalCodex", 0);
+        PlayerPrefs.SetInt("totalCodex", 0);
+        GetCruzas();
 	}
 
 	void Start()
     {
-		for (int i = 0; i < CruzasArray.Length; i++)
+        PlayerPrefs.SetInt("totalCodex", 0);
+        for (int i = 0; i < CruzasArray.Length; i++)
 		{
 			Sprite cruza_test_img = Resources.Load<Sprite>(i.ToString());
 

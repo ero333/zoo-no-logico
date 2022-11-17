@@ -150,15 +150,18 @@ public class Mati_Cruza : MonoBehaviour
 
                 PlayerPrefs.SetString("PrimeraCombinacion", "false");           // Cambio el player pref a false
                 SceneManager.LoadScene(6);                                      // Cambia a escena de animal nuevo
+                PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
             }
             else                                                                // Si no es la primera combinación que hago
             {                                                           
                 SceneManager.LoadScene(9);                                      // Cambio a escena de cruza fallida
+                PlayerPrefs.SetInt("cruzasFalla", PlayerPrefs.GetInt("cruzasFalla") + 1);
             }
         }
         else                                                            // (Cruza exitosa) En el caso de que el número random NO sea mayor al porcentaje
         {
             SceneManager.LoadScene(6);                                  // Cambia a escena de animal nuevo
+            PlayerPrefs.SetInt("cruzasExito", PlayerPrefs.GetInt("cruzasExito") + 1);
         }
 
 
