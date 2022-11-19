@@ -246,12 +246,12 @@ public class EventosAnalytics : MonoBehaviour
     public void leer_evento()
     {
         AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object> {
-            {"id", PlayerPrefs.GetInt("eventNumber")},
+            {"numero_id", PlayerPrefs.GetInt("eventNumber")},
             {"opcionElegida", PlayerPrefs.GetInt("eventoElegido")},
 
 
         }); //TERMINADO
-        Debug.Log("id" + PlayerPrefs.GetInt("eventNumber"));
+        Debug.Log("numero_id" + PlayerPrefs.GetInt("eventNumber"));
         Debug.Log("opcionElegida" + PlayerPrefs.GetInt("eventoElegido"));
     }
 
