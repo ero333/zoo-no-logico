@@ -29,7 +29,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void game_over()
     {
-        AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object>(){
             {"dinero", PlayerPrefs.GetInt("Moneditas")},
             {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
             {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
@@ -59,7 +59,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void comprar()
     {
-        AnalyticsService.Instance.CustomData("comprar", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("comprar", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("vezCompra")},
             {"animal", PlayerPrefs.GetString("animalCompra")},
             {"cantidad_ave", PlayerPrefs.GetInt("avesTotales")},
@@ -85,7 +85,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void cruza()
     {
-        AnalyticsService.Instance.CustomData("cruza", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("cruza", new Dictionary<string, object>(){
             {"animal3", PlayerPrefs.GetString("animalSlot3")},
             {"animal2", PlayerPrefs.GetString("animalSlot2")},
             {"animal1", PlayerPrefs.GetString("animalSlot1")},
@@ -103,7 +103,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void ganar()
     {
-        AnalyticsService.Instance.CustomData("ganar", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("ganar", new Dictionary<string, object>(){
             {"tiempo_juego", PlayerPrefs.GetInt("TiempoJuego")},
             {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
             {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
@@ -133,7 +133,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void salir()
     {
-         AnalyticsService.Instance.CustomData("salir", new Dictionary<string, object> {
+         AnalyticsService.Instance.CustomData("salir", new Dictionary<string, object>(){
             {"tiempo_juego", PlayerPrefs.GetInt("TiempoJuego")},
             {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
             {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
@@ -162,7 +162,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void iniciar_partida()
     {
-        AnalyticsService.Instance.CustomData("iniciar_partida", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("iniciar_partida", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("inicioPartidaTotales")},
         
         }); //TERMINADO
@@ -171,7 +171,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void continuar_partida()
     {
-        AnalyticsService.Instance.CustomData("continuar_partida", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("continuar_partida", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("continuarPartidaTotales")},
 
         }); //TERMINADO
@@ -181,7 +181,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void codex()
     {
-        AnalyticsService.Instance.CustomData("codex", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("codex", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("codexTotales")},
 
         }); //TERMINADO
@@ -191,7 +191,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void ver_mapa()
     {
-        AnalyticsService.Instance.CustomData("ver_mapa", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("ver_mapa", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("mapaTotales")},
 
         }); //TERMINADO
@@ -200,7 +200,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void borrar_animal()
     {
-        AnalyticsService.Instance.CustomData("borrar_animal", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("borrar_animal", new Dictionary<string, object>(){
             {"numero_id", PlayerPrefs.GetInt("IndexDesocuparJaula")},
 
         }); //TERMINADO
@@ -209,7 +209,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void stasis()
     {
-        AnalyticsService.Instance.CustomData("stasis", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("stasis", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("stasisTotales")},
 
         }); //TERMINADO
@@ -218,7 +218,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void leer_tutorial()
     {
-        AnalyticsService.Instance.CustomData("leer_tutorial", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("leer_tutorial", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("tutorialTotales")},
 
         }); //TERMINADO
@@ -227,7 +227,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void fin_del_turno()
     {
-        AnalyticsService.Instance.CustomData("fin_del_turno", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("fin_del_turno", new Dictionary<string, object>(){
             {"popularidad", PlayerPrefs.GetInt("Popularidad")},
             {"cupos", PlayerPrefs.GetInt("JaulasOcupadas")},
             {"dias", PlayerPrefs.GetInt("Dias")},
@@ -245,7 +245,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void leer_evento()
     {
-        AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object>(){
             {"numero_id", PlayerPrefs.GetInt("eventNumber")},
             {"opcionElegida", PlayerPrefs.GetInt("eventoElegido")},
 
@@ -257,7 +257,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void mandar_a_stasis()
     {
-        AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("enviarStasisTotales")},
 
         }); //TERMINADO
@@ -266,7 +266,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void mandar_a_lazaro()
     {
-        AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object>(){
             {"vez", PlayerPrefs.GetInt("enviarLazaroTotales")},
 
         }); //TERMINADO
@@ -275,7 +275,7 @@ public class EventosAnalytics : MonoBehaviour
 
     public void calificacion()
     {
-        AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object> {
+        AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object>(){
             {"graficos", PlayerPrefs.GetInt("CalifGraficos")},
             {"jugabilidad", PlayerPrefs.GetInt("CalifJugabilidad")},
             {"redacción", PlayerPrefs.GetInt("CalifRedaccion")},

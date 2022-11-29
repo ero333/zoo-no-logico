@@ -596,7 +596,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9758576059D4C6C5019747DE168564F793BD4271
 IL2CPP_EXTERN_C String_t* _stringLiteral97B8F7975CA41B25592B4839EFDC9D4EDB263888;
 IL2CPP_EXTERN_C String_t* _stringLiteral988D71928CE5E6F04F5DB0EBC174C63685A72477;
 IL2CPP_EXTERN_C String_t* _stringLiteral9956DF536F351165C017D83F16B1A64D35ADB590;
-IL2CPP_EXTERN_C String_t* _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694;
 IL2CPP_EXTERN_C String_t* _stringLiteral99CCEFF8AFC66A23C49048C318C26BC1B3AC1A9A;
 IL2CPP_EXTERN_C String_t* _stringLiteral99DC588EEB2414ED0C5DA6AAC690387EE814370B;
 IL2CPP_EXTERN_C String_t* _stringLiteral9BC8D107C777369E66F80E540091B7F1DF31F291;
@@ -10221,7 +10220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_game_over_m19352468D2BE
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("game_over", new Dictionary<string, object>(){
 		//     {"dinero", PlayerPrefs.GetInt("Moneditas")},
 		//     {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
 		//     {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
@@ -10448,7 +10447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_comprar_mA8A33F501BDC5F
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("comprar", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("comprar", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("vezCompra")},
 		//     {"animal", PlayerPrefs.GetString("animalCompra")},
 		//     {"cantidad_ave", PlayerPrefs.GetInt("avesTotales")},
@@ -10629,7 +10628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_cruza_m08C29B9AFE000339
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("cruza", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("cruza", new Dictionary<string, object>(){
 		//     {"animal3", PlayerPrefs.GetString("animalSlot3")},
 		//     {"animal2", PlayerPrefs.GetString("animalSlot2")},
 		//     {"animal1", PlayerPrefs.GetString("animalSlot1")},
@@ -10748,7 +10747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_ganar_m8166FDBBDE8F5C33
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("ganar", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("ganar", new Dictionary<string, object>(){
 		//     {"tiempo_juego", PlayerPrefs.GetInt("TiempoJuego")},
 		//     {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
 		//     {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
@@ -10977,7 +10976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_salir_mC7D524D27A79AEEA
 	}
 	int32_t V_0 = 0;
 	{
-		//  AnalyticsService.Instance.CustomData("salir", new Dictionary<string, object> {
+		//  AnalyticsService.Instance.CustomData("salir", new Dictionary<string, object>(){
 		//     {"tiempo_juego", PlayerPrefs.GetInt("TiempoJuego")},
 		//     {"cruzas_fallidas", PlayerPrefs.GetInt("cruzasFalla")},
 		//     {"cruzas_exitosas", PlayerPrefs.GetInt("cruzasExito")},
@@ -11186,7 +11185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_iniciar_partida_m2263A9
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("iniciar_partida", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("iniciar_partida", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("inicioPartidaTotales")},
 		// 
 		// }); //TERMINADO
@@ -11236,7 +11235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_continuar_partida_m1237
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("continuar_partida", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("continuar_partida", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("continuarPartidaTotales")},
 		// 
 		// }); //TERMINADO
@@ -11286,7 +11285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_codex_mAA0C8D624CFAA2A3
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("codex", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("codex", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("codexTotales")},
 		// 
 		// }); //TERMINADO
@@ -11336,7 +11335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_ver_mapa_mE4C499A0F0E23
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("ver_mapa", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("ver_mapa", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("mapaTotales")},
 		// 
 		// }); //TERMINADO
@@ -11386,7 +11385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_borrar_animal_m51F0512F
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("borrar_animal", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("borrar_animal", new Dictionary<string, object>(){
 		//     {"numero_id", PlayerPrefs.GetInt("IndexDesocuparJaula")},
 		// 
 		// }); //TERMINADO
@@ -11436,7 +11435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_stasis_m7D4C198722F05E3
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("stasis", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("stasis", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("stasisTotales")},
 		// 
 		// }); //TERMINADO
@@ -11486,7 +11485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_leer_tutorial_m8509A49E
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("leer_tutorial", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("leer_tutorial", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("tutorialTotales")},
 		// 
 		// }); //TERMINADO
@@ -11544,7 +11543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_fin_del_turno_m703C73D0
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("fin_del_turno", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("fin_del_turno", new Dictionary<string, object>(){
 		//     {"popularidad", PlayerPrefs.GetInt("Popularidad")},
 		//     {"cupos", PlayerPrefs.GetInt("JaulasOcupadas")},
 		//     {"dias", PlayerPrefs.GetInt("Dias")},
@@ -11652,7 +11651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_leer_evento_m1FEAEA1205
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IAnalyticsService_t131A8925CF4FBBB151AB85D6BE6D07785E210DC0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00D21584C787FDC46BB33F3C63ABF82F81FA1E57);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9349921AFD499A7BF87967A3681FD0589D28DC86);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB23003AE168FC8EEB2939A30C8B5EB4285701BD2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAD4351EDBC74FF115420B8593C17190029F4D8A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD956B2FD96BC702B13AABE9223ED4A06AA49EB82);
@@ -11660,8 +11659,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_leer_evento_m1FEAEA1205
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object> {
-		//     {"id", PlayerPrefs.GetInt("eventNumber")},
+		// AnalyticsService.Instance.CustomData("leer_evento", new Dictionary<string, object>(){
+		//     {"numero_id", PlayerPrefs.GetInt("eventNumber")},
 		//     {"opcionElegida", PlayerPrefs.GetInt("eventoElegido")},
 		// 
 		// 
@@ -11676,7 +11675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_leer_evento_m1FEAEA1205
 		L_3 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral00D21584C787FDC46BB33F3C63ABF82F81FA1E57, NULL);
 		int32_t L_4 = L_3;
 		RuntimeObject* L_5 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_4);
-		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_2, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, L_5, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
+		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_2, _stringLiteral9349921AFD499A7BF87967A3681FD0589D28DC86, L_5, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_6 = L_2;
 		int32_t L_7;
 		L_7 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralD956B2FD96BC702B13AABE9223ED4A06AA49EB82, NULL);
@@ -11684,14 +11683,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_leer_evento_m1FEAEA1205
 		RuntimeObject* L_9 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_8);
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_6, _stringLiteralB23003AE168FC8EEB2939A30C8B5EB4285701BD2, L_9, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		InterfaceActionInvoker2< String_t*, RuntimeObject* >::Invoke(5 /* System.Void Unity.Services.Analytics.IAnalyticsService::CustomData(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>) */, IAnalyticsService_t131A8925CF4FBBB151AB85D6BE6D07785E210DC0_il2cpp_TypeInfo_var, L_0, _stringLiteralCAD4351EDBC74FF115420B8593C17190029F4D8A, L_6);
-		// Debug.Log("id" + PlayerPrefs.GetInt("eventNumber"));
+		// Debug.Log("numero_id" + PlayerPrefs.GetInt("eventNumber"));
 		int32_t L_10;
 		L_10 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral00D21584C787FDC46BB33F3C63ABF82F81FA1E57, NULL);
 		V_0 = L_10;
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		String_t* L_12;
-		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, L_11, NULL);
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9349921AFD499A7BF87967A3681FD0589D28DC86, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_12, NULL);
 		// Debug.Log("opcionElegida" + PlayerPrefs.GetInt("eventoElegido"));
@@ -11727,7 +11726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_mandar_a_stasis_m81D937
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("mandar_a_stasis", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("enviarStasisTotales")},
 		// 
 		// }); //TERMINADO
@@ -11777,7 +11776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_mandar_a_lazaro_mC66C8E
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("mandar_a_lazaro", new Dictionary<string, object>(){
 		//     {"vez", PlayerPrefs.GetInt("enviarLazaroTotales")},
 		// 
 		// }); //TERMINADO
@@ -11833,7 +11832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventosAnalytics_calificacion_m20F56542A
 	}
 	int32_t V_0 = 0;
 	{
-		// AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object> {
+		// AnalyticsService.Instance.CustomData("calificacion", new Dictionary<string, object>(){
 		//     {"graficos", PlayerPrefs.GetInt("CalifGraficos")},
 		//     {"jugabilidad", PlayerPrefs.GetInt("CalifJugabilidad")},
 		//     {"redacci?n", PlayerPrefs.GetInt("CalifRedaccion")},
